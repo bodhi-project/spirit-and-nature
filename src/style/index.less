@@ -1,0 +1,203 @@
+@import '../../node_modules/antd/dist/antd.less';
+@import url("https://use.typekit.net/uve0kuq.css");
+
+@font-family            : futura-pt, sans-serif;
+@font-size-base         : 20px;
+@layout-body-background      : #FFD801;
+@layout-header-background    : transparent;
+
+@body-background        : #FFD801;
+
+// LINK
+@link-color             : #000000;
+@link-hover-color       : #474747;
+@link-active-color      : #474747;
+@link-hover-decoration  : none;
+
+.ant-message-custom-content {
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------- Reset Ant ----------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+html {
+  background: #FFD801;
+}
+
+body {
+  line-height: 1.5rem;
+  text-align: left;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------ Typography ----------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+h1 ,h2 ,h3 {
+  font-family: futura-pt, sans-serif;
+  font-size:1rem;
+  line-height:1.5rem;
+  color: #05386B;
+}
+
+p, ul {
+  font-family: futura-pt, serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+  margin-bottom: 1.625rem;
+  color: #05386B;
+}
+
+h1 {
+  font-size:2.5882352941rem;
+  line-height:3.0588235294rem;
+  margin:0 0 1.1818181818em;
+  margin-bottom: 1.6470588235rem !important;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 2.00117647rem;
+  line-height: 2.66823529rem;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.52470588rem;
+  line-height: 2.00117647rem;
+  text-transform: uppercase;
+  margin:3.54545455em 0 1.31181818em;
+  font-weight: 700;
+}
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------- Lines --------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+hr {
+  border:none;
+  height: 1px;
+  background-image: linear-gradient(to right, #05386B 10%, rgba(255, 255, 255, 0) 0%);
+  background-position: bottom;
+  background-size: 5px 1px;
+  background-repeat: repeat-x;
+}
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------- Containers ------------------------------------ */
+/* ----------------------------------------------------------------------------------- */
+section {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0px auto;
+  padding: 84px 0px;
+}
+
+section.bleed {
+  max-width:100%
+}
+
+section.small {
+  max-width:1066.6666666667px;
+}
+
+@media only screen and (max-width: 768px) {
+  section.tiny {
+    max-width:88%;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  section.tiny {
+    max-width:37.5%;
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------ Alignment // Display ------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+.text-center {
+  text-align:center;
+}
+
+.text-left {
+  text-align:left;
+}
+
+.text-right {
+  text-align:right;
+}
+
+.text-constrained {
+  max-width:100%;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.hidden {
+  display:none !important;
+}
+
+.hide {
+  max-height:0 !important;
+  overflow:hidden !important;
+  speak:none !important;
+  visibility:hidden !important;
+}
+
+.stash {
+  position: absolute;
+  margin: -1px;
+  padding: 0;
+  height: 1px;
+  width: 100%;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+@media (max-width: 768px) {
+  .hidden-xs {
+    display:none !important;
+  }
+}
+
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------- Images -------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+.focuspoint {
+  position: relative; /*Any position but static should work*/
+  overflow: hidden;
+}
+.focuspoint img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  display: block;
+  /* fill and maintain aspect ratio */
+  width: auto; height: auto;
+  min-width: 100%; min-height: 100%;
+  max-height: none; max-width: none;
+}
+
+.img-responsive {
+  max-width: 100%; 
+  height: auto;
+  display: block;
+}
+/* ----------------------------------------------------------------------------------- */
+/* ------------------------------------- Footer -------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------------- */
+
+
+
+
+
+
