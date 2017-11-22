@@ -227,7 +227,6 @@ class TemplateWrapper extends React.Component {
                         </ul>}
                       trigger="hover"
                       overlayClassName={this.props.classes.tip}
-                      mouseLeaveDelay={300}
                     >
                       <span className="drops">Media</span>
                     </Popover>

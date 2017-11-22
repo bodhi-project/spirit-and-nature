@@ -36,13 +36,13 @@ const generalMetaData = {
 };
 
 const twitterSummaryCardData = {
-  title: 'Walk of Hope in Auroville 2018',
+  title: 'blah blah blah',
   description: "blah blah blah.",
   image: indexImage,
 };
 
 const openGraphSummaryData = {
-  siteName: 'Launch Kit',
+  siteName: 'blah blah blah',
   url: 'https://www.walkofhopeauroville.org',
   title: 'Launch Kit',
   description: "blah blah blah.",
@@ -51,7 +51,7 @@ const openGraphSummaryData = {
 
 const websiteSchemaData = {
   url: 'https://www.walkofhopeauroville.org',
-  name: 'Launch Kit',
+  name: 'blah blah blah',
   description: "blah blah blah.",
   author: 'Bodhi Project',
   publisher: 'Bodhi Project',
