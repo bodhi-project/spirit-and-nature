@@ -6,7 +6,7 @@ import { flow as compose } from 'lodash';
 
 // ----------------------------------- Components
 import Link from 'gatsby-link';
-import { Row, Col, Layout, Icon } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+import { Row, Col, Layout, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { OutLink, Header } from '@bodhi-project/components';
 import { injectSheet } from '@bodhi-project/utilities';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
@@ -14,7 +14,7 @@ import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
 import '../style/index.less';
 import headerBanner from './header.png';
 import burgerMenu from './burger_menu.png';
-import logo from './logo3X1_gold.png';
+import logo from './logoWithText.png';
 import github from './github.png';
 
 /**
@@ -30,15 +30,16 @@ const { Footer, Content } = Layout;
 const styles = {
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Layout Style
   layout: {
-    
+    margin: 30,
   },
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header Style
   desktopHeader: {
-    height: 70,
+    height: 110,
     display: 'flex',
-    justifyContent: 'space-between',
-    position: 'absolute',
+    // justifyContent: 'space-between',
+    // position: 'absolute',
+    width: '100%',
 
     '& ul': {
       display: 'inline-flex',
@@ -50,13 +51,13 @@ const styles = {
 
     '& ul li': {
       display: 'inline-flex',
-      padding: '17px 27px',
+      padding: '10px 16px',
 
-      '& a': {
-        fontFamily: 'nasalization, sans-serif',
+      '& a, span.drops': {
+        fontFamily: 'brandon-grotesque, sans-serif',
         fontSize: '0.9rem',
         textTransform: 'uppercase',
-        color: '#FFE039',
+        color: '#222222',
         letterSpacing: '1.1px',
 
         '&:hover': {
@@ -75,6 +76,49 @@ const styles = {
     },
   },
 
+  tip: {
+    '& .ant-popover-inner-content': {
+      padding: 0,
+      background: '#FAFAFA',
+      borderRadius: 4,
+
+      '& ul': {
+        padding: '8px 13px',
+        margin: 0,
+      },
+
+      '& ul li': {
+        padding: '10px 16px',
+
+        '& a': {
+          fontFamily: 'brandon-grotesque, sans-serif',
+          fontSize: '0.9rem',
+          textTransform: 'uppercase',
+          color: '#222222',
+          letterSpacing: '1.1px',
+
+          '&:hover': {
+              textDecoration: 'none',
+            },
+            '&:visited': {
+              textDecoration: 'none',
+            },
+            '&:link': {
+              textDecoration: 'none',
+            },
+            '&:active': {
+              textDecoration: 'none',
+            },
+        },
+
+        '&:not(:last-child)': {
+          borderBottom: '1px solid #222222',
+        },
+      },
+    },
+  },
+
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Header Style
   mobileHeader: {
     height: '110px',
   },
@@ -91,7 +135,7 @@ const styles = {
       paddingBottom: '27px',
 
       '& a': {
-        fontFamily: 'nasalization, sans-serif',
+        fontFamily: 'brandon-grotesque, sans-serif',
         color: '#081359',
       },
     },
@@ -127,10 +171,17 @@ class TemplateWrapper extends React.Component {
   }
 
   render() {
+    const content = (
+      <div>
+        <p>Content</p>
+        <p>Content</p>
+      </div>
+    );
+
     return (
       <div>
-        <InitializeMeta data={{ titleTemplate: '%s | Launch Kit' }} />
-        <UpdateTitle title="Home" />
+        <InitializeMeta data={{ titleTemplate: '%s | Spirit and Nature' }} />
+        <UpdateTitle title="Loading..." />
         <Layout className={this.props.classes.layout}>
           <ResponsiveHeader>
             <MobileHeader className={this.props.classes.mobileHeader}>
@@ -144,14 +195,46 @@ class TemplateWrapper extends React.Component {
               </ul>
             </MobileMenu>
             <DesktopHeader className={this.props.classes.desktopHeader}>
-              <div style={{ display: 'inline-flex' }}>
-                <Link to="/"><img style={{ height: 70, width: 'auto' }} src={logo} /></Link>
+              <div style={{ paddingTop: 30, width: 'inherit', height: 'inherit', display: 'flex', justifyContent: 'space-between' }}>
+                <div style={{ display: 'inline-flex' }}>
+                  <Link to="/"><img style={{ height: 70, width: 'auto' }} src={logo} /></Link>
+                </div>
+                <ul>
+                  <li><Link to="/">About</Link></li>
+                  <li>
+                    <Popover 
+                      placement="bottomRight"
+                      content={
+                        <ul>
+                          <li><Link to="/">World Game</Link></li>
+                          <li><Link to="/">Vision Game</Link></li>
+                          <li><Link to="/">Nature Projects</Link></li>
+                        </ul>}
+                      trigger="hover"
+                      overlayClassName={this.props.classes.tip}
+                    >
+                      <span className="drops">Programs</span>
+                    </Popover>
+                  </li>
+                  <li>
+                    <Popover 
+                      placement="bottomRight"
+                      content={
+                        <ul>
+                          <li><Link to="/">Writings</Link></li>
+                          <li><Link to="/">Gallery</Link></li>
+                          <li><Link to="/">Videos</Link></li>
+                        </ul>}
+                      trigger="hover"
+                      overlayClassName={this.props.classes.tip}
+                      mouseLeaveDelay={300}
+                    >
+                      <span className="drops">Media</span>
+                    </Popover>
+                  </li>
+                  <li><Link to="/">Contact</Link></li>
+                </ul>
               </div>
-              <ul>
-                <li><Link to="/">Features</Link></li>
-                <li><Link to="/">Docs</Link></li>
-                <li><OutLink style={{ background: 'none', marginTop: 2 }} to="https://github.com/bodhi-project/web-template"><img style={{ height: 30, width: 'auto' }} src={github} /></OutLink></li>
-              </ul>
             </DesktopHeader>
           </ResponsiveHeader>
           <Content className={this.props.classes.content}>

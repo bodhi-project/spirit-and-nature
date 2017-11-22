@@ -5,6 +5,7 @@ import { flow as compose } from 'lodash';
 
 // ----------------------------------- Components
 import Link from 'gatsby-link';
+import { Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { MotionFade, Image } from '@bodhi-project/components';
 import { injectSheet } from '@bodhi-project/utilities';
 import {
@@ -23,6 +24,9 @@ import {
 } from '@bodhi-project/seo';
 
 import indexImage from './index.jpg';
+import banner1 from './banner1.jpg';
+import banner2 from './banner2.jpg';
+import banner3 from './banner3.jpg';
 
 // ----------------------------------------------------------------------- SEO
 const generalMetaData = {
@@ -114,17 +118,40 @@ class IndexPage extends React.Component {
 
         <MotionFade>
           <div className={this.props.classes.index}>
-            <Image
-              src={indexImage}
-              rawWidth={1440}
-              rawHeight={900}
-              loader="gradient"
-              gradientPreset="default"
-              style={{ border: 0 }}
-            />
+            <Carousel>
+              <div>
+                <Image
+                  src={banner1}
+                  rawWidth={1910}
+                  rawHeight={1000}
+                  loader="gradient"
+                  gradientPreset="default"
+                  style={{ border: 0 }}
+                />
+              </div>
+              <div>
+                <Image
+                  src={banner2}
+                  rawWidth={1910}
+                  rawHeight={1000}
+                  loader="gradient"
+                  gradientPreset="default"
+                  style={{ border: 0 }}
+                />
+              </div>
+              <div>
+                <Image
+                  src={banner3}
+                  rawWidth={1910}
+                  rawHeight={1000}
+                  loader="gradient"
+                  gradientPreset="default"
+                  style={{ border: 0 }}
+                />
+              </div>
+            </Carousel>
             <section className="tiny">
-              <h1>Launch Kit</h1>
-              <p>Coming Soon...</p>
+              <p className="text-center" >Coming Soon...</p>
             </section>
           </div>
         </MotionFade>
