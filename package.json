@@ -26,13 +26,13 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "dependencies": {
-    "@bodhi-project/components": "0.0.32",
+    "@bodhi-project/components": "0.0.48",
     "@bodhi-project/seo": "0.0.3",
-    "@bodhi-project/utilities": "0.0.2",
+    "@bodhi-project/utilities": "0.0.3",
     "antd": "^2.13.10",
     "babel-plugin-lodash": "^3.3.2",
     "classnames": "^2.2.5",
-    "gatsby": "^1.9.118",
+    "gatsby": "^1.9.119",
     "gatsby-link": "^1.6.28",
     "gatsby-plugin-antd": "^1.0.6",
     "gatsby-plugin-catch-links": "^1.0.9",
