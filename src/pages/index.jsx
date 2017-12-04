@@ -7,6 +7,7 @@ import { flow as compose } from 'lodash';
 import Link from 'gatsby-link';
 import { Row, Col, Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { Container, Image, HexaGrid as HexaGridX } from '@bodhi-project/components';
+import { FirstVariationOnModernType } from '@bodhi-project/typography';
 import { injectSheet } from '@bodhi-project/utilities';
 import {
   // --------------- Basic
@@ -33,68 +34,74 @@ import leftArrow from './leftArrow.png';
 
 const { HexaGrid, Hex } = HexaGridX;
 
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Type
+const {
+  H2,
+  Paragraph,
+} = FirstVariationOnModernType;
+
 // ----------------------------------------------------------------------- SEO
-const generalMetaData = {
-  description: "blah blah blah.",
-  keywords: 'blah blah blah.',
-  image: indexImage,
-};
+// const generalMetaData = {
+//   description: "blah blah blah.",
+//   keywords: 'blah blah blah.',
+//   image: indexImage,
+// };
 
-const twitterSummaryCardData = {
-  title: 'blah blah blah',
-  description: "blah blah blah.",
-  image: indexImage,
-};
+// const twitterSummaryCardData = {
+//   title: 'blah blah blah',
+//   description: "blah blah blah.",
+//   image: indexImage,
+// };
 
-const openGraphSummaryData = {
-  siteName: 'blah blah blah',
-  url: 'https://www.walkofhopeauroville.org',
-  title: 'Launch Kit',
-  description: "blah blah blah.",
-  image: indexImage,
-};
+// const openGraphSummaryData = {
+//   siteName: 'blah blah blah',
+//   url: 'https://www.walkofhopeauroville.org',
+//   title: 'Launch Kit',
+//   description: "blah blah blah.",
+//   image: indexImage,
+// };
 
-const websiteSchemaData = {
-  url: 'https://www.walkofhopeauroville.org',
-  name: 'blah blah blah',
-  description: "blah blah blah.",
-  author: 'Bodhi Project',
-  publisher: 'Bodhi Project',
-  image: indexImage,
-};
+// const websiteSchemaData = {
+//   url: 'https://www.walkofhopeauroville.org',
+//   name: 'blah blah blah',
+//   description: "blah blah blah.",
+//   author: 'Bodhi Project',
+//   publisher: 'Bodhi Project',
+//   image: indexImage,
+// };
 
-const webpageSchemaData = {
-  url: 'https://www.walkofhopeauroville.org',
-  name: 'Launch Kit',
-  description: "blah blah blah.",
-  author: 'Bodhi Project',
-  publisher: 'Bodhi Project',
-  image: indexImage,
-};
+// const webpageSchemaData = {
+//   url: 'https://www.walkofhopeauroville.org',
+//   name: 'Launch Kit',
+//   description: "blah blah blah.",
+//   author: 'Bodhi Project',
+//   publisher: 'Bodhi Project',
+//   image: indexImage,
+// };
 
-const breadcrumbSchemaData = {
-  breadcrumbs: [
-    { name: 'Home', url: 'https://www.walkofhopeauroville.org' },
-  ],
-};
+// const breadcrumbSchemaData = {
+//   breadcrumbs: [
+//     { name: 'Home', url: 'https://www.walkofhopeauroville.org' },
+//   ],
+// };
 
-const organisationSchemaData = {
-  name: 'Bodhi Project',
-  legalName: 'Bodhi Project',
-  url: 'https://www.bodhiproject.org/',
-  logo: '',
-  foundingDate: '2017',
-  founders: ['Pranav Kumar', 'Mangal Varshney', 'Dr. Brijesh Kumar'],
-  streetAddress: 'City Center',
-  addressLocality: 'Kotagiri',
-  addressRegion: 'Tamil Nadu',
-  postalCode: '123456',
-  addressCountry: 'India',
-  telephone: ['na'],
-  email: 'hello@bodhiproject.org',
-  sameAs: ['http://instagram.com/bodhisystems'],
-  image: indexImage,
-};
+// const organisationSchemaData = {
+//   name: 'Bodhi Project',
+//   legalName: 'Bodhi Project',
+//   url: 'https://www.bodhiproject.org/',
+//   logo: '',
+//   foundingDate: '2017',
+//   founders: ['Pranav Kumar', 'Mangal Varshney', 'Dr. Brijesh Kumar'],
+//   streetAddress: 'City Center',
+//   addressLocality: 'Kotagiri',
+//   addressRegion: 'Tamil Nadu',
+//   postalCode: '123456',
+//   addressCountry: 'India',
+//   telephone: ['na'],
+//   email: 'hello@bodhiproject.org',
+//   sameAs: ['http://instagram.com/bodhisystems'],
+//   image: indexImage,
+// };
 
 // ----------------------------------------------------------------------- Style
 const styles = {
@@ -109,6 +116,13 @@ const styles = {
 // ----------------------------------------------------------------------- Component
 /**
   * IndexPage
+  <GeneralMeta data={generalMetaData} />
+  <TwitterSummaryCard data={twitterSummaryCardData} />
+  <OpenGraphSummary data={openGraphSummaryData} />
+  <WebsiteSchema data={websiteSchemaData} />
+  <WebpageSchema data={webpageSchemaData} />
+  <BreadcrumbSchema data={breadcrumbSchemaData} />
+  <OrganisationSchema data={organisationSchemaData} />
   */
 class IndexPage extends React.Component {
   render() {
@@ -117,13 +131,6 @@ class IndexPage extends React.Component {
       <Container bleed style={{ padding: 0 }} className={this.props.classes.index}>
         {/* SEO */}
         <UpdateTitle title="Home" />
-        <GeneralMeta data={generalMetaData} />
-        <TwitterSummaryCard data={twitterSummaryCardData} />
-        <OpenGraphSummary data={openGraphSummaryData} />
-        <WebsiteSchema data={websiteSchemaData} />
-        <WebpageSchema data={webpageSchemaData} />
-        <BreadcrumbSchema data={breadcrumbSchemaData} />
-        <OrganisationSchema data={organisationSchemaData} />
 
         {/* Index slider */}
         <Carousel>
@@ -192,7 +199,7 @@ class IndexPage extends React.Component {
                     gradientPreset="default"
                     style={{ border: 0 }}
                   />
-                  <p>PAST AND FUTURE - MAKING BRIDGES</p>
+                  <Paragraph>PAST AND FUTURE - MAKING BRIDGES</Paragraph>
                 </div>
                 <div>
                   <Image
@@ -203,7 +210,7 @@ class IndexPage extends React.Component {
                     gradientPreset="default"
                     style={{ border: 0 }}
                   />
-                  <p>PROMOTING IMAGINATION, CREATIVITY AND INTUITIVE SENSE</p>
+                  <Paragraph>PROMOTING IMAGINATION, CREATIVITY AND INTUITIVE SENSE</Paragraph>
                 </div>
                 <div>
                   <Image
@@ -214,7 +221,7 @@ class IndexPage extends React.Component {
                     gradientPreset="default"
                     style={{ border: 0 }}
                   />
-                  <p>NATURE AWARENESS - RECONNECT WITH NATURE WITHIN/WITHOUT</p>
+                  <Paragraph>NATURE AWARENESS - RECONNECT WITH NATURE WITHIN/WITHOUT</Paragraph>
                 </div>
               </Carousel>
             </div>
@@ -226,28 +233,28 @@ class IndexPage extends React.Component {
           <Container>
             <HexaGrid className={this.props.classes.hexaGrid}>
               <Hex>
-                <h2>Featured Post 1</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 1</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
               <Hex>
-                <h2>Featured Post 2</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 2</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
               <Hex>
-                <h2>Featured Post 3</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 3</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
               <Hex>
-                <h2>Featured Post 4</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 4</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
               <Hex>
-                <h2>Featured Post 5</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 5</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
               <Hex>
-                <h2>Featured Post 6</h2>
-                <p>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</p>
+                <H2>Featured Post 6</H2>
+                <Paragraph>Blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah.</Paragraph>
               </Hex>
             </HexaGrid>
           </Container>

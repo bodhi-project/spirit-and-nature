@@ -1,36 +1,28 @@
-const path = require("path");
-const _ = require("lodash");
-const webpackLodashPlugin = require("lodash-webpack-plugin");
+// ----------------------------------------------------------------------- Imports
+const path = require('path');
+const _ = require('lodash');
+const webpackLodashPlugin = require('lodash-webpack-plugin');
+var unified = require('unified');
+var markdown = require('remark-parse');
 
+// console.log(unified().use(markdown).parse(testMd));
+
+// ----------------------------------------------------------------------- Create Nodes
 exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   const { createNodeField } = boundActionCreators;
-  let slug;
+  let route;
+  // Where will createPages attach the component? ...
+  // Get raw markdown ...
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);
     const parsedFilePath = path.parse(fileNode.relativePath);
-    if (
-      Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, "slug")
-    ) {
-      slug = `/${_.kebabCase(node.frontmatter.slug)}`;
-    }
-    console.log(parsedFilePath.dir);
-    if (
-      Object.prototype.hasOwnProperty.call(node, "frontmatter") &&
-      Object.prototype.hasOwnProperty.call(node.frontmatter, "title")
-    ) {
-      slug = `/${_.kebabCase(node.frontmatter.title)}`;
-    } else if (parsedFilePath.name !== "index" && parsedFilePath.dir !== "") {
-      slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
-    } else if (parsedFilePath.dir === "") {
-      slug = `/${parsedFilePath.name}/`;
-    } else {
-      slug = `/${parsedFilePath.dir}/`;
-    }
-    createNodeField({ node, name: "slug", value: slug });
+    route = `/${parsedFilePath.dir}/${parsedFilePath.name}`;
+    createNodeField({ node, name: 'route', value: route }); // ...createPages will attach the component at this route
+    console.log(node.internal.content);
   }
 };
 
+// ----------------------------------------------------------------------- Create Pages
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
@@ -50,7 +42,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                   category
                 }
                 fields {
-                  slug
+                  route
                 }
               }
             }
@@ -59,55 +51,60 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
       `
       ).then(result => {
         if (result.errors) {
-          /* eslint no-console: "off"*/
-          console.log(result.errors);
+          console.log(result.errors); // eslint-disable-line no-console
           reject(result.errors);
         }
 
-        const tagSet = new Set();
-        const categorySet = new Set();
+        // // Create a set each for tag and category pages
+        // const tagSet = new Set();
+        // const categorySet = new Set();
+
+        // Loop through markdown nodes
         result.data.allMarkdownRemark.edges.forEach(edge => {
-          console.log(edge.node);
-          if (edge.node.frontmatter.tags) {
-            edge.node.frontmatter.tags.forEach(tag => {
-              tagSet.add(tag);
-            });
-          }
 
-          if (edge.node.frontmatter.category) {
-            categorySet.add(edge.node.frontmatter.category);
-          }
-
+          // Creates a page
           createPage({
-            path: edge.node.fields.slug,
+            path: edge.node.fields.route,
             component: postPage,
             context: {
-              slug: edge.node.fields.slug
-            }
+              route: edge.node.fields.route,
+            },
           });
+
+          // // Add the tag to the set for later
+          // if (edge.node.frontmatter.tags) {
+          //   edge.node.frontmatter.tags.forEach(tag => {
+          //     tagSet.add(tag);
+          //   });
+          // }
+
+          // // Add the cateogry to the set for later
+          // if (edge.node.frontmatter.category) {
+          //   categorySet.add(edge.node.frontmatter.category);
+          // }
         });
 
-        const tagList = Array.from(tagSet);
-        tagList.forEach(tag => {
-          createPage({
-            path: `/tags/${_.kebabCase(tag)}/`,
-            component: tagPage,
-            context: {
-              tag
-            }
-          });
-        });
+        // const tagList = Array.from(tagSet);
+        // tagList.forEach(tag => {
+        //   createPage({
+        //     path: `/tags/${_.kebabCase(tag)}/`,
+        //     component: tagPage,
+        //     context: {
+        //       tag
+        //     }
+        //   });
+        // });
 
-        const categoryList = Array.from(categorySet);
-        categoryList.forEach(category => {
-          createPage({
-            path: `/categories/${_.kebabCase(category)}/`,
-            component: categoryPage,
-            context: {
-              category
-            }
-          });
-        });
+        // const categoryList = Array.from(categorySet);
+        // categoryList.forEach(category => {
+        //   createPage({
+        //     path: `/categories/${_.kebabCase(category)}/`,
+        //     component: categoryPage,
+        //     context: {
+        //       category
+        //     }
+        //   });
+        // });
       })
     );
   });

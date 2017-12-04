@@ -96,25 +96,7 @@ class AboutPage extends React.Component {
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
         <Row type="flex" justify="space-around">
           <Col span={12}>
-            <H2 className="stash">Spirit & Nature</H2>
-            <Paragraph>Spirit and Nature provides a space dedicated to the experience of Nature and Spirit — Nature as a teacher of multiplicity of creative expressions of Spirit. The space is located on a large piece of land in the middle of a forest in Auroville, India</Paragraph>
-            <H2>Mission</H2>
-
-            <Paragraph>Our aim is to restore the balance between man and nature; and to provide a space where children can explore their creativity and connect with nature.</Paragraph>
-            <Ol>
-              <li>
-                <H3 mask="h6">Promoting Imagination, Creativity & Intuitive Sense</H3>
-                <Paragraph>Life as it is in our times is immensely self-centered, mental and discriminative. We have somehow created this world that is very well organized but fenced, with lots of  greed, loneliness and despair. This is the world that our children will have to confront and overcome. We share with them some tools that will be useful along the way. We share with them what's most important, <i>to not lose a sense of wonder and meaning</i> in a world at the verge of losing meaning.</Paragraph>
-              </li>
-              <li>
-                <H3 mask="h6">Past & Future - Making Bridges</H3>
-                <Paragraph>We learn about an integrated and sustainable way of living, a way of living known to our ancestors but lost to us. We learn about staying connected to the spiritual essence of life, the vibrant presence within all.</Paragraph>
-              </li>
-              <li>
-                <H3 mask="h6">Nature Awareness - Reconnect With Nature Within/Without</H3>
-                <Paragraph>Nature is an excellent tool to connect to a place of purity within where there is truth rhythm, beauty, harmony, and order — the source of great wisdom, intuition and the fount of life itself.</Paragraph>
-              </li>
-            </Ol>
+            <H2>Vision Game</H2>
           </Col>
           <Col span={6}>
             <H3 mask="h6" style={{ marginTop: 0 }}>Further Links...</H3>

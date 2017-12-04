@@ -1,8 +1,9 @@
 ---
-title: "Random project 4 With Super Long Title Phase One"
-cover: "https://unsplash.it/1152/300/?random?SuperLong"
-category: "random"
+title: "Aikya's Biography"
+cover: "/content-assets/biography.jpg"
+category: "cat bx"
 date: "02/03/2017"
+abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 tags:
     - say hi
 ---
