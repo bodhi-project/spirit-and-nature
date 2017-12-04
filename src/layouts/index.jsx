@@ -3,7 +3,7 @@
 // ------------------------------------------------------------------------------
 import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
-import { flow as compose } from 'lodash';
+import _, { flow as compose } from 'lodash';
 // import classNames from 'classnames';
 
 // ----------------------------------- Components
@@ -42,7 +42,11 @@ const {
   // See: https://glamorous.rocks/examples/#increase-specificity
   // If document.body.id doesn't exist, make a random one.
   // We use this id to increase the specificity of our CSS selectors.
-  document.body.id = document.body.id || `X${Math.random().toString().slice(2).substr(0,6)}`;
+  let bodyID = `X${Math.random().toString().slice(2).substr(0,6)}`;
+  if (!_.undefined(document)) {
+    bodyID = document.body.id || bodyID;
+    document.body.id = bodyID;
+  }
 
   /**
    * Returns a glamor plugin function that uses a given id
@@ -66,7 +70,7 @@ const {
     };
   }
 
-  plugins.add(getSpecificityPlugin(document.body.id));
+  plugins.add(getSpecificityPlugin(bodyID));
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
