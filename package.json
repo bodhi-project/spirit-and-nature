@@ -1,6 +1,6 @@
 {
-  "name": "@bodhi-project/web-template",
-  "description": "Gatsbyjs website template with advanced features.",
+  "name": "@bodhi-project/spirit-and-nature",
+  "description": "Spirit and Nature website.",
   "version": "0.0.1",
   "author": {
     "name": "Bodhi Project",
@@ -26,8 +26,8 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "dependencies": {
-    "@bodhi-project/components": "0.0.49",
-    "@bodhi-project/semantic-webflow": "0.0.8",
+    "@bodhi-project/components": "0.0.51",
+    "@bodhi-project/semantic-webflow": "0.0.9",
     "@bodhi-project/seo": "0.0.3",
     "@bodhi-project/typography": "0.0.13",
     "@bodhi-project/utilities": "0.0.3",

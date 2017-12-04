@@ -133,8 +133,8 @@ module.exports = {
                 title: edge.node.frontmatter.title,
                 description: edge.node.excerpt,
                 author: rssMetadata.author,
-                url: rssMetadata.site_url + edge.node.fields.slug,
-                guid: rssMetadata.site_url + edge.node.fields.slug,
+                url: rssMetadata.site_url + edge.node.fields.route,
+                guid: rssMetadata.site_url + edge.node.fields.route,
                 custom_elements: [{ "content:encoded": edge.node.html }]
               }));
             },
@@ -149,7 +149,7 @@ module.exports = {
                     excerpt
                     html
                     timeToRead
-                    fields { slug }
+                    fields { route }
                     frontmatter {
                       title
                       cover

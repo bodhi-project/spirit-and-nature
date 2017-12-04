@@ -1,9 +1,9 @@
 // ----------------------------------------------------------------------- Imports
 const path = require('path');
-const _ = require('lodash');
+// const _ = require('lodash');
 const webpackLodashPlugin = require('lodash-webpack-plugin');
-var unified = require('unified');
-var markdown = require('remark-parse');
+// var unified = require('unified');
+// var markdown = require('remark-parse');
 
 // console.log(unified().use(markdown).parse(testMd));
 
@@ -18,7 +18,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     const parsedFilePath = path.parse(fileNode.relativePath);
     route = `/${parsedFilePath.dir}/${parsedFilePath.name}`;
     createNodeField({ node, name: 'route', value: route }); // ...createPages will attach the component at this route
-    console.log(node.internal.content);
+    // console.log(node.internal.content);
   }
 };
 

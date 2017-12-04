@@ -25,6 +25,7 @@ import logo from './logoWithText.png';
   */
 const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
 const { Footer, Content } = Layout;
+const Fragment = React.Fragment;
 
 // ----------------------------------------------------------------------- Type
 const {
@@ -43,7 +44,7 @@ const {
   // If document.body.id doesn't exist, make a random one.
   // We use this id to increase the specificity of our CSS selectors.
   let bodyID = `X${Math.random().toString().slice(2).substr(0,6)}`;
-  if (!_.undefined(document)) {
+  if(typeof document !== "undefined") {
     bodyID = document.body.id || bodyID;
     document.body.id = bodyID;
   }
@@ -75,8 +76,9 @@ const {
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
+  const empty = ``;
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Global Styles
-  css.global(``,  { // This will just apply these styles to the 'body' tag
+  css.global(empty,  { // This will apply style to the body tag.
     background: '#e7e1d8',
     color: '#222222',
   });
@@ -241,8 +243,10 @@ class TemplateWrapper extends React.Component {
           <SemanticHeader>
             <ResponsiveHeader>
               <MobileHeader className={mobileHeaderStyle.toString()}>
-                <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
-                <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
+                <Fragment>
+                  <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
+                  <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
+                </Fragment>
               </MobileHeader>
               <MobileMenu className={mobileMenuStyle.toString()}>
                 <ul>
