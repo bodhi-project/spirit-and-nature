@@ -1,7 +1,7 @@
 // ----------------------------------------------------------------------- Imports
 import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
-import _, { flow as compose } from 'lodash';
+import _ from 'lodash';
 // import classNames from 'classnames';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
@@ -298,9 +298,9 @@ export const pageQuery = graphql`
 /**
   * ComposedComponent - Compose component ala FP style.
   */
-const ComposedComponent = compose([
+// const ComposedComponent = compose([
 
-])(Index);
+// ])(Index);
 
 // ----------------------------------------------------------------------- Export
-export default ComposedComponent;
+export default Index;

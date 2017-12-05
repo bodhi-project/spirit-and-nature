@@ -1,9 +1,9 @@
 // ----------------------------------------------------------------------- Imports
 const path = require('path');
 // const _ = require('lodash');
-const webpackLodashPlugin = require('lodash-webpack-plugin');
 // var unified = require('unified');
 // var markdown = require('remark-parse');
+// const webpackLodashPlugin = require("lodash-webpack-plugin");
 
 // console.log(unified().use(markdown).parse(testMd));
 
@@ -110,8 +110,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   });
 };
 
-exports.modifyWebpackConfig = ({ config, stage }) => {
-  if (stage === "build-javascript") {
-    config.plugin("Lodash", webpackLodashPlugin, null);
-  }
-};
+// exports.modifyWebpackConfig = ({ config, stage }) => {
+//   if (stage === "build-javascript") {
+//     config.plugin("Lodash", webpackLodashPlugin, [{'caching': true, 'collections': true}]);
+//   }
+// };
