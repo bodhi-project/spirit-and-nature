@@ -170,7 +170,7 @@ class IndexPage extends React.Component {
           <Container>
             <Row>
               <Col span={15}>
-                <p>About...</p>
+                <Paragraph><i>Spirit and Nature is a service dedicated to Unity</i></Paragraph>
               </Col>
               <Col span={9}>
                 <p>Links...</p>
