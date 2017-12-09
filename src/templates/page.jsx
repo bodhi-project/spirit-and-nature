@@ -124,7 +124,7 @@ const type = typeDefs;
       <Fragment>
         {
           splicedAst.map((element, index) => {
-            // console.log(child);
+            // console.log(element);
             switch(element.type) {
               case 'paragraph':
                 return <Paragraph>{element.children[0].value}</Paragraph>
@@ -184,6 +184,7 @@ class PageWrapper extends React.Component {
   }
 
   render() {
+    // console.log(this.props);
     const { frontmatter } = this.props.data.markdownRemark;
     const { markdownAst } = this.props.pathContext;
     const { headings } = this.props.data.markdownRemark;
