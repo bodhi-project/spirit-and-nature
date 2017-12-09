@@ -37,6 +37,8 @@ const {
   typeDefs,
 } = FirstVariationOnModernType;
 
+const type = typeDefs;
+
 // ------------------------------------------------------------------------------
 // --------------------------------------------------------- Increase Specificity
 // ------------------------------------------------------------------------------
@@ -310,8 +312,6 @@ class TemplateWrapper extends React.Component {
                 <Row gutter={16} type="flex" justify="center" align="top">
                   <Col xs={22} sm={22} lg={18} style={{ textAlign: 'center' }}>
                     <p style={{ fontFamily: 'brandon-grotesque, sans-serif', fontSize: '1.12470588rem', lineHeight: '2.00117647rem', textTransform: 'uppercase', margin: '3.54545455em 0 1.31181818em', fontWeight: '700', marginBottom: '5px', letterSpacing: '3px', color: '#676767' }}><Link to="/about">ABOUT</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/donate">DONATE</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/contact">CONTACT</Link></p>
-                    <br /><br />
-                    <h3 className="text-center capitalize"><small>Created with <Icon type="heart" style={{ color: '#D34025' }} /> by <OutLink to="https://www.bodhiproject.org/">Bodhi Project</OutLink></small></h3>
                   </Col>
                 </Row>
               </Footer>

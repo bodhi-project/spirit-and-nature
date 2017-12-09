@@ -1,8 +1,8 @@
 // ----------------------------------------------------------------------- Imports
 const path = require('path');
-// const _ = require('lodash');
-// var unified = require('unified');
-// var markdown = require('remark-parse');
+const _ = require('lodash');
+const unified = require('unified');
+const markdown = require('remark-parse');
 // const webpackLodashPlugin = require("lodash-webpack-plugin");
 
 // console.log(unified().use(markdown).parse(testMd));
@@ -16,8 +16,9 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
   if (node.internal.type === "MarkdownRemark") {
     const fileNode = getNode(node.parent);
     const parsedFilePath = path.parse(fileNode.relativePath);
-    route = `/${parsedFilePath.dir}/${parsedFilePath.name}`;
+    route = `${parsedFilePath.dir === '' ? '' : parsedFilePath.dir}/${parsedFilePath.name}`;
     createNodeField({ node, name: 'route', value: route }); // ...createPages will attach the component at this route
+    createNodeField({ node, name: 'rawContent', value: node.internal.content }); // ...createPages will attach the component at this route
     // console.log(node.internal.content);
   }
 };
@@ -27,7 +28,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
 
   return new Promise((resolve, reject) => {
-    const postPage = path.resolve("src/templates/post.jsx");
+    const page = path.resolve("src/templates/page.jsx");
     const tagPage = path.resolve("src/templates/tag.jsx");
     const categoryPage = path.resolve("src/templates/category.jsx");
     resolve(
@@ -37,12 +38,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           allMarkdownRemark {
             edges {
               node {
+                headings {
+                  depth
+                  value
+                }
                 frontmatter {
                   tags
                   category
                 }
                 fields {
                   route
+                  rawContent
                 }
               }
             }
@@ -62,12 +68,27 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         // Loop through markdown nodes
         result.data.allMarkdownRemark.edges.forEach(edge => {
 
+          // const nestedHeadings = [];
+          // let previousDepth = edge.node.headings[0].depth;
+
+          // _.forEach(edge.node.headings, (headingObject) => {
+          //   let thisNode = {children: []};
+          //   if (previousDepth === headingObject.depth) { // This is a sibling node
+          //     thisNode = {...thisNode, ...headingObject};
+          //     nestedHeadings.push(thisNode);
+          //     thisNode = {children: []};
+          //   } else { // This is a child
+
+          //   }
+          // });
+
           // Creates a page
           createPage({
             path: edge.node.fields.route,
-            component: postPage,
+            component: page,
             context: {
               route: edge.node.fields.route,
+              markdownAst: unified().use(markdown).parse(edge.node.fields.rawContent),
             },
           });
 

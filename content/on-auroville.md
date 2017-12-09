@@ -1,5 +1,5 @@
 ---
-title: "The attitude of the Facilitator"
+title: "On Auroville"
 cover: "/content-assets/biography.jpg"
 category: "random"
 date: "02/03/2017"
@@ -7,4 +7,7 @@ abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vi
 tags:
     - say hi
 ---
-# Artificem honorati ore temperat Lycus quam antiquum
+
+# Auroville
+
+# Sri Aurobindo and The Mother

@@ -97,23 +97,12 @@ class AboutPage extends React.Component {
         <Row type="flex" justify="space-around">
           <Col span={12}>
             <H2 className="stash">Spirit & Nature</H2>
-            <Paragraph>"Nature and Spirit" in Auroville is a space dedicated to the experience of Nature and Spirit — Nature as a teacher of multiplicity of creative expressions of Spirit.</Paragraph>
-            <Paragraph>We offer space to explore beauty and sacredness with the aim of finding purpose.</Paragraph>
+            <Paragraph>"Nature and Spirit" in Auroville is dedicated to the experience of Nature and Spirit — Nature as a teacher of multiplicity of creative expressions of Spirit.</Paragraph>
             <br />
             <Paragraph><i>Today, we tend to forget the sacred that is in everything. I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us; and to build together, with a Lion Heart, a "New World" which is waiting to manifest.</i> — Aikya</Paragraph>
-            <H2 mask="h5">Activities</H2>
-            <Paragraph>Aikya offeres the following activities to participants.</Paragraph><br />
-            <Ol>
-              <li>World Game.</li>
-              <li>Nature and Sense Awareness Game.</li>
-              <li>Flowers and their Spiritual Message.</li>
-              <li>Mandalas.</li>
-              <li>Guided meditations.</li>
-              <li>Dreamboards.</li>
-              <li>Introduction to the Spiritual Dimension of Auroville.</li>
-              <li>13 laws of Lion Hearted Leadership.</li>
-            </Ol>
-            <br /><br />
+            <br />
+            <Paragraph>Aikya uses the World Game, Nature and Sense Awareness Game, Flowers and their Spiritual Message, Mandalas, Guided Meditations, Dreamboards and 13 laws of Lion Hearted Leadership with the aim of finding purpose. She also gives introduction into Spiritual Dimension of Auroville and into Integral Yoga.</Paragraph>
+            <br />
             <Paragraph>Spirit and Nature is registered as an acitivity under the Arts Services in Auroville.</Paragraph>
           </Col>
           <Col span={6}>
