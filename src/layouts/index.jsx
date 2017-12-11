@@ -267,7 +267,7 @@ class TemplateWrapper extends React.Component {
                       <Popover 
                         placement="bottomRight"
                         content={
-                          <ul>
+                          <ul style={{ listStyle: 'none' }}>
                             <li><Link to="/world-game">World Game</Link></li>
                             <li><Link to="/vision-game">Vision Game</Link></li>
                             <li><Link to="/nature-projects">Nature Projects</Link></li>
@@ -282,10 +282,11 @@ class TemplateWrapper extends React.Component {
                       <Popover 
                         placement="bottomRight"
                         content={
-                          <ul>
+                          <ul style={{ listStyle: 'none' }}>
                             <li><Link to="/writings">Writings</Link></li>
                             <li><Link to="/gallery">Gallery</Link></li>
                             <li><Link to="/video-gallery">Videos</Link></li>
+                            <li><Link to="/glimpses-of-wonder">Glimpses of Wonder</Link></li>
                           </ul>}
                         trigger="hover"
                         overlayClassName={tipStyle.toString()}
@@ -311,7 +312,7 @@ class TemplateWrapper extends React.Component {
               <Footer className={footerStyle.toString()}>
                 <Row gutter={16} type="flex" justify="center" align="top">
                   <Col xs={22} sm={22} lg={18} style={{ textAlign: 'center' }}>
-                    <p style={{ fontFamily: 'brandon-grotesque, sans-serif', fontSize: '1.12470588rem', lineHeight: '2.00117647rem', textTransform: 'uppercase', margin: '3.54545455em 0 1.31181818em', fontWeight: '700', marginBottom: '5px', letterSpacing: '3px', color: '#676767' }}><Link to="/about">ABOUT</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/donate">DONATE</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/contact">CONTACT</Link></p>
+                    <Paragraph><Link to="/about">ABOUT</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/donate">DONATE</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/contact">CONTACT</Link></Paragraph>
                   </Col>
                 </Row>
               </Footer>
