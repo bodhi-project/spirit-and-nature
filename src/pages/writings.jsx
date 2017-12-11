@@ -8,7 +8,7 @@ import _ from 'lodash';
 import Link from 'gatsby-link';
 import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import moment from 'moment';
-import { Container, Image } from '@bodhi-project/components';
+import { Container, Image, MotionFade } from '@bodhi-project/components';
 import { FirstVariationOnModernType } from '@bodhi-project/typography';
 import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
 
@@ -41,6 +41,7 @@ const {
 } = FirstVariationOnModernType;
 
 const type = typeDefs;
+const { Fragment } = React;
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
@@ -81,9 +82,33 @@ const type = typeDefs;
 // -------------------------------------------------------------------- Component
 // ------------------------------------------------------------------------------
   class Index extends React.Component {
+    /**
+    * constructor - Just a standard constructor.
+    */
+    constructor(props) {
+      super(props);
+
+      /**
+        * state - Track the interface configuration and the height of the component.
+        */
+      this.state = {
+        filter: 'all',
+      };
+
+      this.filter = this.filter.bind(this);
+    }
+
+    /**
+      * openLightbox - Standard renderer.
+      */
+    filter(e, category) {
+      e.preventDefault();
+      e.stopPropagation();
+      this.setState({ filter: category });
+    }
+
     render() {
       const postEdges = this.props.data.allMarkdownRemark.edges;
-      console.log(postEdges);
       const categories = _.uniq(_.map(postEdges, 'node.frontmatter.category')).sort((a, b) => {
         const A=a.toLowerCase();
         const B=b.toLowerCase();
@@ -95,6 +120,8 @@ const type = typeDefs;
         // default return value (no sorting)
         return 0;
       });
+
+      console.log(this.state);
 
       return (
         <Container bleed>
@@ -201,11 +228,12 @@ const type = typeDefs;
             <Col span={5}>
               <aside style={{ borderTop: '4px solid #222222'}}>
                 <H2 mask="h5" style={{ margin: `${type.heading.sizes.third * 0.375}px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>All Writings</H2>
-                <Paragraph style={{ marginBottom: type.heading.sizes.third }} >Writings on the wall...</Paragraph>
-                <H3 mask="h6" style={{ textTransform: 'uppercase', fontSize: (type.heading.sizes.sixth * 0.625), letterSpacing: '0.141ex', margin: '0px 0px 12px 0px' }}>All Categories</H3>
+                <Paragraph style={{ marginBottom: type.heading.sizes.third }} >Click to filter...</Paragraph>
+                <H3 mask="h6" style={{ textTransform: 'uppercase', fontSize: (type.heading.sizes.sixth * 0.625), letterSpacing: '0.141ex', margin: '0px 0px 12px 0px' }}>Categories</H3>
                 <Ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+                  <li style={{ borderTop: '1px solid #222222', padding: '13px 0px 10px 0px', margin: 0, textTransform: 'capitalize' }}><a href="#" onClick={(e) => this.filter(e, "all")}>All</a></li>
                   {categories.map(category => (
-                    <li style={{ borderTop: '1px solid #222222', padding: '13px 0px 10px 0px', margin: 0, textTransform: 'capitalize' }}>{category}</li>
+                    <li style={{ borderTop: '1px solid #222222', padding: '13px 0px 10px 0px', margin: 0, textTransform: 'capitalize' }} key={_.camelCase(category)}><a href="#" onClick={(e) => this.filter(e, category)}>{category}</a></li>
                   ))}
                 </Ul>
               </aside>
@@ -224,29 +252,35 @@ const type = typeDefs;
                   </Header>
 
                   {postEdges.map(({node}, index) => (
-                    <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
-                      <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
-                        <div style={{ flex: '2 1 0%' }}>
-                          <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 1.375 }}>{`${('0' + (index + 1)).slice(-2)}`}</Paragraph>
-                        </div>
-                        <div style={{ flex: '8 1 0%' }}>
-                          <Image
-                            src={node.frontmatter.cover}
-                            rawWidth={1440}
-                            rawHeight={900}
-                            loader="gradient"
-                            style={{ }}
-                          />
-                        </div>
-                        <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
-                          <Header>
-                            <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
-                            <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                            <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
-                          </Header>
-                        </div>
-                      </div>
-                    </Article>
+                    <Fragment>
+                      { (this.state.filter === "all" || this.state.filter === node.frontmatter.category) &&
+                        <MotionFade>
+                          <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
+                            <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
+                              <div style={{ flex: '2 1 0%' }}>
+                                <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 1.375 }}>{`${('0' + (index + 1)).slice(-2)}`}</Paragraph>
+                              </div>
+                              <div style={{ flex: '8 1 0%' }}>
+                                <Image
+                                  src={node.frontmatter.cover}
+                                  rawWidth={1440}
+                                  rawHeight={900}
+                                  loader="gradient"
+                                  style={{ }}
+                                />
+                              </div>
+                              <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
+                                <Header>
+                                  <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
+                                  <Paragraph>{node.frontmatter.abstract}</Paragraph>
+                                  <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
+                                </Header>
+                              </div>
+                            </div>
+                          </Article>
+                        </MotionFade>
+                      }
+                    </Fragment>
                   ))}
                 </Section>
                 <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 0.625, color: '#676767', margin: `${type.body.fontSize * 0.625}px 0px` }}>~ fin ~</Paragraph>

@@ -201,8 +201,7 @@ class PageWrapper extends React.Component {
     const { frontmatter } = this.props.data.markdownRemark;
     const { markdownAst } = this.props.pathContext;
     const { headings } = this.props.data.markdownRemark;
-    const toc = makeToc(headings, headings[0].depth);
-    console.log(frontmatter);
+    let toc = makeToc(headings, headings[0].depth);
 
     return (
       <Container bleed>

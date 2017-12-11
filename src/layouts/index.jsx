@@ -25,7 +25,7 @@ import logo from './logoWithText.png';
   */
 const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
 const { Footer, Content } = Layout;
-const Fragment = React.Fragment;
+const { Fragment } = React;
 
 // ----------------------------------------------------------------------- Type
 const {
