@@ -97,6 +97,9 @@ class AboutPage extends React.Component {
         <Row type="flex" justify="space-around">
           <Col span={12}>
             <H2>World Games</H2>
+            <H3>World games in Nature</H3>
+            <Paragraph>We will learn about animals and flowers mainly but we will also learn how to express beautifully. Beauty for me is a thing that is as important as any other value in the world. I especially like natural beauty with the touch of tomorrow — something new with ancient roots. But actually each of us has his special style which is no one else’s. This is important not to forget. Always remember when you meet any living being because each one is unique. Plants are more group bound. Animals too have a collective consciousness, they live connected to each other through the great spirit.</Paragraph>
+
           </Col>
           <Col span={6}>
             <H3 mask="h6" style={{ marginTop: 0 }}>Further Links...</H3>

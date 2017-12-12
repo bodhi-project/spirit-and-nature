@@ -47,7 +47,31 @@ Editor's note: for those whose interests are piqued in such things — it make f
 
 # Linda Tucker and White Lion Protection Trust
 
+After being rescued by a Tsonga medicine woman from a dangerous encounter with a pride of lions in 1991, Linda Tucker gave up a career in international marketing and fashion to become a conservationist. Since this time, she has dedicated her life to the urgent protection of the critically endangered White Lions, regarded as the King of Kings by African elders. Despite their rarity and cultural importance, the White Lions have no protected status and may be trophy hunted in the wild and in captivity.
+
+To ensure the survival of this legendary animal, Linda Tucker has raised millions of dollars in a long-term strategy to secure large tracks of protected wilderness territory in the White Lions’ ancestral heritage lands.
+
+Linda Tucker founded the Global White Lion Protection Trust after nearly 10 years of intensive research on both the cultural and conservation importance of the White Lions in this region.
+
+Together with her partner Lion Ecologist, Jason A.Turner, and a team of specialists, Linda Tucker was responsible for returning White Lions back to their natural endemic habitat, after decades of artificial removals from their natural system had rendered them virtually extinct. The first lioness to set paw back in her ancestral kingdom was Queen Marah, regarded as a holy animal by the indigenous African elders.
+
+Her story is the subject of a full-length documentary for National Geographic, and has been covered extensively in over 30 international TV programs including Reuters, CBS, Animal Planet and NHK Japan.
+
+Read her story here -- http://whitelions.org/about/meet-linda-tucker/
+
 # Lion Hearted Leadership
+
+In 2012, Linda Tucker founded the White Lion Leadership Academy attended by local community leaders and students from around the globe, promoting LionHearted leadership principles in transforming our world.
+
+White Lion Leadership Academy addresses the most critically urgent crises of today, including politics, economics, education, religion, culture, value systems and most fundamentally sustainability. It does so, however, in an entirely unique heart-centred way. Although focused on modern innovative techniques, the White Lion Leadership Academy’s methods are founded on the most ancient indigenous knowledge systems, that are more relevant now than ever before.
+
+Inspired by the White Lions, the Leadership Academy offers an Initiatory training in the 13 Laws of LionHearted Leadership, formalized by Linda Tucker, after 3 decades of pioneering work in protecting these magnificent animals, and their message for humanity. The training activates the Heart to enable future leaders from all walks of life to become powerful agents of change, willing to challenge existing paradigms and champion new approaches to life. To become such a leader, each of us needs to make one simple shift: from an insecure, exploitative, need and greed ‘consumer culture’ to a confident, loving consciousness that holds deep reverence for the sanctity of life and Mother Nature.
+
+Learn more about the White Lion Leadership Academy here -- http://whitelions.org/leadership-academy-2017/
+
+and here -- http://www.lindatuckerfoundation.org/lionhearted-leadership-initiative/academy-for-lionhearted-leadership/
+
+
 
 [1] — Adapted from the White Lions website (http://whitelions.org/)
 [2], [3], [4] — Facts in the section on Canned Hunting originate from content on the Guardian website (https://www.theguardian.com/environment/2013/jun/03/canned-hunting-lions-bred-slaughter)

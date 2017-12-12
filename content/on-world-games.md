@@ -1,5 +1,5 @@
 ---
-title: "World games in Nature"
+title: "On World Games"
 cover: "/content-assets/biography.jpg"
 category: "random"
 date: 2017-03-02
@@ -7,10 +7,6 @@ abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vi
 tags:
     - say hi
 ---
-# World games in Nature
-
-We will learn about animals and flowers mainly but we will also learn how to express beautifully. Beauty for me is a thing that is as important as any other value in the world. I especially like natural beauty with the touch of tomorrow — something new with ancient roots. But actually each of us has his special style which is no one else’s. This is important not to forget. Always remember when you meet any living being because each one is unique. Plants are more group bound. Animals too have a collective consciousness, they live connected to each other through the great spirit.
-
 # A Typical Session
 
 Eden, a ten-year old boy, arrives at my house on his little cycle. He greets the dog Sati who is always excited to see a child arriving. Eden knows him. He picks up a stick in the garden and starts playing with the dog as he moves towards the house. Very often Eden notices something in the garden: a new flower that has bloomed, a special butterfly, a little bird’s nest. Then he enters the room and his eyes light up at seeing all the objects displayed on shelves and in many little baskets. Straight away he looks for his favourite figurines, some knights, or some play mobil, and places them in the container filled with sand. I choose music which I feel fits the mood, sit down quietly and observe. Eden relates a story of what happened at school during the week, while looking for the next objects to choose to create his little world of today. He grows silent while concentrating on making his very particular small world, filled with magical elements. He tells me a little about his world as he creates it. His story is spread out in the sand.

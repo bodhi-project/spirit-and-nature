@@ -11,7 +11,7 @@ import moment from 'moment';
 import Link from 'gatsby-link';
 import { Row, Col, Layout, Tree, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { css } from 'glamor';
-import { Image, Container } from '@bodhi-project/components';
+import { Image, Images, Container } from '@bodhi-project/components';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
 import { FirstVariationOnModernType } from '@bodhi-project/typography';
 import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
@@ -29,6 +29,8 @@ const {
   H4,
   H5,
   H6,
+  Ol,
+  Ul,
   Paragraph,
   SmallCaps,
   typeDefs,
@@ -108,6 +110,41 @@ const type = typeDefs;
     }
   };
 
+  const extractWidthHeight = imageName => {
+    let returnDimensions = {width: 900, height: 900}
+    if (imageName.includes('_') && imageName.includes('X')) {
+      const xy = (_.split(_.split(_.split(imageName, '_')[1], '.')[0], 'X'));
+      returnDimensions = {width: parseInt(xy[0], 10), height: parseInt(xy[1], 10)};
+    }
+    return returnDimensions;
+  };
+
+  const parseGallery = gallery => {
+    const photoGallery = gallery;
+    let soloImage = null;
+    if (gallery.length % 2 !== 0) {
+      soloImage = gallery.pop();
+    }
+    return (
+      <div style={{ marginBottom: type.basePointSize }}>
+        <Images
+          photos={photoGallery}
+          columns={2}
+          loader="gradient"
+        />
+        { soloImage &&
+          <Image 
+            src={soloImage.src}
+            rawWidth={soloImage.width}
+            rawHeight={soloImage.height}
+            loader="gradient"
+            style={{ border: 0 }}
+          />
+        }
+      </div>
+    );
+  }
+
   const treeParser = markdownAst => {
     const frontMatterIndex = (_.findIndex(_.slice(markdownAst.children, 1), (child) => (child.type === 'thematicBreak')) + 2);
     const splicedAst = _.slice(markdownAst.children, frontMatterIndex);
@@ -118,20 +155,95 @@ const type = typeDefs;
       fourth: 0,
       fifth: 0,
     };
+    let returnElement = <Fragment />;
+    let pending = false;
+    let lookBack = <Fragment />;
+    let gallery = [];
+    const elementCount = splicedAst.length;
+
+    // const srimPhotos = [
+    //   { src: srim3, width: 900, height: 900 },
+    //   { src: srim2, width: 1440, height: 900 },
+    // ];
+    // <Images
+      // photos={srimPhotos}
+      // columns={2}
+      // loader="gradient"
+    // />
+
     return (
       <Fragment>
         {
           splicedAst.map((element, index) => {
             // console.log(element);
-            switch(element.type) {
-              case 'paragraph':
-                return <Paragraph>{element.children[0].value}</Paragraph>
-              case 'heading':
-                headings = trackHeadings(element, headings);
-                return parseHeading(element, headings)
-              default:
-                return <Fragment />
+
+            let prepend = <Fragment />;
+            let frag = <Fragment />;
+            let append = <Fragment />;
+
+            if (gallery.count !== 0) { // Gallery is not empty
+              if (element.children[0].type !== 'image' && element.children[0].type !== 'imageReference') { // The current item is not a paragraph
+                prepend = parseGallery(gallery);
+                gallery = []; // Reset gallery
+              }
             }
+
+            if (element.type === 'paragraph') {
+              if (element.children[0].type === 'text') {
+                frag = <Paragraph>{element.children[0].value}</Paragraph>;
+              } else if (element.children[0].type === 'image') {
+                gallery.push({src: element.children[0].url, alt: element.children[0].alt, ...extractWidthHeight(element.children[0].url)});
+              } else if (element.children[0].type === 'imageReference') {
+                gallery.push({src: element.children[1].value, alt: element.children[0].alt, ...extractWidthHeight(element.children[1].value)});
+              } else {
+                frag = <Fragment />;
+              }
+            }
+
+            if (element.type === 'list') {
+              if (element.ordered === true) {
+                frag = (
+                  <Ol>
+                    {
+                      element.children.map((listItem, index2) => (
+                        <li key={index2}>{listItem.children[0].children[0].value}</li>
+                      ))
+                    }
+                  </Ol>
+                );
+              } else {
+                frag = (
+                  <Ul>
+                    {
+                      element.children.map((listItem, index2) => (
+                        <li key={index2}>{listItem.children[0].children[0].value}</li>
+                      ))
+                    }
+                  </Ul>
+                );
+              }
+            }
+
+            if (element.type === 'heading') {
+              headings = trackHeadings(element, headings);
+              frag = parseHeading(element, headings);
+            }
+
+            // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ This is the last element
+            if ((index + 1) === elementCount) {
+              if (gallery.count !== 0) { // Gallery is not empty
+                append = parseGallery(gallery);
+                gallery = []; // Reset gallery
+              }
+            }
+            
+            return (
+              <Fragment>
+                {prepend}
+                {frag}
+                {append}
+              </Fragment>
+            );
           })
         }
       </Fragment>
