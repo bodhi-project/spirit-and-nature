@@ -14,13 +14,54 @@ Anusuya is a small forest community in Auroville’s greenbelt area and is the h
 
 The land was designated to be a forest at the beginning of Auroville and was first named Anasurya which means without sun. Later on the name changed to Anusuya meaning one who is free from jealousy or envy. In Indian mythology Anusuya was the devoted wife of an ancient Rishi.
 
-## The Forest Now
+Anusuya forest was once a vast, open, barren land where nothing grew but now it is a green forest!
+
+![Building Auroville #1](/content-assets/history-of-spirit-and-nature/img1_1440X900.jpg)
+
+![Building Auroville #2](/content-assets/history-of-spirit-and-nature/img2_1440X900.jpg)
+
+![Building Auroville #3](/content-assets/history-of-spirit-and-nature/img3_1440X900.jpg)
+
+![Building Auroville #4](/content-assets/history-of-spirit-and-nature/img4_1440X900.jpg)
+
+![Building Auroville #5](/content-assets/history-of-spirit-and-nature/img5_1440X900.jpg)
+
+![Building Auroville #6](/content-assets/history-of-spirit-and-nature/img6_1440X900.jpg)
+
+![Building Auroville #7](/content-assets/history-of-spirit-and-nature/img7_1440X900.jpg)
+
+![Building Auroville #8](/content-assets/history-of-spirit-and-nature/img8_1440X900.jpg)
+
+![Building Auroville #9](/content-assets/history-of-spirit-and-nature/img9_1440X900.jpg)
+
+![Building Auroville #10](/content-assets/history-of-spirit-and-nature/img10_1440X900.jpg)
+
+![Building Auroville #11](/content-assets/history-of-spirit-and-nature/img11_1440X900.jpg)
+
+![Building Auroville #12](/content-assets/history-of-spirit-and-nature/img12_1440X900.jpg)
+
+![Building Auroville #13](/content-assets/history-of-spirit-and-nature/img13_1440X900.jpg)
+
+![Building Auroville #14](/content-assets/history-of-spirit-and-nature/img14_1440X900.jpg)
+
+![Building Auroville #15](/content-assets/history-of-spirit-and-nature/img15_1440X900.jpg)
+
+## Life in the Forest
 
 In this forest you might see varans, turtles, rabbits, mongooses, lizards, snakes (including cobras), scorpios, frogs, many beautiful birds, peacocks every now and then, owls, civet cats, many squirrels and the occasional deer and wild pig. Unauthorised cutting of trees happen by moments and one has to be vigilant, poaching also happen here specially by the gypsies.
 
 ## Cyclones
 
 Auroville is in a cyclone-prone zone and many cyclones have crossed these lands. In 2011 we were struck by cyclone Thane and it was the strongest one we've had so far, it was quite devastating. No people were hurt and the main houses were fine. 
+
+![Cyclones #1](/content-assets/history-of-spirit-and-nature/cyclone1.jpg)
+
+![Cyclones #2](/content-assets/history-of-spirit-and-nature/cyclone2.jpg)
+
+![Cyclones #3](/content-assets/history-of-spirit-and-nature/cyclone3.jpg)
+
+![Cyclones #4](/content-assets/history-of-spirit-and-nature/cyclone4.jpg)
+
 
 # Community
 

@@ -145,6 +145,10 @@ const type = typeDefs;
     );
   }
 
+  // const stitchParagraph = element => {
+
+  // }
+
   const treeParser = markdownAst => {
     const frontMatterIndex = (_.findIndex(_.slice(markdownAst.children, 1), (child) => (child.type === 'thematicBreak')) + 2);
     const splicedAst = _.slice(markdownAst.children, frontMatterIndex);
@@ -188,7 +192,10 @@ const type = typeDefs;
               }
             }
 
+            // console.log(element);
+
             if (element.type === 'paragraph') {
+              console.log(element);
               if (element.children[0].type === 'text') {
                 frag = <Paragraph>{element.children[0].value}</Paragraph>;
               } else if (element.children[0].type === 'image') {
@@ -198,6 +205,18 @@ const type = typeDefs;
               } else {
                 frag = <Fragment />;
               }
+            }
+
+            if (element.type === 'blockquote') {
+              frag = (
+                <Fragment>
+                  {
+                    element.children.map((child, index2) => (
+                      <Paragraph style={{textIndent: 0, fontSize: (type.basePointSize * 0.8)}}><i>{child.children[0].value}</i></Paragraph>
+                    ))
+                  }
+                </Fragment>
+              );
             }
 
             if (element.type === 'list') {

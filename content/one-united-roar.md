@@ -30,7 +30,14 @@ http://artservice.auroville.org/one-united-roar-for-nature/
 
 “If we don’t shift our paradigm, lions will be extinct in the wild in our lifetimes”.
 
+![One United Roar #1](/content-assets/biography/img17.jpg)
+
+![One United Roar #2](/content-assets/biography/img18.jpg)
+
+![One United Roar #3](/content-assets/biography/img19.jpg)
+
+![One United Roar #4](/content-assets/biography/img20.jpg)
+
 One United Roar offered our children from Auorivlle an incredible opportunity to learn about what is happening to wildlife in Africa - and White Lions in particular - in the world at this moment; it gave them the chance to learn about the sacredness of all life and to make a positive impact through their participation.
 
 (Put video here)
-(Put photos here)

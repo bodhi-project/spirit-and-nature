@@ -23,8 +23,9 @@ In the mid-fifties, Dora Kalff, a Jungian therapist, went to a conference with L
 
 To distinguish her work from Lowenfeld’s she used the name ‘Sandplay’. There is a wealth of information available through the internet for those interested in learning more about the theory and practice of the World Game or Sandplay. This information was written by Barbara A. Turner from “the Journal of Sandplay Therapists” in 2013.
 
-Although much has been done by succeeding therapists, to test, diagnose, record and interpret Sandplay, Lowenfell’s original intention is similar to the approach used in Auroville today. She said,
-“My own endeavor in my work with children is to devise an instrument with which a child can demonstrate his own emotional and mental state without the necessary intervention of an adult either by transference or interpretation, and which will allow of a record being made of such a demonstration. My objective is to help children to produce something which will stand by itself and be independent of any theory as to its nature.”
+Although much has been done by succeeding therapists, to test, diagnose, record and interpret Sandplay, Lowenfell’s original intention is similar to the approach used in Auroville today.
+
+She said, “My own endeavor in my work with children is to devise an instrument with which a child can demonstrate his own emotional and mental state without the necessary intervention of an adult either by transference or interpretation, and which will allow of a record being made of such a demonstration. My objective is to help children to produce something which will stand by itself and be independent of any theory as to its nature.”
 
 — Lowenfeld, “Understanding Children’s Sandplay”, 1979
 
@@ -33,6 +34,14 @@ In Aikya’s Sandplay room the children create their own little worlds in the sa
 # Sandplay as a psychotheraputic tool
 
 In the mid-fifties, Dora Kalff, a Jungian therapist, went to a conference with Lowenfeld which impressed her strongly. She developed her own version of The World Technique as a tool for adults as well as children to grow toward the Jungian goal of wholeness, a process of evolution to a true integration of the parts of the self.
+
+![Sandplay #1](/content-assets/sandplay/the-world-games-in-auroville4.jpg)
+
+![Sandplay #2](/content-assets/sandplay/the-world-games-in-auroville3.jpg)
+
+![Sandplay #3](/content-assets/sandplay/the-world-games-in-auroville2.jpg)
+
+![Sandplay #4](/content-assets/sandplay/the-world-games-in-auroville1.jpg)
 
 To distinguish her work from Lowenfeld’s she used the name ‘Sandplay’. There is a wealth of information available through the internet for those interested in learning more about the theory and practice of the World Game or Sandplay. This information was written by Barbara A. Turner from “the Journal of Sandplay Therapists” in 2013.
 
@@ -71,3 +80,4 @@ In addition to the expression of inner thoughts and feelings for the child, the 
 “The World Game” was a unique aspect of the curriculum at Aspiration in the early years, and was reintroduced into the Auroville curriculum at Transition by Jossy in 1999. In 2001 Jossy was joined by Paulien, rst as an observer and then as an additional sand box guide at Transition for a few hours a week. While she was learning the Sand Play from Jossy, Paulien opened a room for sand box play at Deepanam, and then moved with the small objects she had collected to the Nandanam Campus, and nally to the site across the road now ocupied by Aha! Meanwhile Paulien’s hours for guiding the Sand Play at Transition gradually increased, until Jossy left her body in March, 2006. Paulien stopped work at Nandenam and took over all the sand box activities at Transition. The Sand Play program at Transition was cut back in July 2014 but Paulien continues with a few ‘regulars’ and small groups of rst graders at Transition, in addition to her work with “special needs” children.
 
 The World Game that Aikya describes with such love and care in this book is part of an almost unbroken tradition of sandbox activity for children in Auroville. I hope this book will inspire other schools or centers to consider the possibilities the World Game affords for creativity, self-discovery and the expression of the psychic being.
+

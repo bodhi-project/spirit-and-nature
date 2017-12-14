@@ -28,6 +28,14 @@ But when I came back to Auroville I did not think of taking up this kind of work
 
 At that time, if you wanted to work with flowers you went to work in the Matrimandir Nursery, which is what I did for some time.  In 2000, I met Barbara who introduced me to energy and consciousness work using the essences of Mother’s flowers. This was the start of diving deep into the mysteries of life.
 
+![Flower #1](/content-assets/biography/img1.jpg)
+
+![Flower #2](/content-assets/biography/img2.jpg)
+
+![Flower #3](/content-assets/biography/img3.jpg)
+
+![Flower #4](/content-assets/biography/img4.jpg)
+
 Then I was invited to do flower arranging in the Solar Kitchen. This opened up a whole new field for me because now I could create a particular atmosphere. I aspired to sensitise people to beauty through flowers and their silent vibrational influences.
 
 People were very happy with this initiative and some of them began to bring flowers for me to arrange.  In the early days there seemed to be many more flowers in Auroville and the children knew Mother’s names for them. Now that knowledge seems to be less present.
@@ -37,6 +45,14 @@ People were very happy with this initiative and some of them began to bring flow
 At that point, I felt I wanted more contact with people again, so I initiated nature projects at Deepanam School to support the sense of wonder in children.  I also started the World Game (or Sandplay). In this, the children are given small objects representing people, trees, animals, houses etc. and are invited to create their own world by arranging them in a tray with sand. The objects are, of course, symbolic, and in one way this drew upon my psychology background, but I did not want to go into analysing the children. I wanted to offer them a magical space where they could express their dreams and, if need be, their concerns.
 
 When they are older they often remember the secret memories of childhood.  Mother said that the dreams of the children of today are the realities of tomorrow, and she encouraged the children to believe in their dreams.
+
+![Working with children #1](/content-assets/biography/img5.jpg)
+
+![Working with children #2](/content-assets/biography/img6.jpg)
+
+![Working with children #3](/content-assets/biography/img7.jpg)
+
+![Working with children #4](/content-assets/biography/img8.jpg)
 
 I was invited by SAIIER to research this topic and this resulted in a book called ‘Glimpses of Wonder’. I am still doing the World Game, now with the children of The Learning Community (TLC). For the past eight years, this has happened in my place in Anusuya, which is like a fairy house and forest garden full of secret connections made over time. I feel this fits perfectly to the vision of TLC of using Auroville as a place of learning.
 
@@ -52,6 +68,14 @@ The indigenous people, like the San people, know very well how to connect with a
 
 Anna taught us that to enter into communication, firstly, we have to get rid of all our preconceptions regarding animals, then we need to become very still and make a clear intention to connect, through the heart, with a particular animal (or plant). Then the actual communication can be extremely fast and can come through an image, sound, word or feeling.
 
+![Working with animals #1](/content-assets/biography/img9.jpg)
+
+![Working with animals #2](/content-assets/biography/img10.jpg)
+
+![Working with animals #3](/content-assets/biography/img11.jpg)
+
+![Working with animals #4](/content-assets/biography/img12.jpg)
+
 I experienced this in an exercise she gave us. She brought us to an animal dropping and asked us to identify the animal. Initially, I had no idea but I focussed and at once I saw very clearly the face of an ostrich: it was an absolutely clear image. Through exercises like this, we learned how much we already know intuitively, although very often the mental intervenes and then we get it wrong.
 
 I don’t think my role is to become an animal communicator. Although we learned that everybody can do it, you have to devote a lot of time to it and be really centred all the time. But still, it is very present in my daily life and I feel the connection to the messages of nature as living symbols. It has also inspired me to incorporate intuition games into my sessions with the children. Since then, several Aurovilians have asked me to give an introduction and share my experiences and I will surely do this in the near future.
@@ -66,6 +90,14 @@ It’s a true story which begins when she was saved from lions by a local woman 
 
 The white lions appear only in one region of South Africa called ‘Timbavati’,  literally ‘the place where the star lions come down’. African elders look upon the white lions as the ‘king of kings’ and there are many legends about them. According to local indigenous knowledge the white lions have returned now to give a message to humanity: that it is the end of a period, a critical moment, and people must go back to the source for wisdom.
 
+![White Lions #1](/content-assets/biography/img13.jpg)
+
+![White Lions #2](/content-assets/biography/img14.jpg)
+
+![White Lions #3](/content-assets/biography/img15.jpg)
+
+![White Lions #4](/content-assets/biography/img16.jpg)
+
 When Linda met Maria, all the white lions were in captivity in zoos, circuses and ‘blood lion’ camps where they were raised to be trophy-hunted. But Maria had a vision that a white lion would be born to be released into the wild in the Timbavati region. Soon after, Linda heard that a white lion cub called Ma-Ra had been born on Christmas Day, 2000, just outside a small town in South Africa called Bethlehem.
 
 After a huge struggle, for the cub was born in a ‘blood lion’ camp, Linda obtained Ma-Ra who, by this time, was an adult lioness with three cubs. Linda purchased land, and now she has managed to reintroduce three prides of white lions into the wild in a protected area.
@@ -74,9 +106,19 @@ However, this is much more than a conservation project; it is also about leaders
 
 It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for.
 
+# One United Roar
+
 When I returned, I spoke to the children in The Learning Community about my experience and invited them to make videos for an international Talent Challenge which Linda was organizing last August. The background to this is that these lions are still trophy-hunted in South Africa: hunters pay up to 100,000 dollars to be allowed to make a kill and there is no statutory protection for the lions. As there was an upcoming meeting of CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) Linda wanted to put pressure on delegates to stop this practice by getting children around the world to ‘Roar’ for the lions through videos that highlighted their plight.
 
 This really resonated with the kids from ‘The Learning Community’. With eleven of them we made videos, which we managed to send off just before the deadline. Two of the kids, Asia and Yam, are among the international winners. As their prize, in March they, together with one parent, will be visiting the White Lion Heartlands in South Africa and will experience the White Lions themselves.
+
+![One United Roar #1](/content-assets/biography/img17.jpg)
+
+![One United Roar #2](/content-assets/biography/img18.jpg)
+
+![One United Roar #3](/content-assets/biography/img19.jpg)
+
+![One United Roar #4](/content-assets/biography/img20.jpg)
 
 This shows that children who grow up here have a strong potential to express their heart qualities in things that matter. They are very concerned about the disappearance of wildlife at a rate that might leave us without free-roaming elephants or lions by the time these kids grow up.
 
@@ -86,6 +128,23 @@ Now my dream is to spread the message of ‘Nature and Spirit’ to children and
 
 ‘Nature & Spirit’ is about reconnecting with spirit through nature and its multitude of expressions through sacred, protected spaces like the one in Anusuya forest where the activities are based. It is an invition to deep silence from where expression can flow. 
 
+![My work now #1](/content-assets/biography/img21.jpg)
+
+![My work now #2](/content-assets/biography/img22.jpg)
+
+![My work now #3](/content-assets/biography/img23.jpg)
+
+![My work now #4](/content-assets/biography/img24.jpg)
+
+![My work now #5](/content-assets/biography/img25.jpg)
+
+![My work now #6](/content-assets/biography/img26.jpg)
+
+![My work now #7](/content-assets/biography/img27.jpg)
+
+![My work now #8](/content-assets/biography/img28.jpg)
+
 In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre. 
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
+

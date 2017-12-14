@@ -11,11 +11,23 @@ tags:
 
 Satyavan, born September 2003, is a French-Haitian and in 2007 he was the youngest of my regular players. An absolutely delightful, lively, little boy, making very elaborate stories mixing nature, magic and civilisation.
 
+![Satyavan #1](/content-assets/children-of-world-games/satyavan1.jpg)
+
+![Satyavan #2](/content-assets/children-of-world-games/satyavan2.jpg)
+
 He thoroughly identified with what he did and exclaimed how he just wanted to jump into the World in the box.
 
 # Jasmine
 
 Jasmine, born March 2002, is Indian-British and began to attend the World Game in 2009. She often likes to come alone, although she can make very interesting creations with friends. She is naturally quiet, sweet and happy. Jasmine is very creative, she handles things carefully and she is precise. There is often an underlying structure in her creations, such as a mandala or a city. Her creations express harmony and endlessly sweet details, a play of paradise. Jasmine is particularly special to me because of her beautiful presence.
+
+![Jasmine #1](/content-assets/children-of-world-games/jasmine1.jpg)
+
+![Jasmine #2](/content-assets/children-of-world-games/jasmine2.jpg)
+
+![Jasmine #3](/content-assets/children-of-world-games/jasmine3.jpg)
+
+![Jasmine #4](/content-assets/children-of-world-games/jasmine4.jpg)
 
 Jasmine’s cat died and in her play the cat appeared in the middle of the box. It was a way of honouring and saying goodbye to her good friend. During this period the cat was always present in her creations. One day Jasmine came with her friend Elisa; so harmoniously they created an hour and a half game without uttering one word. Jasmine appears again with her good friend Zohar in the Stories.
 
@@ -24,6 +36,10 @@ Jasmine’s cat died and in her play the cat appeared in the middle of the box. 
 Zohar, born June 2003, is a South African-Israeli and he started coming to the World Games during the school year in 2010. He was then 7 years old. Before he became interested in the World Game we went on a trip every week and through the contact with plants and animals, especially birds and chickens, we grew close to one another. Doing the World Game was a challenge for him. In the beginning he was not very interested in any of the objects; he preferred to go into the garden. We had to talk a lot before he would begin; he always loved to tell all kinds of incredible stories and sometimes I had to ask him whether he was in “this” world or “that” one. Physically he did not move about much in the room, he just grabbed things closest to him or simply asked me for a specialc object. It is also typical for Zohar to repeat some words in a funny way or just make strange, unrelated sounds such as di-di-di-di or la-la-la-la.
 
 Zohar is special for me due to our particular connection. He is not a child who connects to the World Game spontaneously but evolves with it in his own way.
+
+![Zohar #1](/content-assets/children-of-world-games/zohar1.jpg)
+
+![Zohar #2](/content-assets/children-of-world-games/zohar2.jpg)
 
 In January 2011 his little sister was born; when I asked about So a, he remained silent. I took small babies out of a box to show him. He took the babies and started to make an interesting scene with a cooking pot and stove, making soup with the babies, with a crystal gravy. Then he would hide a baby in the sand so that he could not see it nor could the parents find it. It was important for him to work out his feelings. The World Game gave him a way to express those feelings.
 
@@ -43,6 +59,14 @@ Sita’s stories are almost always with fairies, queens, and sometimes battles (
 
 “Sita is really my most regular creator for a while now. A sweet relationship is building. Recently she told me (through her stories) how one day when she had just arrived in Auroville, she had an extraordinary 10 second experience in which she saw the walls of the room (in the house where she lived) covered with a pinkish new type of “dust”. It was like ‘rain on the walls’. It was my turn to share a special experience: once on the 29th of February there were a few seconds where I saw the trees covered in golden powder.” — Journal
 
+![Sita #1](/content-assets/children-of-world-games/sita1.jpg)
+
+![Sita #2](/content-assets/children-of-world-games/sita2.jpg)
+
+![Sita #3](/content-assets/children-of-world-games/sita3.jpg)
+
+![Sita #4](/content-assets/children-of-world-games/sita4.jpg)
+
 Sita represents for me a very lively child who really loves the World Game, and has many magical stories -
 
 “Once upon a time there is a palace, you can see paper screens to make the walls, the entry, tall pieces of wood, cut into slices which are the birthplaces of fairies, there are trees, crystals, Pegasus.... it makes me think of a Chinese landscape. When the fairies are born they are surrounded by crystals and each one has a name, such as Jasmine, Sarah, or Rose. One fairy became a queen. She received a special jewel from the time when the world was born, and all the magic of the fairies is in that jewel. Babies were born, also a baby unicorn, ‘baddies’ came, a house was built..."
@@ -61,10 +85,10 @@ Here is Veerle, born January 2003, is Dutch and  came to me for a period of 3 ye
 
 She liked to come alone. She liked to sing. Later she would often come with friends and had a balanced way of proceeding. Then her topics went in the direction of young girls in love, with lots of giggling. She has a very vivid imagination. The little figures speak with her and many stories arise. Often with fairies, a castle, a witch, dwarves, dolphins, crystals.
 
+![Veerle](/content-assets/children-of-world-games/veerle.jpg)
+
 I heard that during her time in Kindergarden she wasn’t very interested in building with wooden blocks, probably she needed more concrete figures.
 
 One day Veerle brought her own camera and wanted to make a structured story from beginning to end which was a change, as often her stories rambled from one thing to another. Veerle has a way of handling things which is very connected to the objects themselves; I find it pleasant to watch. Sometimes she disappears a little into herself or into the things or, she just starts exploring something like rolling cars. When working with another child like Madu (2 years younger) it would stimulate her to be more concentrated. Madu would tell her: “Veerle, we have not much time, let’s go on ...” Veerle goes into smelling small perfume bottles and enjoying the sensation, and here again Madu reminds her to go on.
 
 One day Veerle and Eden (same age) had a serious thought during the days before their appointment for the World Game, and I was not sure Veerle would show up. Her mother shared her concern. I assured her that I was there and that it might be a good way to make peace. They did come together and made a harmonious sandbox with one part a crystal garden guarded by dinosaurs and one with little people in a city.
-
-

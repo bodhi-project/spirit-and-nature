@@ -13,6 +13,8 @@ Natural elements such as trees, gardens, jungles, the sea, beaches, deserts, riv
 
 The natural world is of particular interest to this age group (4 to 11 years), as children are just coming into an extended consciousness of the world whether they are exposed to a lot of nature or not. One tree in the city or a pet mouse can be as appealing as a forest and a farmyard to an individual child. Here in Auroville we are fortunate enough to have an abundance of nature and animals. 
 
+![Nature #1](/content-assets/expressions/expressions1_1600X1000.jpg)
+
 It is rare to have a World Game where none of these elements are present. Sometime, mostly among the boys, one observes a solely technical world.
 
 # Civilisation
@@ -24,6 +26,14 @@ Pathways come up regularly in differing creative ways: sometimes white marble bl
 Food items are very often present, too. In the beginning I did not have many things representing food. Once I had a child who simply asked for a fresh carrot and then cut it in small pieces, making tiny carrots. Another time a child wrote on a paper: bread, fruits, etc. Now I have some tasty looking miniature pizza and cakes. Restaurants or picnics can appear and all kind of shops, or shows such as a choir or a circus. The children love perfumes. They often smell deeply into the bottles and some sprinkle it on their hands, or even mix it in the sand. One boy systematically smells the bottles every time he comes.
 
 Objects characteristic of particular ancient civilisations are greatly appreciated. Having traveled to Egypt, I brought back several statues like Anubis, and Horus. which children use to make Egyptian scenes. It seems that this civilisation speaks to them particularly. I observe that the making of civilisations is more frequent in elder children but somehow one finds them at all ages. I have one 7-year old girl who repeatedly makes two worlds, one civilised and one fairy/nature world, separated by water. The fairies are often helping the civilised world with food, with celebrations.
+
+![Civilisation #1](/content-assets/expressions/expression2.jpg)
+
+![Civilisation #2](/content-assets/expressions/expression3.jpg)
+
+![Civilisation #3](/content-assets/expressions/expression4.jpg)
+
+![Civilisation #4](/content-assets/expressions/expression5.jpg)
 
 # Battles, Black and White Worlds
 
@@ -72,3 +82,5 @@ Candles appear regularly representing something sacred. The children like to use
 ## Meetings, Gatherings
 
 Those are often present in one form or other. One girl makes a funny World Game where children have serious meetings and adults are playing. Sometimes there is a choir, a picnic, a welcoming event, or an animal gathering.
+
+![Civilisation #5](/content-assets/expressions/expression6_1184X900.jpg)

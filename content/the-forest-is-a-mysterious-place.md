@@ -8,11 +8,14 @@ tags:
   - say hi
 ---
 
-# A Poem
+# Wild Horses
 
 You probably heard, the owls might have told you, it is a secret but…
+
 We are making a song with the kids, they chose it.
+
 We are making the lyrics too.
+
 The topic of the song which was chosen by the kids is ‘Wild Horses’
 
 It was a beautiful experience to see the girls working together to make the beautiful horse. After the kids left, it started to rain, and the horse stood long through the rains. It will slowly fade in nature with the elements.
@@ -26,3 +29,4 @@ Anusuya is a small community with 4 houses and families and one Learning Center 
 The students and me (Aikya) - we meet once a week in the forest house and garden. This forest was planted 50 years ago and is still in the process of becoming an indigenous forest, there used to be a desert here.
 
 At the moment it is raining. The rains have bought us much relief from drought-like conditions for many weeks. The frogs are laying their nests in the most original places, they seemed to have gone higher as to make a stand.
+
