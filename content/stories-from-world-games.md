@@ -4,6 +4,7 @@ cover: "/content-assets/biography.jpg"
 category: "random"
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+variant: none
 tags:
     - say hi
 ---
@@ -13,6 +14,8 @@ tags:
 In the World Game, I hear stories which end well. Sometimes beings die, but then they come back, or sometimes ‘baddies’ attack but the ‘goodies’ win. The stories presented here are both co-productions. In both stories the penguin is the main figure but this is pure coincidence! The second story was written two years after the first one and the children had not heard about the first penguin story.
 
 # Penguin Imhoff
+
+[https://vimeo.com/235102974]
 
 Aloe & Alexandra came with a fully written story, they enacted it in the sandbox and I made a little movie. This is the first time that children wrote a story down on paper, they seem to like that. It makes them feel that they can be storywriters, and they surely are. Here is the story:
 
@@ -66,12 +69,12 @@ The End
 
 The sandbox is the personality and it’s path of life.  There are different parts in this World Game:
 
-Swans are the peaceful side.
-Lizard and scorpion are energetic, they are not bad but a different part of the individuality.
-In the center there is death, it is not bad here, it is like everything leads there.
-Castle: sometime one is closed to the world ( fortress around the heart), because most of our feelings we keep inside. Also one feels big in the world, and sometimes one sees how huge the world is, the small farm house symbolizes being small and seeing the world big.
-The guardian is leading the heart and keeps bad things from our heart, it is also intuition and courage.
-The food represents that you can enjoy life.
+- Swans are the peaceful side.
+- Lizard and scorpion are energetic, they are not bad but a different part of the individuality.
+- In the center there is death, it is not bad here, it is like everything leads there.
+- Castle: sometime one is closed to the world ( fortress around the heart), because most of our feelings we keep inside. Also one feels big in the world, and sometimes one sees how huge the world is, the small farm house symbolizes being small and seeing the world big.
+- The guardian is leading the heart and keeps bad things from our heart, it is also intuition and courage.
+- The food represents that you can enjoy life.
 
 ## No. 2
 

@@ -4,6 +4,7 @@ cover: "/content-assets/biography.jpg"
 category: "random"
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+variant: none
 tags:
     - say hi
 ---
@@ -161,3 +162,5 @@ Whether the makers of these sand creations are children, healers, or priests, po
 “Dancing on sands, and yet no footing seen,” Shakespeare. 
 
 The sand particles, created by the disintegration of the earth’s rocks, are ideal for pouring and shaping an image of the symbolic world. We can “[...] see a World in a grain of Sand” as Blake wrote. 
+
+

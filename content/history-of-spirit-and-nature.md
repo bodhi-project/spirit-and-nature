@@ -4,6 +4,7 @@ cover: /content-assets/biography.jpg
 category: world game
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+variant: none
 tags:
   - say hi
 ---
@@ -75,5 +76,9 @@ Our well is also miraculous still flowing, as most of the people are having sola
 
 The house and forestgarden as it is now was created in 1995 and gradually grew into a vibrant natural space. Before there was a lovely cow farm here called Siddharta farm. But the cows started to eat treebarks, and Herbert, the farmer needed space to grow grains and others. Spirit and Nature donates a small percentage of any profit to the Anusuya forest. I happen to be at the right place at the right time and could settle here, and I have been the caretaker since more than 20 years of a small piece of this community. The work in the forest though started long ago and keeps evolving.
 
+[https://vimeo.com/233605722]
+
 There have been many strong stories around this place, people have lived intense lives. Lots of inner and outer work had to be made and has to be made to have this place stay harmonious. It is also a privilege to have lived here for more than 20 years. What an amazing place.  The foresthouse has been designed by Sigi based on my ideas.
+
+
 

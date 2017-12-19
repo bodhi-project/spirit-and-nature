@@ -6,6 +6,7 @@ date: 2017-12-14
 abstract: Photos I've taken over the years.
 tags:
   - say hi
+variant: gallery
 ---
 
 # Photos from around the world
@@ -137,3 +138,4 @@ tags:
 ![Portrait #63](/content-assets/nature-portraits/img63_600X450.jpg)
 
 ![Portrait #64](/content-assets/nature-portraits/img64_600X450.jpg)
+

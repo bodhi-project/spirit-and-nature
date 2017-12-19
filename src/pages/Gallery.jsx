@@ -6,7 +6,7 @@ import { flow as compose } from 'lodash';
 // ----------------------------------- Components
 // import Link from 'gatsby-link';
 // import { Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import { Container, ImagesGrid } from '@bodhi-project/components';
+import { Container, Images } from '@bodhi-project/components';
 import { injectSheet } from '@bodhi-project/utilities';
 import {
   // --------------- Basic
@@ -75,8 +75,8 @@ import img47 from './assets/gallery/img47.jpeg';
 import img48 from './assets/gallery/img48.jpg';
 
 const galleryPhotos = [
-  { src: img1, width: 900, height: 600 },
   { src: img2, width: 900, height: 857 },
+  { src: img1, width: 900, height: 600 },
   { src: img3, width: 900, height: 355 },
   { src: img4, width: 900, height: 600 },
   { src: img5, width: 900, height: 798 },
@@ -218,7 +218,7 @@ class IndexPage extends React.Component {
         <OrganisationSchema data={organisationSchemaData} />
 
         <Container>
-          <ImagesGrid photos={galleryPhotos} columns={3} />
+          <Images photos={galleryPhotos} columns={3} />
         </Container>
       </Container>
     );

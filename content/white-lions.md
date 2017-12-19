@@ -4,6 +4,7 @@ cover: "/content-assets/biography.jpg"
 category: "random"
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+variant: none
 tags:
     - say hi
 ---
@@ -24,6 +25,8 @@ Canned hunting is a form of trophy hunting in which an animal is kept in a confi
 Canned hunting is a fast-growing business in South Africa, where thousands of lions are being bred on farms to be shot by wealthy foreign trophy-hunters. There are now more lions held in captivity (upwards of 5,000) in the country than living in the wild wild (about 2,000). [3]
 
 Wild populations of lions have declined by 80% in 20 years.
+
+[https://www.youtube.com/watch?v=zDTyUqLtlrU]
 
 The number of trophy hunted animals is increasing at an alarming rate. From 2001-2006, 1,830 lion trophies were exported from South Africa; and from 2011-2016 about 4,062 were exported — a 122% increase.
 
@@ -51,13 +54,15 @@ After being rescued by a Tsonga medicine woman from a dangerous encounter with a
 
 To ensure the survival of this legendary animal, Linda Tucker has raised millions of dollars in a long-term strategy to secure large tracks of protected wilderness territory in the White Lions’ ancestral heritage lands.
 
+[https://vimeo.com/54765581]
+
 Linda Tucker founded the Global White Lion Protection Trust after nearly 10 years of intensive research on both the cultural and conservation importance of the White Lions in this region.
 
 Together with her partner Lion Ecologist, Jason A.Turner, and a team of specialists, Linda Tucker was responsible for returning White Lions back to their natural endemic habitat, after decades of artificial removals from their natural system had rendered them virtually extinct. The first lioness to set paw back in her ancestral kingdom was Queen Marah, regarded as a holy animal by the indigenous African elders.
 
 Her story is the subject of a full-length documentary for National Geographic, and has been covered extensively in over 30 international TV programs including Reuters, CBS, Animal Planet and NHK Japan.
 
-Read her story here -- http://whitelions.org/about/meet-linda-tucker/
+[Read her story here.](http://whitelions.org/about/meet-linda-tucker/)
 
 # Lion Hearted Leadership
 
@@ -67,11 +72,9 @@ White Lion Leadership Academy addresses the most critically urgent crises of tod
 
 Inspired by the White Lions, the Leadership Academy offers an Initiatory training in the 13 Laws of LionHearted Leadership, formalized by Linda Tucker, after 3 decades of pioneering work in protecting these magnificent animals, and their message for humanity. The training activates the Heart to enable future leaders from all walks of life to become powerful agents of change, willing to challenge existing paradigms and champion new approaches to life. To become such a leader, each of us needs to make one simple shift: from an insecure, exploitative, need and greed ‘consumer culture’ to a confident, loving consciousness that holds deep reverence for the sanctity of life and Mother Nature.
 
-Learn more about the White Lion Leadership Academy here -- http://whitelions.org/leadership-academy-2017/
-
-and here -- http://www.lindatuckerfoundation.org/lionhearted-leadership-initiative/academy-for-lionhearted-leadership/
-
-
+[Learn more about the White Lion Leadership Academy.](http://whitelions.org/leadership-academy-2017/)
 
 [1] — Adapted from the White Lions website (http://whitelions.org/)
 [2], [3], [4] — Facts in the section on Canned Hunting originate from content on the Guardian website (https://www.theguardian.com/environment/2013/jun/03/canned-hunting-lions-bred-slaughter)
+
+

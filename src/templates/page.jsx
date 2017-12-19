@@ -11,10 +11,14 @@ import moment from 'moment';
 import Link from 'gatsby-link';
 import { Row, Col, Layout, Tree, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { css } from 'glamor';
-import { Image, Images, Container } from '@bodhi-project/components';
+import ReactPlayer from 'react-player';
+import { Image, Images, Container, OutLink } from '@bodhi-project/components';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
 import { FirstVariationOnModernType } from '@bodhi-project/typography';
 import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
+
+import aboutMoreX1 from '../pages/assets/about/aboutMoreX1.jpg';
+import aboutMoreX2 from '../pages/assets/about/aboutMoreX2.jpg';
 
 /**
   * Just a little bit of abstraction
@@ -149,6 +153,77 @@ const type = typeDefs;
 
   // }
 
+  const parseLink = element => {
+    const linkElement = element.children[0];
+    let url = '/';
+    let text = 'Read more.';
+    let frag = <Fragment />;
+
+    if (linkElement.type === 'linkReference') {
+      url = linkElement.children[0].value;
+      if (url.includes('vimeo') || url.includes('youtube')) {
+        frag = (
+          <div style={{ textAlign: 'center' }}>
+            <ReactPlayer url={url} style={{ marginBottom: type.basePointSize, marginRight: 'auto', marginLeft: 'auto' }} />
+          </div>
+        );
+      }
+    } else {
+      url = linkElement.url; // eslint-disable-line prefer-destructuring
+      text = linkElement.children[0].value;
+      if (url.includes('http')) { // It it's an out-bound link
+        frag = <OutLink to={url} style={{ fontFamily: type.body.fontFamily, fontSize: type.basePointSize }}>{text}</OutLink>
+      } else {
+        frag = <Link to={url}>{text}</Link>
+      }
+    }
+
+    return frag;
+  }
+
+  const parseParagraph = element => {
+    const paragraphElement = element.children[0];
+    let frag = <Fragment />;
+
+    frag = (
+      <Paragraph>
+        {
+          paragraphElement.children.map((childElement) => {
+            // console.log(childElement.type, childElement.value);
+            switch(childElement.type) {
+              case 'text': 
+                if (childElement.value === "\n") {
+                  return <br />
+                } else {
+                  return childElement.value
+                }
+              case 'break':
+                return <br />
+              case 'emphasis':
+                return <i>{childElement.children[0].value}</i>
+              case 'html':
+                return <br />
+              default: 
+                return <Fragment />
+            }
+          })
+        }
+      </Paragraph>
+    );
+
+    return frag;
+  }
+
+  const parseBlockquote = element => {
+    let frag = <Fragment />;
+    frag = (
+      <div style={{ paddingLeft: 20, borderLeft: '2px solid #363636' }}>
+        {parseParagraph(element)}
+      </div>
+    );
+    return frag;
+  }
+
   const treeParser = markdownAst => {
     const frontMatterIndex = (_.findIndex(_.slice(markdownAst.children, 1), (child) => (child.type === 'thematicBreak')) + 2);
     const splicedAst = _.slice(markdownAst.children, frontMatterIndex);
@@ -165,16 +240,6 @@ const type = typeDefs;
     let gallery = [];
     const elementCount = splicedAst.length;
 
-    // const srimPhotos = [
-    //   { src: srim3, width: 900, height: 900 },
-    //   { src: srim2, width: 1440, height: 900 },
-    // ];
-    // <Images
-      // photos={srimPhotos}
-      // columns={2}
-      // loader="gradient"
-    // />
-
     return (
       <Fragment>
         {
@@ -185,7 +250,7 @@ const type = typeDefs;
             let frag = <Fragment />;
             let append = <Fragment />;
 
-            if (gallery.count !== 0) { // Gallery is not empty
+            if (gallery.length !== 0) { // Gallery is not empty
               if (element.children[0].type !== 'image' && element.children[0].type !== 'imageReference') { // The current item is not a paragraph
                 prepend = parseGallery(gallery);
                 gallery = []; // Reset gallery
@@ -195,28 +260,23 @@ const type = typeDefs;
             // console.log(element);
 
             if (element.type === 'paragraph') {
-              console.log(element);
+              // console.log(element);
               if (element.children[0].type === 'text') {
                 frag = <Paragraph>{element.children[0].value}</Paragraph>;
               } else if (element.children[0].type === 'image') {
                 gallery.push({src: element.children[0].url, alt: element.children[0].alt, ...extractWidthHeight(element.children[0].url)});
               } else if (element.children[0].type === 'imageReference') {
                 gallery.push({src: element.children[1].value, alt: element.children[0].alt, ...extractWidthHeight(element.children[1].value)});
-              } else {
+              } else if (element.children[0].type === 'linkReference' || element.children[0].type === 'link') {
+                frag = parseLink(element);
+              } 
+              else {
                 frag = <Fragment />;
               }
             }
 
             if (element.type === 'blockquote') {
-              frag = (
-                <Fragment>
-                  {
-                    element.children.map((child, index2) => (
-                      <Paragraph style={{textIndent: 0, fontSize: (type.basePointSize * 0.8)}}><i>{child.children[0].value}</i></Paragraph>
-                    ))
-                  }
-                </Fragment>
-              );
+              frag = parseBlockquote(element);
             }
 
             if (element.type === 'list') {
@@ -257,7 +317,7 @@ const type = typeDefs;
             }
             
             return (
-              <Fragment>
+              <Fragment key={index}>
                 {prepend}
                 {frag}
                 {append}
@@ -333,15 +393,19 @@ class PageWrapper extends React.Component {
     const { markdownAst } = this.props.pathContext;
     const { headings } = this.props.data.markdownRemark;
     let toc = makeToc(headings, headings[0].depth);
+    console.log(frontmatter, frontmatter.variant);
 
     return (
-      <Container bleed>
+      <Container bleed style={{ paddingTop: 0 }}>
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
         <UpdateTitle title={frontmatter.title} />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        <Row type="flex" justify="space-around">
-          <Col span={12} className={markdownStyles.toString()}>
+        <Row type="flex">
+          <Col span={1}>
+            &nbsp;
+          </Col>
+          <Col span={15}>
             <H2>{frontmatter.title}</H2>
             <Image
               src={frontmatter.cover}
@@ -358,12 +422,12 @@ class PageWrapper extends React.Component {
             <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
             <br /><br />
           </Col>
-          <Col span={6} className={sideStyles.toString()}>
+        </Row>
+        <Row type="flex">
+          <Col span={1}>
             &nbsp;
           </Col>
-        </Row>
-        <Row type="flex" justify="space-around">
-          <Col span={12} className={markdownStyles.toString()}>
+          <Col span={frontmatter.variant === "gallery" ? 22 : 15} className={markdownStyles.toString()}>
             {
               treeParser(markdownAst)
             }
@@ -371,16 +435,37 @@ class PageWrapper extends React.Component {
             <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
             <br /><br />
           </Col>
-          <Col span={6} className={sideStyles.toString()}>
-            <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636' }} />
-            <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</SmallCaps>
-            {
-              renderToc(toc)
-            }            
-            <br /><br />
-            <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636', borderColor: '#363636' }} />
-            <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>Further Links</SmallCaps>
+          <Col span={1}>
+            &nbsp;
           </Col>
+          { frontmatter.variant !== "gallery" &&
+            <Col span={6} className={sideStyles.toString()}>
+              <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636' }} />
+              <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</SmallCaps>
+              {
+                renderToc(toc)
+              }            
+              <br /><br />
+              <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636', borderColor: '#363636' }} />
+              <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>Further Links</SmallCaps>
+              <Image
+                src={aboutMoreX1}
+                alt="Read more..."
+                rawWidth={900}
+                rawHeight={900}
+                loader="gradient"
+                style={{ border: 0, marginBottom: '2em' }}
+              />
+              <Image 
+                src={aboutMoreX2}
+                alt="Read more.."
+                rawWidth={900}
+                rawHeight={900}
+                loader="gradient"
+                style={{ border: 0, marginBottom: '2em' }}
+              />
+            </Col>
+          }
         </Row>
       </Container>
     );
@@ -409,6 +494,7 @@ export const pageQuery = graphql`
         category
         tags
         abstract
+        variant
       }
     }
   }
@@ -425,79 +511,3 @@ const ComposedComponent = compose([
 
 // ----------------------------------------------------------------------- Export
 export default ComposedComponent;
-
-// /* eslint no-undef: "off"*/
-// export const pageQuery = graphql`
-//   query CategoryPage($category: String) {
-//     allMarkdownRemark(
-//       limit: 1000
-//       sort: { fields: [frontmatter___date], order: DESC }
-//       filter: { frontmatter: { category: { eq: $category } } }
-//     ) {
-//       totalCount
-//       edges {
-//         node {
-//           fields {
-//             route
-//           }
-//           excerpt
-//           timeToRead
-//           frontmatter {
-//             title
-//             tags
-//             cover
-//             date
-//           }
-//         }
-//       }
-//     }
-//   }
-// `;
-
-
-// import React from "react";
-// import Helmet from "react-helmet";
-// import UserInfo from "../components/UserInfo/UserInfo";
-// import Disqus from "../components/Disqus/Disqus";
-// import PostTags from "../components/PostTags/PostTags";
-// import SocialLinks from "../components/SocialLinks/SocialLinks";
-// import SEO from "../components/SEO/SEO";
-// import config from "../../data/SiteConfig";
-// import "./b16-tomorrow-dark.css";
-// import "./post.css";
-
-// export default class PostTemplate extends React.Component {
-//   render() {
-//     console.log(this.props);
-//     const { route } = this.props.pathContext;
-//     const postNode = this.props.data.markdownRemark;
-//     const post = postNode.frontmatter;
-//     if (!post.id) {
-//       post.id = route;
-//     }
-//     if (!post.id) {
-//       post.category_id = config.postDefaultCategoryID;
-//     }
-//     return (
-//       <div>
-//         <Helmet>
-//           <title>{`${post.title} | ${config.siteTitle}`}</title>
-//         </Helmet>
-//         <SEO postPath={route} postNode={postNode} postSEO />
-//         <div>
-//           <h1>
-//             {post.title}
-//           </h1>
-//           <div dangerouslySetInnerHTML={{ __html: postNode.html }} />
-//           <div className="post-meta">
-//             <PostTags tags={post.tags} />
-//             <SocialLinks postPath={route} postNode={postNode} />
-//           </div>
-//           <UserInfo config={config} />
-//           <Disqus postNode={postNode} />
-//         </div>
-//       </div>
-//     );
-//   }
-// }
-

@@ -4,6 +4,7 @@ cover: "/content-assets/biography.jpg"
 category: "cat c"
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+variant: none
 tags:
     - say hi
 ---
@@ -92,3 +93,4 @@ I heard that during her time in Kindergarden she wasn’t very interested in bui
 One day Veerle brought her own camera and wanted to make a structured story from beginning to end which was a change, as often her stories rambled from one thing to another. Veerle has a way of handling things which is very connected to the objects themselves; I find it pleasant to watch. Sometimes she disappears a little into herself or into the things or, she just starts exploring something like rolling cars. When working with another child like Madu (2 years younger) it would stimulate her to be more concentrated. Madu would tell her: “Veerle, we have not much time, let’s go on ...” Veerle goes into smelling small perfume bottles and enjoying the sensation, and here again Madu reminds her to go on.
 
 One day Veerle and Eden (same age) had a serious thought during the days before their appointment for the World Game, and I was not sure Veerle would show up. Her mother shared her concern. I assured her that I was there and that it might be a good way to make peace. They did come together and made a harmonious sandbox with one part a crystal garden guarded by dinosaurs and one with little people in a city.
+

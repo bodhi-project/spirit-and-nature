@@ -96,7 +96,7 @@ class AboutPage extends React.Component {
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
         <Row type="flex" justify="space-around">
           <Col span={12}>
-            <H2>Contact</H2>
+            <H2 style={{ color: '#F2B880' }}>Contact</H2>
           </Col>
           <Col span={6}>
             <H3 mask="h6" style={{ marginTop: 0 }}>Further Links...</H3>

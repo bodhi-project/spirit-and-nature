@@ -4,6 +4,7 @@ cover: /content-assets/biography.jpg
 category: world game
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+variant: none
 tags:
   - say hi
 ---
@@ -147,4 +148,5 @@ Now my dream is to spread the message of ‘Nature and Spirit’ to children and
 In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre. 
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
+
 

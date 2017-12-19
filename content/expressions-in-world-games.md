@@ -4,6 +4,7 @@ cover: "/content-assets/biography.jpg"
 category: "random"
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+variant: none
 tags:
     - say hi
 ---
@@ -23,10 +24,6 @@ The next element which we find frequently in the creations are elements of civil
 
 Pathways come up regularly in differing creative ways: sometimes white marble blocks are used, sometimes glass stones, sometimes a feather, sometimes a large piece of wood. Sometimes a ladder is used to go from one sand tray to another one.
 
-Food items are very often present, too. In the beginning I did not have many things representing food. Once I had a child who simply asked for a fresh carrot and then cut it in small pieces, making tiny carrots. Another time a child wrote on a paper: bread, fruits, etc. Now I have some tasty looking miniature pizza and cakes. Restaurants or picnics can appear and all kind of shops, or shows such as a choir or a circus. The children love perfumes. They often smell deeply into the bottles and some sprinkle it on their hands, or even mix it in the sand. One boy systematically smells the bottles every time he comes.
-
-Objects characteristic of particular ancient civilisations are greatly appreciated. Having traveled to Egypt, I brought back several statues like Anubis, and Horus. which children use to make Egyptian scenes. It seems that this civilisation speaks to them particularly. I observe that the making of civilisations is more frequent in elder children but somehow one finds them at all ages. I have one 7-year old girl who repeatedly makes two worlds, one civilised and one fairy/nature world, separated by water. The fairies are often helping the civilised world with food, with celebrations.
-
 ![Civilisation #1](/content-assets/expressions/expression2.jpg)
 
 ![Civilisation #2](/content-assets/expressions/expression3.jpg)
@@ -35,11 +32,17 @@ Objects characteristic of particular ancient civilisations are greatly appreciat
 
 ![Civilisation #4](/content-assets/expressions/expression5.jpg)
 
+Food items are very often present, too. In the beginning I did not have many things representing food. Once I had a child who simply asked for a fresh carrot and then cut it in small pieces, making tiny carrots. Another time a child wrote on a paper: bread, fruits, etc. Now I have some tasty looking miniature pizza and cakes. Restaurants or picnics can appear and all kind of shops, or shows such as a choir or a circus. The children love perfumes. They often smell deeply into the bottles and some sprinkle it on their hands, or even mix it in the sand. One boy systematically smells the bottles every time he comes.
+
+Objects characteristic of particular ancient civilisations are greatly appreciated. Having traveled to Egypt, I brought back several statues like Anubis, and Horus. which children use to make Egyptian scenes. It seems that this civilisation speaks to them particularly. I observe that the making of civilisations is more frequent in elder children but somehow one finds them at all ages. I have one 7-year old girl who repeatedly makes two worlds, one civilised and one fairy/nature world, separated by water. The fairies are often helping the civilised world with food, with celebrations.
+
 # Battles, Black and White Worlds
 
 The dualistic principle of separation and the following of conflicts is an eternal topic in human existence. This is also true for the children playing the World Game, and for some, it is their favourite topic. Generally boys tend to have more battlefields in their boxes than girls.
 
 A typical symbolic way of representing separation or tension is to use only black and white objects. They can be placed opposite each other or all can be white, for example, with one element of black. One child displayed all types of white beings and stones, and in a corner, in a pit in the sand, lurked a dark crocodile. She explained to me that she was unsure whether to put the dark element in or not, but finally she left it in. Frightening elements in varying forms are also used to show the dark side. Sometimes insects such as scorpions, spiders, or animals like snakes and crocodiles are used to threaten, but usually bandits, knights, policemen serve that role.
+
+[https://www.youtube.com/watch?v=mIMRu_NCkC0]
 
 For some children “the good and bad” is a subject of reflection and discussion within the World Game. For some there is a bit of pleasure in being ‘baddies’, others do not want to be the bad ones.
 
@@ -48,6 +51,8 @@ For some children “the good and bad” is a subject of reflection and discussi
 # Life Events and Other Events
 
 There are some life events which are clearly major life events and come up very frequently.
+
+[https://vimeo.com/233490664]
 
 ## Pregnancy, Birth
 
@@ -84,3 +89,4 @@ Candles appear regularly representing something sacred. The children like to use
 Those are often present in one form or other. One girl makes a funny World Game where children have serious meetings and adults are playing. Sometimes there is a choir, a picnic, a welcoming event, or an animal gathering.
 
 ![Civilisation #5](/content-assets/expressions/expression6_1184X900.jpg)
+

@@ -4,6 +4,7 @@ cover: /content-assets/biography.jpg
 category: world game
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+variant: none
 tags:
   - say hi
 ---
@@ -17,4 +18,5 @@ tags:
 ![Image #2](/content-assets/life-and-death-in-the-forest/img2_1280X1008.jpg)
 
 ![Image #3](/content-assets/life-and-death-in-the-forest/img3_1280X893.jpg)
+
 

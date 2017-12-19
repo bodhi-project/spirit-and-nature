@@ -81,14 +81,14 @@ const type = typeDefs;
   const empty = ``;
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Global Styles
   css.global(empty,  { // This will apply style to the body tag.
-    background: '#e7e1d8',
+    background: '#E7CFBC',
     color: '#222222',
   });
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Layout Wrapper Style
   const layoutWrapperStyle = css({
     margin: 30,
-    background: '#ddd5c8',
+    background: '#fff6ec',
   });
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content Style
@@ -167,9 +167,13 @@ const type = typeDefs;
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header >> Tip Style
   const tipStyle = css({
+    '& .ant-popover-arrow': {
+      background: '#fff6ec',
+    },
+
     '& .ant-popover-inner-content': {
       padding: 0,
-      background: '#FAFAFA',
+      background: '#fff6ec',
       borderRadius: 4,
 
       '& ul': {
@@ -210,7 +214,7 @@ const type = typeDefs;
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Style
   const footerStyle = css({
-    background: '#ddd5C8',
+    background: '#fff6ec',
 
     '& ul li': {
       display: 'inline-block',

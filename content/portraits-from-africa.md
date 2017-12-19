@@ -6,15 +6,16 @@ date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
 tags:
   - say hi
+variant: gallery
 ---
 
 # Portraits
 
 ![Portrait #1](/content-assets/portraits-from-africa/img1_1600X1438.jpeg)
 
-![Portrait #2](/content-assets/portraits-from-africa/img2_1600X1161.jpeg)
-
 ![Portrait #3](/content-assets/portraits-from-africa/img3_1600X1713.jpeg)
+
+![Portrait #2](/content-assets/portraits-from-africa/img2_1600X1161.jpeg)
 
 ![Portrait #4](/content-assets/portraits-from-africa/img4_1600X929.jpeg)
 

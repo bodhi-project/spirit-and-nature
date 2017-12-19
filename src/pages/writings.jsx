@@ -139,7 +139,7 @@ const { Fragment } = React;
                 {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Features #1, #2 and #3 */}
                 <Row type="flex" align="top" justify="center" style={{ marginBottom: type.heading.sizes.first }}>
                   <Col span={12} style={{ padding: '0px 10px 0px 0px' }}>
-                    <div style={{ backgroundColor: '#7063d6', minHeight: '70vh', padding: '16px 25px', color: '#FAFAFA' }}>
+                    <div style={{ backgroundColor: '#F2B880', minHeight: '70vh', padding: '16px 25px', color: '#363636' }}>
                       <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>World Game</Paragraph>
                       <H2>Sandplay and Sandplay Traditions in Auroville</H2>
                       <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
@@ -200,7 +200,7 @@ const { Fragment } = React;
                   </Col>
 
                   <Col span={12} style={{ padding: '0px 0px 0px 10px' }}>
-                    <div style={{ backgroundColor: '#85d8b7', minHeight: '75vh', padding: '16px 25px' }}>
+                    <div style={{ backgroundColor: '#F2B880', minHeight: '75vh', padding: '16px 25px' }}>
                       <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>Auroville</Paragraph>
                       <H2>Anusuya Forest in Auroville</H2>
                       <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
