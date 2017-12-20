@@ -288,9 +288,9 @@ class TemplateWrapper extends React.Component {
                         content={
                           <ul style={{ listStyle: 'none' }}>
                             <li><Link to="/writings">Writings</Link></li>
-                            <li><Link to="/gallery">Gallery</Link></li>
+                            <li><Link to="/photography">Photography</Link></li>
                             <li><Link to="/video-gallery">Videos</Link></li>
-                            <li><Link to="/glimpses-of-wonder">Glimpses of Wonder</Link></li>
+                            <li><Link to="/book">Book</Link></li>
                           </ul>}
                         trigger="hover"
                         overlayClassName={tipStyle.toString()}
@@ -298,6 +298,7 @@ class TemplateWrapper extends React.Component {
                         <span className="drops">Media</span>
                       </Popover>
                     </li>
+                    <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/contact">Contact</Link></li>
                   </ul>
                 </div>

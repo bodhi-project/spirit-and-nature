@@ -45,4 +45,4 @@ variant: gallery
 
 ![Portrait #8](/content-assets/portraits-from-africa/img8_1600X1200.jpeg)
 
-To read about where these were taken, visit --
+![Portrait #18](/content-assets/portraits-from-africa/img101_800X600.jpg)

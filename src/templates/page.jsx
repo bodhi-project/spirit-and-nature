@@ -65,7 +65,7 @@ const type = typeDefs;
     },
     '& .ant-tree.ant-tree-show-line li span.ant-tree-switcher': {
       color: '#363636 !important',
-      background: '#ddd5c8 !important',
+      background: '#fff6ec !important',
     },
     '& .ant-tree-title': {
       fontSize: type.body.fontSize,
@@ -409,15 +409,15 @@ class PageWrapper extends React.Component {
             <H2>{frontmatter.title}</H2>
             <Image
               src={frontmatter.cover}
-              rawWidth={1440}
-              rawHeight={900}
+              rawWidth={1600}
+              rawHeight={1000}
               loader="gradient"
               gradientPreset="default"
               style={{ border: 0, background: 'transparent', marginBottom: type.heading.sizes.second }}
             />
             <Paragraph>{frontmatter.abstract}</Paragraph>
             <Paragraph style={{ textIndent: 0 }}>Published on: {moment(frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(frontmatter.date).fromNow()})</Paragraph>
-            <Paragraph style={{ textIndent: 0 }}>Categorised as: <Link to="#">{_.capitalize(frontmatter.category)}</Link></Paragraph>
+            <Paragraph style={{ textIndent: 0 }}>Categorised as: <i>{_.capitalize(frontmatter.category)}</i></Paragraph>
             <br /><br />
             <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
             <br /><br />

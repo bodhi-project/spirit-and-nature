@@ -257,9 +257,6 @@ const { Fragment } = React;
                         <MotionFade>
                           <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
                             <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
-                              <div style={{ flex: '2 1 0%' }}>
-                                <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 1.375 }}>{`${('0' + (index + 1)).slice(-2)}`}</Paragraph>
-                              </div>
                               <div style={{ flex: '8 1 0%' }}>
                                 <Image
                                   src={node.frontmatter.cover}

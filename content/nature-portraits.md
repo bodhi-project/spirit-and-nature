@@ -11,7 +11,7 @@ variant: gallery
 
 # Photos from around the world
 
-![Portrait #1](/content-assets/nature-portraits/img111_600X450.jpg)
+## Auroville
 
 ![Portrait #2](/content-assets/nature-portraits/img2_600X504.jpg)
 
@@ -23,7 +23,33 @@ variant: gallery
 
 ![Portrait #6](/content-assets/nature-portraits/img6_600X412.jpg)
 
-![Portrait #7](/content-assets/nature-portraits/img7_600X465.jpg)
+![Portrait #12](/content-assets/nature-portraits/img12_600X900.jpg)
+
+![Portrait #13](/content-assets/nature-portraits/img13_600X400.jpg)
+
+![Portrait #24](/content-assets/nature-portraits/img24_600X450.jpg)
+
+![Portrait #43](/content-assets/nature-portraits/img43_600X450.jpg)
+
+![Portrait #44](/content-assets/nature-portraits/img44_600X449.jpg)
+
+![Portrait #52](/content-assets/nature-portraits/img52_600X450.jpg)
+
+![Portrait #53](/content-assets/nature-portraits/img53_600X450.jpg)
+
+![Portrait #54](/content-assets/nature-portraits/img54_600X800.jpg)
+
+![Portrait #55](/content-assets/nature-portraits/img55_600X450.jpg)
+
+![Portrait #56](/content-assets/nature-portraits/img56_600X450.jpg)
+
+![Portrait #62](/content-assets/nature-portraits/img62_600X450.jpg)
+
+![Portrait #63](/content-assets/nature-portraits/img63_600X450.jpg)
+
+![Portrait #64](/content-assets/nature-portraits/img64_600X450.jpg)
+
+## Bali
 
 ![Portrait #8](/content-assets/nature-portraits/img8_600X800.jpg)
 
@@ -33,9 +59,21 @@ variant: gallery
 
 ![Portrait #11](/content-assets/nature-portraits/img11_600X400.jpg)
 
-![Portrait #12](/content-assets/nature-portraits/img12_600X900.jpg)
+![Portrait #48](/content-assets/nature-portraits/img48_600X450.jpg)
 
-![Portrait #13](/content-assets/nature-portraits/img13_600X400.jpg)
+![Portrait #57](/content-assets/nature-portraits/img57_600X450.jpg)
+
+![Portrait #58](/content-assets/nature-portraits/img58_600X450.jpg)
+
+![Portrait #59](/content-assets/nature-portraits/img59_600X449.jpg)
+
+![Portrait #60](/content-assets/nature-portraits/img60_600X586.jpg)
+
+## Africa
+
+![Portrait #1](/content-assets/nature-portraits/img111_600X450.jpg)
+
+![Portrait #7](/content-assets/nature-portraits/img7_600X465.jpg)
 
 ![Portrait #14](/content-assets/nature-portraits/img14_600X329.jpg)
 
@@ -56,8 +94,6 @@ variant: gallery
 ![Portrait #22](/content-assets/nature-portraits/img22_600X450.jpg)
 
 ![Portrait #23](/content-assets/nature-portraits/img23_600X263.jpg)
-
-![Portrait #24](/content-assets/nature-portraits/img24_600X450.jpg)
 
 ![Portrait #25](/content-assets/nature-portraits/img25_600X391.jpg)
 
@@ -95,47 +131,18 @@ variant: gallery
 
 ![Portrait #42](/content-assets/nature-portraits/img42_600X450.jpg)
 
-![Portrait #43](/content-assets/nature-portraits/img43_600X450.jpg)
-
-![Portrait #44](/content-assets/nature-portraits/img44_600X449.jpg)
-
 ![Portrait #45](/content-assets/nature-portraits/img45_600X449.jpg)
 
 ![Portrait #46](/content-assets/nature-portraits/img46_600X450.jpg)
 
 ![Portrait #47](/content-assets/nature-portraits/img47_600X450.jpg)
 
-![Portrait #48](/content-assets/nature-portraits/img48_600X450.jpg)
-
 ![Portrait #49](/content-assets/nature-portraits/img49_600X450.jpg)
+
+![Portrait #61](/content-assets/nature-portraits/img61_600X517.jpg)
+
+## Belgium
 
 ![Portrait #50](/content-assets/nature-portraits/img50_600X405.jpg)
 
 ![Portrait #51](/content-assets/nature-portraits/img51_600X450.jpg)
-
-![Portrait #52](/content-assets/nature-portraits/img52_600X450.jpg)
-
-![Portrait #53](/content-assets/nature-portraits/img53_600X450.jpg)
-
-![Portrait #54](/content-assets/nature-portraits/img54_600X800.jpg)
-
-![Portrait #55](/content-assets/nature-portraits/img55_600X450.jpg)
-
-![Portrait #56](/content-assets/nature-portraits/img56_600X450.jpg)
-
-![Portrait #57](/content-assets/nature-portraits/img57_600X450.jpg)
-
-![Portrait #58](/content-assets/nature-portraits/img58_600X450.jpg)
-
-![Portrait #59](/content-assets/nature-portraits/img59_600X449.jpg)
-
-![Portrait #60](/content-assets/nature-portraits/img60_600X586.jpg)
-
-![Portrait #61](/content-assets/nature-portraits/img61_600X517.jpg)
-
-![Portrait #62](/content-assets/nature-portraits/img62_600X450.jpg)
-
-![Portrait #63](/content-assets/nature-portraits/img63_600X450.jpg)
-
-![Portrait #64](/content-assets/nature-portraits/img64_600X450.jpg)
-
