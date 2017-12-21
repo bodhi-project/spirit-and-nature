@@ -9,6 +9,8 @@ tags:
     - say hi
 ---
 
+# Sacred Spaces
+
 First, become aware of the energy in the environment. How does it feel? What is the atmosphere you want to create? It is important to clean the space periodically. This may sound obvious, but all too often it is overlooked. A clean space allows a clear mind. Equally important is to clear the space energetically. Put away the little things you do not need anymore or which are broken or give a strange feeling, keep everything in order. The majority of the items should have a designated space. Remove, rearrange or add artwork from time to time. The images on your walls are filled with energy. When you look objectively at each picture, does it make you feel good? 
 
 How are the colors in the room? Colors in a space affect how you feel. A new coat of paint can do wonders! Which colors? There are no rules, consider perhaps white, maybe soft colors, but a room with strong colors might be exactly what is needed, depending on what one needs for oneself, depending on the country where one lives, depending on the culture, what is around your space. I try to choose harmonious colors and forms for decoration inside the room, to make it complex and rich, while presenting a feeling of space and simplicity. 
