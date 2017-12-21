@@ -1,5 +1,5 @@
 ---
-title: Aikya's Biography
+title: Aikya’s Short Life Story
 cover: /content-assets/biography/biography116_1600X1000.jpg
 category: people
 date: 2017-03-01

@@ -7,7 +7,7 @@ import { flow as compose } from 'lodash';
 import Link from 'gatsby-link';
 import { Row, Col, Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { Container, Image, HexaGrid as HexaGridX } from '@bodhi-project/components';
-import { FirstVariationOnModernType } from '@bodhi-project/typography';
+import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
 import { injectSheet } from '@bodhi-project/utilities';
 import {
   // --------------- Basic
@@ -38,7 +38,7 @@ const { HexaGrid, Hex } = HexaGridX;
 const {
   H2,
   Paragraph,
-} = FirstVariationOnModernType;
+} = NeutralMonoTypeRegularVariant;
 
 // ----------------------------------------------------------------------- SEO
 // const generalMetaData = {

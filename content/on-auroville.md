@@ -1,7 +1,7 @@
 ---
 title: "On Auroville"
 cover: "/content-assets/biography.jpg"
-category: "random"
+category: uncategorised
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
@@ -35,11 +35,23 @@ Mother’s vision for Auroville began to take shape on that same day in 1968 whe
 
 “A Dream” is another marvelous writing by the Mother describing a place on earth where human beings obey only the supreme Truth. This Dream of the Divine has drawn and continues to draw many people to Auroville. It touches upon deep aspirations and gives faith for a bright future. 
 
+# A Dream
+
+There should be somewhere on earth a place which no nation could claim as its own, where all human beings of goodwill who have a sincere aspiration could live freely as citizens of the world and obey one single authority, that of the supreme Truth; a place of peace, concord and harmony where all the  ghting instincts of man would be used exclusively to conquer the causes of his su erings and miseries, to surmount his weak- nesses and ignorance, to triumph over his limitations and incapacities; a place where the needs of the spirit and the concern for progress would take precedence over the satisfaction of desires and passions, the search for pleasure and material enjoyment.
+
+In this place, children would be able to grow and develop integrally without losing contact with their souls; education would be given not for passing examinations or obtaining certificates and posts but to enrich existing faculties and bring forth new ones. In this place, titles and positions would be replaced by opportunities to serve and organise; the bodily needs of each one would be equally provided for, and intellectual, moral and spiritual superiority would be expressed in the general organisation not by an increase in the pleasures and powers of life but by increased duties and responsibilities.
+
+Beauty in all its artistic forms, painting, sculpture, music, literature, would be equally accessible to all; the ability to share in the joy it brings would be limited only by the capacities of each one and not by social or financial position.
+
+For in this ideal place money would no longer be the sovereign lord; individual worth would have a far greater importance than that of material wealth and social standing. There, work would not be a way to earn one’s living but a way to express oneself and to develop one’s capacities and possibilities while being of service to the community as a whole, which, for its own part, would provide for each individual’s subsistence and sphere of action.
+
+In short, it would be a place where human relationships, which are normally based almost exclusively on competition and strife, would be replaced by relationships of emulation in doing well, of collaboration and real brotherhood.
+
+— The Mother
+
 # Auroville Charter
 
 1. Auroville belongs to nobody in particular. Auroville belongs to humanity as a whole. But to live in Auroville, one must be a willing servitor of the Divine Consciousness. 
 2. Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
 3. Auroville wants to be the bridge between the past and the future. Taking advantage of all discoveries from without and from within, Auroville will boldly spring towards future realizations. 
 4. Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
-
-

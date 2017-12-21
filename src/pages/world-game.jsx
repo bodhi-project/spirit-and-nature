@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
 import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { Container, Image } from '@bodhi-project/components';
 // import { injectSheet } from '@bodhi-project/utilities';
-import { FirstVariationOnModernType } from '@bodhi-project/typography';
+import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
 import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
@@ -37,7 +37,7 @@ const {
   H3,
   Paragraph,
   Ol,
-} = FirstVariationOnModernType;
+} = NeutralMonoTypeRegularVariant;
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Other abstractions
 

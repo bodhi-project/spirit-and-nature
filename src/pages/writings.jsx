@@ -2,14 +2,14 @@
 import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import _ from 'lodash';
-// import classNames from 'classnames';
+import { css } from 'glamor';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
 import Link from 'gatsby-link';
 import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import moment from 'moment';
-import { Container, Image, MotionFade } from '@bodhi-project/components';
-import { FirstVariationOnModernType } from '@bodhi-project/typography';
+import { Container, Image } from '@bodhi-project/components';
+import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
 import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
@@ -38,7 +38,7 @@ const {
   Paragraph,
   Ul,
   typeDefs,
-} = FirstVariationOnModernType;
+} = NeutralMonoTypeRegularVariant;
 
 const type = typeDefs;
 const { Fragment } = React;
@@ -77,6 +77,17 @@ const { Fragment } = React;
   </Col>
 </Row>
 */
+
+// ------------------------------------------------------------------------------
+// ----------------------------------------------------------------------- Styles
+// ------------------------------------------------------------------------------
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Article Wrapper Style
+  const articleWrapperStyle = css({
+    '& article:last-child': {
+      border: '0 !important',
+    },
+  });
+
 
 // ------------------------------------------------------------------------------
 // -------------------------------------------------------------------- Component
@@ -220,74 +231,44 @@ const { Fragment } = React;
           </Row>
 
           <Row type="flex" align="top" justify="center">
-
-            <Col span={1}>
-              &nbsp;
-            </Col>
-
-            <Col span={5}>
-              <aside style={{ borderTop: '4px solid #222222'}}>
-                <H2 mask="h5" style={{ margin: `${type.heading.sizes.third * 0.375}px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>All Writings</H2>
-                <Paragraph style={{ marginBottom: type.heading.sizes.third }} >Click to filter...</Paragraph>
-                <H3 mask="h6" style={{ textTransform: 'uppercase', fontSize: (type.heading.sizes.sixth * 0.625), letterSpacing: '0.141ex', margin: '0px 0px 12px 0px' }}>Categories</H3>
-                <Ul style={{ listStyle: 'none', paddingLeft: 0 }}>
-                  <li style={{ borderTop: '1px solid #222222', padding: '13px 0px 10px 0px', margin: 0, textTransform: 'capitalize' }}><a href="#" onClick={(e) => this.filter(e, "all")}>All</a></li>
-                  {categories.map(category => (
-                    <li style={{ borderTop: '1px solid #222222', padding: '13px 0px 10px 0px', margin: 0, textTransform: 'capitalize' }} key={_.camelCase(category)}><a href="#" onClick={(e) => this.filter(e, category)}>{category}</a></li>
-                  ))}
-                </Ul>
-              </aside>
-            </Col>
-
-            <Col span={2}>
-              &nbsp;
-            </Col>
-
             <Col span={15}>
-              <Page>
-                <Section>
-                  <Header style={{ borderTop: '4px solid #222222'}}>
-                    <H1 mask="h4" className="stash">All Writings</H1>
-                    <Paragraph className="stash">Writings on the wall...</Paragraph>
-                  </Header>
-
-                  {postEdges.map(({node}, index) => (
-                    <Fragment>
-                      { (this.state.filter === "all" || this.state.filter === node.frontmatter.category) &&
-                        <MotionFade>
-                          <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
-                            <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
-                              <div style={{ flex: '8 1 0%' }}>
-                                <Image
-                                  src={node.frontmatter.cover}
-                                  rawWidth={1440}
-                                  rawHeight={900}
-                                  loader="gradient"
-                                  style={{ }}
-                                />
+              {
+                _.map(categories, (category) => (
+                  <div style={{ marginTop: (type.basePointSize * 1.25), marginBottom: (type.basePointSize * 1.25) }} className={articleWrapperStyle.toString()} >
+                    <H3 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H3>
+                    {
+                      _.map(postEdges, ({ node }) => (
+                        <Fragment>
+                          { (node.frontmatter.category === category) &&
+                            <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
+                              <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
+                                <div style={{ flex: '8 1 0%' }}>
+                                  <Image
+                                    src={node.frontmatter.cover}
+                                    rawWidth={1440}
+                                    rawHeight={900}
+                                    loader="gradient"
+                                    style={{ }}
+                                  />
+                                </div>
+                                <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
+                                  <Header>
+                                    <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
+                                    <Paragraph>{node.frontmatter.abstract}</Paragraph>
+                                    <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
+                                  </Header>
+                                </div>
                               </div>
-                              <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
-                                <Header>
-                                  <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
-                                  <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                                  <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
-                                </Header>
-                              </div>
-                            </div>
-                          </Article>
-                        </MotionFade>
-                      }
-                    </Fragment>
-                  ))}
-                </Section>
-                <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 0.625, color: '#676767', margin: `${type.body.fontSize * 0.625}px 0px` }}>~ fin ~</Paragraph>
-              </Page>
+                            </Article>
+                          }
+                        </Fragment>
+                      ))
+                    }
+                  </div>
+                ))
+              }
+              <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 0.625, color: '#676767', margin: `${type.body.fontSize * 0.625}px 0px` }}>~ fin ~</Paragraph>
             </Col>
-
-            <Col span={1}>
-              &nbsp;
-            </Col>
-
           </Row>
         </Container>
       );
@@ -301,29 +282,24 @@ const { Fragment } = React;
 // ----------------------------------------------------------------------- GraphQL Query
 /* eslint-disable no-undef */
 export const pageQuery = graphql`
-  query IndexQueryX {
-    allMarkdownRemark(
-      limit: 2000
-      sort: { fields: [frontmatter___date], order: DESC }
-    ) {
-      edges {
-        node {
-          fields {
-            route
-          }
-          timeToRead
-          frontmatter {
-            abstract
-            category
-            title
-            tags
-            cover
-            date
-          }
+query WritingsQueryX {
+  allMarkdownRemark(limit: 2000, sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: "photography"}}}) {
+    edges {
+      node {
+        fields {
+          route
+        }
+        frontmatter {
+          abstract
+          title
+          cover
+          date
+          category
         }
       }
     }
   }
+}
 `;
 /* eslint-enable no-undef */
 

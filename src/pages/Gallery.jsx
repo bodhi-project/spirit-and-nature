@@ -76,11 +76,11 @@ import img48 from './assets/gallery/img48.jpg';
 
 const galleryPhotos = [
   { src: img2, width: 900, height: 857 },
-  { src: img1, width: 900, height: 600 },
   { src: img3, width: 900, height: 355 },
   { src: img4, width: 900, height: 600 },
   { src: img5, width: 900, height: 798 },
   { src: img6, width: 900, height: 600 },
+  { src: img1, width: 900, height: 600 },
   { src: img7, width: 900, height: 675 },
   { src: img8, width: 900, height: 743 },
   { src: img9, width: 900, height: 600 },

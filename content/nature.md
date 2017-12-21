@@ -1,7 +1,7 @@
 ---
-title: Nature Portraits
+title: Nature
 cover: /content-assets/biography.jpg
-category: Photos
+category: photography
 date: 2017-12-14
 abstract: Photos I've taken over the years.
 tags:

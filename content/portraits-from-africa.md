@@ -1,7 +1,7 @@
 ---
 title: Portraits from Africa
 cover: /content-assets/biography.jpg
-category: world game
+category: photography
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
 tags:
@@ -46,3 +46,4 @@ variant: gallery
 ![Portrait #8](/content-assets/portraits-from-africa/img8_1600X1200.jpeg)
 
 ![Portrait #18](/content-assets/portraits-from-africa/img101_800X600.jpg)
+

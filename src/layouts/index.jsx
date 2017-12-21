@@ -12,7 +12,7 @@ import { Row, Col, Layout, Icon, Popover } from 'antd'; // eslint-disable-line i
 import { css, plugins } from 'glamor';
 import { OutLink, CompositeHeader, Container } from '@bodhi-project/components';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
-import { FirstVariationOnModernType } from '@bodhi-project/typography';
+import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
 import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
 
 import '../style/index.less';
@@ -35,7 +35,7 @@ const {
   Paragraph,
   injectType,
   typeDefs,
-} = FirstVariationOnModernType;
+} = NeutralMonoTypeRegularVariant;
 
 const type = typeDefs;
 

@@ -1,7 +1,7 @@
 ---
 title: "Expressions in World Games"
 cover: "/content-assets/biography.jpg"
-category: "random"
+category: world game
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
@@ -89,4 +89,3 @@ Candles appear regularly representing something sacred. The children like to use
 Those are often present in one form or other. One girl makes a funny World Game where children have serious meetings and adults are playing. Sometimes there is a choir, a picnic, a welcoming event, or an animal gathering.
 
 ![Civilisation #5](/content-assets/expressions/expression6_1184X900.jpg)
-

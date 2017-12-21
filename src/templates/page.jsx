@@ -14,7 +14,7 @@ import { css } from 'glamor';
 import ReactPlayer from 'react-player';
 import { Image, Images, Container, OutLink } from '@bodhi-project/components';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
-import { FirstVariationOnModernType } from '@bodhi-project/typography';
+import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
 import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
 
 import aboutMoreX1 from '../pages/assets/about/aboutMoreX1.jpg';
@@ -36,9 +36,8 @@ const {
   Ol,
   Ul,
   Paragraph,
-  SmallCaps,
   typeDefs,
-} = FirstVariationOnModernType;
+} = NeutralMonoTypeRegularVariant;
 
 const type = typeDefs;
 
@@ -393,7 +392,7 @@ class PageWrapper extends React.Component {
     const { markdownAst } = this.props.pathContext;
     const { headings } = this.props.data.markdownRemark;
     let toc = makeToc(headings, headings[0].depth);
-    console.log(frontmatter, frontmatter.variant);
+    // console.log(frontmatter, frontmatter.variant);
 
     return (
       <Container bleed style={{ paddingTop: 0 }}>
@@ -401,28 +400,30 @@ class PageWrapper extends React.Component {
         <UpdateTitle title={frontmatter.title} />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        <Row type="flex">
-          <Col span={1}>
-            &nbsp;
-          </Col>
-          <Col span={15}>
-            <H2>{frontmatter.title}</H2>
-            <Image
-              src={frontmatter.cover}
-              rawWidth={1600}
-              rawHeight={1000}
-              loader="gradient"
-              gradientPreset="default"
-              style={{ border: 0, background: 'transparent', marginBottom: type.heading.sizes.second }}
-            />
-            <Paragraph>{frontmatter.abstract}</Paragraph>
-            <Paragraph style={{ textIndent: 0 }}>Published on: {moment(frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(frontmatter.date).fromNow()})</Paragraph>
-            <Paragraph style={{ textIndent: 0 }}>Categorised as: <i>{_.capitalize(frontmatter.category)}</i></Paragraph>
-            <br /><br />
-            <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
-            <br /><br />
-          </Col>
-        </Row>
+        { frontmatter.variant !== "gallery" &&
+          <Row type="flex">
+            <Col span={1}>
+              &nbsp;
+            </Col>
+            <Col span={15}>
+              <H2>{frontmatter.title}</H2>
+              <Image
+                src={frontmatter.cover}
+                rawWidth={1600}
+                rawHeight={1000}
+                loader="gradient"
+                gradientPreset="default"
+                style={{ border: 0, background: 'transparent', marginBottom: type.heading.sizes.second }}
+              />
+              <Paragraph>{frontmatter.abstract}</Paragraph>
+              <Paragraph style={{ textIndent: 0 }}>Published on: {moment(frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(frontmatter.date).fromNow()})</Paragraph>
+              <Paragraph style={{ textIndent: 0 }}>Categorised as: <i>{_.capitalize(frontmatter.category)}</i></Paragraph>
+              <br /><br />
+              <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
+              <br /><br />
+            </Col>
+          </Row>
+        }
         <Row type="flex">
           <Col span={1}>
             &nbsp;
@@ -441,13 +442,13 @@ class PageWrapper extends React.Component {
           { frontmatter.variant !== "gallery" &&
             <Col span={6} className={sideStyles.toString()}>
               <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636' }} />
-              <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</SmallCaps>
+              <Paragraph style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</Paragraph>
               {
                 renderToc(toc)
               }            
               <br /><br />
               <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636', borderColor: '#363636' }} />
-              <SmallCaps style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>Further Links</SmallCaps>
+              <Paragraph style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>Further Links</Paragraph>
               <Image
                 src={aboutMoreX1}
                 alt="Read more..."
