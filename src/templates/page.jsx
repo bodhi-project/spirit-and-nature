@@ -392,7 +392,7 @@ class PageWrapper extends React.Component {
     const { markdownAst } = this.props.pathContext;
     const { headings } = this.props.data.markdownRemark;
     let toc = makeToc(headings, headings[0].depth);
-    // console.log(frontmatter, frontmatter.variant);
+    console.log(frontmatter, frontmatter.variant);
 
     return (
       <Container bleed style={{ paddingTop: 0 }}>
@@ -400,7 +400,7 @@ class PageWrapper extends React.Component {
         <UpdateTitle title={frontmatter.title} />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        { frontmatter.variant !== "gallery" &&
+        { (frontmatter.variant !== "gallery" && frontmatter.variant !== "page") &&
           <Row type="flex">
             <Col span={1}>
               &nbsp;
@@ -441,12 +441,17 @@ class PageWrapper extends React.Component {
           </Col>
           { frontmatter.variant !== "gallery" &&
             <Col span={6} className={sideStyles.toString()}>
-              <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636' }} />
-              <Paragraph style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</Paragraph>
               {
-                renderToc(toc)
-              }            
-              <br /><br />
+                (frontmatter.variant !== "page") &&
+                <Fragment>
+                  <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636' }} />
+                  <Paragraph style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>On this page</Paragraph>
+                  {
+                    renderToc(toc)
+                  }            
+                  <br /><br />
+                </Fragment>
+              }
               <hr style={{ width: '23.4%', marginRight: '76.6%', borderTop: '4px solid #363636', borderColor: '#363636' }} />
               <Paragraph style={{ marginTop: 0, marginBottom: (type.basePointSize * 0.625) }}>Further Links</Paragraph>
               <Image
