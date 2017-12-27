@@ -8,12 +8,12 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
   import Link from 'gatsby-link';
-  import { Row, Col, Layout, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
   import { css, plugins } from 'glamor';
-  import { OutLink, CompositeHeader, Container } from '@bodhi-project/components';
+  import { CompositeHeader, Container } from '@bodhi-project/components';
   import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
-  import { Type, Elements, typeComposite } from '@bodhi-project/typography';
-  import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
+  import { Type, typeComposite } from '@bodhi-project/typography';
+  import { Header as SemanticHeader } from '@bodhi-project/semantic-webflow';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
   import '../style/index.less';
@@ -24,7 +24,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
   // const { Fragment } = React;
-  const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  // const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
   const { getType } = typeComposite;
   const type = getType('eih3wnu');
   const { kit, modularScale } = type;
