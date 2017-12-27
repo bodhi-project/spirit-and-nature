@@ -25,7 +25,7 @@ import {
 
 import { Elements } from '@bodhi-project/typography';
 
-import indexImage from './index.jpg';
+import indexImage from './assets/index.jpg';
 
 import img1 from './assets/gallery/img1.jpg';
 import img2 from './assets/gallery/img2.jpg';

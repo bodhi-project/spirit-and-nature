@@ -18,20 +18,20 @@
   import {
     // --------------- Basic
     UpdateTitle,
-    GeneralMeta,
-    // --------------- Twitter
-    TwitterSummaryCard,
-    // --------------- Open Graph
-    OpenGraphSummary,
-    // --------------- Schema.org JSON-LD
-    WebsiteSchema,
-    WebpageSchema,
-    BreadcrumbSchema,
-    OrganisationSchema,
+    // GeneralMeta,
+    // // --------------- Twitter
+    // TwitterSummaryCard,
+    // // --------------- Open Graph
+    // OpenGraphSummary,
+    // // --------------- Schema.org JSON-LD
+    // WebsiteSchema,
+    // WebpageSchema,
+    // BreadcrumbSchema,
+    // OrganisationSchema,
   } from '@bodhi-project/seo';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-  import featureLion from './feature-lion.jpg';
+  import featureLion from './assets/feature-lion.jpg';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { Fragment } = React;
@@ -137,7 +137,7 @@
               </div>
             ))
           }
-          <Paragraph>~ fin ~</Paragraph>
+          <Paragraph class="text-center">~ fin ~</Paragraph>
         </Container>
       );
     }
@@ -151,7 +151,7 @@
 /* eslint-disable no-undef */
 export const pageQuery = graphql`
 query WritingsQueryX {
-  allMarkdownRemark(limit: 2000, sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: "photography"}}}) {
+  allMarkdownRemark(limit: 2000, sort: {fields: [frontmatter___date], order: DESC}, filter: {frontmatter: {category: {ne: "general"}}}) {
     edges {
       node {
         fields {

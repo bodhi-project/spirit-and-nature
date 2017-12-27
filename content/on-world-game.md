@@ -1,5 +1,5 @@
 ---
-title: "On World Games"
+title: "On World Game"
 cover: "/content-assets/biography.jpg"
 category: world game
 date: 2017-03-02
@@ -56,7 +56,7 @@ I take children individually or in pairs and occasionally a group of three at a 
 
 The children’s rhythm while playing is sometimes slow and silent or sometimes interactive, with lots of laughter.
 
-## HOW OLD ARE THE CHILDREN? HOW MANY COME AT ONCE?
+## How old are the children? How many come at once?
 
 Anyone who wishes may come. Mainly children are above 5 or 6 years old but younger than 13. Generally after 5 or 6, their motor skills are more developed, which is necessary to handle the many delicate objects.
 
@@ -66,7 +66,7 @@ The one-to-one sessions always offer a special flavor and a sense of exclusive t
 
 Aside from children, some adults come. They make a symbolic representation of an aspect of their life. There is not a real story attached to it, except the story of the representation itself.
 
-## TIME SPAN OF SESSIONS, FREQUENCY OF SESSIONS
+## Time span of sessions, frequency of sessions
 
 The first time I take a child I usually allow for a one-hour session to see if the child is at ease, whether the time will be right, not too long, not too short and whether the child can enter the play. Usually I ask the parent not to stay around so that the child feels uninhibited, free. After the session I may ask the child if he feels he might need more time the next time and then plan accordingly for the next session.
 
@@ -76,17 +76,17 @@ I experimented working without a time limit when it was possible for the child (
 
 Usually a monthly session is recommended but if there is a special need, the child can come weekly for a while. A single session is also fine. You could plan it, for example, on the child’s birthday. It is a nice way to reflect without analysing on that special ‘birth’ day. The Mother speaks about the “birth” day as a day where one is especially close to one’s soul. In the future I would like to have an open time with the children where different activities can take place.
 
-## EXAMPLES OF HOW CHILDREN PLAY
+## Examples of how children play
 
-They make a scene silently and then at the end they tell a story spontaneously, or wait for an invitation to talk about it.
-The children tell a story as they create - mostly the younger children - and the story keeps evolving and changing over the session (or even over several sessions).
-There is a story told just by the placement of the objects without words, and after that an interactive story starts with the other objects or with a partner, on another level without changing the created world, just moving objects around as in a one-act theatre scene.
-The child proceeds silently and has nothing to add verbally.
-A story has been thought about earlier and is depicted very precisely or is written down precisely after having been depicted.
+- They make a scene silently and then at the end they tell a story spontaneously, or wait for an invitation to talk about it.
+- The children tell a story as they create - mostly the younger children - and the story keeps evolving and changing over the session (or even over several sessions).
+- There is a story told just by the placement of the objects without words, and after that an interactive story starts with the other objects or with a partner, on another level without changing the created world, just moving objects around as in a one-act theatre scene.
+- The child proceeds silently and has nothing to add verbally.
+- A story has been thought about earlier and is depicted very precisely or is written down precisely after having been depicted.
 
-## THE MATERIALS
+## Materials
 
-### CONTAINERS
+### Container
 
 The size of the sand tray by European standards is 28.5 inches x 22.5 inches x 3 inches. This size is considered ideal to keep an overview while playing, but many people make variations in size. One can use two kinds of trays: one tray with dry sand and the other moist sand. Dry and wet sand are different mediums and allow for different types of expression. Originally, the trays were painted blue on the inside. The blue on the sides can represent the sky, and the blue on the bottom can represent water – a lake, a river or the sea. In the West the trays are usually on a table, but as we are in India I place the container at ground level.
 
@@ -94,21 +94,21 @@ I have been experimenting with different containers for the sand, first a very s
 
 Once I acquired the two new boxes the children asked for both, especially when more than one child came at the same time. Together they used both boxes to elaborate the scene, or they made their scenes individually.
 
-### SAND
+### Sand
 
 Up to this time I have been using refined sand from local places. I have heard about chinchilla sand which might be a very soft kind of sand, and about moon sand which would enable children to make sculptures easily. Someone told me about coral sand from Lakshwadeep and black sand from Hawaii, but I’ve never tried. The sand particles, created by the disintegration of the earth’s rocks, are ideal for pouring and shaping an image of the symbolic world.
 
-### FIGURINES, OBJECTS
+### Figurines and Objects
 
 Objects and figurines are attractively and playfully displayed on shelves and in baskets. These figures, from various cultures and from nature, symbolise events and situations in our inner and outer lives. We basically need a collection of objects representing everything belonging to our world, such as:
 
-Realistic objects: figurines, miniature animals, trees, instruments, houses, vehicles
-Cultural objects: reproductions of statues and other objects coming from known civilisations of the past and the present
-Supernatural, imaginary beings: fairies, dragons, unicorns, gnomes
-Artificial objects: rods, spheres, plates, geometric shapes
-Symbols: aum, star, coins, totems
-Natural materials: rocks, stones, seeds, pieces of wood, shells, feathers, crystals, pieces of cloth and paper
-All vocations, professions, crafts, endeavours and industries and their tools can be represented. Bizarre things should be included which can be used in different ways, for instance springs or a broken hair-clip. Children also especially cherish boxes of all types and sizes.
+1. Realistic objects: figurines, miniature animals, trees, instruments, houses, vehicles
+2. Cultural objects: reproductions of statues and other objects coming from known civilisations of the past and the present
+3. Supernatural, imaginary beings: fairies, dragons, unicorns, gnomes
+4. Artificial objects: rods, spheres, plates, geometric shapes
+5. Symbols: aum, star, coins, totems
+6. Natural materials: rocks, stones, seeds, pieces of wood, shells, feathers, crystals, pieces of cloth and paper
+7. All vocations, professions, crafts, endeavours and industries and their tools can be represented. Bizarre things should be included which can be used in different ways, for instance springs or a broken hair-clip. Children also especially cherish boxes of all types and sizes.
 
 Children sometimes give clues for what to add, as in the following example:
 
@@ -120,7 +120,7 @@ The sizes of the objects, for example houses, people, trees, etc. are often not 
 
 “Madu says: “What I like about Sandbox, is that when you look for something in particular you find exactly what you need.”” — Journal
 
-### DISLAY OF OBJECTS
+### Display of Objects
 
 In the classical approach to the sandbox, objects are generally displayed on open shelves where each object is clearly visible and accessible for the child. I use lots of little baskets which I cover with a nice cloth to store objects by categories, like big animals, small ones, stones, flowers/greenery, etc. On one of my voyages to Indonesia I found some lovely baskets which t one into the other, and which have nice square shapes with lids.
 
@@ -136,20 +136,20 @@ Stealing is a problem which occurs from time to time and can be anticipated. For
 
 “Today Sita asked to borrow some Christmas trees, so I thought (but have not yet said anything) to introduce this idea of borrowing, to avoid the temptation of stealing.” — Journal
 
-### REPAIR OF OBJECTS
+### Repair of Objects
 
 Children are children and each child has different ways of handling things, due to their education, their motor skills, their concentration level and their age. It is inevitable that things break. I feel objects often as alive and feel bad if things are handled improperly; I convey this to children while asking them to take care how they handle the little things, in an implicit or explicit way.
 
 # Outcome
 
-By engaging in this activity, the child creates his own world and becomes aware of his creative potential. It enhances the power of imagination and permits conscious dreaming.
-Of course, the child is free to express whatever is in him and if necessary he goes through chaos and disharmony. But, according to me, it is important to come to some kind of harmony towards the end of the session, or after a series of sessions.
-Through the atmosphere in the room – decoration, music, flowers, candle, incense and preferably a peaceful aspiring attitude of the facilitator – and through the choice of quality and beauty in the objects, the child is invited to be true to himself and is given the possibility to come in touch with and express his deeper dreams. These deeper dreams are often hiding in this little place behind the heart which one calls soul and which is joy, peace, light in a seed form and gradually grows into a soul being. Also here, the guide is an example and it is important that he/she is concentrated in his/her luminous centre and acts as much as possible from here.
-Through spontaneous role plays and verbal expression, communication skills develop.
-The atmosphere of the place and the emotional workout through the play brings relaxation in the body and an inner harmony, which increases the body’s receptivity and the capacity of the mind to pay attention.
-Aspiration and sensitivity for beauty also develops and beauty is the ideal which all physical life must realise. If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvellous which will tend to spring up into the material manifestation.
+- By engaging in this activity, the child creates his own world and becomes aware of his creative potential. It enhances the power of imagination and permits conscious dreaming.
+- Of course, the child is free to express whatever is in him and if necessary he goes through chaos and disharmony. But, according to me, it is important to come to some kind of harmony towards the end of the session, or after a series of sessions.
+- Through the atmosphere in the room – decoration, music, flowers, candle, incense and preferably a peaceful aspiring attitude of the facilitator – and through the choice of quality and beauty in the objects, the child is invited to be true to himself and is given the possibility to come in touch with and express his deeper dreams. These deeper dreams are often hiding in this little place behind the heart which one calls soul and which is joy, peace, light in a seed form and gradually grows into a soul being. Also here, the guide is an example and it is important that he/she is concentrated in his/her luminous centre and acts as much as possible from here.
+- Through spontaneous role plays and verbal expression, communication skills develop.
+- The atmosphere of the place and the emotional workout through the play brings relaxation in the body and an inner harmony, which increases the body’s receptivity and the capacity of the mind to pay attention.
+- Aspiration and sensitivity for beauty also develops and beauty is the ideal which all physical life must realise. If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvellous which will tend to spring up into the material manifestation.
 
-“When one is very young [...] there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, [...] this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion.” — The Mother
+“When one is very young ... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion.” — The Mother
 
 Dora Kalff, the originator of Sandplay Therapy, once told that she “did nothing” when she worked. Then she said, “It is harder to do nothing than to do something.” How can one do “nothing” during the time of a play session? What happens in the sacred space shared by the therapist and the client, during a Sandplay process? 
 
@@ -161,6 +161,6 @@ Whether the makers of these sand creations are children, healers, or priests, po
 
 “Dancing on sands, and yet no footing seen,” Shakespeare. 
 
-The sand particles, created by the disintegration of the earth’s rocks, are ideal for pouring and shaping an image of the symbolic world. We can “[...] see a World in a grain of Sand” as Blake wrote. 
+The sand particles, created by the disintegration of the earth’s rocks, are ideal for pouring and shaping an image of the symbolic world. We can “... see a World in a grain of Sand” as Blake wrote. 
 
 

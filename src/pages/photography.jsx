@@ -14,20 +14,19 @@
   import { Container, Image } from '@bodhi-project/components';
   import { Elements, typeComposite } from '@bodhi-project/typography';
   import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
-
   import {
     // --------------- Basic
     UpdateTitle,
-    GeneralMeta,
-    // --------------- Twitter
-    TwitterSummaryCard,
-    // --------------- Open Graph
-    OpenGraphSummary,
-    // --------------- Schema.org JSON-LD
-    WebsiteSchema,
-    WebpageSchema,
-    BreadcrumbSchema,
-    OrganisationSchema,
+    // GeneralMeta,
+    // // --------------- Twitter
+    // TwitterSummaryCard,
+    // // --------------- Open Graph
+    // OpenGraphSummary,
+    // // --------------- Schema.org JSON-LD
+    // WebsiteSchema,
+    // WebpageSchema,
+    // BreadcrumbSchema,
+    // OrganisationSchema,
   } from '@bodhi-project/seo';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images

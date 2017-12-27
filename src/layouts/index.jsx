@@ -17,13 +17,13 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
   import '../style/index.less';
-  import headerBanner from './header.png';
-  import burgerMenu from './burger_menu.png';
-  import logo from './logoWithText.png';
+  import headerBanner from './assets/header.png';
+  import burgerMenu from './assets/burger_menu.png';
+  import logo from './assets/logoWithText.png';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
-  const { Fragment } = React;
+  // const { Fragment } = React;
   const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
   const { getType } = typeComposite;
   const type = getType('eih3wnu');
