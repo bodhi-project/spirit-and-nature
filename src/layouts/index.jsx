@@ -1,43 +1,33 @@
 // ------------------------------------------------------------------------------
 // ---------------------------------------------------------------------- Imports
 // ------------------------------------------------------------------------------
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _, { flow as compose } from 'lodash';
-// import classNames from 'classnames';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
+  import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
+  import PropTypes from 'prop-types';
+  // import _ from 'lodash';
 
-// ----------------------------------- Components
-import Link from 'gatsby-link';
-import { Row, Col, Layout, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import { css, plugins } from 'glamor';
-import { OutLink, CompositeHeader, Container } from '@bodhi-project/components';
-import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
-import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
-import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
+  import Link from 'gatsby-link';
+  import { Row, Col, Layout, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import { css, plugins } from 'glamor';
+  import { OutLink, CompositeHeader, Container } from '@bodhi-project/components';
+  import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
+  import { Type, Elements, typeComposite } from '@bodhi-project/typography';
+  import { Header as SemanticHeader, Footer as SemanticFooter } from '@bodhi-project/semantic-webflow';
 
-import '../style/index.less';
-import headerBanner from './header.png';
-import burgerMenu from './burger_menu.png';
-import logo from './logoWithText.png';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
+  import '../style/index.less';
+  import headerBanner from './header.png';
+  import burgerMenu from './burger_menu.png';
+  import logo from './logoWithText.png';
 
-/**
-  * Just a little bit of abstraction
-  */
-const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
-const { Footer, Content } = Layout;
-const { Fragment } = React;
-
-// ----------------------------------------------------------------------- Type
-const {
-  FetchFonts,
-  TypeWrapper,
-  H1,
-  Paragraph,
-  injectType,
-  typeDefs,
-} = NeutralMonoTypeRegularVariant;
-
-const type = typeDefs;
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
+  const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
+  const { Fragment } = React;
+  const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  const { getType } = typeComposite;
+  const type = getType('eih3wnu');
+  const { kit, modularScale } = type;
 
 // ------------------------------------------------------------------------------
 // --------------------------------------------------------- Increase Specificity
@@ -85,148 +75,71 @@ const type = typeDefs;
     color: '#222222',
   });
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Layout Wrapper Style
-  const layoutWrapperStyle = css({
-    margin: 30,
-    background: '#fff6ec',
-  });
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header Style
+  const desktopHeader = css({
+    height: 1,
+    display: 'block',
+    position: 'relative',
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content Style
-  const contentStyle = css({
-    minHeight: '100vh',
-  });
+    '& > div': {
+      width: 'auto !important',
+      float: 'right',
+      position: 'absolute',
+      top: 50,
+      right: 0,
+    },
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Header Style
-  const mobileHeaderStyle = css({
-    height: '110px',
-  });
-
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Menu Style
-  const mobileMenuStyle = css({
     '& ul': {
+      display: 'block',
+      textAlign: 'right',
       margin: 0,
       padding: 0,
     },
 
     '& ul li': {
       display: 'block',
-      paddingTop: '27px',
-      paddingBottom: '27px',
-
-      '& a': {
-        fontFamily: 'brandon-grotesque, sans-serif',
-        color: '#081359',
-      },
+      padding: '0px',
+      margin: '0 !important',
+      fontFamily: `${kit.fontFamilies.paragraph} !important`,
+      fontSize: `${(modularScale.base.px * 1.5) / 16}em !important`,
+      fontStyle: 'italic',
     },
   });
+  const desktopHeaderClass = desktopHeader.toString();
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header Style
-  const desktopHeaderStyle = css({
-    height: 120,
-    display: 'flex',
-    // justifyContent: 'space-between',
-    // position: 'absolute',
-    width: '100%',
-
-    '& ul': {
-      display: 'inline-flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      margin: 0,
-      padding: 0,
-    },
-
-    '& ul li': {
-      display: 'inline-flex',
-      padding: '10px 16px',
-      marginBottom: 0,
-
-      '& a, span.drops': {
-        fontFamily: typeDefs.heading.font,
-        fontSize: '0.9rem',
-        textTransform: 'uppercase',
-        color: '#222222',
-        letterSpacing: '1.1px',
-        lineHeight: '20px',
-
-        '&:hover': {
-            textDecoration: 'none',
-          },
-          '&:visited': {
-            textDecoration: 'none',
-          },
-          '&:link': {
-            textDecoration: 'none',
-          },
-          '&:active': {
-            textDecoration: 'none',
-          },
-      },
+  const contentWrapper = css({
+    '& h2:first-child': {
+      marginTop: '0 !important',
+      paddingTop: '0 !important',
     },
   });
+  const contentWrapperClass = contentWrapper.toString();
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header >> Tip Style
-  const tipStyle = css({
-    '& .ant-popover-arrow': {
-      background: '#fff6ec',
-    },
 
-    '& .ant-popover-inner-content': {
-      padding: 0,
-      background: '#fff6ec',
-      borderRadius: 4,
 
-      '& ul': {
-        padding: '8px 13px',
-        margin: 0,
-      },
+  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Header Style
+  // const mobileHeaderStyle = css({
+  //   height: '110px',
+  // });
 
-      '& ul li': {
-        padding: '10px 16px',
+  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Menu Style
+  // const mobileMenuStyle = css({
+  //   '& ul': {
+  //     margin: 0,
+  //     padding: 0,
+  //   },
 
-        '& a': {
-          fontFamily: typeDefs.heading.font,
-          fontSize: '0.9rem',
-          textTransform: 'uppercase',
-          color: '#222222',
-          letterSpacing: '1.1px',
+  //   '& ul li': {
+  //     display: 'block',
+  //     paddingTop: '27px',
+  //     paddingBottom: '27px',
 
-          '&:hover': {
-              textDecoration: 'none',
-            },
-            '&:visited': {
-              textDecoration: 'none',
-            },
-            '&:link': {
-              textDecoration: 'none',
-            },
-            '&:active': {
-              textDecoration: 'none',
-            },
-        },
-
-        '&:not(:last-child)': {
-          borderBottom: '1px solid #222222',
-        },
-      },
-    },
-  });
-
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer Style
-  const footerStyle = css({
-    background: '#fff6ec',
-
-    '& ul li': {
-      display: 'inline-block',
-    },
-
-    '& h3': {
-      fontSize: '62%',
-      marginBottom: '5px',
-      letterSpacing: '3px',
-      color: '#676767',
-    },
-  });
+  //     '& a': {
+  //       fontFamily: 'brandon-grotesque, sans-serif',
+  //       color: '#081359',
+  //     },
+  //   },
+  // });
 
 // ----------------------------------------------------------------------- Component
 /**
@@ -239,112 +152,61 @@ class TemplateWrapper extends React.Component {
 
   render() {
     return (
-      <TypeWrapper>
-        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
-        <InitializeMeta data={{ titleTemplate: '%s | Spirit and Nature' }} />
-        <UpdateTitle title="Loading..." />
-        
-        <Layout className={layoutWrapperStyle.toString()}>
-          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page Header */}
+      <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }}>
+        <Container block noFade style={{ padding: 0 }}>
+          
+
+          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
+          <InitializeMeta data={{ titleTemplate: '%s | Spirit and Nature' }} />
+          <UpdateTitle title="Loading..." />
+          
+          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header  className={mobileHeaderStyle.toString()}  className={mobileMenuStyle.toString()} */}
           <SemanticHeader>
             <ResponsiveHeader>
-              <MobileHeader className={mobileHeaderStyle.toString()}>
-                <Fragment>
-                  <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
-                  <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
-                </Fragment>
+              <MobileHeader>
+                <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
+                <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
               </MobileHeader>
-              <MobileMenu className={mobileMenuStyle.toString()}>
+              <MobileMenu >
                 <ul>
                   <li><Link to="/">Features »</Link></li>
                   <li><Link to="/">Docs »</Link></li>
                 </ul>
               </MobileMenu>
-              <DesktopHeader className={desktopHeaderStyle.toString()}>
-                <div style={{ paddingTop: 25, paddingBottom: 25, width: 'inherit', height: 'inherit', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <div style={{ display: 'inline-flex' }}>
-                    <Link to="/" style={{ height: 70, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
-                  </div>
-                  <ul>
-                    <li><Link to="/about">About</Link></li>
-                    <li>
-                      <Popover 
-                        placement="bottomRight"
-                        content={
-                          <ul style={{ listStyle: 'none' }}>
-                            <li><Link to="/world-game">World Game</Link></li>
-                            <li><Link to="/vision-game">Vision Game</Link></li>
-                            <li><Link to="/nature-projects">Nature Projects</Link></li>
-                          </ul>}
-                        trigger="hover"
-                        overlayClassName={tipStyle.toString()}
-                      >
-                        <span className="drops">Programs</span>
-                      </Popover>
-                    </li>
-                    <li>
-                      <Popover 
-                        placement="bottomRight"
-                        content={
-                          <ul style={{ listStyle: 'none' }}>
-                            <li><Link to="/writings">Writings</Link></li>
-                            <li><Link to="/photography">Photography</Link></li>
-                            <li><Link to="/video-gallery">Videos</Link></li>
-                            <li><Link to="/book">Book</Link></li>
-                          </ul>}
-                        trigger="hover"
-                        overlayClassName={tipStyle.toString()}
-                      >
-                        <span className="drops">Media</span>
-                      </Popover>
-                    </li>
-                    <li><Link to="/gallery">Gallery</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
-                  </ul>
+              <DesktopHeader className={desktopHeaderClass.toString()}>
+                <div>
+                  <Link to="/" style={{ height: 70, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
                 </div>
+                <ul>
+                  <li><Link to="/home">Home</Link></li>
+                  <li><Link to="/activities">Offerings</Link></li>
+                  <li><Link to="/writings">Journal</Link></li>
+                  <li><Link to="/videos">Videos</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                  <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
+                  <li><Link to="/about-me">About Me</Link></li>
+                  <li><Link to="/contact">Contact</Link></li>
+                </ul>
               </DesktopHeader>
             </ResponsiveHeader>
           </SemanticHeader>
 
-          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page Content */}
-          <Content className={contentStyle.toString()}>
-            {this.props.children()}
-          </Content>
-
-          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page Footer */}
-          <SemanticFooter>
-            <Container bleed style={{ padding: 0 }}>
-              <Footer className={footerStyle.toString()}>
-                <Row gutter={16} type="flex" justify="center" align="top">
-                  <Col xs={22} sm={22} lg={18} style={{ textAlign: 'center' }}>
-                    <Paragraph><Link to="/about">ABOUT</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/donate">DONATE</Link>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;<Link to="/contact">CONTACT</Link></Paragraph>
-                  </Col>
-                </Row>
-              </Footer>
-            </Container>
-          </SemanticFooter>
-        </Layout>
-
-        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Get Fonts */}
-        <FetchFonts />
-      </TypeWrapper>
+          {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
+          <Row type="flex" className={contentWrapperClass}>
+            <Col span={18}>
+              {this.props.children()}
+            </Col>
+          </Row>
+          
+        </Container>
+      </Type>
     );
   }
 }
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
-  classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types, react/no-unused-prop-types
-  type: PropTypes.object, // eslint-disable-line react/forbid-prop-types, react/no-unused-prop-types
 };
 
-// ----------------------------------------------------------------------- Compose Component
-/**
-  * ComposedComponent - Compose component ala FP style.
-  */
-const ComposedComponent = compose([
-  injectType, // Add typographic information
-])(TemplateWrapper);
-
 // ----------------------------------------------------------------------- Export
-export default ComposedComponent;
+export default TemplateWrapper;

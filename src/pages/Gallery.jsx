@@ -23,6 +23,8 @@ import {
   OrganisationSchema,
 } from '@bodhi-project/seo';
 
+import { Elements } from '@bodhi-project/typography';
+
 import indexImage from './index.jpg';
 
 import img1 from './assets/gallery/img1.jpg';
@@ -73,6 +75,8 @@ import img45 from './assets/gallery/img45.jpg';
 import img46 from './assets/gallery/img46.jpg';
 import img47 from './assets/gallery/img47.jpeg';
 import img48 from './assets/gallery/img48.jpg';
+
+const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
 
 const galleryPhotos = [
   { src: img2, width: 900, height: 857 },
@@ -206,7 +210,7 @@ class IndexPage extends React.Component {
   render() {
 
     return (
-      <Container bleed style={{ padding: 0 }} className={this.props.classes.index}>
+      <Container block noFade bleed style={{ paddingTop: 50 }} className={this.props.classes.index}>
         {/* SEO */}
         <UpdateTitle title="Gallery" />
         <GeneralMeta data={generalMetaData} />
@@ -217,9 +221,8 @@ class IndexPage extends React.Component {
         <BreadcrumbSchema data={breadcrumbSchemaData} />
         <OrganisationSchema data={organisationSchemaData} />
 
-        <Container>
-          <Images photos={galleryPhotos} columns={3} />
-        </Container>
+        <H2>Gallery</H2>
+        <Images photos={galleryPhotos} columns={3} />
       </Container>
     );
   }

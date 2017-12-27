@@ -1,87 +1,49 @@
-// ----------------------------------------------------------------------- Imports
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _ from 'lodash';
-import { css } from 'glamor';
+// ------------------------------------------------------------------------------
+// ---------------------------------------------------------------------- Imports
+// ------------------------------------------------------------------------------
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
+  import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
+  import PropTypes from 'prop-types';
+  import _ from 'lodash';
+  import { css } from 'glamor';
+  import moment from 'moment';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from 'gatsby-link';
-import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import moment from 'moment';
-import { Container, Image } from '@bodhi-project/components';
-import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
-import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
+  import Link from 'gatsby-link';
+  import { Row, Col, Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import { Image, Container } from '@bodhi-project/components';
+  import { Elements, typeComposite } from '@bodhi-project/typography';
+  import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-// import logo from './logoWithText.png';
-import featureLion from './feature-lion.jpg';
+  import {
+    // --------------- Basic
+    UpdateTitle,
+    GeneralMeta,
+    // --------------- Twitter
+    TwitterSummaryCard,
+    // --------------- Open Graph
+    OpenGraphSummary,
+    // --------------- Schema.org JSON-LD
+    WebsiteSchema,
+    WebpageSchema,
+    BreadcrumbSchema,
+    OrganisationSchema,
+  } from '@bodhi-project/seo';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO
-import {
-  // --------------- Basic
-  UpdateTitle,
-  GeneralMeta,
-  // --------------- Twitter
-  TwitterSummaryCard,
-  // --------------- Open Graph
-  OpenGraphSummary,
-  // --------------- Schema.org JSON-LD
-  WebpageSchema,
-  BreadcrumbSchema,
-} from '@bodhi-project/seo';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
+  import featureLion from './feature-lion.jpg';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Type
-const {
-  H1,
-  H2,
-  H3,
-  Paragraph,
-  Ul,
-  typeDefs,
-} = NeutralMonoTypeRegularVariant;
-
-const type = typeDefs;
-const { Fragment } = React;
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
+  const { Fragment } = React;
+  const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  const { getType } = typeComposite;
+  const type = getType('eih3wnu');
+  const { kit, modularScale } = type;
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
-/** 
-<div className="index-container">
-  
-  <Helmet title={config.siteTitle} />
-  <SEO postEdges={postEdges} />
-  <PostListing postEdges={postEdges} />
-</div>
-
-
-<Row type="flex" align="top" justify="center" style={{ marginBottom: type.heading.sizes.first }}>
-  <Col span={24}>
-    <div style={{ backgroundColor: '#419ae2', minHeight: '35vh', padding: '16px 25px', display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch', color: '#FAFAFA' }}>
-      <div style={{ flex: '9 1 0%' }}>
-        <Image
-          src={featureLion}
-          rawWidth={500}
-          rawHeight={500}
-          loader="gradient"
-          style={{ border: 0, background: '#FAFAFA' }}
-        />
-      </div>
-
-      <div style={{ flex: '15 1 0%', paddingLeft: '25px' }}>
-        <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>White Lions</Paragraph>
-        <H2>White Lions and Lion Hearted Leadership</H2>
-        <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-      </div>
-    </div>
-  </Col>
-</Row>
-*/
-
-// ------------------------------------------------------------------------------
-// ----------------------------------------------------------------------- Styles
-// ------------------------------------------------------------------------------
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Article Wrapper Style
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Article Wrapper Style
   const articleWrapperStyle = css({
     '& article:last-child': {
       border: '0 !important',
@@ -135,141 +97,47 @@ const { Fragment } = React;
       // console.log(this.state);
 
       return (
-        <Container bleed>
+        <Container block noFade bleed style={{ paddingTop: 50 }}>
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
           <UpdateTitle title="Writings" />
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-          <Row type="flex" align="top" justify="center">
-            <Col span={22}>
-              <Section style={{ borderTop: '4px solid #222222', marginBottom: type.heading.sizes.first * 2 }}>
-                <Header>
-                  <H2 mask="h5" style={{ margin: `${type.heading.sizes.third * 0.375}px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>Features</H2>
-                </Header>
-
-                {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Features #1, #2 and #3 */}
-                <Row type="flex" align="top" justify="center" style={{ marginBottom: type.heading.sizes.first }}>
-                  <Col span={12} style={{ padding: '0px 10px 0px 0px' }}>
-                    <div style={{ backgroundColor: '#F2B880', minHeight: '70vh', padding: '16px 25px', color: '#363636' }}>
-                      <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>World Game</Paragraph>
-                      <H2>Sandplay and Sandplay Traditions in Auroville</H2>
-                      <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-                      <Image
-                        src={featureLion}
-                        rawWidth={500}
-                        rawHeight={500}
-                        loader="gradient"
-                        style={{ border: 0, background: '#FAFAFA' }}
-                      />
-                    </div>
-                  </Col>
-
-                  <Col span={12} style={{ padding: '0px 0px 0px 10px' }}>
-                    <div style={{ borderTop: '1px solid #222222', minHeight: '35vh', marginBottom: '1vh', paddingTop: '16px' }}>
-                      <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>Auroville</Paragraph>
-                      <H2>Auroville</H2>
-                      <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-                      <Image
-                        src={featureLion}
-                        rawWidth={1000}
-                        rawHeight={250}
-                        loader="gradient"
-                        style={{ border: 0, background: '#FAFAFA' }}
-                      />
-                    </div>
-
-                    <div style={{ borderTop: '1px solid #222222', minHeight: '34vh', paddingTop: '16px' }}>
-                      <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>World Game</Paragraph>
-                      <H2>Expressions in World Games</H2>
-                      <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-                      <Image
-                        src={featureLion}
-                        rawWidth={1000}
-                        rawHeight={250}
-                        loader="gradient"
-                        style={{ border: 0, background: '#FAFAFA' }}
-                      />
-                    </div>
-                  </Col>
-                </Row>
-
-                {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Feature #4, #5 */}
-                <Row type="flex" align="top" justify="center">
-                  <Col span={12} style={{ padding: '0px 10px 0px 0px' }}>
-                    <div style={{ borderTop: '1px solid #222222', minHeight: '35vh', paddingTop: '16px' }}>
-                      <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>White Lions</Paragraph>
-                      <H2>One United Roar</H2>
-                      <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-                      <Image
-                        src={featureLion}
-                        rawWidth={1000}
-                        rawHeight={250}
-                        loader="gradient"
-                        style={{ border: 0, background: '#FAFAFA' }}
-                      />
-                    </div>
-                  </Col>
-
-                  <Col span={12} style={{ padding: '0px 0px 0px 10px' }}>
-                    <div style={{ backgroundColor: '#F2B880', minHeight: '75vh', padding: '16px 25px' }}>
-                      <Paragraph style={{ fontFamily: type.heading.font, fontWeight: type.heading.weights.lower, textTransform: 'uppercase', fontSize: (type.body.fontSize * 0.80), letterSpacing: '0.141ex' }}>Auroville</Paragraph>
-                      <H2>Anusuya Forest in Auroville</H2>
-                      <Paragraph>Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit. <br /> Read more...</Paragraph>
-                      <Image
-                        src={featureLion}
-                        rawWidth={1000}
-                        rawHeight={250}
-                        loader="gradient"
-                        style={{ border: 0, background: '#FAFAFA' }}
-                      />
-                    </div>
-                  </Col>
-                </Row>
-
-              </Section>
-            </Col>
-          </Row>
-
-          <Row type="flex" align="top" justify="center">
-            <Col span={15}>
-              {
-                _.map(categories, (category) => (
-                  <div style={{ marginTop: (type.basePointSize * 1.25), marginBottom: (type.basePointSize * 1.25) }} className={articleWrapperStyle.toString()} >
-                    <H3 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H3>
-                    {
-                      _.map(postEdges, ({ node }) => (
-                        <Fragment>
-                          { (node.frontmatter.category === category) &&
-                            <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
-                              <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
-                                <div style={{ flex: '8 1 0%' }}>
-                                  <Image
-                                    src={node.frontmatter.cover}
-                                    rawWidth={1440}
-                                    rawHeight={900}
-                                    loader="gradient"
-                                    style={{ }}
-                                  />
-                                </div>
-                                <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
-                                  <Header>
-                                    <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
-                                    <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                                    <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
-                                  </Header>
-                                </div>
-                              </div>
-                            </Article>
-                          }
-                        </Fragment>
-                      ))
-                    }
-                  </div>
-                ))
-              }
-              <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 0.625, color: '#676767', margin: `${type.body.fontSize * 0.625}px 0px` }}>~ fin ~</Paragraph>
-            </Col>
-          </Row>
+          {
+            _.map(categories, (category) => (
+              <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >
+                <H2 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H2>
+                {
+                  _.map(postEdges, ({ node }) => (
+                    <Fragment>
+                      { (node.frontmatter.category === category) &&
+                        <Article key={node.fields.route} style={{ paddingBottom: `${modularScale.basePlus2.em}`, paddingTop: `${modularScale.basePlus2.em}` }}> {/*  */}
+                          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
+                            <div style={{ flex: '7.5 1 0%' }}>
+                              <Image
+                                src={node.frontmatter.cover}
+                                rawWidth={1440}
+                                rawHeight={900}
+                                loader="gradient"
+                                style={{ }}
+                              />
+                            </div>
+                            <div style={{ flex: '12.5 1 0%', padding: '0px 0px 0px 10px' }}>
+                              <Header>
+                                <Link to={node.fields.route}><H3>{node.frontmatter.title}</H3></Link> {/*  */}
+                                <Paragraph>{node.frontmatter.abstract}</Paragraph>
+                                <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
+                              </Header>
+                            </div>
+                          </div>
+                        </Article>
+                      }
+                    </Fragment>
+                  ))
+                }
+              </div>
+            ))
+          }
+          <Paragraph>~ fin ~</Paragraph>
         </Container>
       );
     }

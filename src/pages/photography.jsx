@@ -1,46 +1,44 @@
-// ----------------------------------------------------------------------- Imports
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _ from 'lodash';
-import { css } from 'glamor';
+// ------------------------------------------------------------------------------
+// ---------------------------------------------------------------------- Imports
+// ------------------------------------------------------------------------------
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
+  import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
+  import PropTypes from 'prop-types';
+  // import _ from 'lodash';
+  import { css } from 'glamor';
+  import moment from 'moment';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from 'gatsby-link';
-import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import moment from 'moment';
-import { Container, Image, MotionFade } from '@bodhi-project/components';
-import { NeutralMonoTypeRegularVariant } from '@bodhi-project/typography';
-import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
+  import Link from 'gatsby-link';
+  import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import { Container, Image } from '@bodhi-project/components';
+  import { Elements, typeComposite } from '@bodhi-project/typography';
+  import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-import featureLion from './feature-lion.jpg';
+  import {
+    // --------------- Basic
+    UpdateTitle,
+    GeneralMeta,
+    // --------------- Twitter
+    TwitterSummaryCard,
+    // --------------- Open Graph
+    OpenGraphSummary,
+    // --------------- Schema.org JSON-LD
+    WebsiteSchema,
+    WebpageSchema,
+    BreadcrumbSchema,
+    OrganisationSchema,
+  } from '@bodhi-project/seo';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO
-import {
-  // --------------- Basic
-  UpdateTitle,
-  GeneralMeta,
-  // --------------- Twitter
-  TwitterSummaryCard,
-  // --------------- Open Graph
-  OpenGraphSummary,
-  // --------------- Schema.org JSON-LD
-  WebpageSchema,
-  BreadcrumbSchema,
-} from '@bodhi-project/seo';
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
+  // import featureLion from './feature-lion.jpg';
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Type
-const {
-  H1,
-  H2,
-  H3,
-  Paragraph,
-  Ul,
-  typeDefs,
-} = NeutralMonoTypeRegularVariant;
-
-const type = typeDefs;
-const { Fragment } = React;
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
+  const { Fragment } = React;
+  const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  const { getType } = typeComposite;
+  const type = getType('eih3wnu');
+  const { kit, modularScale } = type;
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
@@ -96,53 +94,47 @@ const { Fragment } = React;
       });
 
       return (
-        <Container bleed>
+        <Container block noFade bleed style={{ paddingTop: 50 }}>
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
-          <UpdateTitle title="Writings" />
+          <UpdateTitle title="Photography" />
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-          <Page>
-            <Row type="flex" align="top" justify="center">
-              <Col span={15}>
+          {
+            _.map(categories, (category) => (
+              <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >
+                <H2 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H2>
                 {
-                  _.map(categories, (category) => (
-                    <div style={{ marginTop: (type.basePointSize * 1.25), marginBottom: (type.basePointSize * 1.25) }} className={articleWrapperStyle.toString()} >
-                      <H3 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H3>
-                      {
-                        _.map(postEdges, ({ node }) => (
-                          <Fragment>
-                            { (node.frontmatter.category === category) &&
-                              <Article key={node.fields.route} style={{ borderBottom: '1px solid #222222', paddingBottom: `${type.heading.sizes.third * 0.625}px`, paddingTop: `${type.heading.sizes.third * 0.375}px` }}>
-                                <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
-                                  <div style={{ flex: '8 1 0%' }}>
-                                    <Image
-                                      src={node.frontmatter.cover}
-                                      rawWidth={1440}
-                                      rawHeight={900}
-                                      loader="gradient"
-                                      style={{ }}
-                                    />
-                                  </div>
-                                  <div style={{ flex: '14 1 0%', padding: '0px 0px 0px 10px' }}>
-                                    <Header>
-                                      <Link to={node.fields.route}><H2 mask="h5" style={{ margin: `0px 0px ${type.heading.sizes.third * 0.625}px 0px` }}>{node.frontmatter.title}</H2></Link>
-                                      <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                                      <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
-                                    </Header>
-                                  </div>
-                                </div>
-                              </Article>
-                            }
-                          </Fragment>
-                        ))
+                  _.map(postEdges, ({ node }) => (
+                    <Fragment>
+                      { (node.frontmatter.category === category) &&
+                        <Article key={node.fields.route} style={{ paddingBottom: `${modularScale.basePlus2.em}`, paddingTop: `${modularScale.basePlus2.em}` }}> {/*  */}
+                          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
+                            <div style={{ flex: '7.5 1 0%' }}>
+                              <Image
+                                src={node.frontmatter.cover}
+                                rawWidth={1440}
+                                rawHeight={900}
+                                loader="gradient"
+                                style={{ }}
+                              />
+                            </div>
+                            <div style={{ flex: '12.5 1 0%', padding: '0px 0px 0px 10px' }}>
+                              <Header>
+                                <Link to={node.fields.route}><H3>{node.frontmatter.title}</H3></Link> {/*  */}
+                                <Paragraph>{node.frontmatter.abstract}</Paragraph>
+                                <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
+                              </Header>
+                            </div>
+                          </div>
+                        </Article>
                       }
-                    </div>
+                    </Fragment>
                   ))
                 }
-                <Paragraph style={{ textAlign: 'center', fontSize: type.body.fontSize * 0.625, color: '#676767', margin: `${type.body.fontSize * 0.625}px 0px` }}>~ fin ~</Paragraph>
-              </Col>
-            </Row>
-          </Page>
+              </div>
+            ))
+          }
+          <Paragraph>~ fin ~</Paragraph>
         </Container>
       );
     }
