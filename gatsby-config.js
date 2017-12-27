@@ -29,7 +29,6 @@ module.exports = {
     'gatsby-plugin-lodash',
     "gatsby-plugin-react-helmet",
     'gatsby-plugin-antd',
-    // 'gatsby-plugin-jss',
     'gatsby-plugin-less',
     {
       resolve: "gatsby-source-filesystem",
@@ -71,7 +70,6 @@ module.exports = {
     },
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
-    "gatsby-plugin-twitter",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
