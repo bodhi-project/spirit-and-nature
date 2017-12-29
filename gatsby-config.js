@@ -27,7 +27,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-lodash',
-    "gatsby-plugin-react-helmet",
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-antd',
     'gatsby-plugin-less',
     {

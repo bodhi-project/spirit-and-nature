@@ -47,37 +47,37 @@
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Style for Markdown ---> React
-  const markdownStyles = css({
-    '& h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child': {
-      marginTop: '0 !important',
-    },
-  });
+  // const markdownStyles = css({
+  //   '& h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child': {
+  //     marginTop: '0 !important',
+  //   },
+  // });
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Styles for stuff on the side
-  const sideStyles = css({
-    '& .ant-tree li': {
-      marginBottom: '0px !important',
-    },
-    '& .ant-tree.ant-tree-show-line li:not(:last-child):before': {
-      borderLeftColor: '#363636 !important',
-    },
-    '& .ant-tree-node-content-wrapper': {
-      marginBottom: `${(modularScale.base.px * 0.375) / 16}em !important`,
-    },
-    '& .ant-tree.ant-tree-show-line li span.ant-tree-switcher': {
-      color: '#363636 !important',
-      background: '#fff6ec !important',
-    },
-    '& .ant-tree-title': {
-      fontSize: modularScale.base.em,
-      fontFamily: kit.fontFamilies.paragraph,
-      fontStyle: 'normal',
-      fontWeight: '400',
-      marginBottom: 0,
-      marginTop: 0,
-      color: 'inherit',
-    },
-  });
+  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Styles for stuff on the side
+  // const sideStyles = css({
+  //   '& .ant-tree li': {
+  //     marginBottom: '0px !important',
+  //   },
+  //   '& .ant-tree.ant-tree-show-line li:not(:last-child):before': {
+  //     borderLeftColor: '#363636 !important',
+  //   },
+  //   '& .ant-tree-node-content-wrapper': {
+  //     marginBottom: `${(modularScale.base.px * 0.375) / 16}em !important`,
+  //   },
+  //   '& .ant-tree.ant-tree-show-line li span.ant-tree-switcher': {
+  //     color: '#363636 !important',
+  //     background: '#fff6ec !important',
+  //   },
+  //   '& .ant-tree-title': {
+  //     fontSize: modularScale.base.em,
+  //     fontFamily: kit.fontFamilies.paragraph,
+  //     fontStyle: 'normal',
+  //     fontWeight: '400',
+  //     marginBottom: 0,
+  //     marginTop: 0,
+  //     color: 'inherit',
+  //   },
+  // });
 
 // ----------------------------------------------------------------------- Component
 /**

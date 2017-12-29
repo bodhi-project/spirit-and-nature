@@ -19,5 +19,6 @@ tags:
 
 "Today, we tend to forget the sacred that is in everything. I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us." — Aikya
 
-Read more --
+[/about]
+
 

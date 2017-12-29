@@ -15,8 +15,10 @@
   import { Type, typeComposite } from '@bodhi-project/typography';
   import { Header as SemanticHeader } from '@bodhi-project/semantic-webflow';
 
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main style
   import '../style/index.less';
+
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
   import headerBanner from './assets/header.png';
   import burgerMenu from './assets/burger_menu.png';
   import logo from './assets/logoWithText.png';
@@ -155,7 +157,6 @@ class TemplateWrapper extends React.Component {
       <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }}>
         <Container block noFade style={{ padding: 0 }}>
           
-
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
           <InitializeMeta data={{ titleTemplate: '%s | Spirit and Nature' }} />
           <UpdateTitle title="Loading..." />

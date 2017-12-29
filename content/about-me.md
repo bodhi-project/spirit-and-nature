@@ -15,4 +15,6 @@ tags:
 
 Aikya is a trained psychologist and is the founder of ‘Nature and Spirit’ in Auroville. She has always been searching for her true purpose in life — of finding oneness, consciousness and beauty — or the way of Creative Shakti. Aikya enjoys working with children as they are still close to their heart and with people who are open to exploring new territories.
 
-Read more --
+[/aikyas-short-life-story]
+
+

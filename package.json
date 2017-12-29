@@ -26,11 +26,11 @@
     "format:js": "prettier '**/*.{js,jsx}' --write"
   },
   "dependencies": {
-    "@bodhi-project/components": "0.0.62",
-    "@bodhi-project/markdown-to-react": "0.0.2",
+    "@bodhi-project/components": "0.0.63",
+    "@bodhi-project/markdown-to-react": "0.0.6",
     "@bodhi-project/semantic-webflow": "0.0.10",
     "@bodhi-project/seo": "0.0.3",
-    "@bodhi-project/typography": "0.0.23",
+    "@bodhi-project/typography": "0.0.28",
     "@bodhi-project/utilities": "0.0.3",
     "antd": "^3.0.3",
     "babel-plugin-lodash": "^3.3.2",
