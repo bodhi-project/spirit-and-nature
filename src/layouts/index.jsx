@@ -176,7 +176,7 @@ class TemplateWrapper extends React.Component {
               </MobileMenu>
               <DesktopHeader className={desktopHeaderClass.toString()}>
                 <div>
-                  <Link to="/" style={{ height: 70, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
+                  <Link to="/" style={{ height: 60, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
                 </div>
                 <ul>
                   <li><Link to="/home">Home</Link></li>
