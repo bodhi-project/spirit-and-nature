@@ -1,6 +1,6 @@
 ---
-title: "On Auroville"
-cover: "/content-assets/biography.jpg"
+title: On Auroville
+cover: /content-assets/on-auroville/auroville3_1440X900.jpg
 category: auroville
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
@@ -18,8 +18,6 @@ Stated in The Mother's first public message in 1965, "Auroville wants to be a un
 ![Auroville #2](/content-assets/on-auroville/auroville2.jpg)
 
 ![Auroville #1](/content-assets/on-auroville/auroville1.jpg)
-
-![Auroville #3](/content-assets/on-auroville/auroville3_1440X900.jpg)
 
 The purpose of Auroville is to realise human unity in diversity. Auroville is recognised as the first and only internationally endorsed ongoing experiment in human unity and transformation of consciousness, also concerned with - and practically researching into - sustainable living and the future cultural, environmental, social and spiritual needs of mankind.
 
@@ -55,3 +53,4 @@ In short, it would be a place where human relationships, which are normally base
 2. Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
 3. Auroville wants to be the bridge between the past and the future. Taking advantage of all discoveries from without and from within, Auroville will boldly spring towards future realizations. 
 4. Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
+

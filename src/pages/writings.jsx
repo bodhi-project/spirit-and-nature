@@ -111,21 +111,21 @@
                     <Fragment>
                       { (node.frontmatter.category === category) &&
                         <Article key={node.fields.route} style={{ paddingBottom: `${modularScale.basePlus2.em}`, paddingTop: `${modularScale.basePlus2.em}` }}> {/*  */}
-                          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'stretch' }}>
+                          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'flex-start' }}>
                             <div style={{ flex: '7.5 1 0%' }}>
                               <Image
                                 src={node.frontmatter.cover}
                                 rawWidth={1440}
                                 rawHeight={900}
                                 loader="gradient"
-                                style={{ }}
+                                style={{ border: 0 }}
                               />
                             </div>
                             <div style={{ flex: '12.5 1 0%', padding: '0px 0px 0px 10px' }}>
                               <Header>
-                                <Link to={node.fields.route}><H3>{node.frontmatter.title}</H3></Link> {/*  */}
+                                <Link to={node.fields.route}><H3 style={{ marginTop: 0 }}>{node.frontmatter.title}</H3></Link> {/*  */}
                                 <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                                <Paragraph style={{ textIndent: 0 }}>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</Paragraph>
+                                <Paragraph style={{ textIndent: 0 }}><small><i>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</i></small></Paragraph>
                               </Header>
                             </div>
                           </div>
