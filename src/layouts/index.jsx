@@ -92,10 +92,13 @@
     },
 
     '& ul': {
-      display: 'block',
-      textAlign: 'right',
+      float: 'right',
+      position: 'absolute',
       margin: 0,
       padding: 0,
+      top: 120,
+      right: 0,
+      textAlign: 'right',
     },
 
     '& ul li': {
@@ -176,7 +179,7 @@ class TemplateWrapper extends React.Component {
               </MobileMenu>
               <DesktopHeader className={desktopHeaderClass.toString()}>
                 <div>
-                  <Link to="/" style={{ height: 60, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
+                  <Link to="/" style={{ height: 50, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
                 </div>
                 <ul>
                   <li><Link to="/home">Home</Link></li>

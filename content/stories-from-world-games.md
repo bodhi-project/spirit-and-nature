@@ -13,9 +13,7 @@ tags:
 
 In the World Game, I hear stories which end well. Sometimes beings die, but then they come back, or sometimes ‘baddies’ attack but the ‘goodies’ win. The stories presented here are both co-productions. In both stories the penguin is the main figure but this is pure coincidence! The second story was written two years after the first one and the children had not heard about the first penguin story.
 
-# Penguin Imhoff
-
-Aloe & Alexandra came with a fully written story, they enacted it in the sandbox and I made a little movie. This is the first time that children wrote a story down on paper, they seem to like that. It makes them feel that they can be storywriters, and they surely are. Here is the story:
+# Penguin Imhoff by Aloe & Alexandra
 
 This little penguin is called Fred Imhoff. He is a very rich penguin and really likes going on holidays. It is his summer vacation and he wants to go to a really posh beach. He packs all his things. He wants to do some snorkeling. By mistake he doesn’t put on his normal glasses, he puts on his goggles. His goggles make him see things differently and because he doesn’t see well, he reads the ticket wrong.
 
@@ -27,7 +25,7 @@ He is feeling hungry so he goes and walks in the garden. There he sees a sh, but
 
 Then one day while his son and his wife are sleeping under the mushroom house, he finds a glittery thing: it is his glasses and he puts them on and he feels so depressed; he feels miserable, so he chucks his glasses and puts back his goggles and lives happily ever after under the mushroom house next to the watery candle.
 
-# The Penguin
+# The Penguin by Jasmine & Zohar
 
 It is interesting to note that these two children arrived wearing the same colour T-shirt. Sometimes I notice a certain harmony between the children in the way they dress, very often I notice the children have the same colour of dress as I.
 
@@ -49,31 +47,31 @@ Every time they caught the penguin, it escaped. Soon they became tired of trying
 
 So instead he opened the door to a land with a tree, with a fire beside it. He made his house in that land and stayed warm for the rest of his life. But he felt sad for his owners. He returned to them to light their small re and then returned home to his big fire. The penguin lived happily ever after yet occasionally he went back to visit them. The end.
 
-# Asia on August the 27'th, 2015
+# Magic by Asia
 
 A magical river which you can only go to in your dreams or in your imagination… because a long time ago people could go there, but one day someone stole something. So that is why you can only go there or in your dreams or in your imagination.
 
-![Asia #1](/content-assets/stories-from-world-games/asia1_1000X750.jpg)
-
 ![Asia #2](/content-assets/stories-from-world-games/asia2_1000X751.jpg)
 
-![Asia #3](/content-assets/stories-from-world-games/asia3_960X1280.jpg)
-
 ![Asia #4](/content-assets/stories-from-world-games/asia4_1000X589.jpg)
+
+There are lots of magical creatures who live there but the guardian is a ‘very’ magical unicorn. She is very playful and happy, she has a best friend it is also a very playful creature: it is a dolphin a magical one and all of the creatures there are very playful and kind!!!!!!!
+
+# Unicorn by Asia & Madu
+
+On the little playful unicorn’s birthday she was celebrating by having a big reunion with most of the fairies and animal and all the creatures of the land she was called pearl. Everyone brought beautiful presents for her: diamonds crystals and the little baby bunnies got her a pearl, they gave it to her and giggled.
+
+![Asia #1](/content-assets/stories-from-world-games/asia1_1000X750.jpg)
+
+![Asia #3](/content-assets/stories-from-world-games/asia3_960X1280.jpg)
 
 ![Asia #5](/content-assets/stories-from-world-games/asia5_1000X750.jpg)
 
 ![Asia #6](/content-assets/stories-from-world-games/asia6_960X1280.jpg)
 
-There are lots of magical creatures who live there but the guardian is a ‘very’ magical unicorn. She is very playful and happy, she has a best friend it is also a very playful creature: it is a dolphin a magical one and all of the creatures there are very playful and kind!!!!!!!
-
-# Asia and Madu on September the 3'rd, 2015
-
-On the little playful unicorn’s birthday she was celebrating by having a big reunion with most of the fairies and animal and all the creatures of the land she was called pearl. Everyone brought beautiful presents for her: diamonds crystals and the little baby bunnies got her a pearl, they gave it to her and giggled.
-
 The unicorn loved all her gifts. Then the queen of the land arrived, she gave the unicorn one wish: the unicorn wished that all the fairies, elves, animals, mermaids, people and even the goblins and ogres were happyyyyyyyy!!!!!!!!!!!!!!!!
 
-# Pia's Story
+# Crystal Maiden by Pia
 
 Once upon a time there was a land of crystal and the crystal queen and 4 crystal princesses. In the land there is a lotus in the middle and 6 big crystals around it. And around each crystal there are a lots of different stones and shells. In the middle of the lotus that’s where the baby crystal is being born. There is some soft stuff and on the soft stuff there is a baby tiny crystal.
 
@@ -89,11 +87,9 @@ On the petals of the lotus there are 6 other baby crystals. All the crystals, fa
 
 Once the baby is born she will have to find a place the stay, she does not know where she should be staying, she is still thinking. A swan is coming to her to give her a magical shell.  She took the shell. The shell will help her to find her place. She is a very special baby. She chooses where she should go, she wants to live with the queen, so the queen took her to her magical palace and they all lived happily.
 
-The End
+The End.
 
-# Yam's Story
-
-## No. 1
+# Philosophy of Life by Yam
 
 The sandbox is the personality and it’s path of life.  There are different parts in this World Game:
 
@@ -112,7 +108,7 @@ The sandbox is the personality and it’s path of life.  There are different par
 
 ![Yam #4](/content-assets/stories-from-world-games/yam4_1000X750.jpg)
 
-## No. 2
+# The Dragon and the Phoenix by Yam
 
 There is a dragon and a phoenix. The phoenix is more spiritual and rules the kingdom of fire and has a lot of wisdom. The dragon is more powerful, rules the Kingdom of substance and both energies create the universe and each one needs the other because they balance the world.
 
@@ -124,7 +120,7 @@ There is a dragon and a phoenix. The phoenix is more spiritual and rules the kin
 
 ![Yam #8](/content-assets/stories-from-world-games/yam8_1000X750.jpg)
 
-## Yam with Milo
+# The White Knight and the Dark Lord by Yam and Milo
 
 The white Knight in combat with the dark Lord.  The dark Lord is in the old kingdom’s ruins trying to get the treasure even though he has enough. Two statue dogs - that can turn into real dogs - are furious and fighting against the white lion and white tigers. 
 

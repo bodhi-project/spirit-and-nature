@@ -6,14 +6,23 @@ date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
 tags:
-    - say hi
+  - say hi
 ---
 
 # Auroville
 
-Auroville (City of Dawn) is an experimental township in Viluppuram district mostly in the state of Tamil Nadu, India with some parts in the Union Territory of Puducherry in South India. It was founded in 1968 by Mirra Alfassa (known as "the Mother").
+Auroville was founded by Mirra Alfasa, known as The Mother. She was the spiritual collaborator of Sri Aurobindo, the great Indian visionary and yogi who evolved a new method of spiritual practice, which he called Integral Yoga.
 
-Stated in The Mother's first public message in 1965, "Auroville wants to be a universal town where men and women of all countries are able to live in peace and progressive harmony, above all creeds, all politics and all nationalities. The purpose of Auroville is to realize human unity."
+Auroville is a laboratory for the materialization of a new consciousness. Every one is welcome who has good will and believes Human Unity is possible and aspires for it.
+
+On the 28 th of February 1968 The Mother stated, “Auroville wants to be a universal town where men and women of all countries are able to live in peace and progressive harmony above all creeds, all politics and all nationalities. The purpose of Auroville is to realize human unity”.
+
+Mother’s vision for Auroville began to take shape on that same day in 1968 when an inauguration ceremony took place on a piece of bare ground north of Pondicherry; she read the “Auroville Charter”1 from her room in the Sri Aurobindo Ashram in Pondicherry.
+
+[https://www.auroville.org]
+
+&nbsp;&nbsp;
+
 
 ![Auroville #2](/content-assets/on-auroville/auroville2.jpg)
 

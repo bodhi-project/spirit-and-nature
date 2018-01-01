@@ -1,6 +1,6 @@
 ---
 title: About
-cover: /content-assets/biography.jpg
+cover: /content-assets/about/about12_600X900.jpg
 category: general
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
@@ -16,12 +16,6 @@ tags:
 ![About #1](/content-assets/about/about1_850X490.jpg)
 
 # About
-
-"Spirit and Nature" is dedicated to the experience of Spirit and Nature — Nature as a teacher of multiplicity of creative expressions of Spirit.
-
-"Today, we tend to forget the sacred that is in everything. I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us. 'Nature and Spirit' is a learning centre situated in the middle of an Auroville forest."
-
-Aikya is a trained psychologist and is the founder of ‘Nature and Spirit’ in Auroville. She has always been searching for her true purpose in life — of finding oneness, consciousness and beauty — or the way of Creative Shakti. Aikya enjoys working with children as they are still close to their heart and with people who are open to exploring new territories.
 
 "Nature and Spirit" is a learning centre situated in the middle of an Auroville forest.
 
@@ -63,5 +57,6 @@ In the next evolutionary spirit of today and tomorrow we will discover new const
 
 ![About #7](/content-assets/about/about7_100X100.jpg)
 
-> Spirit and Nature is registered as an Acitivity under Auroville Art Service — http://artservice.auroville.org/
+Spirit and Nature is registered as an Acitivity under Auroville Art Service.
 
+[http://artservice.auroville.org/].
