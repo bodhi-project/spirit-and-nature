@@ -98,18 +98,10 @@ class PageWrapper extends React.Component {
         <UpdateTitle title={frontmatter.title} />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        { (frontmatter.variant !== "gallery" && frontmatter.variant !== "page") &&
-          <Fragment>
-            <H2>{frontmatter.title}</H2>
-          </Fragment>
-        }
         <Fragment>
           {
             treeParser(markdownAst, { localLink: Link })
           }
-          <br /><br />
-          <hr style={{ borderTop: '1px solid #363636', borderColor: '#363636' }} />
-          <br /><br />
         </Fragment>
       </Container>
     );

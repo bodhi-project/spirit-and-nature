@@ -1,7 +1,7 @@
 ---
 title: Creating Sacred Spaces
 cover: "/content-assets/biography.jpg"
-category: world game
+category: Excerpts From The Book
 date: 2017-12-21
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none

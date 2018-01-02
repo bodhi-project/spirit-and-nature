@@ -1,7 +1,7 @@
 ---
 title: The Forest is a Mysterious Place
 cover: /content-assets/forest/forestBanner.jpg
-category: auroville
+category: General
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
 variant: none

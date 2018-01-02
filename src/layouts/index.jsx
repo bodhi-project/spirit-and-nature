@@ -22,6 +22,8 @@
   import headerBanner from './assets/header.png';
   import burgerMenu from './assets/burger_menu.png';
   import logo from './assets/logoWithText.png';
+  import logo2 from './assets/logoWithText2.png';
+  import logo3 from './assets/logoWithText3.png';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
@@ -79,35 +81,28 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header Style
   const desktopHeader = css({
-    height: 1,
-    display: 'block',
-    position: 'relative',
-
-    '& > div': {
-      width: 'auto !important',
-      float: 'right',
-      position: 'absolute',
-      top: 50,
-      right: 0,
-    },
+    height: 180,
+    display: 'flex',
+    justifyContent: 'center',
 
     '& ul': {
-      float: 'right',
-      position: 'absolute',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
       margin: 0,
       padding: 0,
-      top: 120,
-      right: 0,
-      textAlign: 'right',
     },
 
     '& ul li': {
-      display: 'block',
-      padding: '0px',
-      margin: '0 !important',
-      fontFamily: `${kit.fontFamilies.paragraph} !important`,
-      fontSize: `${(modularScale.base.px * 1.5) / 16}em !important`,
-      fontStyle: 'italic',
+      display: 'inline-flex',
+      padding: '17px 27px',
+
+      '& a': {
+        fontSize: '1.5rem',
+        fontFamily: `${kit.fontFamilies.paragraph} !important`,
+        color: '#6b510f',
+        // fontSize: `${(modularScale.base.px * 1.75) / 16}em !important`,
+      },
     },
   });
   const desktopHeaderClass = desktopHeader.toString();
@@ -178,30 +173,36 @@ class TemplateWrapper extends React.Component {
                 </ul>
               </MobileMenu>
               <DesktopHeader className={desktopHeaderClass.toString()}>
-                <div>
-                  <Link to="/" style={{ height: 50, width: 'auto' }}><img style={{ height: 'inherit', width: 'inherit' }} src={logo} /></Link>
+                <div style={{ width: '100%' }}>
+                  <p style={{ width: '100%', textAlign: 'center', marginBottom: 2, fontWeight: 700, textTransform: 'uppercase', borderBottom: '2px solid #daa520', color: '#ae8319' }}>
+                    Spirit and Nature
+                  </p>
+                  <ul style={{ paddingTop: 20, paddingBottom: 20, borderBottom: '2px solid #daa520' }}>
+                    <li><Link to="/home">Home</Link></li>
+                    <li><Link to="/activities">Offerings</Link></li>
+                    <li><Link to="/writings">Journal</Link></li>
+                    <li><Link to="/videos">Videos</Link></li>
+                    <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 70, width: 'auto' }} src={logo} /></a></li>
+                    <li><Link to="/gallery">Gallery</Link></li>
+                    <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
+                    <li><Link to="/about-me">About Me</Link></li>
+                    <li><Link to="/contact">Contact</Link></li>
+                  </ul>
                 </div>
-                <ul>
-                  <li><Link to="/home">Home</Link></li>
-                  <li><Link to="/activities">Offerings</Link></li>
-                  <li><Link to="/writings">Journal</Link></li>
-                  <li><Link to="/videos">Videos</Link></li>
-                  <li><Link to="/gallery">Gallery</Link></li>
-                  <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
-                  <li><Link to="/about-me">About Me</Link></li>
-                  <li><Link to="/contact">Contact</Link></li>
-                </ul>
               </DesktopHeader>
             </ResponsiveHeader>
           </SemanticHeader>
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-          <Row type="flex" className={contentWrapperClass}>
-            <Col span={18}>
+          <Row type="flex" className={contentWrapperClass} justify="center">
+            <Col span={18} style={{ paddingLeft: 20, paddingRight: 20 }}>
               {this.props.children()}
             </Col>
           </Row>
-          
+
+          <div style={{ borderTop: '2px solid #daa520', paddingTop: 50, paddingBottom: 50 }}>
+            Facebook, etc etc.
+          </div>
         </Container>
       </Type>
     );

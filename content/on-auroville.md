@@ -1,7 +1,7 @@
 ---
 title: On Auroville
 cover: /content-assets/on-auroville/auroville3_1440X900.jpg
-category: auroville
+category: General
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
@@ -62,4 +62,3 @@ In short, it would be a place where human relationships, which are normally base
 2. Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
 3. Auroville wants to be the bridge between the past and the future. Taking advantage of all discoveries from without and from within, Auroville will boldly spring towards future realizations. 
 4. Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
-

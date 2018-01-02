@@ -105,7 +105,7 @@
           {
             _.map(categories, (category) => (
               <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >
-                <H2 style={{ borderTop: '4px solid #222222' }}>{_.capitalize(category)}</H2>
+                <H2>{_.capitalize(category)}</H2>
                 {
                   _.map(postEdges, ({ node }) => (
                     <Fragment>
@@ -137,7 +137,7 @@
               </div>
             ))
           }
-          <Paragraph class="text-center">~ fin ~</Paragraph>
+          <Paragraph style={{ textAlign: 'center' }}>~ fin ~</Paragraph>
         </Container>
       );
     }

@@ -1,6 +1,6 @@
 ---
 title: About
-cover: /content-assets/about/about12_600X900.jpg
+cover: /content-assets/about/about4_1075X900.jpg
 category: general
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
@@ -13,7 +13,7 @@ tags:
 
 "Unity is the substance of the heart" — Sri Aurobindo
 
-![About #1](/content-assets/about/about1_850X490.jpg)
+![About #1](/content-assets/about/about4_1075X900.jpg)
 
 # About
 
@@ -26,10 +26,6 @@ tags:
 The contemporary world faces a radical crisis today in almost all domains of life. Human suffering and ecological damage have reached unprecedented and terrifying levels. Old systems are collapsing, nature becomes turbulent, an apparent chaos is happening. But simultaneously a new spirit is at work. This is an awakening call for humanity to look for new and appropriate answers.
 
 We are in front of unknown territories and ego and mind structures are not enough. We need to stand still, face our wounds, our broken hearts and look inside to find what is our soul.
-
-![About #4](/content-assets/about/about4_1075X900.jpg)
-
-![About #7](/content-assets/about/about7_100X100.jpg)
 
 ![About #5](/content-assets/about/about5_1260X900.jpg)
 
@@ -53,10 +49,7 @@ Nature in the form of mineral, plant and animal Kingdoms still hold the simplici
 
 In the next evolutionary spirit of today and tomorrow we will discover new constructive potentials and finally collaborate for a future of humanity where all beings will have a place and right to live beautifully. It is the time to shift to the deep heart- of eternal Love and Beauty. Life in its totality is the playground and teacher. We all can learn to trust the essential potential which is secretly organising every living being and as such finding purpose and celebrate.
 
-![About #12](/content-assets/about/about12_600X900.jpg)
-
-![About #7](/content-assets/about/about7_100X100.jpg)
-
 Spirit and Nature is registered as an Acitivity under Auroville Art Service.
 
 [http://artservice.auroville.org/].
+

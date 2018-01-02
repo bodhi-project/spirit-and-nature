@@ -1,7 +1,7 @@
 ---
 title: Aikya’s short life story
 cover: /content-assets/biography/biography116_1600X1000.jpg
-category: people
+category: General
 date: 2017-03-01
 abstract: Adapted from "Reconnecting with Spirit through Nature", an article by Alan in Auroville Today. Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
 variant: none
@@ -67,7 +67,7 @@ However, after a time I began to feel some limitation with the sandbox play, and
 
 The next chapter, which came as a continuation of my love for nature, came when one of my dogs was in pain. I was at a loss what to do but I knew of somebody who was doing animal communication and wrote to her. I sent a picture of my dog and she wrote back telling me that it was his time to leave and giving me some advice about how to ease his passing.
 
-I recalled that Mother had deep connections with animals and trees and did a lot of research with cats. But it was natural for me to want to learn more about animal communication. Nancy Windheart, who had given me advice about my dog, invited me to participate in two online courses. Later, in 2014, I got the chance to go to South Africa and study for a few days with Anna Breytenach, a famous animal communicator.
+I recalled that Mother had deep connections with animals and trees and did a lot of research with cats. But it was natural for me to want to learn more about animal communication. Nancy Windheart, who had given me advice about my dog, invited me to participate in two online courses. Later, in 2014, I got the chance to go to South Africa and study for a few days with Anna Breytenbach, a famous animal communicator.
 
 ![Working with animals #1](/content-assets/biography/biography108_1200X900.jpg)
 
