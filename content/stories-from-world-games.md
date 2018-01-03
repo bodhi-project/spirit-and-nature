@@ -2,7 +2,7 @@
 title: "Stories from World Games"
 cover: "/content-assets/biography.jpg"
 category: Excerpts From The Book
-date: 2017-03-02
+date: 2017-12-27
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
 tags:
@@ -11,7 +11,7 @@ tags:
 
 “One dreams of miracles when one is young, one wants all wickedness to disappear, everything to be always luminous, beautiful, happy, one likes stories which end happily. This is what one should rely on.” — The Mother
 
-In the World Game, I hear stories which end well. Sometimes beings die, but then they come back, or sometimes ‘baddies’ attack but the ‘goodies’ win. The stories presented here are both co-productions. In both stories the penguin is the main figure but this is pure coincidence! The second story was written two years after the first one and the children had not heard about the first penguin story.
+Presented here in this article are a number of stories from the World Game.
 
 # Penguin Imhoff by Aloe & Alexandra
 
@@ -137,4 +137,3 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #6](/content-assets/stories-from-world-games/yamMilo6_1000X750.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
-

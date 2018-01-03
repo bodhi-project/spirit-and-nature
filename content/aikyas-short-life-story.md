@@ -87,7 +87,7 @@ I don’t think my role is to become an animal communicator. Although we learned
 
 # The White Lions
 
-Recently I returned to South Africa for one month because I received a scholarship from the Linda Tucker Foundation (with additional support from Auroville’s MT&D programme) to participate in the 'White Lion Leadership Academy'. Here I was plunged not only into the world of animal communication but also into collective and shamanistic dreamwork, evolutionary astrology etc.
+In November 2016 I returned to South Africa for one month because I received a scholarship from the Linda Tucker Foundation (with additional support from Auroville’s MT&D programme) to participate in the 'White Lion Leadership Academy'. Here I was plunged not only into the world of animal communication but also into collective and shamanistic dreamwork, evolutionary astrology etc.
 
 ![White Lions #1](/content-assets/biography/biography109.jpg)
 
@@ -105,7 +105,7 @@ After a huge struggle, for the cub was born in a ‘blood lion’ camp, Linda ob
 
 However, this is much more than a conservation project; it is also about leadership and addressing the most urgent crises of today. After observing lions for a long time, she decided to set up her White Lion Leadership Academy. Here she started to train people in the thirteen laws of LionHearted leadership, which are based on nature’s laws.
 
-It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for.
+It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for. In 2017 I participated in the Online LionHearted Practitioner Training.
 
 # One United Roar
 
@@ -118,6 +118,8 @@ This really resonated with the kids from ‘The Learning Community’. With elev
 ![One United Roar #2](/content-assets/biography/img20.jpg)
 
 This shows that children who grow up here have a strong potential to express their heart qualities in things that matter. They are very concerned about the disappearance of wildlife at a rate that might leave us without free-roaming elephants or lions by the time these kids grow up.
+
+YouTube link goes here...
 
 # Where I Am Now
 
@@ -136,3 +138,4 @@ In terms of the yoga, the next step we need to take is to access the intuitive c
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
+

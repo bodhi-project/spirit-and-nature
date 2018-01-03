@@ -2,7 +2,7 @@
 title: "Sandplay Traditions in Auroville"
 cover: "/content-assets/biography.jpg"
 category: Excerpts From The Book
-date: 2017-03-02
+date: 2017-12-26
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
 tags:
@@ -68,19 +68,15 @@ In an article in Ritam, published in the winter of 2005, Jossy describes her wor
 
 “Sand play is actually just what its name implies; it is playing with sand. It is a tool to getting to the imagination and allowing it to become creativity. It is a wonderful instrument, which helps create a link between body and psyche, ma er and spirit. Our hands act as a mediator between inner images and their expression in the outer world: hence the sand tray. It fosters sensitivity to inner images, a condition of relatedness to the inner world, and its concreteness helps create a state of absorption and relaxed concentration. It is a way of objectifying, in the form of symbols, the energy of the unconscious and is very close to the method of active imagination developed by Carl Jung.”
 
-[https://vimeo.com/233110197]
-
 The rectangular box represents the limitations of the world, but the variety of miniatures, people from all times and cultures, animals, houses and castles, trees and flowers, as well as craft materials enable the children to create any world they can imagine within the limitations of the box. The basic equipment for sand play is a rectangular tray, 28” x 19” and 3 inches deep, half lled with sand. The inside of the tray is painted blue so that when an area is exposed it suggests water. Real water may also be used. The children can make whatever they want with these simple materials, lingering over one box for an hour, or making several boxes one after the other. There are no specific instructions, and no distractions to interfere with their concentration.
 
 One valuable feature of Sandplay for a multicultural society such as Auroville is that once within the world of the box the children are free to use or ignore the symbols of the culture they know and to create their own.
 
-“The sandbox world is a symbolic expression of the quest for consciousness that is the first and essential drive for human beings.”
-
-— Jossy, 2005
+“The sandbox world is a symbolic expression of the quest for consciousness that is the first and essential drive for human beings.” - Jossy, 2005
 
 In addition to the expression of inner thoughts and feelings for the child, the sandbox can also be used as an academic tool, encouraging the children to express themselves, first through Sandplay and later through telling, acting and writing. In most cases there is no direct connection but feelings and thoughts released by protected free play in the sandbox can encourage a freer expression in other mediums. Any growth in consciousness will lead to further growth in other domains. The sandbox can be an integral part of an integral education.
 
-“The World Game” was a unique aspect of the curriculum at Aspiration in the early years, and was reintroduced into the Auroville curriculum at Transition by Jossy in 1999. In 2001 Jossy was joined by Paulien, rst as an observer and then as an additional sand box guide at Transition for a few hours a week. While she was learning the Sand Play from Jossy, Paulien opened a room for sand box play at Deepanam, and then moved with the small objects she had collected to the Nandanam Campus, and nally to the site across the road now ocupied by Aha! Meanwhile Paulien’s hours for guiding the Sand Play at Transition gradually increased, until Jossy left her body in March, 2006. Paulien stopped work at Nandenam and took over all the sand box activities at Transition. The Sand Play program at Transition was cut back in July 2014 but Paulien continues with a few ‘regulars’ and small groups of rst graders at Transition, in addition to her work with “special needs” children.
+“The World Game” was a unique aspect of the curriculum at Aspiration in the early years, and was reintroduced into the Auroville curriculum at Transition by Jossy in 1999. In 2001 Jossy was joined by Paulien, rst as an observer and then as an additional sand box guide at Transition for a few hours a week. While she was learning the Sand Play from Jossy, Paulien opened a room for sand box play at Deepanam, and then moved with the small objects she had collected to the Nandanam Campus, and nally to the site across the road now ocupied by Aha! Meanwhile Paulien’s hours for guiding the Sand Play at Transition gradually increased, until Jossy left her body in March, 2006. Paulien stopped work at Nandenam and took over all the sand box activities at Transition. The Sand Play program at Transition was cut back in July 2014.
 
 The World Game that Aikya describes with such love and care in this book is part of an almost unbroken tradition of sandbox activity for children in Auroville. I hope this book will inspire other schools or centers to consider the possibilities the World Game affords for creativity, self-discovery and the expression of the psychic being.
 

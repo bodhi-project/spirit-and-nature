@@ -1,6 +1,6 @@
 ---
 title: On Auroville
-cover: /content-assets/on-auroville/auroville3_1440X900.jpg
+cover: /content-assets/on-auroville/avBanner.jpg
 category: General
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
@@ -19,14 +19,13 @@ On the 28 th of February 1968 The Mother stated, “Auroville wants to be a univ
 
 Mother’s vision for Auroville began to take shape on that same day in 1968 when an inauguration ceremony took place on a piece of bare ground north of Pondicherry; she read the “Auroville Charter”1 from her room in the Sri Aurobindo Ashram in Pondicherry.
 
-[https://www.auroville.org]
+![Auroville #1](/content-assets/on-auroville/auroville2.jpg)
 
-&nbsp;&nbsp;
+![Auroville #2](/content-assets/on-auroville/auroville1.jpg)
 
+![Auroville #3](/content-assets/on-auroville/av101_1200X900.jpg)
 
-![Auroville #2](/content-assets/on-auroville/auroville2.jpg)
-
-![Auroville #1](/content-assets/on-auroville/auroville1.jpg)
+![Auroville #4](/content-assets/on-auroville/av102_600X900.jpg)
 
 The purpose of Auroville is to realise human unity in diversity. Auroville is recognised as the first and only internationally endorsed ongoing experiment in human unity and transformation of consciousness, also concerned with - and practically researching into - sustainable living and the future cultural, environmental, social and spiritual needs of mankind.
 
@@ -44,6 +43,8 @@ Mother’s vision for Auroville began to take shape on that same day in 1968 whe
 
 # A Dream
 
+![Auroville #5](/content-assets/on-auroville/av103_1600X900.jpg)
+
 There should be somewhere on earth a place which no nation could claim as its own, where all human beings of goodwill who have a sincere aspiration could live freely as citizens of the world and obey one single authority, that of the supreme Truth; a place of peace, concord and harmony where all the  ghting instincts of man would be used exclusively to conquer the causes of his su erings and miseries, to surmount his weak- nesses and ignorance, to triumph over his limitations and incapacities; a place where the needs of the spirit and the concern for progress would take precedence over the satisfaction of desires and passions, the search for pleasure and material enjoyment.
 
 In this place, children would be able to grow and develop integrally without losing contact with their souls; education would be given not for passing examinations or obtaining certificates and posts but to enrich existing faculties and bring forth new ones. In this place, titles and positions would be replaced by opportunities to serve and organise; the bodily needs of each one would be equally provided for, and intellectual, moral and spiritual superiority would be expressed in the general organisation not by an increase in the pleasures and powers of life but by increased duties and responsibilities.
@@ -58,7 +59,12 @@ In short, it would be a place where human relationships, which are normally base
 
 # Auroville Charter
 
-1. Auroville belongs to nobody in particular. Auroville belongs to humanity as a whole. But to live in Auroville, one must be a willing servitor of the Divine Consciousness. 
-2. Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
-3. Auroville wants to be the bridge between the past and the future. Taking advantage of all discoveries from without and from within, Auroville will boldly spring towards future realizations. 
-4. Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
+Auroville belongs to nobody in particular. Auroville belongs to humanity as a whole. But to live in Auroville, one must be a willing servitor of the Divine Consciousness. 
+
+Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
+
+Auroville wants to be the bridge between the past and the future. Taking advantage of all discoveries from without and from within, Auroville will boldly spring towards future realizations. 
+
+Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
+
+[https://www.auroville.org]

@@ -12,7 +12,7 @@
   import { css, plugins } from 'glamor';
   import { CompositeHeader, Container } from '@bodhi-project/components';
   import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
-  import { Type, typeComposite } from '@bodhi-project/typography';
+  import { Type, Elements, typeComposite } from '@bodhi-project/typography';
   import { Header as SemanticHeader } from '@bodhi-project/semantic-webflow';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Main style
@@ -29,6 +29,7 @@
   const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;
   // const { Fragment } = React;
   // const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  const { Paragraph } = Elements;
   const { getType } = typeComposite;
   const type = getType('eih3wnu');
   const { kit, modularScale } = type;
@@ -195,13 +196,15 @@ class TemplateWrapper extends React.Component {
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
           <Row type="flex" className={contentWrapperClass} justify="center">
-            <Col span={18} style={{ paddingLeft: 20, paddingRight: 20 }}>
+            <Col span={18} style={{ paddingLeft: 25, paddingRight: 25 }}>
               {this.props.children()}
             </Col>
           </Row>
 
-          <div style={{ borderTop: '2px solid #daa520', paddingTop: 50, paddingBottom: 50 }}>
-            Facebook, etc etc.
+          <div style={{ borderTop: '2px solid #daa520', paddingTop: 30, paddingBottom: 30, paddingLeft: 19, paddingRight: 19 }}>
+            <Paragraph style={{ textAlign: 'center' }}>
+              <small>© 2018, Nature and Spirit, Auroville Arts Service</small>
+            </Paragraph>
           </div>
         </Container>
       </Type>

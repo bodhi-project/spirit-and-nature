@@ -79,9 +79,9 @@ import img48 from './assets/gallery/img48.jpg';
 const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
 
 const galleryPhotos = [
-  { src: img2, width: 900, height: 857 },
-  { src: img3, width: 900, height: 355 },
   { src: img4, width: 900, height: 600 },
+  { src: img3, width: 900, height: 355 },
+  { src: img48, width: 900, height: 602 },
   { src: img5, width: 900, height: 798 },
   { src: img6, width: 900, height: 600 },
   { src: img1, width: 900, height: 600 },
@@ -126,7 +126,6 @@ const galleryPhotos = [
   { src: img45, width: 900, height: 555 },
   { src: img46, width: 900, height: 252 },
   { src: img47, width: 900, height: 543 },
-  { src: img48, width: 900, height: 602 },
 ];
 
 // ----------------------------------------------------------------------- SEO
