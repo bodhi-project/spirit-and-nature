@@ -105,7 +105,7 @@
           {
             _.map(categories, (category) => (
               <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >
-                <H2>{_.capitalize(category)}</H2>
+                <H2>{category}</H2>
                 {
                   _.map(postEdges, ({ node }) => (
                     <Fragment>
