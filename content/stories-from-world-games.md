@@ -47,6 +47,10 @@ Every time they caught the penguin, it escaped. Soon they became tired of trying
 
 So instead he opened the door to a land with a tree, with a fire beside it. He made his house in that land and stayed warm for the rest of his life. But he felt sad for his owners. He returned to them to light their small re and then returned home to his big fire. The penguin lived happily ever after yet occasionally he went back to visit them. The end.
 
+The two stories above are taken from the book "Glimpses of Wonder".
+
+[/book-glimpses-of-wonder]
+
 # Magic by Asia
 
 A magical river which you can only go to in your dreams or in your imagination… because a long time ago people could go there, but one day someone stole something. So that is why you can only go there or in your dreams or in your imagination.
@@ -137,3 +141,4 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #6](/content-assets/stories-from-world-games/yamMilo6_1000X750.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
+

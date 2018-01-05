@@ -153,3 +153,9 @@ And in the World Game the children create worlds with endless possibilities, eve
 "If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up into the material manifestation." - The Mother
 
 All children, wherever they are born, come with a gift which is the purpose of their life and will be revealed.
+
+This is an excerpt from the book "Glimpses of Wonder".
+
+[/book-glimpses-of-wonder]
+
+

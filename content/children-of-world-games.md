@@ -94,3 +94,8 @@ One day Veerle brought her own camera and wanted to make a structured story from
 
 One day Veerle and Eden (same age) had a serious thought during the days before their appointment for the World Game, and I was not sure Veerle would show up. Her mother shared her concern. I assured her that I was there and that it might be a good way to make peace. They did come together and made a harmonious sandbox with one part a crystal garden guarded by dinosaurs and one with little people in a city.
 
+This is an excerpt from the book "Glimpses of Wonder".
+
+[/book-glimpses-of-wonder]
+
+
