@@ -1,6 +1,6 @@
 ---
 title: On Auroville
-cover: /content-assets/on-auroville/avBanner.jpg
+cover: /content-assets/about/about1_850X490.jpg
 category: Other Articles
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
@@ -18,14 +18,6 @@ Auroville is a laboratory for the materialization of a new consciousness. Every 
 On the 28 th of February 1968 The Mother stated, “Auroville wants to be a universal town where men and women of all countries are able to live in peace and progressive harmony above all creeds, all politics and all nationalities. The purpose of Auroville is to realize human unity”.
 
 Mother’s vision for Auroville began to take shape on that same day in 1968 when an inauguration ceremony took place on a piece of bare ground north of Pondicherry; she read the “Auroville Charter”1 from her room in the Sri Aurobindo Ashram in Pondicherry.
-
-![Auroville #1](/content-assets/on-auroville/auroville2.jpg)
-
-![Auroville #2](/content-assets/on-auroville/auroville1.jpg)
-
-![Auroville #3](/content-assets/on-auroville/av101_1200X900.jpg)
-
-![Auroville #4](/content-assets/on-auroville/av102_600X900.jpg)
 
 The purpose of Auroville is to realise human unity in diversity. Auroville is recognised as the first and only internationally endorsed ongoing experiment in human unity and transformation of consciousness, also concerned with - and practically researching into - sustainable living and the future cultural, environmental, social and spiritual needs of mankind.
 
@@ -59,6 +51,10 @@ In short, it would be a place where human relationships, which are normally base
 
 # Auroville Charter
 
+![Auroville #3](/content-assets/on-auroville/av101_1200X900.jpg)
+
+![Auroville #4](/content-assets/on-auroville/av102_600X900.jpg)
+
 Auroville belongs to nobody in particular. Auroville belongs to humanity as a whole. But to live in Auroville, one must be a willing servitor of the Divine Consciousness. 
 
 Auroville will be the place of an unending education, of constant progress, and a youth that never ages. 
@@ -68,3 +64,5 @@ Auroville wants to be the bridge between the past and the future. Taking advanta
 Auroville will be a site of material and spiritual researches for a living embodiment of an actual Human Unity. 
 
 [https://www.auroville.org]
+
+

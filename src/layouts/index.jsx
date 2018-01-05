@@ -249,7 +249,7 @@ class TemplateWrapper extends React.Component {
                         trigger="hover"
                         overlayClassName={tipStyleClass}
                       >
-                        <span className="drops">Journal</span>
+                        <span className="drops" style={{ fontSize: '1.5rem', fontFamily: `${kit.fontFamilies.paragraph} !important`, color: '#6b510f' }} >Journal</span>
                       </Popover>
                     </li>
                     <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 70, width: 'auto' }} src={logo} /></a></li>
