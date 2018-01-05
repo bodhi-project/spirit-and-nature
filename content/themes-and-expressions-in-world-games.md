@@ -1,6 +1,6 @@
 ---
 title: Themes and Expressions in World Games
-cover: "/content-assets/biography.jpg"
+cover: /content-assets/expressions/expressions1_1600X1000.jpg
 category: On World Game
 date: 2017-12-28
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
@@ -13,8 +13,6 @@ tags:
 Natural elements such as trees, gardens, jungles, the sea, beaches, deserts, rivers, stones, plus a variety of animals all seem to have a large place in the children’s creations. 
 
 The natural world is of particular interest to this age group (4 to 11 years), as children are just coming into an extended consciousness of the world whether they are exposed to a lot of nature or not. One tree in the city or a pet mouse can be as appealing as a forest and a farmyard to an individual child. Here in Auroville we are fortunate enough to have an abundance of nature and animals. 
-
-![Nature #1](/content-assets/expressions/expressions1_1600X1000.jpg)
 
 It is rare to have a World Game where none of these elements are present. Sometime, mostly among the boys, one observes a solely technical world.
 
@@ -52,8 +50,6 @@ For some children “the good and bad” is a subject of reflection and discussi
 
 There are some life events which are clearly major life events and come up very frequently.
 
-[https://vimeo.com/233490664]
-
 ## Pregnancy, Birth
 
 This element comes up in very different ways, from animal births, to a newborn baby, to fairy births. One girl explains how the mother faints because it is hard to have a baby. Others prepare gifts for the newborn, or celebrate with magical stones that protect the li le ones.
@@ -84,11 +80,13 @@ Mamas are often protecting the li le ones, for example. I have seen a princess s
 
 Candles appear regularly representing something sacred. The children like to use them. Sometimes they light them themselves, sometimes I help. Once a child asked to make a mini- re in the sand with small sticks from the garden. In one boy’s World Game, the element of light was the center of almost all of his creations:
 
+![Civilisation #5](/content-assets/expressions/expression6_1184X900.jpg)
+
 ## Meetings, Gatherings
 
 Those are often present in one form or other. One girl makes a funny World Game where children have serious meetings and adults are playing. Sometimes there is a choir, a picnic, a welcoming event, or an animal gathering.
 
-![Civilisation #5](/content-assets/expressions/expression6_1184X900.jpg)
+[https://vimeo.com/233490664]
 
 # Magical Expressions
 
@@ -157,5 +155,3 @@ All children, wherever they are born, come with a gift which is the purpose of t
 This is an excerpt from the book "Glimpses of Wonder".
 
 [/book-glimpses-of-wonder]
-
-

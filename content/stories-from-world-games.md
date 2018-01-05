@@ -1,6 +1,6 @@
 ---
 title: "Stories from World Games"
-cover: "/content-assets/biography.jpg"
+cover: /content-assets/stories-from-world-games/banner.jpg
 category: On World Game
 date: 2017-12-27
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
