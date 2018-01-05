@@ -1,7 +1,7 @@
 ---
 title: "Children of World Games"
 cover: "/content-assets/biography.jpg"
-category: Excerpts From The Book
+category: On World Game
 date: 2017-12-29
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none

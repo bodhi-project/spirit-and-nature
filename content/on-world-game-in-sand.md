@@ -1,7 +1,7 @@
 ---
 title: On World Game in Sand
 cover: "/content-assets/biography.jpg"
-category: Excerpts From The Book
+category: On World Game
 date: 2017-12-31
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
@@ -10,6 +10,10 @@ tags:
 ---
 
 “When one is very young ... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion.” — The Mother
+
+This activity has been an educational tool in Auroville from its beginning. Although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaneity, trust in oneself, and being in the  ow of the moment. There are no mistakes, and no experience is required. There is nothing to accomplish, no place to reach. Because it is playful, it can flow joyfully and become a celebration of life.
+
+The children go through their individuation process, and in the young children who come to me, we see this re ected in their creations. Our starting point for the World Game is that nothing is wrong with the children, the children are  ne as they are and that we aren’t trying to “fix” anything, but to let them unfold.
 
 # Practical Aspects of the World Games
 
@@ -103,13 +107,15 @@ I experimented working without a time limit when it was possible for the child (
 
 Usually a monthly session is recommended but if there is a special need, the child can come weekly for a while. A single session is also fine. You could plan it, for example, on the child’s birthday. It is a nice way to reflect without analysing on that special ‘birth’ day. The Mother speaks about the “birth” day as a day where one is especially close to one’s soul. In the future I would like to have an open time with the children where different activities can take place.
 
-
-
 # A Typical Session
 
 Eden, a ten-year old boy, arrives at my house on his little cycle. He greets the dog Sati who is always excited to see a child arriving. Eden knows him. He picks up a stick in the garden and starts playing with the dog as he moves towards the house. Very often Eden notices something in the garden: a new flower that has bloomed, a special butterfly, a little bird’s nest. Then he enters the room and his eyes light up at seeing all the objects displayed on shelves and in many little baskets. Straight away he looks for his favourite figurines, some knights, or some play mobil, and places them in the container filled with sand. I choose music which I feel fits the mood, sit down quietly and observe. Eden relates a story of what happened at school during the week, while looking for the next objects to choose to create his little world of today. He grows silent while concentrating on making his very particular small world, filled with magical elements. He tells me a little about his world as he creates it. His story is spread out in the sand.
 
 With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul.
+
+![On World Game in Sand #1](/content-assets/on-world-game-in-sand/img3_900X900.jpg)
+
+![On World Game in Sand #2](/content-assets/on-world-game-in-sand/img4_900X900.jpg)
 
 “The chief aim of education should be to help the growing soul to draw out that in itself which is best and make it perfect for a noble use.” — Sri Aurobindo and The Mother, “On Education”, p.21
 
@@ -120,6 +126,10 @@ Children are invited to be true to themselves, to get in touch with and express 
 As young children learn to be who they are, they start to grow as individuals. It is important for them to express their creativity, and later as growing adults it will eventually deepen. The main role of the facilitator is to enhance the creative moments and to support the children in bringing them forward. The environment is important - there is a presence, a stillness, a beauty in the room and garden that helps in coming to a quiet space in oneself, and this is the case for the facilitator and for the child.
 
 The attitude of the facilitator is non-judgmental and so no interpretation is given. To interpret rightly requires deep knowledge. Symbols can also be very subjective and have many layers, especially in the variety of cultures of Auroville. Sometimes the particular creation is also just a mood, the expression of a moment. To enclose a person in a labeled box would be limiting, closing opportunities for growth.
+
+![On World Game in Sand #3](/content-assets/on-world-game-in-sand/img1_1440X900.jpg)
+
+![On World Game in Sand #4](/content-assets/on-world-game-in-sand/img2_1440X900.jpg)
 
 Facilitators should try to be subtle, identified with peace and vastness. They should observe, and try to find harmony. They should try to be centred, and bring awareness of their actions and to the actions of the children in handling objects, plus an awareness to all that is happening. The role of facilitators is to be present in the moment, inwardly and outwardly, simple, giving, open, equal, concentrated, able to go deep into the child’s inner world and finally be able to communicate through the psychic. The more the facilitators are conscious, the be er it will be for the children.
 

@@ -8,7 +8,7 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
   import Link from 'gatsby-link';
-  import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import { Row, Col, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
   import { css, plugins } from 'glamor';
   import { CompositeHeader, Container } from '@bodhi-project/components';
   import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
@@ -80,6 +80,13 @@
     color: '#222222',
   });
 
+  const overWriteStyles = css({
+    '& p + p': {
+      textIndent: '0px !important',
+    },
+  });
+  const overWriteStylesClass = overWriteStyles.toString();
+
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header Style
   const desktopHeader = css({
     height: 180,
@@ -115,6 +122,54 @@
     },
   });
   const contentWrapperClass = contentWrapper.toString();
+
+  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Desktop Header >> Tip Style
+    const tipStyle = css({
+      '& .ant-popover-arrow': {
+        background: '#fff6ec',
+      },
+
+      '& .ant-popover-inner-content': {
+        padding: 0,
+        background: '#fff6ec',
+        borderRadius: 4,
+
+        '& ul': {
+          padding: '8px 13px',
+          margin: 0,
+        },
+
+        '& ul li': {
+          padding: '10px 16px',
+
+          '& a': {
+            fontFamily: `${kit.fontFamilies.paragraph} !important`,
+            fontSize: '0.9rem',
+            textTransform: 'uppercase',
+            color: '#222222',
+            letterSpacing: '1.1px',
+
+            '&:hover': {
+                textDecoration: 'none',
+              },
+              '&:visited': {
+                textDecoration: 'none',
+              },
+              '&:link': {
+                textDecoration: 'none',
+              },
+              '&:active': {
+                textDecoration: 'none',
+              },
+          },
+
+          '&:not(:last-child)': {
+            borderBottom: '1px solid #222222',
+          },
+        },
+      },
+    });
+    const tipStyleClass = tipStyle.toString();
 
 
 
@@ -153,7 +208,7 @@ class TemplateWrapper extends React.Component {
 
   render() {
     return (
-      <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }}>
+      <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }} className={overWriteStylesClass}>
         <Container block noFade style={{ padding: 0 }}>
           
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
@@ -176,18 +231,31 @@ class TemplateWrapper extends React.Component {
               <DesktopHeader className={desktopHeaderClass.toString()}>
                 <div style={{ width: '100%' }}>
                   <p style={{ width: '100%', textAlign: 'center', marginBottom: 2, fontWeight: 700, textTransform: 'uppercase', borderBottom: '2px solid #daa520', color: '#ae8319' }}>
-                    Spirit and Nature
+                    <Link to="/home" style={{ color: 'inherit' }}>Spirit and Nature</Link>
                   </p>
                   <ul style={{ paddingTop: 20, paddingBottom: 20, borderBottom: '2px solid #daa520' }}>
                     <li><Link to="/home">Home</Link></li>
-                    <li><Link to="/activities">Offerings</Link></li>
-                    <li><Link to="/writings">Journal</Link></li>
-                    <li><Link to="/videos">Videos</Link></li>
+                    <li><Link to="/offerings">Offerings</Link></li>
+                    <li>
+                      <Popover 
+                        placement="bottomRight"
+                        content={
+                          <ul style={{ listStyle: 'none' }}>
+                            <li><Link to="/writings">On World Game</Link></li>
+                            <li><Link to="/writings">Other Articles</Link></li>
+                            <li><Link to="/writings">Photography</Link></li>
+                            <li><Link to="/writings">Videos</Link></li>
+                          </ul>}
+                        trigger="hover"
+                        overlayClassName={tipStyleClass}
+                      >
+                        <span className="drops">Journal</span>
+                      </Popover>
+                    </li>
                     <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 70, width: 'auto' }} src={logo} /></a></li>
                     <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
                   </ul>
                 </div>
               </DesktopHeader>

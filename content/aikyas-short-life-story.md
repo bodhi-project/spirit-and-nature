@@ -1,7 +1,7 @@
 ---
 title: Aikya’s short life story
 cover: /content-assets/biography/biography116_1600X1000.jpg
-category: General
+category: Other Articles
 date: 2017-03-01
 abstract: Adapted from "Reconnecting with Spirit through Nature", an article by Alan in Auroville Today. Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
 variant: none

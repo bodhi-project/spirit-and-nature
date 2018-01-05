@@ -48,10 +48,11 @@
 // ------------------------------------------------------------------------------
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Style for Markdown ---> React
   // const markdownStyles = css({
-  //   '& h2:first-child, h3:first-child, h4:first-child, h5:first-child, h6:first-child': {
-  //     marginTop: '0 !important',
+  //   '& p + p': {
+  //     textIndent: '0px !important',
   //   },
   // });
+  // const markdownStylesClass = markdownStyles.toString();
 
   // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Styles for stuff on the side
   // const sideStyles = css({

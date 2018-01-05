@@ -1,7 +1,7 @@
 ---
 title: Themes and Expressions in World Games
 cover: "/content-assets/biography.jpg"
-category: Excerpts From The Book
+category: On World Game
 date: 2017-12-28
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
@@ -96,6 +96,14 @@ Magical elements like fairies, dragons,  rebirds, magic crystals, spells are a c
 
 Fairy stories are de nitely, one of the favorite topics for 8 to 10-year old girls. I enjoyed listening to endless fairy stories.
 
+![Magic #1](/content-assets/expressions/magix1_1440X900.jpg)
+
+![Magic #2](/content-assets/expressions/magix2_1440X900.jpg)
+
+![Magic #3](/content-assets/expressions/magix3_1440X900.jpg)
+
+![Magic #4](/content-assets/expressions/magix4_900X900.jpg)
+
 This is one from Sita: “The green fairy has lived happily some one million years without being married, which is nice because nobody is bossing her around, and she does not need to clean the house, but now she wants to marry and who to marry is the question. She has to travel to a place where magic sand is kept in sacks, with a special shield, which would dissolve the cover (represented by a paper napkin with hearts) where the treasure is kept. This treasure is a crown, and there is also a magic ball coming from the good gods who will say which prince to marry ... “
 
 Sunanda Poddar, who is the Caretaker of “Srismriti”, The Mother’s Museum in Pondicherry, tells us:
@@ -105,6 +113,14 @@ I still see this world of fairies. They are the same entities as ‘devas’. Th
 Madu had disturbed a little arrangement in the box by adding something and Laya complained lightly. Madu laughed and said: “It is not me, it is the fairy.” Then she said: “You know, some people believe their toys are alive.” I said, “Yes, it looks like that, doesn’t it?” Then she tells me about her father’s doll which is always next to her bed, and when she cries the doll is there next to her bed to help her. Then she asks Laya (7 years old) if she believes in fairies. Laya says “Yes, and you?” Madu (almost 9 years old) answers: “Before I believed, but now ...”
 
 Madu seemed to be in transition between believing in magic, perceiving inanimate objects as alive, and the phase where the mental takes over.
+
+![Magic #5](/content-assets/expressions/magix5_1440X900.jpg)
+
+![Magic #6](/content-assets/expressions/magix6.jpg)
+
+![Magic #7](/content-assets/expressions/magix7.jpg)
+
+![Magic #8](/content-assets/expressions/magix8_1440X900.jpg)
 
 In the introduction of his book, “Enchantment of the Faerie Realm”, 1996, Ted Andrews says:
 
@@ -126,6 +142,10 @@ Many human beings in the world think they know everything, but this world is als
 
 The Divine has set an evolving play in movement and directs its unfolding for the joy of becoming and progressing eternally.
 
+![Magic #9](/content-assets/expressions/magix8_900X1200.jpg)
+
+![Magic #10](/content-assets/expressions/magix9_1200X1000.jpg)
+
 Here, in Auroville, our game is to build a city with a living soul. The psychic is the secret source of beauty and love.
 
 And in the World Game the children create worlds with endless possibilities, eventually learning to build worlds with harmony, beauty and poetry.
@@ -133,4 +153,3 @@ And in the World Game the children create worlds with endless possibilities, eve
 "If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up into the material manifestation." - The Mother
 
 All children, wherever they are born, come with a gift which is the purpose of their life and will be revealed.
-

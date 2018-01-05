@@ -1,7 +1,7 @@
 ---
 title: A Collection of Poems
 cover: /content-assets/biography.jpg
-category: General
+category: Other Articles
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
 variant: none
@@ -28,6 +28,10 @@ tags:
 
 — September 2017
 
+![Poem #2](/content-assets/poems/poem1_900X1200.jpg)
+
+![Poem #3](/content-assets/poems/poem2_900X1500.jpg)
+
 # Approaching creation
 
 > _My heart beating fast, my heart bursting out,_  
@@ -47,6 +51,10 @@ tags:
 > When, where, how...?
 
 — June 2013
+
+![Poem #2](/content-assets/poems/poem4_900X1200.jpg)
+
+![Poem #3](/content-assets/poems/poem3_900X900.jpg)
 
 # Born
 

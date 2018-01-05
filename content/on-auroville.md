@@ -1,7 +1,7 @@
 ---
 title: On Auroville
 cover: /content-assets/on-auroville/avBanner.jpg
-category: General
+category: Other Articles
 date: 2017-03-02
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
