@@ -105,7 +105,11 @@
           {
             _.map(categories, (category) => (
               <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >
-                <H2>{category}</H2>
+                <H2
+                  id={_.kebabCase(_.toLower(_.trim(category)))}
+                >
+                  {category}
+                </H2>
                 {
                   _.map(postEdges, ({ node }) => (
                     <Fragment>

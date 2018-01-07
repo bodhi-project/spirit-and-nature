@@ -4,16 +4,16 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
   import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
   import PropTypes from 'prop-types';
-  import _ from 'lodash';
-  import { css } from 'glamor';
-  import moment from 'moment';
+  // import _ from 'lodash';
+  // import { css } from 'glamor';
+  // import moment from 'moment';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
   import Link from 'gatsby-link';
   // import { Row, Col, Layout, Tree, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Locals
-  import { Image, Container } from '@bodhi-project/components';
+  import { Container } from '@bodhi-project/components';
   import { Elements, typeComposite } from '@bodhi-project/typography';
   // import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
   import { treeParser } from '@bodhi-project/markdown-to-react';
@@ -37,10 +37,10 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { Fragment } = React;
-  const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  // const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
   const { getType } = typeComposite;
   const type = getType('eih3wnu');
-  const { kit, modularScale } = type;
+  // const { kit, modularScale } = type;
   // console.log(type);
 
 // ------------------------------------------------------------------------------
@@ -101,7 +101,7 @@ class PageWrapper extends React.Component {
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
         <Fragment>
           {
-            treeParser(markdownAst, { localLink: Link })
+            treeParser(markdownAst, { localLink: Link }, type)
           }
         </Fragment>
       </Container>

@@ -44,6 +44,7 @@
   // Slider
   import slider1 from '../../static/content-assets/activities/activities1_1280X960.jpg';
   import slider2 from '../../static/content-assets/activities/activities2_1280X960.jpg';
+  import slider3 from '../../static/content-assets/about/about4_1075X900.jpg';
 
   // For Activities
   import theMother from '../../static/content-assets/activities/activities4_900X900.jpg';
@@ -75,7 +76,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
     boxShadow: 'none !important',
-    border: '3px solid #daa520 !important',
+    border: '3px solid #f7d2ae !important',
     borderRadius: '2px',
     padding: '0px !important',
     marginBottom: '1vh',
@@ -110,7 +111,7 @@
       width: '100%',
       margin: '0px !important',
       textAlign: 'center',
-      background: '#daa520',
+      background: '#f7d2ae',
       color: '#ffffff',
       bottom: -100,
       left: 0,
@@ -254,7 +255,6 @@
             link: 'Read more about Auroville...',
             linkUrl: '/on-auroville',
             image: theMother,
-            background: '#e2c09a',
           },
         });
       }
@@ -268,7 +268,6 @@
             link: 'Read more about World Game in Nature...',
             linkUrl: '/on-auroville',
             image: worldGameInNature,
-            background: '#dcedc1',
           },
         });
       }
@@ -282,7 +281,6 @@
             link: 'Read more about the spiritual significances of flowers...',
             outLinkUrl: 'http://www.blossomlikeaflower.com/',
             image: flowerGroup,
-            background: '#e2c09a',
           },
         });
       }
@@ -296,7 +294,6 @@
             link: 'Read more about creating sacred spaces...',
             linkUrl: '/creating-sacred-spaces',
             image: sacredSpaces,
-            background: '#e2c09a',
           },
         });
       }
@@ -310,7 +307,6 @@
             link: 'Read more about World Game in Sand...',
             linkUrl: '/writings#wold-game',
             image: theMother,
-            background: '#e2c09a',
           },
         });
       }
@@ -322,7 +318,6 @@
             title: 'Vision Game',
             description: 'The vision game is a one day process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it. By playing our dream out, we find ourselves in a space which allows the heart to open up. Nature is our guide to come to clarity.',
             image: visionGame,
-            background: '#e2c09a',
           },
         });
       }
@@ -336,7 +331,6 @@
             link: 'Read more...',
             linkUrl: '/writings#photography',
             image: theMother,
-            background: '#e2c09a',
           },
         });
       }
@@ -350,7 +344,6 @@
             link: 'Read more about inter-species communication...',
             linkUrl: '/aikyas-short-life-story#animal-communication',
             image: interSpecies,
-            background: '#e2c09a',
           },
         });
       }
@@ -364,7 +357,6 @@
             link: 'Read more...',
             linkUrl: '/aikyas-short-life-story#the-white-lions',
             image: theMother,
-            background: '#e2c09a',
           },
         });
       }
@@ -399,6 +391,14 @@
             <div>
               <Image
                 src={slider2}
+                rawWidth={1280}
+                rawHeight={960}
+                style={{ border: 0 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider3}
                 rawWidth={1280}
                 rawHeight={960}
                 style={{ border: 0 }}
@@ -520,9 +520,10 @@
             onCancel={this.hideModal}
             // width="66vw"
             style={{ top: '5vh' }}
+            width="62.5%"
           >
             { this.state.data &&
-              <div className={pageStyleClass} style={{ background: this.state.data.background }}>
+              <div className={pageStyleClass}>
                 <Image
                   src={this.state.data.image}
                   rawWidth={900}

@@ -120,6 +120,10 @@
       marginTop: '0 !important',
       paddingTop: '0 !important',
     },
+
+    '& h2, h3, h4, h5, h6': {
+      color: '#d06815 !important',
+    },
   });
   const contentWrapperClass = contentWrapper.toString();
 
@@ -230,9 +234,6 @@ class TemplateWrapper extends React.Component {
               </MobileMenu>
               <DesktopHeader className={desktopHeaderClass.toString()}>
                 <div style={{ width: '100%' }}>
-                  <p style={{ width: '100%', textAlign: 'center', marginBottom: 2, fontWeight: 700, textTransform: 'uppercase', borderBottom: '2px solid #daa520', color: '#ae8319' }}>
-                    <Link to="/home" style={{ color: 'inherit' }}>Spirit and Nature</Link>
-                  </p>
                   <ul style={{ paddingTop: 20, paddingBottom: 20, borderBottom: '2px solid #daa520' }}>
                     <li><Link to="/home">Home</Link></li>
                     <li><Link to="/offerings">Offerings</Link></li>
@@ -241,10 +242,10 @@ class TemplateWrapper extends React.Component {
                         placement="bottomRight"
                         content={
                           <ul style={{ listStyle: 'none' }}>
-                            <li><Link to="/writings">On World Game</Link></li>
-                            <li><Link to="/writings">Other Articles</Link></li>
-                            <li><Link to="/writings">Photography</Link></li>
-                            <li><Link to="/writings">Videos</Link></li>
+                            <li><Link to="/writings#on-world-game">On World Game</Link></li>
+                            <li><Link to="/writings#other-articles">Other Articles</Link></li>
+                            <li><Link to="/writings#photography">Photography</Link></li>
+                            <li><Link to="/writings#videos">Videos</Link></li>
                           </ul>}
                         trigger="hover"
                         overlayClassName={tipStyleClass}
@@ -252,7 +253,7 @@ class TemplateWrapper extends React.Component {
                         <span className="drops" style={{ fontSize: '1.5rem', fontFamily: `${kit.fontFamilies.paragraph} !important`, color: '#6b510f' }} >Journal</span>
                       </Popover>
                     </li>
-                    <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 70, width: 'auto' }} src={logo} /></a></li>
+                    <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 150, width: 'auto' }} src={logo} /></a></li>
                     <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>

@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "@bodhi-project/components": "0.0.66",
-    "@bodhi-project/markdown-to-react": "0.0.9",
+    "@bodhi-project/markdown-to-react": "0.0.15",
     "@bodhi-project/semantic-webflow": "0.0.10",
     "@bodhi-project/seo": "0.0.3",
     "@bodhi-project/typography": "0.0.28",
