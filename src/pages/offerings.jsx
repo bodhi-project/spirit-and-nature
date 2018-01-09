@@ -80,7 +80,7 @@
     borderRadius: '2px',
     padding: '0px !important',
     marginBottom: '1vh',
-    marginRight: '1vh',
+    marginRight: '1vh',    
 
     '@media (min-width: 768px)': {
       flex: '0 0 47% !important',
@@ -264,7 +264,7 @@
           visible: true,
           data: {
             title: 'World Game in Nature',
-            description: 'Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures. Sacred communication. Auroville grew out of a barren plateau, all the trees were planted by early pioneers; now we enjoy a young forest. A deep connection to Nature can help the individual come to the heart of things, to a growing love, already involved in all creation, to the One in all. I offer a space and time together to explore nature in concentration, deep listening and play. Imagination, creativity, intuition are welcomed into the space.',
+            description: 'Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures.',
             link: 'Read on...',
             linkUrl: '/on-auroville',
             image: worldGameInNature,
@@ -528,7 +528,7 @@
                   src={this.state.data.image}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0, height: '40vh', width: 'auto', marginBottom: 35, background: 'transparent' }}
+                  style={{ border: 0, height: '40vh', width: 'auto', marginBottom: 35, background: 'transparent', display: 'block' }}
                 />
                 <H2>{this.state.data.title}</H2>
                 <Paragraph>{this.state.data.description}</Paragraph>

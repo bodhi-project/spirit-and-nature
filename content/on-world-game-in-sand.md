@@ -9,7 +9,7 @@ tags:
     - say hi
 ---
 
-“When one is very young ... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion.” — The Mother
+> When one is very young... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion. — The Mother
 
 This activity has been an educational tool in Auroville from its beginning. Although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaneity, trust in oneself, and being in the  ow of the moment. There are no mistakes, and no experience is required. There is nothing to accomplish, no place to reach. Because it is playful, it can flow joyfully and become a celebration of life.
 
@@ -46,14 +46,6 @@ How to do that? Follow your own imagination, your roots, since it is always abou
 — Selections from the works of The Mother, “The Psychic Being”, p.191
 
 The sacred state in which we are renewed and in contact with the deep truth of our existence can come through deep relaxation. The World Game can bring or encourage relaxation through the peaceful and natural environment, the free space to create. Special skills are not required to play the World Game. One doesn’t have to speak, but may, and generally there is no time pressure.
-
-# Practical Aspects of the World Games
-
-I have been facilitating the World Game for over eight years with one interrupted year, and in that time there have been more than fifty players. It has varied according to how many came each year, and how many came more than once. To a end regularly means an average of six sessions per year although a few might have come twenty times a year. And, others less.
-
-I take children individually or in pairs and occasionally a group of three at a time. When the children come in two’s (or more) it is mostly co-operative fantasy play, where each of the players stimulates the other. In some cases we see parallel play where children do not truly interact. This is more rare in the age group with which I usually work (6 to 12 years old).
-
-The children’s rhythm while playing is sometimes slow and silent or sometimes interactive, with lots of laughter.
 
 ## Examples of how children play
 
@@ -142,4 +134,5 @@ Usually a monthly session is recommended but if there is a special need, the chi
 This is an excerpt from the book "Glimpses of Wonder".
 
 [/book-glimpses-of-wonder]
+
 

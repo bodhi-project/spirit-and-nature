@@ -1,5 +1,5 @@
 ---
-title: Nature
+title: In Africa
 cover: /content-assets/biography.jpg
 category: Photography
 date: 2017-12-14
@@ -9,67 +9,7 @@ tags:
 variant: gallery
 ---
 
-# Photos from around the world
-
-## Auroville
-
-![Portrait #2](/content-assets/nature-portraits/img2_600X504.jpg)
-
-![Portrait #3](/content-assets/nature-portraits/img3_600X369.jpg)
-
-![Portrait #4](/content-assets/nature-portraits/img4_600X450.jpg)
-
-![Portrait #5](/content-assets/nature-portraits/img5_600X477.jpg)
-
-![Portrait #6](/content-assets/nature-portraits/img6_600X412.jpg)
-
-![Portrait #12](/content-assets/nature-portraits/img12_600X900.jpg)
-
-![Portrait #13](/content-assets/nature-portraits/img13_600X400.jpg)
-
-![Portrait #24](/content-assets/nature-portraits/img24_600X450.jpg)
-
-![Portrait #43](/content-assets/nature-portraits/img43_600X450.jpg)
-
-![Portrait #44](/content-assets/nature-portraits/img44_600X449.jpg)
-
-![Portrait #52](/content-assets/nature-portraits/img52_600X450.jpg)
-
-![Portrait #53](/content-assets/nature-portraits/img53_600X450.jpg)
-
-![Portrait #54](/content-assets/nature-portraits/img54_600X800.jpg)
-
-![Portrait #55](/content-assets/nature-portraits/img55_600X450.jpg)
-
-![Portrait #56](/content-assets/nature-portraits/img56_600X450.jpg)
-
-![Portrait #62](/content-assets/nature-portraits/img62_600X450.jpg)
-
-![Portrait #63](/content-assets/nature-portraits/img63_600X450.jpg)
-
-![Portrait #64](/content-assets/nature-portraits/img64_600X450.jpg)
-
-## Bali
-
-![Portrait #8](/content-assets/nature-portraits/img8_600X800.jpg)
-
-![Portrait #9](/content-assets/nature-portraits/img9_600X800.jpg)
-
-![Portrait #10](/content-assets/nature-portraits/img10_600X450.jpg)
-
-![Portrait #11](/content-assets/nature-portraits/img11_600X400.jpg)
-
-![Portrait #48](/content-assets/nature-portraits/img48_600X450.jpg)
-
-![Portrait #57](/content-assets/nature-portraits/img57_600X450.jpg)
-
-![Portrait #58](/content-assets/nature-portraits/img58_600X450.jpg)
-
-![Portrait #59](/content-assets/nature-portraits/img59_600X449.jpg)
-
-![Portrait #60](/content-assets/nature-portraits/img60_600X586.jpg)
-
-## Africa
+# In Africa
 
 ![Portrait #1](/content-assets/nature-portraits/img111_600X450.jpg)
 
@@ -140,9 +80,3 @@ variant: gallery
 ![Portrait #49](/content-assets/nature-portraits/img49_600X450.jpg)
 
 ![Portrait #61](/content-assets/nature-portraits/img61_600X517.jpg)
-
-## Belgium
-
-![Portrait #50](/content-assets/nature-portraits/img50_600X405.jpg)
-
-![Portrait #51](/content-assets/nature-portraits/img51_600X450.jpg)

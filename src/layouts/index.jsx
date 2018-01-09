@@ -175,32 +175,6 @@
     });
     const tipStyleClass = tipStyle.toString();
 
-
-
-  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Header Style
-  // const mobileHeaderStyle = css({
-  //   height: '110px',
-  // });
-
-  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Mobile Menu Style
-  // const mobileMenuStyle = css({
-  //   '& ul': {
-  //     margin: 0,
-  //     padding: 0,
-  //   },
-
-  //   '& ul li': {
-  //     display: 'block',
-  //     paddingTop: '27px',
-  //     paddingBottom: '27px',
-
-  //     '& a': {
-  //       fontFamily: 'brandon-grotesque, sans-serif',
-  //       color: '#081359',
-  //     },
-  //   },
-  // });
-
 // ----------------------------------------------------------------------- Component
 /**
   * Indexpage
@@ -242,9 +216,8 @@ class TemplateWrapper extends React.Component {
                         placement="bottomRight"
                         content={
                           <ul style={{ listStyle: 'none' }}>
-                            <li><Link to="/writings#on-world-game">On World Game</Link></li>
-                            <li><Link to="/writings#other-articles">Other Articles</Link></li>
-                            <li><Link to="/writings#photography">Photography</Link></li>
+                            <li><Link to="/writings">Articles</Link></li>
+                            <li><Link to="/writings#photography">Photos</Link></li>
                             <li><Link to="/writings#videos">Videos</Link></li>
                           </ul>}
                         trigger="hover"
