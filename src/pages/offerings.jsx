@@ -251,8 +251,8 @@
           visible: true,
           data: {
             title: 'Introduction into the Spiritual Dimension of Auroville',
-            description: 'In a space of timelesness which allows to listen behind the appearances, we explore Auroville and have glimpses of the history and purpose of Auroville and we look at the life we live here.',
-            link: 'Read more about Auroville...',
+            description: 'Auroville is a laboratory for the materialization of a new consciousness. Every one is welcome who has good will and believes Human Unity is possible and aspires for it.',
+            link: 'Read on...',
             linkUrl: '/on-auroville',
             image: theMother,
           },
@@ -265,7 +265,7 @@
           data: {
             title: 'World Game in Nature',
             description: 'Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures. Sacred communication. Auroville grew out of a barren plateau, all the trees were planted by early pioneers; now we enjoy a young forest. A deep connection to Nature can help the individual come to the heart of things, to a growing love, already involved in all creation, to the One in all. I offer a space and time together to explore nature in concentration, deep listening and play. Imagination, creativity, intuition are welcomed into the space.',
-            link: 'Read more about World Game in Nature...',
+            link: 'Read on...',
             linkUrl: '/on-auroville',
             image: worldGameInNature,
           },
@@ -277,8 +277,8 @@
           visible: true,
           data: {
             title: 'Flowers and their Messages',
-            description: 'Mira Alfassa, or the mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message. Through small games, cards, guided relaxation and being with the flowers we explore this beautiful psychic world of the flowers.',
-            link: 'Read more about the spiritual significances of flowers...',
+            description: 'Mira Alfassa, or the mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message.',
+            link: 'Read on...',
             outLinkUrl: 'http://www.blossomlikeaflower.com/',
             image: flowerGroup,
           },
@@ -290,9 +290,9 @@
           visible: true,
           data: {
             title: 'Creating Sacred Space',
-            description: 'In the world of forms a violation of Beauty is as great a fault as a violation of Truth in the world of ideas. For Beauty is the worship that Nature offers to the supreme Master of the universe; Beauty is the divine language in form. And a consciousness of the Divine that is not translated outwardly by an understanding and expression of Beauty would be an incomplete consciousness. — The MotherI cherish beauty in all aspects of life. Not just an external beauty but specially a beauty that comes from the truth within. I offer my time to explore with you how to create sacred spaces.',
-            link: 'Read more about creating sacred spaces...',
-            linkUrl: '/creating-sacred-spaces',
+            description: 'If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up in the material manifestation. — The Mother. I love to create an atmosphere of harmony and peace, it invites a higher level of vibration. I love gardens where one can feel the magic of nature, where everything is alive and full of secret relationships.',
+            link: 'Read on...',
+            linkUrl: '/how-to-create-a-sacred-space',
             image: sacredSpaces,
           },
         });
@@ -303,8 +303,8 @@
           visible: true,
           data: {
             title: 'World Game in Sand',
-            description: 'The World Game, also known as Sandplay, is a wonderful way to know yourself without the use of words. You are given a box of sand and free access to unusual and appealing objects. Music, flowering gardens, paintings, as well as the presence of the quiet observant facilitator contributes to creating a concentrated atmosphere in which you can tell a story in the sand or express your dream world using a symbolic language.',
-            link: 'Read more about World Game in Sand...',
+            description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is now maily played with children, yet it was also intended for adults. The World Game encourages spontaniety, trust in oneself and being in the flow of the moment.',
+            link: 'Read on...',
             linkUrl: '/writings#wold-game',
             image: theMother,
           },
@@ -316,7 +316,7 @@
           visible: true,
           data: {
             title: 'Vision Game',
-            description: 'The vision game is a one day process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it. By playing our dream out, we find ourselves in a space which allows the heart to open up. Nature is our guide to come to clarity.',
+            description: 'The vision game is a process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it. By playing our dream out, we find ourselves in a space which allows the heart to open up. Nature is our guide to come to clarity.',
             image: visionGame,
           },
         });
@@ -326,9 +326,9 @@
         this.setState({
           visible: true,
           data: {
-            title: 'Life Photography',
-            description: 'blah blah blah.',
-            link: 'Read more...',
+            title: 'Photography',
+            description: 'I love to share what I capture of life.',
+            link: 'Read on...',
             linkUrl: '/writings#photography',
             image: theMother,
           },
@@ -340,8 +340,8 @@
           visible: true,
           data: {
             title: 'Inter Species Communication',
-            description: 'Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for mans own advantage. — Sri Aurobindo. I deeply relate to animals and plants, and love to explore the beautiful intuitive and natural art of animal communication within my possibilities.',
-            link: 'Read more about inter-species communication...',
+            description: 'Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for mans own advantage. — Sri Aurobindo. I deeply relate to animals and plants, and love to explore the intuitive and natural art of animal communication within my possibilities.',
+            link: 'Read on...',
             linkUrl: '/aikyas-short-life-story#animal-communication',
             image: interSpecies,
           },
@@ -353,8 +353,8 @@
           visible: true,
           data: {
             title: 'LionHearted Leadership',
-            description: 'The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the last remaining white Lions in Timbavati who deeply inspire me in my work. I also had the privilege to participate in an intensive training of the 13 Laws of LionHearted Leadership and I’m now an accredited practitioner since December 2017.',
-            link: 'Read more...',
+            description: 'The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the last White Lions of Timbavati who deeply inspire me in my work. I also had the privilege to participate in an intensive training of the 13 Laws of LionHearted Leadership.',
+            link: 'Read on...',
             linkUrl: '/aikyas-short-life-story#the-white-lions',
             image: theMother,
           },
@@ -487,7 +487,7 @@
                   rawHeight={900}
                   style={{ border: 0 }}
                 />
-                <H3 style={{ lineHeight: 1 }}>Life<br />Photography</H3>
+                <H3 style={{ lineHeight: 1 }}>Photography</H3>
               </a>
             </Hex>
             <Hex className={hexStyleClass}>
@@ -528,7 +528,7 @@
                   src={this.state.data.image}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0, maxWidth: '500px', height: 'auto', marginBottom: 10 }}
+                  style={{ border: 0, height: '40vh', width: 'auto', marginBottom: 35, background: 'transparent' }}
                 />
                 <H2>{this.state.data.title}</H2>
                 <Paragraph>{this.state.data.description}</Paragraph>

@@ -13,11 +13,9 @@ tags:
 
 "Unity is the substance of the heart" — Sri Aurobindo
 
-"Nature and Spirit" is a learning centre situated in the middle of an Auroville forest.
+**Spirit and Nature** is a learning centre situated in the middle of a forest in Auroville in India.
 
 ![About #2](/content-assets/about/about2_675X450.jpg)
-
-![About #3](/content-assets/about/about3_1000X450.jpg)
 
 The contemporary world faces a radical crisis today in almost all domains of life. Human suffering and ecological damage have reached unprecedented and terrifying levels. Old systems are collapsing, nature becomes turbulent, an apparent chaos is happening. But simultaneously a new spirit is at work. This is an awakening call for humanity to look for new and appropriate answers.
 
@@ -44,7 +42,3 @@ Nature in the form of mineral, plant and animal Kingdoms still hold the simplici
 ![About #10](/content-assets/about/about11_1200X900.jpg)
 
 In the next evolutionary spirit of today and tomorrow we will discover new constructive potentials and finally collaborate for a future of humanity where all beings will have a place and right to live beautifully. It is the time to shift to the deep heart- of eternal Love and Beauty. Life in its totality is the playground and teacher. We all can learn to trust the essential potential which is secretly organising every living being and as such finding purpose and celebrate.
-
-[http://artservice.auroville.org/].
-
-

@@ -5,7 +5,7 @@
   import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
   import PropTypes from 'prop-types';
   // import _ from 'lodash';
-  // import { css } from 'glamor';
+  import { css } from 'glamor';
   // import moment from 'moment';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
@@ -37,7 +37,7 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { Fragment } = React;
-  // const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+  const { Paragraph } = Elements;
   const { getType } = typeComposite;
   const type = getType('eih3wnu');
   // const { kit, modularScale } = type;
@@ -46,39 +46,17 @@
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
-  // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Style for Markdown ---> React
-  // const markdownStyles = css({
-  //   '& p + p': {
-  //     textIndent: '0px !important',
-  //   },
-  // });
-  // const markdownStylesClass = markdownStyles.toString();
-
-  // // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Styles for stuff on the side
-  // const sideStyles = css({
-  //   '& .ant-tree li': {
-  //     marginBottom: '0px !important',
-  //   },
-  //   '& .ant-tree.ant-tree-show-line li:not(:last-child):before': {
-  //     borderLeftColor: '#363636 !important',
-  //   },
-  //   '& .ant-tree-node-content-wrapper': {
-  //     marginBottom: `${(modularScale.base.px * 0.375) / 16}em !important`,
-  //   },
-  //   '& .ant-tree.ant-tree-show-line li span.ant-tree-switcher': {
-  //     color: '#363636 !important',
-  //     background: '#fff6ec !important',
-  //   },
-  //   '& .ant-tree-title': {
-  //     fontSize: modularScale.base.em,
-  //     fontFamily: kit.fontFamilies.paragraph,
-  //     fontStyle: 'normal',
-  //     fontWeight: '400',
-  //     marginBottom: 0,
-  //     marginTop: 0,
-  //     color: 'inherit',
-  //   },
-  // });
+  const markdownStyles = css({
+    '& blockquote': {
+      border: '2px solid #daa520',
+      background: '#fcf2f1',
+      padding: '1em',
+      '& p': {
+        fontStyle: 'italic',
+      },
+    },
+  });
+  const markdownStylesClass = markdownStyles.toString();
 
 // ----------------------------------------------------------------------- Component
 /**
@@ -94,7 +72,7 @@ class PageWrapper extends React.Component {
     const { markdownAst } = this.props.pathContext;
 
     return (
-      <Container block noFade bleed style={{ paddingTop: 50 }}>
+      <Container block noFade bleed style={{ paddingTop: 50 }} className={markdownStylesClass}>
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
         <UpdateTitle title={frontmatter.title} />
 
@@ -104,6 +82,11 @@ class PageWrapper extends React.Component {
             treeParser(markdownAst, { localLink: Link }, type)
           }
         </Fragment>
+        <Paragraph style={{ textAlign: 'center' }}>
+          <small>
+          ~
+          </small>
+        </Paragraph>
       </Container>
     );
   }
