@@ -1,8 +1,8 @@
 ---
 title: On Auroville
 cover: /content-assets/about/about1_850X490.jpg
-category: Other Articles
-date: 2017-03-02
+category: Articles
+date: 2018-01-12
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none
 tags:

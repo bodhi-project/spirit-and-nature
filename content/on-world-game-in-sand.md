@@ -1,7 +1,7 @@
 ---
 title: On World Game in Sand
 cover: /content-assets/on-world-game-in-sand/banner.jpg
-category: On World Game
+category: Articles
 date: 2017-12-31
 abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
 variant: none

@@ -221,8 +221,6 @@ class IndexPage extends React.Component {
         <WebpageSchema data={webpageSchemaData} />
         <BreadcrumbSchema data={breadcrumbSchemaData} />
         <OrganisationSchema data={organisationSchemaData} />
-
-        <H2>Gallery</H2>
         <Images photos={galleryPhotos} columns={3} />
       </Container>
     );

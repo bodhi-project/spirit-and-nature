@@ -1,7 +1,7 @@
 ---
 title: Elsewhere
 cover: /content-assets/biography.jpg
-category: Photography
+category: Photos
 date: 2017-12-14
 abstract: Photos I've taken over the years.
 tags:
@@ -11,7 +11,7 @@ variant: gallery
 
 # Elsewhere
 
-## Belgium
+## Illusion Free
 
 ![Portrait #50](/content-assets/nature-portraits/img50_600X405.jpg)
 

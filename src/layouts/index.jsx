@@ -4,7 +4,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
   import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
   import PropTypes from 'prop-types';
-  // import _ from 'lodash';
+  import _ from 'lodash';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
   import Link from 'gatsby-link';
@@ -106,9 +106,9 @@
       padding: '17px 27px',
 
       '& a': {
-        fontSize: '1.5rem',
+        fontSize: '1.4rem',
         fontFamily: `${kit.fontFamilies.paragraph} !important`,
-        color: '#6b510f',
+        color: '#9d639d',
         // fontSize: `${(modularScale.base.px * 1.75) / 16}em !important`,
       },
     },
@@ -122,7 +122,7 @@
     },
 
     '& h2, h3, h4, h5, h6': {
-      color: '#d06815 !important',
+      color: '#d06815',
     },
   });
   const contentWrapperClass = contentWrapper.toString();
@@ -185,6 +185,7 @@ class TemplateWrapper extends React.Component {
   }
 
   render() {
+    console.log(this.props.location.pathname, _.includes(['gallery', 'africa', 'auroville', 'bali'], this.props.location.pathname));
     return (
       <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }} className={overWriteStylesClass}>
         <Container block noFade style={{ padding: 0 }}>
@@ -195,7 +196,7 @@ class TemplateWrapper extends React.Component {
           
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header  className={mobileHeaderStyle.toString()}  className={mobileMenuStyle.toString()} */}
           <SemanticHeader>
-            <ResponsiveHeader>
+            <ResponsiveHeader path={this.props.location.pathname}>
               <MobileHeader>
                 <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
                 <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
@@ -217,13 +218,13 @@ class TemplateWrapper extends React.Component {
                         content={
                           <ul style={{ listStyle: 'none' }}>
                             <li><Link to="/writings">Articles</Link></li>
-                            <li><Link to="/writings#photography">Photos</Link></li>
+                            <li><Link to="/writings#photos">Photos</Link></li>
                             <li><Link to="/writings#videos">Videos</Link></li>
                           </ul>}
                         trigger="hover"
                         overlayClassName={tipStyleClass}
                       >
-                        <span className="drops" style={{ fontSize: '1.5rem', fontFamily: `${kit.fontFamilies.paragraph} !important`, color: '#6b510f' }} >Journal</span>
+                        <span className="drops" style={{ fontSize: '1.4rem', fontFamily: `${kit.fontFamilies.paragraph} !important`, color: '#9d639d' }} >Journal</span>
                       </Popover>
                     </li>
                     <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 150, width: 'auto' }} src={logo} /></a></li>
@@ -238,7 +239,7 @@ class TemplateWrapper extends React.Component {
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
           <Row type="flex" className={contentWrapperClass} justify="center">
-            <Col span={18} style={{ paddingLeft: 25, paddingRight: 25 }}>
+            <Col span={_.includes(['/gallery', '/africa', '/auroville', '/bali'], this.props.location.pathname) ? 23 : 18} style={{ paddingLeft: 25, paddingRight: 25 }}>
               {this.props.children()}
             </Col>
           </Row>

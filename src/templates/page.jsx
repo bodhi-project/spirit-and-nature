@@ -4,7 +4,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
   import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
   import PropTypes from 'prop-types';
-  // import _ from 'lodash';
+  import _ from 'lodash';
   import { css } from 'glamor';
   // import moment from 'moment';
 
@@ -58,6 +58,13 @@
   });
   const markdownStylesClass = markdownStyles.toString();
 
+  const clearHeadings = css({
+    '& h2': {
+      display: 'none',
+    },
+  });
+  const clearHeadingsClass = clearHeadings.toString();
+
 // ----------------------------------------------------------------------- Component
 /**
   * PageWrapper
@@ -72,7 +79,7 @@ class PageWrapper extends React.Component {
     const { markdownAst } = this.props.pathContext;
 
     return (
-      <Container block noFade bleed style={{ paddingTop: 50 }} className={markdownStylesClass}>
+      <Container block noFade bleed style={{ paddingTop: 50 }} className={`${markdownStylesClass} ${_.includes(['/home', '/gallery'], this.props.location.pathname) ? clearHeadingsClass : ''}`}>
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
         <UpdateTitle title={frontmatter.title} />
 

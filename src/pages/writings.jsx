@@ -127,7 +127,7 @@
                             </div>
                             <div style={{ flex: '12.5 1 0%', padding: '0px 0px 0px 10px' }}>
                               <Header>
-                                <Link to={node.fields.route}><H3 style={{ marginTop: 0 }}>{node.frontmatter.title}</H3></Link> {/*  */}
+                                <Link to={node.fields.route}><H3 style={{ marginTop: 0, color: '#9d639d' }}>{node.frontmatter.title}</H3></Link> {/*  */}
                                 <Paragraph>{node.frontmatter.abstract}</Paragraph>
                                 <Paragraph style={{ textIndent: 0 }}><small><i>Published on {moment(node.frontmatter.date).format("dddd, MMMM Do YYYY")} ({moment(node.frontmatter.date).fromNow()})</i></small></Paragraph>
                               </Header>

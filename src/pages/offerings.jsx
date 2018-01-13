@@ -44,11 +44,12 @@
   // Slider
   import slider0 from './assets/slider0.jpg';
   import slider11 from './assets/slider11.jpg';
-  import slider12 from './assets/slider12.jpeg';
+  
   import slider1 from '../../static/content-assets/activities/activities1_1280X960.jpg';
   import slider2 from '../../static/content-assets/activities/activities2_1280X960.jpg';
   import slider3 from '../../static/content-assets/about/about4_1075X900.jpg';
   import slider4 from './assets/slider4.jpg';
+  import slider12 from './assets/lions.jpeg';
 
   // For Activities
   import theMother from './assets/onAuroville.jpg';
@@ -58,7 +59,7 @@
   import visionGame from '../../static/content-assets/activities/activities16_1200X900.jpg';
   import interSpecies from '../../static/content-assets/activities/activities19_1700X900.jpg';
   import photography from '../../static//content-assets/nature-portraits/img19_600X308.jpg';
-  import lions from './assets/lions.jpeg';
+  import lions from './assets/slider12.jpeg';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { Fragment } = React;
@@ -391,7 +392,7 @@
                 src={slider0}
                 rawWidth={1280}
                 rawHeight={1027}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
@@ -399,15 +400,15 @@
                 src={slider11}
                 rawWidth={1280}
                 rawHeight={1131}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
               <Image
                 src={slider12}
-                rawWidth={868}
-                rawHeight={485}
-                style={{ border: 0 }}
+                rawWidth={2048}
+                rawHeight={1365}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
@@ -415,7 +416,7 @@
                 src={slider1}
                 rawWidth={1280}
                 rawHeight={960}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
@@ -423,7 +424,7 @@
                 src={slider2}
                 rawWidth={1280}
                 rawHeight={960}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
@@ -431,7 +432,7 @@
                 src={slider3}
                 rawWidth={1280}
                 rawHeight={960}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
             <div>
@@ -439,7 +440,7 @@
                 src={slider4}
                 rawWidth={1280}
                 rawHeight={1019}
-                style={{ border: 0 }}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
               />
             </div>
           </Carousel>

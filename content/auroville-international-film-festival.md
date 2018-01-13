@@ -1,8 +1,8 @@
 ---
 title: Auroville Film Festival 2017
-cover: /content-assets/biography.jpg
-category: Other Articles
-date: 2017-03-02
+cover: /content-assets/aiff/banner.jpg
+category: Articles
+date: 2018-01-13
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
 variant: none
 tags:

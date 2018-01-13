@@ -1,7 +1,7 @@
 ---
-title: In Bali
+title: Bali
 cover: /content-assets/biography.jpg
-category: Photography
+category: Photos
 date: 2017-12-14
 abstract: Photos I've taken over the years.
 tags:
@@ -9,7 +9,7 @@ tags:
 variant: gallery
 ---
 
-# In Bali
+# Bali
 
 ![Portrait #8](/content-assets/nature-portraits/img8_600X800.jpg)
 

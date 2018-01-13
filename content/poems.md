@@ -1,9 +1,9 @@
 ---
 title: Poems
-cover: /content-assets/biography.jpg
-category: Other Articles
-date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+cover: /content-assets/poems/banner.jpg
+category: Articles
+date: 2018-01-10
+abstract: A collection of poems written over the years.
 variant: none
 tags:
   - say hi
