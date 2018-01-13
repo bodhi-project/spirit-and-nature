@@ -15,7 +15,7 @@ embed video... black and white worlds
 
 > When one is very young... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion. — The Mother
 
-The children go through their individuation process, and in the young children who come to me, we see this re ected in their creations. Our starting point for the World Game is that nothing is wrong with the children, the children are  ne as they are and that we aren’t trying to “fix” anything, but to let them unfold.
+The children go through their individuation process, and in the young children who come to me, we see this reflected in their creations. Our starting point for the World Game is that nothing is wrong with the children, the children are  ne as they are and that we aren’t trying to “fix” anything, but to let them unfold.
 
 With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul.
 
