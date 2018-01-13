@@ -36,23 +36,29 @@
   import off3 from './assets/act3.jpg';
   import off4 from './assets/act4.jpg';
   import off5 from './assets/act5.jpg';
-  import off6 from './assets/off6.jpg';
-  import off7 from './assets/off7.jpg';
+  import off6 from '../../static/content-assets/activities/activities17_900X900.jpg';
+  import off7 from '../../static/content-assets/portraits-from-africa/img102_600X600.jpg';
   import off8 from './assets/act8.jpg';
-  import off9 from './assets/off7.jpg';
+  import off9 from '../../static/content-assets/portraits-from-africa/lions.jpg';
 
   // Slider
+  import slider0 from './assets/slider0.jpg';
+  import slider11 from './assets/slider11.jpg';
+  import slider12 from './assets/slider12.jpeg';
   import slider1 from '../../static/content-assets/activities/activities1_1280X960.jpg';
   import slider2 from '../../static/content-assets/activities/activities2_1280X960.jpg';
   import slider3 from '../../static/content-assets/about/about4_1075X900.jpg';
+  import slider4 from './assets/slider4.jpg';
 
   // For Activities
-  import theMother from '../../static/content-assets/activities/activities4_900X900.jpg';
+  import theMother from './assets/onAuroville.jpg';
   import worldGameInNature from '../../static/content-assets/activities/activities5_1200X900.jpg';
-  import flowerGroup from '../../static/content-assets/activities/activities9_1200X700.jpg';
-  import sacredSpaces from '../../static/content-assets/activities/activities101_1200X700.jpg';
+  import flowerGroup from './assets/wgn.jpg';
+  import sacredSpaces from '../../static/content-assets/nature-portraits/img59_600X449.jpg';
   import visionGame from '../../static/content-assets/activities/activities16_1200X900.jpg';
   import interSpecies from '../../static/content-assets/activities/activities19_1700X900.jpg';
+  import photography from '../../static//content-assets/nature-portraits/img19_600X308.jpg';
+  import lions from './assets/lions.jpeg';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { Fragment } = React;
@@ -267,7 +273,7 @@
             description: 'Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures.',
             link: 'Read on...',
             linkUrl: '/on-auroville',
-            image: worldGameInNature,
+            image: flowerGroup,
           },
         });
       }
@@ -277,10 +283,10 @@
           visible: true,
           data: {
             title: 'Flowers and their Messages',
-            description: 'Mira Alfassa, or the mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message.',
+            description: 'Mira Alfassa, or The Mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message.',
             link: 'Read on...',
             outLinkUrl: 'http://www.blossomlikeaflower.com/',
-            image: flowerGroup,
+            image: worldGameInNature,
           },
         });
       }
@@ -303,7 +309,7 @@
           visible: true,
           data: {
             title: 'World Game in Sand',
-            description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is now maily played with children, yet it was also intended for adults. The World Game encourages spontaniety, trust in oneself and being in the flow of the moment.',
+            description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaniety, trust in oneself and being in the flow of the moment.',
             link: 'Read on...',
             linkUrl: '/writings#wold-game',
             image: theMother,
@@ -330,7 +336,7 @@
             description: 'I love to share what I capture of life.',
             link: 'Read on...',
             linkUrl: '/writings#photography',
-            image: theMother,
+            image: photography,
           },
         });
       }
@@ -353,10 +359,10 @@
           visible: true,
           data: {
             title: 'LionHearted Leadership',
-            description: 'The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the last White Lions of Timbavati who deeply inspire me in my work. I also had the privilege to participate in an intensive training of the 13 Laws of LionHearted Leadership.',
+            description: 'The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the White Lions of Timbavati who deeply inspire me in my work. I also had the privilege to participate in the Academy of LionHearted Leadership.',
             link: 'Read on...',
             linkUrl: '/aikyas-short-life-story#the-white-lions',
-            image: theMother,
+            image: lions,
           },
         });
       }
@@ -382,6 +388,30 @@
           <Carousel dots={false} autoplay>
             <div>
               <Image
+                src={slider0}
+                rawWidth={1280}
+                rawHeight={1027}
+                style={{ border: 0 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider11}
+                rawWidth={1280}
+                rawHeight={1131}
+                style={{ border: 0 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider12}
+                rawWidth={868}
+                rawHeight={485}
+                style={{ border: 0 }}
+              />
+            </div>
+            <div>
+              <Image
                 src={slider1}
                 rawWidth={1280}
                 rawHeight={960}
@@ -401,6 +431,14 @@
                 src={slider3}
                 rawWidth={1280}
                 rawHeight={960}
+                style={{ border: 0 }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider4}
+                rawWidth={1280}
+                rawHeight={1019}
                 style={{ border: 0 }}
               />
             </div>

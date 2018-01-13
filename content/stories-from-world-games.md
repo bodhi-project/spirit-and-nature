@@ -9,7 +9,9 @@ tags:
     - say hi
 ---
 
-“One dreams of miracles when one is young, one wants all wickedness to disappear, everything to be always luminous, beautiful, happy, one likes stories which end happily. This is what one should rely on.” — The Mother
+> One dreams of miracles when one is young, one wants all wickedness to disappear, everything to be always luminous, beautiful, happy, one likes stories which end happily. This is what one should rely on.
+>  
+> — The Mother
 
 Presented here in this article are a number of stories from the World Game.
 
@@ -85,9 +87,9 @@ Once upon a time there was a land of crystal and the crystal queen and 4 crystal
 
 On the petals of the lotus there are 6 other baby crystals. All the crystals, fairies and shells are watching the baby being born. The queen is on a big piece of wood right above the baby and she has her magical crystal pyramid in front of her and she is helping the baby to be born. 
 
-![Pia #3](/content-assets/stories-from-world-games/pia3_1000X625.jpeg)
-
 ![Pia #4](/content-assets/stories-from-world-games/pia4_1000X625.jpeg)
+
+![Pia #3](/content-assets/book/book2_200X300.jpg)
 
 Once the baby is born she will have to find a place the stay, she does not know where she should be staying, she is still thinking. A swan is coming to her to give her a magical shell.  She took the shell. The shell will help her to find her place. She is a very special baby. She chooses where she should go, she wants to live with the queen, so the queen took her to her magical palace and they all lived happily.
 
@@ -132,13 +134,8 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 
 ![Yam and Milo #2](/content-assets/stories-from-world-games/yamMilo2_1000X750.jpg)
 
-![Yam and Milo #3](/content-assets/stories-from-world-games/yamMilo3_1000X750.jpg)
-
 ![Yam and Milo #4](/content-assets/stories-from-world-games/yamMilo4_1000X750.jpg)
 
 ![Yam and Milo #5](/content-assets/stories-from-world-games/yamMilo5_960X1280.jpg)
 
-![Yam and Milo #6](/content-assets/stories-from-world-games/yamMilo6_1000X750.jpg)
-
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
-

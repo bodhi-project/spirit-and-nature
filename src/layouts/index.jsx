@@ -22,8 +22,8 @@
   import headerBanner from './assets/header.png';
   import burgerMenu from './assets/burger_menu.png';
   import logo from './assets/logoWithText.png';
-  import logo2 from './assets/logoWithText2.png';
-  import logo3 from './assets/logoWithText3.png';
+  // import logo2 from './assets/logoWithText2.png';
+  // import logo3 from './assets/logoWithText3.png';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
   const { ResponsiveHeader, DesktopHeader, MobileMenu, MobileHeader } = CompositeHeader;

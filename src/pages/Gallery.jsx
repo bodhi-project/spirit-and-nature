@@ -75,8 +75,9 @@ import img45 from './assets/gallery/img45.jpg';
 import img46 from './assets/gallery/img46.jpg';
 import img47 from './assets/gallery/img47.jpeg';
 import img48 from './assets/gallery/img48.jpg';
+import owl from './assets/gallery/owl.jpg';
 
-const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+const { H2 } = Elements;
 
 const galleryPhotos = [
   { src: img4, width: 900, height: 600 },
@@ -124,7 +125,8 @@ const galleryPhotos = [
   { src: img43, width: 900, height: 557 },
   { src: img44, width: 900, height: 675 },
   { src: img45, width: 900, height: 555 },
-  { src: img46, width: 900, height: 252 },
+  { src: img46, width: 1280, height: 956 },
+  { src: owl, width: 600, height: 469 },
   { src: img47, width: 900, height: 543 },
 ];
 
