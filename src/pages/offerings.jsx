@@ -384,69 +384,6 @@
           <UpdateTitle title="Offerings" />
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-          <H2>Offerings</H2>
-          <Paragraph>Life is a World Game, the World Game is life. All is one. With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul. The World Game is about the world and beyond, about the connection between all, all that exists on this earth and in the universe and in what transcends it.</Paragraph>
-          <Carousel dots={false} autoplay>
-            <div>
-              <Image
-                src={slider0}
-                rawWidth={1280}
-                rawHeight={1027}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider11}
-                rawWidth={1280}
-                rawHeight={1131}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider12}
-                rawWidth={2048}
-                rawHeight={1365}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider1}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider2}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider3}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider4}
-                rawWidth={1280}
-                rawHeight={1019}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-          </Carousel>
-          <Paragraph>
-            We offer a number of activities for children and adults:
-          </Paragraph>
           <HexaGrid>
             <Hex className={hexStyleClass}>
               <a href="#" onClick={(e) => this.showModal(e, 'spiritualDimensions')}>
@@ -514,10 +451,6 @@
                 <H3 style={{ lineHeight: 1 }}>Vision<br />Game</H3>
               </a>
             </Hex>
-          </HexaGrid>
-
-          <H2>Other Interests</H2>
-          <HexaGrid>
             <Hex className={hexStyleClass}>
               <a href="#" onClick={(e) => this.showModal(e, 'lifePhotography')}>
                 <Image
@@ -580,6 +513,66 @@
               </div>
             }
           </Modal>
+
+          <Paragraph><i>Life is a World Game, the World Game is life. All is one. With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul. The World Game is about the world and beyond, about the connection between all, all that exists on this earth and in the universe and in what transcends it.</i></Paragraph>
+          <Carousel dots={false} autoplay>
+            <div>
+              <Image
+                src={slider0}
+                rawWidth={1280}
+                rawHeight={1027}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider11}
+                rawWidth={1280}
+                rawHeight={1131}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider12}
+                rawWidth={2048}
+                rawHeight={1365}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider1}
+                rawWidth={1280}
+                rawHeight={960}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider2}
+                rawWidth={1280}
+                rawHeight={960}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider3}
+                rawWidth={1280}
+                rawHeight={960}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+            <div>
+              <Image
+                src={slider4}
+                rawWidth={1280}
+                rawHeight={1019}
+                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
+              />
+            </div>
+          </Carousel>
         </Container>
       );
     }
