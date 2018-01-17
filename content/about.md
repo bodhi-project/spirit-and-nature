@@ -1,10 +1,10 @@
 ---
-title: About
-cover: /content-assets/about/about4_1075X900.jpg
-category: general
+title: Towards Life Beautiful
+cover: /content-assets/about/banner.jpg
+category: Articles
 date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
-variant: page
+abstract: Spirit and Nature is a learning centre situated in the middle of a forest in Auroville in India.
+variant: none
 tags:
   - say hi
 ---

@@ -19,4 +19,5 @@ The World Game, also known as Sandplay, is an educational tool used in Auroville
 
 This book is done as a sketch with spontaneous sparks of Wonder. The World Game gives the children an opportunity to be creative, to be able to express their own individuality and unique living soul. It is an invitation to believe in the future and create a new world.
 
-[https://www.auroville.com/creative-expression-3638.html]
+[Read on…](https://www.auroville.com/creative-expression-3638.html)
+

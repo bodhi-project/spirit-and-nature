@@ -83,8 +83,6 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
     boxShadow: 'none !important',
-    border: '2px solid #f9ba59 !important',
-    borderRadius: '2px',
     padding: '0px !important',
     marginBottom: '1vh',
     marginRight: '1vh',    
