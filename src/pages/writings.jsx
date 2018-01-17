@@ -102,6 +102,19 @@
           <UpdateTitle title="Writings" />
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
+          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'flex-start' }}>
+          {
+            _.map(categories, (category, index) => (
+              <Fragment>
+                <a style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href={`#${_.kebabCase(_.toLower(_.trim(category)))}`}>{category}</a>
+                { (index === 0 || index === 1) &&
+                  <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
+                }
+              </Fragment>
+            ))
+          }
+          </div>
+
           {
             _.map(categories, (category) => (
               <div style={{ marginTop: modularScale.base.em, marginBottom: modularScale.base.em }} className={articleWrapperStyle.toString()} >

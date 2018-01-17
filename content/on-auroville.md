@@ -27,6 +27,8 @@ Auroville offers a beautiful vision of a possible New World. Children who grow u
 
 Auroville is situated near the city of Pondicherry, in the state of Tamil Nadu, South India. About 2,400 inhabitants reside in Auroville at this time. They come from every state in India as well as from 50 different nations.
 
+[Read on about Auroville...](https://www.auroville.org)
+
 # Auroville Charter
 
 > Auroville belongs to nobody in particular.  Auroville belongs to humanity as a whole. But to live in Auroville, one must be a willing servitor of the Divine Consciousness. 
@@ -55,5 +57,16 @@ Auroville is situated near the city of Pondicherry, in the state of Tamil Nadu, 
 > 
 > — The Mother
 
-[Read on...](https://www.auroville.org)
+# Integral Yoga
 
+In Sri Aurobindo’s vision, the human being is not the last step in evolution. Next will come a new being with a new consciousness which he calls the ‘Supramental’. In these transitional times, where evolution is pressing, and where so many things are just collapsing, we must grow continuously, becoming more true and more conscious. Sri Aurobindo’s Integral Yoga is well described here in his own words:
+
+> Life, when we look behind its appearances, is a vast yoga of Nature who a empts in the conscious and the subconscious to realise her perfection in an ever-increasing expression of her yet unrealised potentialities and to unite herself with her own divine reality.
+> 
+> Sri Aurobindo, “The Synthesis of Yoga”, p.6
+
+Sonia Dyne expresses this moment in history well, where we can start to feel something at work which is much bigger than our little minds can see:
+
+_We see a small group of young people from opposing nations plant trees for peace in Auroville and the Berlin wall comes down and the prospect of war retreats into the background of human affairs. We are reluctant to believe there could be any connection - surely life is more complicated than that? But what if the ‘complications’ are a veil of falsehood, a fake ‘reality’ to which we all, somehow, consent? What if a new light breaking upon the world is using us to build a new consciousness?_
+
+[— Source.](http://www.auroville.org/contents/585)

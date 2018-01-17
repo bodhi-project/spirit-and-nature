@@ -11,7 +11,7 @@ tags:
 
 # Approaching Creation
 
-![Poem #3](/content-assets/poems/poem2_900X1500.jpg)
+![Poem #3](/content-assets/poems/poem2_745X1264.jpg)
 
 ![Poem #3](/content-assets/poems/poem3_900X900.jpg)
 
@@ -33,7 +33,7 @@ _When, where, how...?_
 
 # Born
 
-![Poem #2](/content-assets/poems/poem4_900X1200.jpg)
+![Poem #2](/content-assets/poems/poem4_889X1226.jpg)
 
 ![Poem #3](/content-assets/poems/poem3_900X900.jpg)
 
@@ -50,8 +50,35 @@ _With bliss and spasm,_
 _With myself, and others..._  
 _Alive i am this i know_  
 
-# Lion
+# Sunmaned
 
-![Poem #2](/content-assets/poems/poem1_900X1200.jpg)
+_Sunmaned,_  
+_starring eyes,_  
+_playful heaven of love,_  
+_white light_  
+_blue peace_  
+
+_Unperturbed you walk_  
+_King_  
+_With the scars of little life_  
+_on Your noble face_  
+_Secure in the presence of Grace_  
+
+_High fences_  
+_Electric guardians_  
+_Against coward head hunters-lost_  
+
+_Oh god(esse)s to BE_  
+_Now is the time to reverse and soar_  
+_And roar lion, roar lions_  
+_Till the night surrenders into ever-lasting das_  
+
+_Enveloped in the blanket of my dreams_  
+_I watch the world through your eyes_  
+_My heart weeps_  
+_with a new strength_  
+_of rainbow colors_  
+
+![Poem #2](/content-assets/poems/poem1_949X1280.jpg)
 
 ![Poem #3](/content-assets/poems/poem3_900X900.jpg)

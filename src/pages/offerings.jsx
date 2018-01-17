@@ -83,7 +83,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
     boxShadow: 'none !important',
-    border: '3px solid #f7d2ae !important',
+    border: '1px solid #daa520 !important',
     borderRadius: '2px',
     padding: '0px !important',
     marginBottom: '1vh',
@@ -118,7 +118,7 @@
       width: '100%',
       margin: '0px !important',
       textAlign: 'center',
-      background: '#f7d2ae',
+      background: '#daa520',
       color: '#ffffff',
       bottom: -100,
       left: 0,
@@ -297,7 +297,8 @@
           visible: true,
           data: {
             title: 'Creating Sacred Space',
-            description: 'If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up in the material manifestation. — The Mother. I love to create an atmosphere of harmony and peace, it invites a higher level of vibration. I love gardens where one can feel the magic of nature, where everything is alive and full of secret relationships.',
+            quote: 'If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up in the material manifestation. — The Mother.',
+            description: 'I love to create an atmosphere of harmony and peace, it invites a higher level of vibration. I love gardens where one can feel the magic of nature, where everything is alive and full of secret relationships.',
             link: 'Read on...',
             linkUrl: '/how-to-create-a-sacred-space',
             image: sacredSpaces,
@@ -347,7 +348,8 @@
           visible: true,
           data: {
             title: 'Inter Species Communication',
-            description: 'Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for mans own advantage. — Sri Aurobindo. I deeply relate to animals and plants, and love to explore the intuitive and natural art of animal communication within my possibilities.',
+            quote: 'Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for mans own advantage. — Sri Aurobindo.',
+            description: 'I deeply relate to animals and plants, and love to explore the intuitive and natural art of animal communication within my possibilities.',
             link: 'Read on...',
             linkUrl: '/aikyas-short-life-story#animal-communication',
             image: interSpecies,
@@ -370,14 +372,12 @@
     }
 
     hideModal(e) {
-      console.log(e);
       this.setState({
         visible: false,
       });
     }
 
     render() {
-      console.log(this.state);
       return (
         <Container block noFade bleed style={{ paddingTop: 50 }} className={wrapperStyleClass}>
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
@@ -503,6 +503,9 @@
                   style={{ border: 0, height: '40vh', width: 'auto', marginBottom: 35, background: 'transparent', display: 'block' }}
                 />
                 <H2>{this.state.data.title}</H2>
+                { this.state.data.quote &&
+                  <Paragraph><i>{this.state.data.quote}</i></Paragraph>
+                }
                 <Paragraph>{this.state.data.description}</Paragraph>
                 { (this.state.data.linkUrl && this.state.data.link) &&
                   <Link to={this.state.data.linkUrl}>{this.state.data.link}</Link>
