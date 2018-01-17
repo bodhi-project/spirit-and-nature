@@ -9,6 +9,8 @@ tags:
   - say hi
 ---
 
-# White Lions
+# World Games in Nature — with Kids
 
-blah blah blah
+embed video 1. slideshow… (nature and spirit moments)
+
+embed video 2. (nature and spirit)

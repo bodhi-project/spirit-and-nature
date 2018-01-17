@@ -217,7 +217,7 @@ class TemplateWrapper extends React.Component {
                         placement="bottomRight"
                         content={
                           <ul style={{ listStyle: 'none' }}>
-                            <li><Link to="/writings">Articles</Link></li>
+                            <li><Link to="/writings#articles">Articles</Link></li>
                             <li><Link to="/writings#photos">Photos</Link></li>
                             <li><Link to="/writings#videos">Videos</Link></li>
                           </ul>}
@@ -227,7 +227,7 @@ class TemplateWrapper extends React.Component {
                         <span className="drops" style={{ fontSize: '1.4rem', fontFamily: `${kit.fontFamilies.paragraph} !important`, color: '#9d639d' }} >Journal</span>
                       </Popover>
                     </li>
-                    <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><a href="#"><img style={{ height: 150, width: 'auto' }} src={logo} /></a></li>
+                    <li style={{ paddingTop: 0, paddingBottom: 0, paddingLeft: 43, paddingRight: 43 }}><Link to="/"><img style={{ height: 150, width: 'auto' }} src={logo} /></Link></li>
                     <li><Link to="/gallery">Gallery</Link></li>
                     <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
                     <li><Link to="/about-me">About Me</Link></li>
@@ -245,6 +245,15 @@ class TemplateWrapper extends React.Component {
           </Row>
 
           <div style={{ borderTop: '2px solid #daa520', paddingTop: 30, paddingBottom: 30, paddingLeft: 19, paddingRight: 19 }}>
+            <Container tiny block noFade style={{ padding: 0 }}>
+              <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'flex-start' }}>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#articles">Article</Link>
+                <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#photos">Photos</Link>
+                <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#videos">Videos</Link>
+              </div>
+            </Container>
             <Paragraph style={{ textAlign: 'center' }}>
               <small>© 2018, Nature and Spirit, Auroville Arts Service</small>
             </Paragraph>

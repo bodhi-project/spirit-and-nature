@@ -3,7 +3,7 @@ title: The Forest is a Mysterious Place
 cover: /content-assets/forest/forestBanner.jpg
 category: Articles
 date: 2018-01-11
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+abstract: A wild horse in the rain.
 variant: none
 tags:
   - say hi
@@ -25,12 +25,13 @@ In this forest you might see varans, turtles, rabbits, mongooses, lizards, snake
 
 ![About #3](/content-assets/forest/forest3_900X800.jpg)
 
-![About #1](/content-assets/forest/forest1_2000X600.jpg)
-
 Anusuya is a small forest community in Auroville’s greenbelt area and is the home of Spirit and Nature Learning Center. The place, called Anusuya, although small and close to the city center, has much natural beauty and is still partially wild. We are living off grid.
 
 ![About #4](/content-assets/forest/forest4_900X675.jpg)
 
 ![About #5](/content-assets/forest/forest5_900X675.jpg)
 
-Living in the forest demands a dedicated work. Beside planting, cleaning, protecting, planning, maintaining, there is also the joy of consciously connecting to all.
+Living in the forest demands a dedicated work. Beside planting, protecting, maintaining, there is also the joy of consciously connecting to all.
+
+![About #1](/content-assets/forest/forest1_2000X600.jpg)
+

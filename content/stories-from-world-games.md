@@ -3,7 +3,7 @@ title: "Stories from World Games"
 cover: /content-assets/stories-from-world-games/banner.jpg
 category: Articles
 date: 2017-12-27
-abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+abstract: 9 children, 8 stories.
 variant: none
 tags:
     - say hi

@@ -36,7 +36,7 @@
   import off3 from './assets/act3.jpg';
   import off4 from './assets/act4.jpg';
   import off5 from './assets/act5.jpg';
-  import off6 from '../../static/content-assets/activities/activities17_900X900.jpg';
+  import off6 from './assets/act6.jpg';
   import off7 from '../../static/content-assets/portraits-from-africa/img102_600X600.jpg';
   import off8 from './assets/act8.jpg';
   import off9 from '../../static/content-assets/portraits-from-africa/lions.jpg';
@@ -83,7 +83,7 @@
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
     boxShadow: 'none !important',
-    border: '1px solid #daa520 !important',
+    border: '2px solid #f9ba59 !important',
     borderRadius: '2px',
     padding: '0px !important',
     marginBottom: '1vh',
@@ -118,7 +118,7 @@
       width: '100%',
       margin: '0px !important',
       textAlign: 'center',
-      background: '#daa520',
+      background: '#f9ba59',
       color: '#ffffff',
       bottom: -100,
       left: 0,
@@ -379,7 +379,7 @@
 
     render() {
       return (
-        <Container block noFade bleed style={{ paddingTop: 50 }} className={wrapperStyleClass}>
+        <Container block noFade bleed style={{ paddingTop: '5vh', paddingBottom: '5vh' }} className={wrapperStyleClass}>
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
           <UpdateTitle title="Offerings" />
 
@@ -516,66 +516,6 @@
               </div>
             }
           </Modal>
-
-          <Paragraph><i>Life is a World Game, the World Game is life. All is one. With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul. The World Game is about the world and beyond, about the connection between all, all that exists on this earth and in the universe and in what transcends it.</i></Paragraph>
-          <Carousel dots={false} autoplay>
-            <div>
-              <Image
-                src={slider0}
-                rawWidth={1280}
-                rawHeight={1027}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider11}
-                rawWidth={1280}
-                rawHeight={1131}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider12}
-                rawWidth={2048}
-                rawHeight={1365}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider1}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider2}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider3}
-                rawWidth={1280}
-                rawHeight={960}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-            <div>
-              <Image
-                src={slider4}
-                rawWidth={1280}
-                rawHeight={1019}
-                style={{ border: 0, height: '50vh', width: 'auto', background: 'transparent', display: 'block' }}
-              />
-            </div>
-          </Carousel>
         </Container>
       );
     }

@@ -3,7 +3,7 @@ title: Sandplay Traditions in Auroville
 cover: /content-assets/sandplay/banner.jpg
 category: Articles
 date: 2017-12-26
-abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+abstract: An Overview by Heidi Watts — an extract from the book.
 variant: none
 tags:
     - say hi

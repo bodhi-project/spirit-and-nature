@@ -23,12 +23,12 @@ import {
   OrganisationSchema,
 } from '@bodhi-project/seo';
 
-import { Elements } from '@bodhi-project/typography';
+// import { Elements } from '@bodhi-project/typography';
 
 import indexImage from './assets/index.jpg';
 
 import img1 from './assets/gallery/img1.jpg';
-import img2 from './assets/gallery/img2.jpg';
+// import img2 from './assets/gallery/img2.jpg';
 import img3 from './assets/gallery/img3.jpg';
 import img4 from './assets/gallery/img4.jpeg';
 import img5 from './assets/gallery/img5.jpeg';
@@ -40,7 +40,7 @@ import img10 from './assets/gallery/img10.jpeg';
 import img11 from './assets/gallery/img11.jpg';
 import img12 from './assets/gallery/img12.jpg';
 import img13 from './assets/gallery/img13.jpg';
-import img14 from './assets/gallery/img14.jpg';
+import img14 from './assets/gallery/img140.jpg';
 import img15 from './assets/gallery/img15.jpeg';
 import img16 from './assets/gallery/img16.jpeg';
 import img17 from './assets/gallery/img17.jpg';
@@ -77,7 +77,7 @@ import img47 from './assets/gallery/img47.jpeg';
 import img48 from './assets/gallery/img48.jpg';
 import owl from './assets/gallery/owl.jpg';
 
-const { H2 } = Elements;
+// const { H2 } = Elements;
 
 const galleryPhotos = [
   { src: img4, width: 900, height: 600 },

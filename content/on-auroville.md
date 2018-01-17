@@ -3,7 +3,7 @@ title: On Auroville
 cover: /content-assets/about/about1_850X490.jpg
 category: Articles
 date: 2018-01-12
-abstract: "Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit."
+abstract: The purposes of Auroville is to realize human unity.
 variant: none
 tags:
   - say hi

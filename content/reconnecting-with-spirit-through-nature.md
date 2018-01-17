@@ -1,13 +1,15 @@
 ---
-title: Aikya’s short life story
-cover: /content-assets/biography/biography116_1600X1000.jpg
+title: Reconnecting with Spirit through Nature
+cover: /content-assets/biography/banner.jpg
 category: Articles
 date: 2017-12-01
-abstract: Adapted from "Reconnecting with Spirit through Nature", an article by Alan in Auroville Today. Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
+abstract: Adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville).
 variant: none
 tags:
   - say hi
 ---
+
+Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
 
 # Beginnings
 
@@ -77,9 +79,9 @@ The indigenous people, like the San people, know very well how to connect with a
 
 Anna taught us that to enter into communication, firstly, we have to get rid of all our preconceptions regarding animals, then we need to become very still and make a clear intention to connect, through the heart, with a particular animal (or plant). Then the actual communication can be extremely fast and can come through an image, sound, word or feeling.
 
-![Working with animals #3](/content-assets/biography/img9.jpg)
+![Working with animals #4](/content-assets/about/img100_600X337.jpg)
 
-![Working with animals #4](/content-assets/biography/img11.jpg)
+![Working with animals #3](/content-assets/biography/img9.jpg)
 
 I experienced this in an exercise she gave us. She brought us to an animal dropping and asked us to identify the animal. Initially, I had no idea but I focussed and at once I saw very clearly the face of an ostrich: it was an absolutely clear image. Through exercises like this, we learned how much we already know intuitively, although very often the mental intervenes and then we get it wrong.
 
@@ -105,11 +107,11 @@ After a huge struggle, for the cub was born in a ‘blood lion’ camp, Linda ob
 
 However, this is much more than a conservation project; it is also about leadership and addressing the most urgent crises of today. After observing lions for a long time, she decided to set up her White Lion Leadership Academy. Here she started to train people in the thirteen laws of LionHearted leadership, which are based on nature’s laws.
 
-It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for. In 2017 I participated in the Online LionHearted Practitioner Training.
+It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for. In 2017 I participated in the [LionHearted Practitioner Training](https://www.lindatuckerfoundation.org/lionhearted-leadership-initiative) and graduated in December 2017.
 
 # One United Roar
 
-When I returned, I spoke to the children in The Learning Community about my experience and invited them to make videos for an international Talent Challenge which Linda was organizing last August. The background to this is that these lions are still trophy-hunted in South Africa: hunters pay up to 100,000 dollars to be allowed to make a kill and there is no statutory protection for the lions. As there was an upcoming meeting of CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) Linda wanted to put pressure on delegates to stop this practice by getting children around the world to ‘Roar’ for the lions through videos that highlighted their plight.
+When I returned, I spoke to the children in The Learning Community about my experience and invited them to make videos for an [international Talent Challenge](https://www.oneunitedroar.org/) which Linda was organizing last August. The background to this is that these lions are still trophy-hunted in South Africa: hunters pay up to 100,000 dollars to be allowed to make a kill and there is no statutory protection for the lions. As there was an upcoming meeting of CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) Linda wanted to put pressure on delegates to stop this practice by getting children around the world to ‘Roar’ for the lions through videos that highlighted their plight.
 
 This really resonated with the kids from ‘The Learning Community’. With eleven of them we made videos, which we managed to send off just before the deadline. Two of the kids, Asia and Yam, are among the international winners. As their prize, in March of 2017 they, together with one parent, visited the White Lion Heartlands in South Africa and have experienced the White Lions themselves.
 
@@ -119,7 +121,7 @@ This really resonated with the kids from ‘The Learning Community’. With elev
 
 This shows that children who grow up here have a strong potential to express their heart qualities in things that matter. They are very concerned about the disappearance of wildlife at a rate that might leave us without free-roaming elephants or lions by the time these kids grow up.
 
-YouTube link goes here...
+[You can see all these video clips here.](https://www.youtube.com/watch?v=Ypjc5E-sfqU&list=PLvSMhwXjvCq9xaw13X1o1x9-E8OAN_Fu2)
 
 # Where I Am Now
 
@@ -133,7 +135,7 @@ Now my dream is to spread the message of ‘Nature and Spirit’ to children and
 
 In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre. 
 
-![My work now #3](/content-assets/biography/biography112_1200X900.jpg)
+![My work now #3](/content-assets/about/img101_600X337.jpg)
 
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
