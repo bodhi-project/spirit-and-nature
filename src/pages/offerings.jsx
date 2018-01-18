@@ -82,18 +82,18 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
-    boxShadow: 'none !important',
-    padding: '0px !important',
+    boxShadow: 'none ',
+    padding: '0px ',
     marginBottom: '1vh',
     marginRight: '1vh',    
 
     '@media (min-width: 768px)': {
-      flex: '0 0 47% !important',
-      maxWidth: '47% !important',
+      flex: '0 0 47% ',
+      maxWidth: '47% ',
 
       '@media (min-width: 1066px)': {
-        flex: '0 0 32.3% !important',
-        maxWidth: '32.3% !important',
+        flex: '0 0 32.3% ',
+        maxWidth: '32.3% ',
       },
     },
 
@@ -167,41 +167,41 @@
 
     // «««««««««««««««««««««««««««««««««««««««««««««««««««««««««« Hero Paragraph
       '& p.home, .mask-p': {
-        fontSize: `${(modularScale.base.px * 1.4) / 16}em !important`,
+        fontSize: `${(modularScale.base.px * 1.4) / 16}em `,
         lineHeight: '1.333em',
         '@media(min-width: 600px)': {
-          fontSize: `${(modularScale.base.px * 1.4) * 1.188 / 16}em !important`,
+          fontSize: `${(modularScale.base.px * 1.4) * 1.188 / 16}em `,
         },
         '@media(min-width: 800px)': {
-          fontSize: `${(modularScale.base.px * 1.4) * 1.313 / 16}em !important`,
+          fontSize: `${(modularScale.base.px * 1.4) * 1.313 / 16}em `,
         },
         '@media(min-width: 1030px)': {
-          fontSize: `${(modularScale.base.px * 1.4) * 1.375 / 16}em !important`,
+          fontSize: `${(modularScale.base.px * 1.4) * 1.375 / 16}em `,
         },
         '@media(min-width: 1250px)': {
-          fontSize: `${(modularScale.base.px * 1.4) * 1.438 / 16}em !important`,
+          fontSize: `${(modularScale.base.px * 1.4) * 1.438 / 16}em `,
         },
         '@media(min-width: 1400px)': {
-          fontSize: `${(modularScale.base.px * 1.4) * 1.563 / 16}em !important`,
+          fontSize: `${(modularScale.base.px * 1.4) * 1.563 / 16}em `,
         },
       },
 
       '& p, .mask-p': {
-        margin: `${(modularScale.base.px * 1.4) / 16}em 0em !important`,
+        margin: `${(modularScale.base.px * 1.4) / 16}em 0em `,
         '@media(min-width: 600px)': {
-          margin: `${((modularScale.base.px * 1.4) * 1.188) / 16}em 0em !important`,
+          margin: `${((modularScale.base.px * 1.4) * 1.188) / 16}em 0em `,
         },
         '@media(min-width: 800px)': {
-          margin: `${((modularScale.base.px * 1.4) * 1.313) * 0.9 / 16}em 0em !important`,
+          margin: `${((modularScale.base.px * 1.4) * 1.313) * 0.9 / 16}em 0em `,
         },
         '@media(min-width: 1030px)': {
-          margin: `${((modularScale.base.px * 1.4) * 1.375) * 0.8 / 16}em 0em !important`,
+          margin: `${((modularScale.base.px * 1.4) * 1.375) * 0.8 / 16}em 0em `,
         },
         '@media(min-width: 1250px)': {
-          margin: `${((modularScale.base.px * 1.4) * 1.438) * 0.7 / 16}em 0em !important`,
+          margin: `${((modularScale.base.px * 1.4) * 1.438) * 0.7 / 16}em 0em `,
         },
         '@media(min-width: 1400px)': {
-          margin: `${((modularScale.base.px * 1.4) * 1.563) * 0.6 / 16}em 0em !important`,
+          margin: `${((modularScale.base.px * 1.4) * 1.563) * 0.6 / 16}em 0em `,
         },
       },
 
@@ -284,7 +284,7 @@
             title: 'Flowers and their Messages',
             description: 'Mira Alfassa, or The Mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message.',
             link: 'Read on...',
-            outLinkUrl: 'http://www.blossomlikeaflower.com/',
+            outLinkUrl: '/reconnecting-with-spirit-through-nature#return-to-auroville',
             image: worldGameInNature,
           },
         });
@@ -309,9 +309,9 @@
           visible: true,
           data: {
             title: 'World Game in Sand',
-            description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaniety, trust in oneself and being in the flow of the moment.',
+            description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaneity, trust in oneself and being in the flow of the moment.',
             link: 'Read on...',
-            linkUrl: '/writings#wold-game',
+            linkUrl: '/on-world-game-in-sand',
             image: theMother,
           },
         });
@@ -334,8 +334,8 @@
           data: {
             title: 'Photography',
             description: 'I love to share what I capture of life.',
-            link: 'Read on...',
-            linkUrl: '/writings#photography',
+            link: 'Watch here...',
+            linkUrl: '/writings#photos',
             image: photography,
           },
         });
@@ -349,7 +349,7 @@
             quote: 'Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for mans own advantage. — Sri Aurobindo.',
             description: 'I deeply relate to animals and plants, and love to explore the intuitive and natural art of animal communication within my possibilities.',
             link: 'Read on...',
-            linkUrl: '/aikyas-short-life-story#animal-communication',
+            linkUrl: '/reconnecting-with-spirit-through-nature#animal-communication',
             image: interSpecies,
           },
         });
@@ -362,7 +362,7 @@
             title: 'LionHearted Leadership',
             description: 'The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the White Lions of Timbavati who deeply inspire me in my work. I also had the privilege to participate in the Academy of LionHearted Leadership.',
             link: 'Read on...',
-            linkUrl: '/aikyas-short-life-story#the-white-lions',
+            linkUrl: '/reconnecting-with-spirit-through-nature#the-white-lions',
             image: lions,
           },
         });
@@ -377,7 +377,7 @@
 
     render() {
       return (
-        <Container block noFade bleed style={{ paddingTop: '5vh', paddingBottom: '5vh' }} className={wrapperStyleClass}>
+        <Container block noFade bleed style={{ paddingTop: '5vh', paddingBottom: '5vh', position: 'relative' }} className={wrapperStyleClass}>
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
           <UpdateTitle title="Offerings" />
 
@@ -449,6 +449,10 @@
                 <H3 style={{ lineHeight: 1 }}>Vision<br />Game</H3>
               </a>
             </Hex>
+          </HexaGrid>
+
+          <Paragraph>Other Interests</Paragraph>
+          <HexaGrid>
             <Hex className={hexStyleClass}>
               <a href="#" onClick={(e) => this.showModal(e, 'lifePhotography')}>
                 <Image
@@ -498,19 +502,29 @@
                   src={this.state.data.image}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0, height: '40vh', width: 'auto', marginBottom: 35, background: 'transparent', display: 'block' }}
+                  style={{ border: 0, height: '38vh', width: 'auto', marginBottom: 15, background: 'transparent', display: 'block' }}
                 />
-                <H2>{this.state.data.title}</H2>
+                <H2 style={{ marginBottom: 16 }}>{this.state.data.title}</H2>
                 { this.state.data.quote &&
-                  <Paragraph><i>{this.state.data.quote}</i></Paragraph>
+                  <Paragraph style={{ marginTop: 0 }}><i>{this.state.data.quote}</i></Paragraph>
                 }
-                <Paragraph>{this.state.data.description}</Paragraph>
-                { (this.state.data.linkUrl && this.state.data.link) &&
-                  <Link to={this.state.data.linkUrl}>{this.state.data.link}</Link>
-                }
-                { (this.state.data.outLinkUrl && this.state.data.link) &&
-                  <OutLink to={this.state.data.outLinkUrl}>{this.state.data.link}</OutLink>
-                }
+                <Paragraph style={{ marginTop: 0 }}>
+                  <Fragment>
+                    {this.state.data.description}
+                    { (this.state.data.linkUrl && this.state.data.link) &&
+                      <Fragment>
+                        <br /><br />
+                        <Link to={this.state.data.linkUrl}>{this.state.data.link}</Link>
+                      </Fragment>
+                    }
+                    { (this.state.data.outLinkUrl && this.state.data.link) &&
+                      <Fragment>
+                        <br /><br />
+                        <OutLink to={this.state.data.outLinkUrl}>{this.state.data.link}</OutLink>
+                      </Fragment>
+                    }
+                  </Fragment>
+                </Paragraph>
               </div>
             }
           </Modal>

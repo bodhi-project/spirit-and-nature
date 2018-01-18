@@ -2,7 +2,7 @@
 title: "Stories from World Games"
 cover: /content-assets/stories-from-world-games/banner.jpg
 category: Articles
-date: 2017-12-27
+date: 2018-01-08
 abstract: 9 children, 8 stories.
 variant: none
 tags:

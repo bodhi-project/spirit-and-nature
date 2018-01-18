@@ -2,7 +2,7 @@
 title: Auroville Sparkles
 cover: /content-assets/nature-portraits/avBanner.jpg
 category: Photos
-date: 2017-12-14
+date: 2018-01-15
 abstract: Photos I've taken over the years.
 tags:
   - say hi
@@ -17,9 +17,9 @@ variant: gallery
 
 # Love is in the air
 
-![Portrait #12](/content-assets/nature-portraits/img12_600X900.jpg)
-
 ![Portrait #13](/content-assets/nature-portraits/img13_600X400.jpg)
+
+![Portrait #12](/content-assets/nature-portraits/img12_600X900.jpg)
 
 # Pink catcher
 
@@ -41,9 +41,9 @@ variant: gallery
 
 # My home is a garden of love
 
-![Portrait #43](/content-assets/nature-portraits/img203_1280X960.jpg)
-
 ![Portrait #43](/content-assets/nature-portraits/img43_600X450.jpg)
+
+![Portrait #43](/content-assets/nature-portraits/img203_1280X960.jpg)
 
 # The visitor
 

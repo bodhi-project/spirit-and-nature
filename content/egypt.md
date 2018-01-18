@@ -1,8 +1,8 @@
 ---
-title: Egypt
+title: Eternal Gaze - Egypt
 cover: /content-assets/egypt/banner.jpg
 category: Photos
-date: 2017-12-14
+date: 2018-01-11
 abstract: Photos I've taken over the years.
 tags:
   - say hi
@@ -37,14 +37,13 @@ variant: gallery
 
 # Egypt - V
 
-![Img](/content-assets/egypt/img40_600X450.jpg)
-
 ![Img](/content-assets/egypt/img41_600X450.jpg)
+
+![Img](/content-assets/egypt/img40_600X450.jpg)
 
 # Egypt - VI
 
 ![Img](/content-assets/egypt/img50_600X450.jpg)
 
 ![Img](/content-assets/egypt/img51_600X450.jpg)
-
 

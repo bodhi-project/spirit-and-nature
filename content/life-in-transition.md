@@ -2,7 +2,7 @@
 title: Life In Transition
 cover: /content-assets/africa/banner.jpg
 category: Photos
-date: 2017-12-14
+date: 2018-01-14
 abstract: Photos I've taken over the years.
 tags:
   - say hi
@@ -51,7 +51,7 @@ variant: gallery
 
 ![Portrait #33](/content-assets/nature-portraits/img33_600X450.jpg)
 
-# You Touched Me
+# Touch Me Not!
 
 ![Portrait #40](/content-assets/nature-portraits/img40_600X450.jpg)
 
@@ -86,6 +86,5 @@ variant: gallery
 ![Img #8](/content-assets/life-in-transition/i8_600X523.jpg)
 
 ![Img #5](/content-assets/life-in-transition/i5_600X568.jpg)
-
 
 

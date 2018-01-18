@@ -2,7 +2,7 @@
 title: Poems
 cover: /content-assets/poems/banner.jpg
 category: Articles
-date: 2018-01-10
+date: 2018-01-05
 abstract: A few poems.
 variant: none
 tags:
@@ -72,13 +72,14 @@ _high fences_
 _electric guardians_  
 _against coward head hunters-lost_  
 
-_oh God(esse)s to BE_  
+_oh Gods and Goddesses to BE_  
 _now is the time to reverse and soar_  
 _and roar lion, roar lions_  
-_till the night surrenders into ever-lasting das_  
+_till the night surrenders into ever-lasting days_  
 
 _enveloped in the blanket of my dreams_  
 _i watch the world through your eyes_  
 _my heart weeps_  
 _with a new strength_  
 _of rainbow colors_  
+

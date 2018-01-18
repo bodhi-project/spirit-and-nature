@@ -2,7 +2,7 @@
 title: Reconnecting with Spirit through Nature
 cover: /content-assets/biography/banner.jpg
 category: Articles
-date: 2017-12-01
+date: 2018-01-09
 abstract: Adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville).
 variant: none
 tags:
@@ -42,6 +42,8 @@ Then I was invited to do flower arranging in the Solar Kitchen. This opened up a
 ![Arrangement #2](/content-assets/biography/biography102_1200X900.jpg)
 
 People were very happy with this initiative and some of them began to bring flowers for me to arrange.  In the early days there seemed to be many more flowers in Auroville and the children knew Mother’s names for them. Now that knowledge seems to be less present.
+
+[Read more on flowers and their messages](http://www.blossomlikeaflower.com/).
 
 # Reawakening Wonder
 
@@ -140,4 +142,3 @@ In terms of the yoga, the next step we need to take is to access the intuitive c
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
-

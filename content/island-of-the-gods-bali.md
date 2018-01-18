@@ -2,7 +2,7 @@
 title: Island of the Gods - Bali
 cover: /content-assets/bali/banner.jpg
 category: Photos
-date: 2017-12-14
+date: 2018-01-12
 abstract: Photos I've taken over the years.
 tags:
   - say hi
@@ -53,9 +53,9 @@ variant: gallery
 
 # Oneness - III
 
-![Img](/content-assets/bali/i70_600X450.jpg)
-
 ![Img](/content-assets/bali/i71_600X800.jpg)
+
+![Img](/content-assets/bali/i70_600X450.jpg)
 
 # Oneness - IV
 

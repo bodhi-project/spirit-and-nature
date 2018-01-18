@@ -2,8 +2,8 @@
 title: Sandplay Traditions in Auroville
 cover: /content-assets/sandplay/banner.jpg
 category: Articles
-date: 2017-12-26
-abstract: An Overview by Heidi Watts — an extract from the book.
+date: 2018-01-01
+abstract: An Overview by Heidi Watts — an extract from the book "Glimpses of Wonder" — Aikya's world game represents an unbroken tradition of sandbox activity for children in Auroville.
 variant: none
 tags:
     - say hi
@@ -78,4 +78,4 @@ In addition to the expression of inner thoughts and feelings for the child, the 
 
 “The World Game” was a unique aspect of the curriculum at Aspiration in the early years, and was reintroduced into the Auroville curriculum at Transition by Jossy in 1999. In 2001 Jossy was joined by Paulien, rst as an observer and then as an additional sand box guide at Transition for a few hours a week. While she was learning the Sand Play from Jossy, Paulien opened a room for sand box play at Deepanam, and then moved with the small objects she had collected to the Nandanam Campus, and nally to the site across the road now ocupied by Aha! Meanwhile Paulien’s hours for guiding the Sand Play at Transition gradually increased, until Jossy left her body in March, 2006. Paulien stopped work at Nandenam and took over all the sand box activities at Transition. The Sand Play program at Transition was cut back in July 2014.
 
-The World Game that Aikya describes with such love and care in this book is part of an almost unbroken tradition of sandbox activity for children in Auroville. I hope this book will inspire other schools or centers to consider the possibilities the World Game affords for creativity, self-discovery and the expression of the psychic being.
+The World Game that Aikya describes with such love and care in her book is **part of an almost unbroken tradition of sandbox activity for children in Auroville**. I hope her book will inspire other schools or centers to consider the possibilities the World Game affords for creativity, self-discovery and the expression of the psychic being.

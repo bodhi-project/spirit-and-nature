@@ -247,15 +247,15 @@ class TemplateWrapper extends React.Component {
           <div style={{ borderTop: '2px solid #daa520', paddingTop: 30, paddingBottom: 30, paddingLeft: 19, paddingRight: 19 }}>
             <Container tiny block noFade style={{ padding: 0 }}>
               <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'flex-start' }}>
-                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#articles">Article</Link>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/writings#articles">Articles</Link>
                 <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
-                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#photos">Photos</Link>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/writings#photos">Photos</Link>
                 <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
-                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" href="/writing#videos">Videos</Link>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/writings#videos">Videos</Link>
               </div>
             </Container>
             <Paragraph style={{ textAlign: 'center' }}>
-              <small>© 2018, Nature and Spirit, Auroville Arts Service</small>
+              <small>© 2018, Spirit and Nature, Auroville Arts Service</small>
             </Paragraph>
           </div>
         </Container>

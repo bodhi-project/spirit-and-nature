@@ -2,7 +2,7 @@
 title: On World Game in Sand
 cover: /content-assets/on-world-game-in-sand/banner.jpg
 category: Articles
-date: 2017-12-31
+date: 2018-01-02
 abstract: An extract from the book "Glimpses of Wonder".
 variant: none
 tags:

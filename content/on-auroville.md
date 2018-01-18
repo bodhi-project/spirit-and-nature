@@ -2,8 +2,8 @@
 title: On Auroville
 cover: /content-assets/about/about1_850X490.jpg
 category: Articles
-date: 2018-01-12
-abstract: The purposes of Auroville is to realize human unity.
+date: 2018-01-03
+abstract: The purpose of Auroville is to realize human unity.
 variant: none
 tags:
   - say hi

@@ -2,8 +2,8 @@
 title: Nature Responds to Love
 cover: /content-assets/nature-responds-with-love/banner.jpg
 category: Articles
-date: 2018-01-12
-abstract: Adapted from an article in the 2016 edition of Magzav (a culutural magazine in Auroville).
+date: 2018-01-07
+abstract: Adapted from an article in the 2016 edition of Magzav (a cultural magazine in Auroville).
 variant: none
 tags:
   - say hi
