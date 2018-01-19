@@ -10,10 +10,11 @@
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
   import Link from 'gatsby-link';
-  import { Row, Col, Carousel, Modal } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+  import ReactPlayer from 'react-player';
+  import { Modal } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
   import { Container, Image, HexaGrid as HexaGridX, OutLink } from '@bodhi-project/components';
   import { typeComposite, Elements } from '@bodhi-project/typography';
-  import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
+  // import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
   import {
     // --------------- Basic
     UpdateTitle,
@@ -42,14 +43,14 @@
   import off9 from '../../static/content-assets/portraits-from-africa/lions.jpg';
 
   // Slider
-  import slider0 from './assets/slider0.jpg';
-  import slider11 from './assets/slider11.jpg';
+  // import slider0 from './assets/slider0.jpg';
+  // import slider11 from './assets/slider11.jpg';
   
-  import slider1 from '../../static/content-assets/activities/activities1_1280X960.jpg';
-  import slider2 from '../../static/content-assets/activities/activities2_1280X960.jpg';
-  import slider3 from '../../static/content-assets/about/about4_1075X900.jpg';
-  import slider4 from './assets/slider4.jpg';
-  import slider12 from './assets/lions.jpeg';
+  // import slider1 from '../../static/content-assets/activities/activities1_1280X960.jpg';
+  // import slider2 from '../../static/content-assets/activities/activities2_1280X960.jpg';
+  // import slider3 from '../../static/content-assets/about/about4_1075X900.jpg';
+  // import slider4 from './assets/slider4.jpg';
+  // import slider12 from './assets/lions.jpeg';
 
   // For Activities
   import theMother from './assets/onAuroville.jpg';
@@ -312,6 +313,7 @@
             description: 'This activity has been an educational tool in Auroville since it\'s beginning, although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaneity, trust in oneself and being in the flow of the moment.',
             link: 'Read on...',
             linkUrl: '/on-world-game-in-sand',
+            video: 'https://www.youtube.com/watch?v=58V5_UWZLbw',
             image: theMother,
           },
         });
@@ -498,12 +500,16 @@
           >
             { this.state.data &&
               <div className={pageStyleClass}>
-                <Image
-                  src={this.state.data.image}
-                  rawWidth={900}
-                  rawHeight={900}
-                  style={{ border: 0, height: '38vh', width: 'auto', marginBottom: 15, background: 'transparent', display: 'block' }}
-                />
+                { this.state.data.video ?
+                  <ReactPlayer url={this.state.data.video} height="300px" width="400px" style={{ marginBottom: 20 }} />
+                  :
+                  <Image
+                    src={this.state.data.image}
+                    rawWidth={900}
+                    rawHeight={900}
+                    style={{ border: 0, height: '38vh', width: 'auto', marginBottom: 15, background: 'transparent', display: 'block' }}
+                  />
+                }
                 <H2 style={{ marginBottom: 16 }}>{this.state.data.title}</H2>
                 { this.state.data.quote &&
                   <Paragraph style={{ marginTop: 0 }}><i>{this.state.data.quote}</i></Paragraph>

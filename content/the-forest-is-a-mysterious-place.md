@@ -17,7 +17,7 @@ Auroville grew out of a barren plateau, all the trees were planted by early pion
 
 Five girls made a mysterious wild horse - symbol of true power. Even with rains the beautiful horse stayed strong in the middle of the mysterious forest…
 
-(https://www.youtube.com/watch?v=pwErLs3inv4)
+[embed](https://www.youtube.com/watch?v=pwErLs3inv4)
 
 In this forest you might see varans, turtles, rabbits, mongooses, lizards, snakes, scorpios, frogs, many beautiful birds, peacocks every now and then, owls, civet cats, many squirrels and the occasional deer and wild pig.
 
@@ -34,4 +34,5 @@ Anusuya is a small forest community in Auroville’s greenbelt area and is the h
 Living in the forest demands a dedicated work. Beside planting, protecting, maintaining, there is also the joy of consciously connecting to all.
 
 ![About #1](/content-assets/forest/forest1_2000X600.jpg)
+
 

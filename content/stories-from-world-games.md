@@ -19,7 +19,7 @@ Presented here in this article are a number of stories from the World Game.
 
 This little penguin is called Fred Imhoff. He is a very rich penguin and really likes going on holidays. It is his summer vacation and he wants to go to a really posh beach. He packs all his things. He wants to do some snorkeling. By mistake he doesn’t put on his normal glasses, he puts on his goggles. His goggles make him see things differently and because he doesn’t see well, he reads the ticket wrong.
 
-[https://vimeo.com/235102974]
+[embed](https://vimeo.com/235102974)
 
 He reads that he is going to some posh beach but in reality, he is going to a sacred Buddha garden in a remote place in Indonesia. He takes his ticket and he flies. He lands and finds himself on what he thinks is a beach, but it isn’t actually a beach, it is a sacred garden. Then he goes and sees a pool and he jumps in. He is happy, he thinks it is a Jacuzzi. It is actually a magical candle whose flame is never visible, but there is always wax, transparent and moving.
 
@@ -139,3 +139,4 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #5](/content-assets/stories-from-world-games/yamMilo5_960X1280.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
+

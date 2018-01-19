@@ -11,6 +11,4 @@ tags:
 
 # World Games in Nature — with Kids
 
-embed video 1. slideshow… (nature and spirit moments)
-
-embed video 2. (nature and spirit)
+[embed](https://www.youtube.com/watch?v=lLD7ZuWjD6M)

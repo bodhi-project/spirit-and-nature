@@ -27,7 +27,7 @@ After they came back they gave a presentation on their adventures in South Afric
 
 ![Img](/content-assets/adventure-for-a-better-world/img3_600X600.jpg)
 
-You can find a recording on [AV radio](www.aurovilleradio.org/tag/white-lions/).
+You can find a recording on [AV radio](https://www.aurovilleradio.org/tag/white-lions/).
 
 Read more about [White Lions](/reconnecting-with-spirit-through-nature#the-white-lions).
 
