@@ -1,5 +1,5 @@
 ---
-title: "Stories from World Games"
+title: Stories from World Games
 cover: /content-assets/stories-from-world-games/banner.jpg
 category: Articles
 date: 2018-01-08
@@ -9,13 +9,15 @@ tags:
     - say hi
 ---
 
+# Stories from World Games
+
 > One dreams of miracles when one is young, one wants all wickedness to disappear, everything to be always luminous, beautiful, happy, one likes stories which end happily. This is what one should rely on.
 >  
 > — The Mother
 
 Presented here in this article are a number of stories from the World Game.
 
-# Penguin Imhoff by Aloe & Alexandra
+## Penguin Imhoff by Aloe & Alexandra
 
 This little penguin is called Fred Imhoff. He is a very rich penguin and really likes going on holidays. It is his summer vacation and he wants to go to a really posh beach. He packs all his things. He wants to do some snorkeling. By mistake he doesn’t put on his normal glasses, he puts on his goggles. His goggles make him see things differently and because he doesn’t see well, he reads the ticket wrong.
 
@@ -27,7 +29,7 @@ He is feeling hungry so he goes and walks in the garden. There he sees a sh, but
 
 Then one day while his son and his wife are sleeping under the mushroom house, he finds a glittery thing: it is his glasses and he puts them on and he feels so depressed; he feels miserable, so he chucks his glasses and puts back his goggles and lives happily ever after under the mushroom house next to the watery candle.
 
-# The Penguin by Jasmine & Zohar
+## The Penguin by Jasmine & Zohar
 
 It is interesting to note that these two children arrived wearing the same colour T-shirt. Sometimes I notice a certain harmony between the children in the way they dress, very often I notice the children have the same colour of dress as I.
 
@@ -53,7 +55,7 @@ The two stories above are taken from the book "Glimpses of Wonder".
 
 [/book-glimpses-of-wonder]
 
-# Magic by Asia
+## Magic by Asia
 
 A magical river which you can only go to in your dreams or in your imagination… because a long time ago people could go there, but one day someone stole something. So that is why you can only go there or in your dreams or in your imagination.
 
@@ -63,7 +65,7 @@ A magical river which you can only go to in your dreams or in your imagination�
 
 There are lots of magical creatures who live there but the guardian is a ‘very’ magical unicorn. She is very playful and happy, she has a best friend it is also a very playful creature: it is a dolphin a magical one and all of the creatures there are very playful and kind!!!!!!!
 
-# Unicorn by Asia & Madu
+## Unicorn by Asia & Madu
 
 On the little playful unicorn’s birthday she was celebrating by having a big reunion with most of the fairies and animal and all the creatures of the land she was called pearl. Everyone brought beautiful presents for her: diamonds crystals and the little baby bunnies got her a pearl, they gave it to her and giggled.
 
@@ -77,7 +79,7 @@ On the little playful unicorn’s birthday she was celebrating by having a big r
 
 The unicorn loved all her gifts. Then the queen of the land arrived, she gave the unicorn one wish: the unicorn wished that all the fairies, elves, animals, mermaids, people and even the goblins and ogres were happyyyyyyyy!!!!!!!!!!!!!!!!
 
-# Crystal Maiden by Pia
+## Crystal Maiden by Pia
 
 Once upon a time there was a land of crystal and the crystal queen and 4 crystal princesses. In the land there is a lotus in the middle and 6 big crystals around it. And around each crystal there are a lots of different stones and shells. In the middle of the lotus that’s where the baby crystal is being born. There is some soft stuff and on the soft stuff there is a baby tiny crystal.
 
@@ -95,7 +97,7 @@ Once the baby is born she will have to find a place the stay, she does not know 
 
 The End.
 
-# Philosophy of Life by Yam
+## Philosophy of Life by Yam
 
 The sandbox is the personality and it’s path of life.  There are different parts in this World Game:
 
@@ -114,7 +116,7 @@ The sandbox is the personality and it’s path of life.  There are different par
 
 ![Yam #4](/content-assets/stories-from-world-games/yam4_1000X750.jpg)
 
-# The Dragon and the Phoenix by Yam
+## The Dragon and the Phoenix by Yam
 
 There is a dragon and a phoenix. The phoenix is more spiritual and rules the kingdom of fire and has a lot of wisdom. The dragon is more powerful, rules the Kingdom of substance and both energies create the universe and each one needs the other because they balance the world.
 
@@ -126,7 +128,7 @@ There is a dragon and a phoenix. The phoenix is more spiritual and rules the kin
 
 ![Yam #8](/content-assets/stories-from-world-games/yam8_1000X750.jpg)
 
-# The White Knight and the Dark Lord by Yam and Milo
+## The White Knight and the Dark Lord by Yam and Milo
 
 The white Knight in combat with the dark Lord.  The dark Lord is in the old kingdom’s ruins trying to get the treasure even though he has enough. Two statue dogs - that can turn into real dogs - are furious and fighting against the white lion and white tigers. 
 
@@ -139,4 +141,5 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #5](/content-assets/stories-from-world-games/yamMilo5_960X1280.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
+
 

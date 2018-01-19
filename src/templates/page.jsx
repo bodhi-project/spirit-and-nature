@@ -86,7 +86,7 @@ class PageWrapper extends React.Component {
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
         <Fragment>
           {
-            treeParser(markdownAst, { localLink: Link, indent: 0 }, type)
+            treeParser(markdownAst, { localLink: Link, indent: -20 }, type)
           }
         </Fragment>
         <Paragraph style={{ textAlign: 'center' }}>

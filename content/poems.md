@@ -3,13 +3,15 @@ title: Poems
 cover: /content-assets/poems/banner.jpg
 category: Articles
 date: 2018-01-05
-abstract: A few poems.
+abstract: A few of my creations.
 variant: none
 tags:
   - say hi
 ---
 
-# Approaching Creation
+# Poems
+
+## Approaching Creation
 
 ![Poem #3](/content-assets/poems/poem2_745X1264.jpg)
 
@@ -31,7 +33,7 @@ _flying through the night waiting for the Sun to rise,_
  
 _When, where, how...?_
 
-# Born
+## Born
 
 ![Poem #2](/content-assets/poems/poem4_889X1226.jpg)
 
@@ -50,7 +52,7 @@ _with bliss and spasm,_
 _with myself, and others..._  
 _alive i am this i know_  
 
-# Sunmaned
+## Sunmaned
 
 ![Poem #2](/content-assets/poems/poem1_949X1280.jpg)
 

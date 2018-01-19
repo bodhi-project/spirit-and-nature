@@ -9,9 +9,11 @@ tags:
   - say hi
 ---
 
+# Reconnecting with Spirit through Nature
+
 Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
 
-# Beginnings
+## Beginnings
 
 As a child, while I felt like a stranger on this earth I did have a profound experience of the infinity of the Universe. I knew that I would have to wait until I was grown up to have this mystery unraveled.
 
@@ -23,7 +25,7 @@ Some years later, in 1990, I got introduced to Auroville where I lived close to 
 
 This is where I started to get answers. But I began to wonder, ‘Where does life fit into all this?’ That’s when I got a ‘vision’ of Auroville in a rainbow of colours. 
 
-# Return to Auroville
+## Return to Auroville
 
 By now I felt I understood a little better how to bring spirit and life together. Before coming here, I had worked as a psychologist in Belgium: I was the director of a centre for suicide prevention. We were dealing daily with existential issues. It was interesting work and I had a wonderful team. 
 
@@ -45,7 +47,7 @@ People were very happy with this initiative and some of them began to bring flow
 
 [Read more on flowers and their messages](http://www.blossomlikeaflower.com/).
 
-# Reawakening Wonder
+## Reawakening Wonder
 
 At that point, I felt I wanted more contact with people again, so I initiated nature projects at Deepanam School to support the sense of wonder in children.  I also started the World Game (or Sandplay). In this, the children are given small objects representing people, trees, animals, houses etc. and are invited to create their own world by arranging them in a tray with sand. The objects are, of course, symbolic, and in one way this drew upon my psychology background, but I did not want to go into analysing the children. I wanted to offer them a magical space where they could express their dreams and, if need be, their concerns.
 
@@ -55,7 +57,7 @@ When they are older they often remember the secret memories of childhood.  Mothe
 
 ![Working with children #2](/content-assets/biography/biography104_800X600.jpg)
 
-I was invited by SAIIER to research this topic and this resulted in a book called ‘Glimpses of Wonder’. I am still doing the World Game, now with the children of The Learning Community (TLC). For the past eight years, this has happened in my place in Anusuya, which is like a fairy house and forest garden full of secret connections made over time. I feel this fits perfectly to the vision of TLC of using Auroville as a place of learning.
+I was invited by SAIIER to research this topic and this resulted in a book called ‘Glimpses of Wonder’. I am still doing the World Game, now with the children of The Learning Community (TLC). For the past eight years, this has happened in my place in Anusuya, which is like a fairy house and forest garden full of secret connections made over time. I feel this fits perfectly to the vision of TLC of using Auroville as a place of learning. 
 
 ![Working with children #3](/content-assets/biography/biography114_1200X900.jpg)
 
@@ -67,7 +69,7 @@ However, after a time I began to feel some limitation with the sandbox play, and
 
 ![Working with children #6](/content-assets/biography/biography106_1200X900.jpg)
 
-# Animal Communication
+## Animal Communication
 
 The next chapter, which came as a continuation of my love for nature, came when one of my dogs was in pain. I was at a loss what to do but I knew of somebody who was doing animal communication and wrote to her. I sent a picture of my dog and she wrote back telling me that it was his time to leave and giving me some advice about how to ease his passing.
 
@@ -75,7 +77,7 @@ I recalled that Mother had deep connections with animals and trees and did a lot
 
 ![Working with animals #1](/content-assets/biography/biography108_1200X900.jpg)
 
-![Working with animals #2](/content-assets/biography/biography107_1200X900.jpg)
+![Working with animals #3](/content-assets/biography/img9.jpg)
 
 The indigenous people, like the San people, know very well how to connect with animals and Anna was in close connection to them. On a scientific level, Anna explains animal communication in quantum terms. At this level everything is connected and part of a common field, so if you access this field, you can receive telepathic communications.
 
@@ -83,13 +85,13 @@ Anna taught us that to enter into communication, firstly, we have to get rid of 
 
 ![Working with animals #4](/content-assets/about/img100_600X337.jpg)
 
-![Working with animals #3](/content-assets/biography/img9.jpg)
+![Working with animals #2](/content-assets/biography/biography107_1200X900.jpg)
 
 I experienced this in an exercise she gave us. She brought us to an animal dropping and asked us to identify the animal. Initially, I had no idea but I focussed and at once I saw very clearly the face of an ostrich: it was an absolutely clear image. Through exercises like this, we learned how much we already know intuitively, although very often the mental intervenes and then we get it wrong.
 
 I don’t think my role is to become an animal communicator. Although we learned that everybody can do it, you have to devote a lot of time to it and be really centred all the time. But still, it is very present in my daily life and I feel the connection to the messages of nature as living symbols. It has also inspired me to incorporate intuition games into my sessions with the children. Since then, several Aurovilians have asked me to give an introduction and share my experiences and I will surely do this in the near future.
 
-# The White Lions
+## The White Lions
 
 In November 2016 I returned to South Africa for one month because I received a scholarship from the Linda Tucker Foundation (with additional support from Auroville’s MT&D programme) to participate in the 'White Lion Leadership Academy'. Here I was plunged not only into the world of animal communication but also into collective and shamanistic dreamwork, evolutionary astrology etc.
 
@@ -111,11 +113,11 @@ However, this is much more than a conservation project; it is also about leaders
 
 It is very easy for us in Auroville to relate to these because of the links with the Integral Yoga. The thirteen laws are related to the fact that you must go deep into yourself to discover your purpose and what you must become and stand for. In 2017 I participated in the [LionHearted Practitioner Training](https://www.lindatuckerfoundation.org/lionhearted-leadership-initiative) and graduated in December 2017.
 
-# One United Roar
+## One United Roar
 
 When I returned, I spoke to the children in The Learning Community about my experience and invited them to make videos for an [international Talent Challenge](https://www.oneunitedroar.org/) which Linda was organizing last August. The background to this is that these lions are still trophy-hunted in South Africa: hunters pay up to 100,000 dollars to be allowed to make a kill and there is no statutory protection for the lions. As there was an upcoming meeting of CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora) Linda wanted to put pressure on delegates to stop this practice by getting children around the world to ‘Roar’ for the lions through videos that highlighted their plight.
 
-This really resonated with the kids from ‘The Learning Community’. With eleven of them we made videos, which we managed to send off just before the deadline. Two of the kids, Asia and Yam, are among the international winners. As their prize, in March of 2017 they, together with one parent, visited the White Lion Heartlands in South Africa and have experienced the White Lions themselves.
+This really resonated with the kids from "[The Learning Community](https://www.auroville.org/contents/1200)". With eleven of them we made videos, which we managed to send off just before the deadline. Two of the kids, Asia and Yam, are among the international winners. As their prize, in March of 2017 they, together with one parent, visited the White Lion Heartlands in South Africa and have experienced the White Lions themselves.
 
 ![One United Roar #1](/content-assets/biography/img19.jpg)
 
@@ -125,7 +127,7 @@ This shows that children who grow up here have a strong potential to express the
 
 [You can see all these video clips here.](https://www.youtube.com/watch?v=Ypjc5E-sfqU&list=PLvSMhwXjvCq9xaw13X1o1x9-E8OAN_Fu2)
 
-# Where I Am Now
+## Where I Am Now
 
 Now my dream is to spread the message of ‘Nature and Spirit’ to children and adults in Auroville, and to continue learning from and cooperating with fellow Aurovilians who are also exploring and deepening the links between nature and spirit. I am grateful to get the opportunity to learn together with the children of The Learning Community in a joyful, spontaneous way. And I’m in a long inspiring relationship with Barbara (Ritam), learning about truth rhythms which, like earth rhythms, are applicable to all levels of life.
 
@@ -142,3 +144,5 @@ In terms of the yoga, the next step we need to take is to access the intuitive c
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
+
+

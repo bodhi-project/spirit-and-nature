@@ -3,12 +3,15 @@ title: Sandplay Traditions in Auroville
 cover: /content-assets/sandplay/banner.jpg
 category: Articles
 date: 2018-01-01
-abstract: An Overview by Heidi Watts — an extract from the book "Glimpses of Wonder" — Aikya's world game represents an unbroken tradition of sandbox activity for children in Auroville.
+abstract: An Overview by Heidi Watts — an extract from the book "Glimpses of Wonder" — the world game has been an unbroken tradition of sandbox activity for children in Auroville.
 variant: none
 tags:
     - say hi
 ---
-# An Overview by Heidi Watts
+
+# Sandplay Traditions in Auroville
+
+_— An overview by Heidi Watts_
 
 When Aikya told me she was working with World Game, I was delighted, as I believe the ‘sandboxes’ as they are commonly called, represent a special, if not unique contribution to the educational opportunities available for children – or adults – in Auroville.
 
@@ -16,7 +19,7 @@ I was equally delighted when Aikya asked me to write about the history of the Wo
 
 My information then came primarily from people who were living in Auroville at the time of the founding in 1968 and during the 14 years following. They include Johnny, now in Fertile; Shraddhavan, now the guiding presence at Savitri Bhavan; Miriam from Center Kindergarden; and Jossy, who maintained a special room for the World Game at Transition School for several years in the ‘90s.
 
-# The Origins of World Games
+## The Origins of World Games
 
 In its origin, Sandplay is a psycho-therapeutic tool for children and adults, which originated in England, with a child psychiatrist, Margaret Lowenfeld. Lowenfeld was intrigued by a Game developed by H.G. Wells around 1911 with his children where they created miniature worlds on the floor with small objects. Lowenfeld saw immense possibilities in Well’s ‘Floor Game’ and adapted it for a ‘wonder box’ or sand box, a place where children, less verbal and self-conscious than adults, could freely express their thoughts and feelings through play with objects.
 
@@ -32,7 +35,7 @@ She said, “My own endeavor in my work with children is to devise an instrument
 
 In Aikya’s Sandplay room the children create their own little worlds in the sand box and play out what may happen there.
 
-# Sandplay as a psychotheraputic tool
+## Sandplay as a psychotheraputic tool
 
 In the mid-fifties, Dora Kalff, a Jungian therapist, went to a conference with Lowenfeld which impressed her strongly. She developed her own version of The World Technique as a tool for adults as well as children to grow toward the Jungian goal of wholeness, a process of evolution to a true integration of the parts of the self.
 
@@ -46,7 +49,7 @@ In the mid-fifties, Dora Kalff, a Jungian therapist, went to a conference with L
 
 To distinguish her work from Lowenfeld’s she used the name ‘Sandplay’. There is a wealth of information available through the internet for those interested in learning more about the theory and practice of the World Game or Sandplay. This information was written by Barbara A. Turner from “the Journal of Sandplay Therapists” in 2013.
 
-# World Games and Auroville
+## World Games and Auroville
 
 The World Game was brought to Auroville in the early days by an eccentric Jungian psychiatrist, Austin Delaney, who had been working with the sand boxes at Equals-One. He and his wife lived “in a keet castle at Aurobeach, near what is now Quiet”, according to Johnny. 
 
@@ -62,7 +65,7 @@ We believed each child has a psychic being and if it comes to the front it takes
 
 When the school in Aspiration closed, the boxes went to Tomas’ house in Certitude where the younger children continued to come for painting, storytelling and work with the sandboxes. The idea was that in addition to helping children release their emotions constructively, the sandbox would also be good for reading and writing: to make, to tell, to write. Later, when most of the school experiments moved to Centre Field in 1980, the sandboxes disappeared, but reappeared later, first at Mirramukhti and then at Transition.
 
-# World Games Now
+## World Games Now
 
 In an article in Ritam, published in the winter of 2005, Jossy describes her work with the sandboxes at Transition now.
 

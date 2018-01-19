@@ -9,7 +9,9 @@ tags:
 variant: gallery
 ---
 
-# Egypt - I
+# Egypt
+
+## Egypt - I
 
 ![Img](/content-assets/egypt/img01_600X800.jpg)
 
@@ -17,31 +19,31 @@ variant: gallery
 
 ![Img](/content-assets/egypt/img03_600X259.jpg)
 
-# Egypt - II
+## Egypt - II
 
 ![Img](/content-assets/egypt/img10_600X450.jpg)
 
 ![Img](/content-assets/egypt/img11_600X450.jpg)
 
-# Egypt - III
+## Egypt - III
 
 ![Img](/content-assets/egypt/img20_600X450.jpg)
 
 ![Img](/content-assets/egypt/img21_600X450.jpg)
 
-# Egypt - IV
+## Egypt - IV
 
 ![Img](/content-assets/egypt/img30_600X450.jpg)
 
 ![Img](/content-assets/egypt/img31_600X450.jpg)
 
-# Egypt - V
+## Egypt - V
 
 ![Img](/content-assets/egypt/img41_600X450.jpg)
 
 ![Img](/content-assets/egypt/img40_600X450.jpg)
 
-# Egypt - VI
+## Egypt - VI
 
 ![Img](/content-assets/egypt/img50_600X450.jpg)
 

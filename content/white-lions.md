@@ -1,6 +1,6 @@
 ---
 title: White Lions
-cover: /content-assets/biography.jpg
+cover: /content-assets/white-lions/banner.jpg
 category: Videos
 date: 2017-03-02
 abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
@@ -11,7 +11,7 @@ tags:
 
 # One United Roar — for Lions and Nature
 
-[embed](https://www.youtube.com/watch?v=lHqHFpTeU1E)
+[embed](https://www.youtube.com/watch?v=91sJ7BKBTzY)
 
 [embed](https://www.youtube.com/watch?v=qS4GOJp-Ko0)
 

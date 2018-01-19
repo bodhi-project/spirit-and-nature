@@ -21,7 +21,7 @@ It is our last game drive!  I sit in the front seat, next to Motusi, our very sk
 
 Time goes by… as one elephant slowly prepares to step out of the waterhole, he moves towards the front of our vehicle in a tranquil steady way. He than stops right in front….and watches us straight in the face, we can see his eye clearly focusing.
 
-Embed -- https://www.youtube.com/watch?v=EZsIXtjo7tM
+[embed](https://www.youtube.com/watch?v=EZsIXtjo7tM)
 
 I feel extremely small and vulnerable without even a front window. Only a few meters away is this enormously strong and wild animal, unknown to me… We are all death silent, almost holding our breath…I think: ‘Well if I die now, it is all right!!’ I am on the edge of fear and love.  Meeting those eyes, I realize deep within, all our history together, me representing the human kind… I send my highest feelings:  enormous respect, appreciation, love and gratitude.  He starts moving closer, slowly passes right in front and circles around the vehicle watching each and every one of us in the eyes: Motusi and me in front, the Bushman, Tina and Reiner next, and Nina, Donalea and Stella in the back. Finally he leaves, still looking back: stopping, watching.
 
@@ -34,3 +34,4 @@ The dance goes on, mirroring each other. Sometimes they halt with their trunk ro
 Did we get elephant blessings? A transmission…? 
 
 More and more elephants appear out of the bushes behind us, slowly watching us…At this point we all cry… Finally after maybe 40 minutes or so, we leave…joining the others for a sunset snack in the bush…we can’t speak, only tears come for the entire next hour or so. But our heart is shining in love.
+

@@ -84,6 +84,10 @@
     '& p + p': {
       textIndent: '0px !important',
     },
+
+    '& p, li': {
+      color: '#654321',
+    },
   });
   const overWriteStylesClass = overWriteStyles.toString();
 
