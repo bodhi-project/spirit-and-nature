@@ -17,3 +17,6 @@ tags:
 
 [Read on…](/reconnecting-with-spirit-through-nature)
 
+# Contact me
+
+You can write to me at <spiritandnature@auroville.org.in>.

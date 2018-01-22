@@ -4,6 +4,7 @@ cover: /content-assets/nature-portraits/avBanner.jpg
 category: Photos
 date: 2018-01-15
 abstract: Photos I've taken over the years.
+featured: true
 tags:
   - say hi
 variant: gallery

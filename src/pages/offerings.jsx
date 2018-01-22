@@ -272,7 +272,7 @@
             title: 'World Game in Nature',
             description: 'Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures.',
             link: 'Read on...',
-            linkUrl: '/on-auroville',
+            linkUrl: '/reconnecting-with-spirit-through-nature#reawakening-wonder',
             image: flowerGroup,
           },
         });
@@ -285,7 +285,7 @@
             title: 'Flowers and their Messages',
             description: 'Mira Alfassa, or The Mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it\'s own message.',
             link: 'Read on...',
-            outLinkUrl: '/reconnecting-with-spirit-through-nature#return-to-auroville',
+            linkUrl: '/reconnecting-with-spirit-through-nature#return-to-auroville',
             image: worldGameInNature,
           },
         });
@@ -298,8 +298,6 @@
             title: 'Creating Sacred Space',
             quote: 'If you have an artistic or poetic consciousness, if you love harmony, beauty, you will build there something marvelous which will tend to spring up in the material manifestation. — The Mother.',
             description: 'I love to create an atmosphere of harmony and peace, it invites a higher level of vibration. I love gardens where one can feel the magic of nature, where everything is alive and full of secret relationships.',
-            link: 'Read on...',
-            linkUrl: '/how-to-create-a-sacred-space',
             image: sacredSpaces,
           },
         });

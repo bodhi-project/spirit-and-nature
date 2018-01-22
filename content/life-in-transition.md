@@ -11,7 +11,7 @@ variant: gallery
 
 # Life in Transition - South Africa
 
-## Portrait - I
+## Portraits - I
 
 ![Img #1](/content-assets/life-in-transition/i1_600X540.jpg)
 
@@ -75,13 +75,13 @@ variant: gallery
 
 ![Portrait #49](/content-assets/africa/img003_600X450.jpg)
 
-## God Must be Crazy
+## Changing Colors
 
 ![Portrait #49](/content-assets/africa/img005_600X450.jpg)
 
 ![Portrait #49](/content-assets/africa/img006_600X423.jpg)
 
-## Portrait - II
+## Portraits - II
 
 ![Img #6](/content-assets/life-in-transition/i6_600X800.jpg)
 

@@ -11,7 +11,9 @@ tags:
 
 # Reconnecting with Spirit through Nature
 
-Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
+_This page has been adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville)._
+
+Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world. 
 
 ## Beginnings
 
@@ -125,7 +127,7 @@ This really resonated with the kids from "[The Learning Community](https://www.a
 
 This shows that children who grow up here have a strong potential to express their heart qualities in things that matter. They are very concerned about the disappearance of wildlife at a rate that might leave us without free-roaming elephants or lions by the time these kids grow up.
 
-[You can see all these video clips here.](https://www.youtube.com/watch?v=Ypjc5E-sfqU&list=PLvSMhwXjvCq9xaw13X1o1x9-E8OAN_Fu2)
+You can see some of these video clips [here](https://www.youtube.com/watch?v=Ypjc5E-sfqU&list=PLvSMhwXjvCq9xaw13X1o1x9-E8OAN_Fu2).
 
 ## Where I Am Now
 
@@ -144,5 +146,4 @@ In terms of the yoga, the next step we need to take is to access the intuitive c
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
 Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
-
 

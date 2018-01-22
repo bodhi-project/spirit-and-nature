@@ -9,11 +9,11 @@ tags:
   - say hi
 ---
 
-# The forest is a mysterious place
+# The Forest is a Mysterious Place
 
 Auroville grew out of a barren plateau, all the trees were planted by early pioneers. Now we enjoy a young forest.
 
-**Sometimes kids come to the forest**… 
+And, sometimes kids come to the forest…
 
 Five girls made a mysterious wild horse - symbol of true power. Even with rains the beautiful horse stayed strong in the middle of the mysterious forest…
 
@@ -34,5 +34,3 @@ Anusuya is a small forest community in Auroville’s greenbelt area and is the h
 Living in the forest demands a dedicated work. Beside planting, protecting, maintaining, there is also the joy of consciously connecting to all.
 
 ![About #1](/content-assets/forest/forest1_2000X600.jpg)
-
-

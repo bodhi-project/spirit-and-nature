@@ -5,6 +5,7 @@ category: Articles
 date: 2018-01-08
 abstract: 9 children, 8 stories.
 variant: none
+featured: true
 tags:
     - say hi
 ---
@@ -15,7 +16,17 @@ tags:
 >  
 > — The Mother
 
-Presented here in this article are a number of stories from the World Game.
+## The Dragon and the Phoenix by Yam
+
+There is a dragon and a phoenix. The phoenix is more spiritual and rules the kingdom of fire and has a lot of wisdom. The dragon is more powerful, rules the Kingdom of substance and both energies create the universe and each one needs the other because they balance the world.
+
+![Yam #5](/content-assets/stories-from-world-games/yam5_1000X750.jpg)
+
+![Yam #6](/content-assets/stories-from-world-games/yam6_1000X750.jpg)
+
+![Yam #7](/content-assets/stories-from-world-games/yam7_1000X750.jpg)
+
+![Yam #8](/content-assets/stories-from-world-games/yam8_1000X750.jpg)
 
 ## Penguin Imhoff by Aloe & Alexandra
 
@@ -116,18 +127,6 @@ The sandbox is the personality and it’s path of life.  There are different par
 
 ![Yam #4](/content-assets/stories-from-world-games/yam4_1000X750.jpg)
 
-## The Dragon and the Phoenix by Yam
-
-There is a dragon and a phoenix. The phoenix is more spiritual and rules the kingdom of fire and has a lot of wisdom. The dragon is more powerful, rules the Kingdom of substance and both energies create the universe and each one needs the other because they balance the world.
-
-![Yam #5](/content-assets/stories-from-world-games/yam5_1000X750.jpg)
-
-![Yam #6](/content-assets/stories-from-world-games/yam6_1000X750.jpg)
-
-![Yam #7](/content-assets/stories-from-world-games/yam7_1000X750.jpg)
-
-![Yam #8](/content-assets/stories-from-world-games/yam8_1000X750.jpg)
-
 ## The White Knight and the Dark Lord by Yam and Milo
 
 The white Knight in combat with the dark Lord.  The dark Lord is in the old kingdom’s ruins trying to get the treasure even though he has enough. Two statue dogs - that can turn into real dogs - are furious and fighting against the white lion and white tigers. 
@@ -141,5 +140,4 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #5](/content-assets/stories-from-world-games/yamMilo5_960X1280.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
-
 

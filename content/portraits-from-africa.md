@@ -1,9 +1,9 @@
 ---
-title: Portraits from Africa
+title: Portraits from Johannesburg, South Africa
 cover: /content-assets/portraits-from-africa/banner.jpg
 category: Videos
-date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+date: 2018-01-15
+abstract: New Town, 2016. Fete de la musique
 variant: page
 tags:
   - say hi
@@ -12,4 +12,6 @@ tags:
 # Portraits from Africa
 
 [embed](https://www.youtube.com/watch?v=9hwcOo_CxX4)
+
+Slideshow with music from Shawn Gallaway.
 

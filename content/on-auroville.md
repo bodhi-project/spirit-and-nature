@@ -9,7 +9,7 @@ tags:
   - say hi
 ---
 
-# Auroville
+# On Auroville
 
 Auroville was founded by Mirra Alfasa, known as The Mother. She was the spiritual collaborator of Sri Aurobindo, the great Indian visionary and yogi who evolved a new method of spiritual practice, which he called Integral Yoga.
 
@@ -70,3 +70,4 @@ Sonia Dyne expresses this moment in history well, where we can start to feel som
 _We see a small group of young people from opposing nations plant trees for peace in Auroville and the Berlin wall comes down and the prospect of war retreats into the background of human affairs. We are reluctant to believe there could be any connection - surely life is more complicated than that? But what if the ‘complications’ are a veil of falsehood, a fake ‘reality’ to which we all, somehow, consent? What if a new light breaking upon the world is using us to build a new consciousness?_
 
 [— Source.](http://www.auroville.org/contents/585)
+

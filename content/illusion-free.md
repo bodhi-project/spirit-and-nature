@@ -25,35 +25,17 @@ variant: gallery
 
 ![Portrait #40](/content-assets/illusion-free/i4_600X800.jpg)
 
-## Belgium Connection
-
-![Portrait #50](/content-assets/nature-portraits/img50_600X405.jpg)
-
-![Portrait #51](/content-assets/nature-portraits/img51_600X450.jpg)
-
-## Together
-
-![Portrait #40](/content-assets/nature-portraits/img35_600X450.jpg)
-
-![Portrait #40](/content-assets/nature-portraits/img36_600X450.jpg)
-
 ## Elephant-wise
 
-![Portrait #40](/content-assets/nature-portraits/img38_600X450.jpg)
-
 ![Portrait #40](/content-assets/illusion-free/i2_600X450.jpg)
+
+![Portrait #40](/content-assets/nature-portraits/img38_600X450.jpg)
 
 ## Mandela and other Giants in Jails
 
 ![Portrait #40](/content-assets/illusion-free/i8_600X800.jpg)
 
 ![Portrait #40](/content-assets/illusion-free/i1_600X375.jpg)
-
-## Shine on You
-
-![Portrait #40](/content-assets/illusion-free/i6_600X337.jpg)
-
-![Portrait #40](/content-assets/illusion-free/i7_600X328.jpg)
 
 ## Justice under a Tree
 
@@ -71,6 +53,18 @@ variant: gallery
 
 ![Portrait #40](/content-assets/illusion-free/i11_600X292.jpg)
 
+## Belgium Connection
+
+![Portrait #50](/content-assets/nature-portraits/img50_600X405.jpg)
+
+![Portrait #51](/content-assets/nature-portraits/img51_600X450.jpg)
+
+## Together
+
+![Portrait #40](/content-assets/nature-portraits/img35_600X450.jpg)
+
+![Portrait #40](/content-assets/nature-portraits/img36_600X450.jpg)
+
 ## Cosy Time
 
 ![Portrait #40](/content-assets/illusion-free/i20_600X450.jpg)
@@ -87,8 +81,16 @@ variant: gallery
 
 ![Portrait #40](/content-assets/illusion-free/i50_600X335.jpg)
 
-## The Read and The Black
+## The Red and The Black
 
 ![Portrait #40](/content-assets/illusion-free/i70_600X361.jpg)
 
 ![Portrait #40](/content-assets/illusion-free/i71_600X423.jpg)
+
+## Shine on You
+
+![Portrait #40](/content-assets/illusion-free/i6_600X337.jpg)
+
+![Portrait #40](/content-assets/illusion-free/i7_600X328.jpg)
+
+

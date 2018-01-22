@@ -9,7 +9,8 @@ tags:
 variant: gallery
 ---
 
-# Egypt
+# Eternal Gaze - Egypt
+
 
 ## Egypt - I
 

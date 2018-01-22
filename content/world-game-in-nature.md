@@ -2,9 +2,10 @@
 title: World Game in Nature
 cover: /content-assets/world-game-in-nature-with-kids/banner.jpg
 category: Videos
-date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+date: 2018-01-18
+abstract: Children in the forest garden.
 variant: page
+featured: true
 tags:
   - say hi
 ---
@@ -13,6 +14,5 @@ tags:
 
 [embed](https://www.youtube.com/watch?v=lLD7ZuWjD6M)
 
-[embed](https://www.youtube.com/watch?v=sdnAGkiAlVk)
-
+Watch more [here](https://www.youtube.com/watch?v=lLD7ZuWjD6M&list=PLvSMhwXjvCq8RNX3wBJPXu2TyDeY4JCyP).
 

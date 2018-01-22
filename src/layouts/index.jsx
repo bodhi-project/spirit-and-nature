@@ -256,10 +256,12 @@ class TemplateWrapper extends React.Component {
                 <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/writings#photos">Photos</Link>
                 <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
                 <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/writings#videos">Videos</Link>
+                <span style={{ flex: '1 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p">|</span>
+                <Link style={{ flex: '6 1 0%', textAlign: 'center', display: 'inline' }} className="mask-p" to="/about-me#contact-me">Contact Me</Link>
               </div>
             </Container>
             <Paragraph style={{ textAlign: 'center' }}>
-              <small>© 2018, Spirit and Nature, Auroville Arts Service</small>
+              <small>© 2018, Spirit and Nature, Auroville Arts Service, India</small>
             </Paragraph>
           </div>
         </Container>
