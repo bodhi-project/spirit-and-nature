@@ -13,7 +13,7 @@ tags:
 
 _This page has been adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville)._
 
-Aikya has lived in Auroville for the past twenty two years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world. 
+Aikya has lived in Auroville for the past twenty three years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world. 
 
 ## Beginnings
 
@@ -65,7 +65,7 @@ I was invited by SAIIER to research this topic and this resulted in a book calle
 
 ![Working with children #4](/content-assets/biography/biography115_1200X900.jpg)
 
-However, after a time I began to feel some limitation with the sandbox play, and wanted to open the World Game out into the natural world. So I started nature and spirit sessions, letting nature guide us into its mysteries and secret laws as we make flower mandalas, collages and small movies etc.
+However, after a time I began to feel some limitation with the sandbox play, and wanted to open the World Game out into the natural world. So I started spirit and nature sessions, letting nature guide us into its mysteries and secret laws as we make flower mandalas, collages and small movies etc.
 
 ![Working with children #5](/content-assets/biography/biography105_1200X900.jpg)
 
