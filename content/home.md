@@ -9,11 +9,8 @@ tags:
   - say hi
 ---
 
-# Towards Life Beautiful
-
 ![Home #1](/content-assets/about/about12_600X900.jpg)
 
 ![Home #2](/content-assets/about/home.jpg)
 
 [Read on...](/about)
-
