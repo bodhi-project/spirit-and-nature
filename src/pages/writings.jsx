@@ -48,6 +48,33 @@
     '& article:last-child': {
       border: '0 !important',
     },
+
+    '& .display': {
+      display: 'flex',
+      flexFlow: 'row wrap',
+      alignItems: 'flex-start',
+
+      '& .banner': {
+        flex: '12 1 0%',
+      },
+
+      '& .abstract': {
+        flex: '15 1 0%',
+        padding: '0px 0px 0px 50px',
+      },
+    },
+    '@media(max-width: 768px)': {
+      '& .display': {
+        display: 'block',
+        '& .banner': {
+          display: 'block',
+        },
+        '& .abstract': {
+          display: 'block',
+          padding: '0px',
+        },
+      },
+    },
   });
 
 
@@ -115,8 +142,8 @@
                     <Fragment>
                       { (node.frontmatter.category === category) &&
                         <Article key={node.fields.route} style={{ paddingBottom: `${modularScale.basePlus2.em}`, paddingTop: `${modularScale.basePlus2.em}` }}> {/*  */}
-                          <div style={{ display: 'flex', flexFlow: 'row wrap', alignItems: 'flex-start' }}>
-                            <div style={{ flex: '12 1 0%' }}>
+                          <div className="display">
+                            <div className="banner">
                               <Image
                                 src={node.frontmatter.cover}
                                 rawWidth={1440}
@@ -125,7 +152,7 @@
                                 style={{ border: 0 }}
                               />
                             </div>
-                            <div style={{ flex: '15 1 0%', padding: '0px 0px 0px 50px' }}>
+                            <div className="abstract">
                               <Header>
                                 <Link to={node.fields.route}><H3 style={{ marginTop: 0, color: '#9d639d' }}>{node.frontmatter.title}</H3></Link> {/*  */}
                                 <Paragraph>{node.frontmatter.abstract}</Paragraph>

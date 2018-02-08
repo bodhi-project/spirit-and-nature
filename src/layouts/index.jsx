@@ -19,8 +19,8 @@
   import '../style/index.less';
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-  import headerBanner from './assets/header.png';
-  import burgerMenu from './assets/burger_menu.png';
+  import mobileLogo from './assets/mobileLogo.png';
+  import menu from './assets/menu.png';
   import logo from './assets/logoWithText.png';
   // import logo2 from './assets/logoWithText2.png';
   // import logo3 from './assets/logoWithText3.png';
@@ -81,6 +81,19 @@
   });
 
   const overWriteStyles = css({
+    margin: 4,
+    '@media(min-width: 768px)': {
+      margin: 8,
+    },
+    '@media(min-width: 1000px)': {
+      margin: 15,
+    },
+    '@media(min-width: 1200px)': {
+      margin: 24,
+    },
+    '@media(min-width: 1440px)': {
+      margin: 30,
+    },
     '& p + p': {
       textIndent: '0px !important',
     },
@@ -189,9 +202,8 @@ class TemplateWrapper extends React.Component {
   }
 
   render() {
-    console.log(this.props.location.pathname, _.includes(['gallery', 'africa', 'auroville', 'bali'], this.props.location.pathname));
     return (
-      <Type kit="eih3wnu" style={{ margin: 30, background: '#fff6ec', minHeight: '100vh' }} className={overWriteStylesClass}>
+      <Type kit="eih3wnu" style={{ background: '#fff6ec', minHeight: '100vh' }} className={overWriteStylesClass}>
         <Container block noFade style={{ padding: 0 }}>
           
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
@@ -201,14 +213,18 @@ class TemplateWrapper extends React.Component {
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header  className={mobileHeaderStyle.toString()}  className={mobileMenuStyle.toString()} */}
           <SemanticHeader>
             <ResponsiveHeader path={this.props.location.pathname}>
-              <MobileHeader>
-                <img id="logo" src={headerBanner} style={{ height: 100, width: 'auto' }} />
-                <img id="menu" src={burgerMenu} style={{ height: 60, width: 'auto' }} />
+              <MobileHeader style={{ backgroundColor: '#FFFFFF' }}>
+                <img id="logo" src={mobileLogo} style={{ width: 'calc(100% - 53px)', height: 'auto', marginTop: 20 }} />
+                <img id="menu" src={menu} style={{ height: 27, width: 27, marginTop: 20 }} />
               </MobileHeader>
               <MobileMenu >
                 <ul>
-                  <li><Link to="/">Features »</Link></li>
-                  <li><Link to="/">Docs »</Link></li>
+                  <li><Link to="/home">Home</Link></li>
+                  <li><Link to="/offerings">Offerings</Link></li>
+                  <li><Link to="/writings">Articles, Photos and Videos</Link></li>
+                  <li><Link to="/gallery">Gallery</Link></li>
+                  <li><Link to="/book-glimpses-of-wonder">Book</Link></li>
+                  <li><Link to="/about-me">About Me</Link></li>
                 </ul>
               </MobileMenu>
               <DesktopHeader className={desktopHeaderClass.toString()}>
@@ -243,7 +259,12 @@ class TemplateWrapper extends React.Component {
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
           <Row type="flex" className={contentWrapperClass} justify="center">
-            <Col span={_.includes(['/gallery', '/africa', '/auroville', '/bali'], this.props.location.pathname) ? 23 : 18} style={{ paddingLeft: 25, paddingRight: 25 }}>
+            <Col 
+              xs={{span: 23}}
+              md={{span: 21}}
+              lg={_.includes(['/gallery', '/africa', '/auroville', '/bali'], this.props.location.pathname) ? 23 : 18}
+              style={{ paddingLeft: 25, paddingRight: 25 }}
+            >
               {this.props.children()}
             </Col>
           </Row>

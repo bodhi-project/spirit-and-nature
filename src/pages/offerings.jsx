@@ -75,11 +75,29 @@
 // ------------------------------------------------------------------------------
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Article Wrapper Style
   const wrapperStyle = css({
-    '& .ant-carousel': {
-      width: '66%',
-    },
   });
   const wrapperStyleClass = wrapperStyle.toString();
+
+  const modal = css({
+    top: '5vh',
+    width: '70%',
+    '& .ant-modal-body': {
+      padding: '0px !important',
+      height: '73vh',
+      overflow: 'scroll',
+      background: '#fcf2f1',
+      borderRadius: '6px',
+    },
+
+    '@media(max-width: 768px)': {
+      top: '2vh',
+      width: '100%',
+      '& .ant-modal-body': {
+        height: 'auto',
+      },
+    },
+  });
+  const modalClass = modal.toString();
 
   // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Hex style
   const hexStyle = css({
@@ -125,6 +143,13 @@
       transition: 'all 300ms cubic-bezier(0.78, 0.14, 0.15, 0.86)',
       paddingTop: '10px',
       paddingBottom: '10px',
+    },
+
+    '@media(max-width: 768px)': {
+      '& h3': {
+        position: 'relative',
+        bottom: 0,
+      },
     },
 
     '& div:hover': {
@@ -389,7 +414,7 @@
                   src={off1}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Spiritual Dimension<br />of Auroville</H3>
               </a>
@@ -400,7 +425,7 @@
                   src={off2}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>World Game<br />in Nature</H3>
               </a>
@@ -411,7 +436,7 @@
                   src={off3}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Flowers and their<br /> Messages</H3>
               </a>
@@ -422,7 +447,7 @@
                   src={off4}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Creating<br />Sacred Space</H3>
               </a>
@@ -433,7 +458,7 @@
                   src={off5}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>World Game<br />in Sand</H3>
               </a>
@@ -444,7 +469,7 @@
                   src={off6}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Vision<br />Game</H3>
               </a>
@@ -459,7 +484,7 @@
                   src={off7}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Photography</H3>
               </a>
@@ -470,7 +495,7 @@
                   src={off8}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>Interspecies<br /> Communication</H3>
               </a>
@@ -481,7 +506,7 @@
                   src={off9}
                   rawWidth={900}
                   rawHeight={900}
-                  style={{ border: 0 }}
+                  style={{ border: 0, width: '100%', height: 'auto' }}
                 />
                 <H3 style={{ lineHeight: 1 }}>LionHearted<br /> Leadership</H3>
               </a>
@@ -492,9 +517,7 @@
             footer={null}
             visible={this.state.visible}
             onCancel={this.hideModal}
-            // width="66vw"
-            style={{ top: '5vh' }}
-            width="62.5%"
+            className={modalClass}
           >
             { this.state.data &&
               <div className={pageStyleClass}>

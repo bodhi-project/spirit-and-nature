@@ -131,13 +131,13 @@ You can see some of these video clips [here](https://www.youtube.com/watch?v=Ypj
 
 ## Where I Am Now
 
-Now my dream is to spread the message of ‘Nature and Spirit’ to children and adults in Auroville, and to continue learning from and cooperating with fellow Aurovilians who are also exploring and deepening the links between nature and spirit. I am grateful to get the opportunity to learn together with the children of The Learning Community in a joyful, spontaneous way. And I’m in a long inspiring relationship with Barbara (Ritam), learning about truth rhythms which, like earth rhythms, are applicable to all levels of life.
+Now my dream is to spread the message of 'Spirit and Nature' to children and adults in Auroville, and to continue learning from and cooperating with fellow Aurovilians who are also exploring and deepening the links between nature and spirit. I am grateful to get the opportunity to learn together with the children of The Learning Community in a joyful, spontaneous way. And I’m in a long inspiring relationship with Barbara (Ritam), learning about truth rhythms which, like earth rhythms, are applicable to all levels of life.
 
 ![My work now #2](/content-assets/biography/biography111_1200X900.jpg)
 
 ![My work now #1](/content-assets/biography/biography110_1200X900.jpg)
 
-‘Nature & Spirit’ is about reconnecting with spirit through nature and its multitude of expressions through sacred, protected spaces like the one in Anusuya forest where the activities are based. It is an invition to deep silence from where expression can flow. 
+'Spirit & Nature' is about reconnecting with spirit through nature and its multitude of expressions through sacred, protected spaces like the one in Anusuya forest where the activities are based. It is an invition to deep silence from where expression can flow. 
 
 In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre. 
 
