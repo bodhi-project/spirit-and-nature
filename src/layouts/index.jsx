@@ -247,7 +247,7 @@ class TemplateWrapper extends React.Component {
                 <img
                   id="menu"
                   src={mobileBurger}
-                  style={{ height: 27, width: 27, top: 17, right: 6 }}
+                  style={{ height: 50, width: 50, top: 5, right: 0 }}
                 />
                 <img
                   id="cross"
