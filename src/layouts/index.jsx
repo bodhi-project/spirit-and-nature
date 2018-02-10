@@ -205,6 +205,8 @@ const mobileMenu = css({
     padding: '1em',
     '& a': {
       display: 'block',
+      fontSize: '150%',
+      marginBottom: '1em',
     },
   },
 });
