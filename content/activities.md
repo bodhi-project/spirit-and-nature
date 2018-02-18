@@ -3,7 +3,7 @@ title: Activities
 cover: /content-assets/biography.jpg
 category: general
 date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+abstract: With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul.
 variant: page
 tags:
   - say hi
@@ -43,7 +43,7 @@ Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock
 
 ![Activities #6](/content-assets/activities/activities6_1200X900.jpg)
 
-Auroville grew out of a barren plateau, all the trees were planted by early pioneers; now we enjoy a young forest. 
+Auroville grew out of a barren plateau, all the trees were planted by early pioneers; now we enjoy a young forest.
 
 I offer a space and time together to explore in concentration, deep listening and play.
 
@@ -63,7 +63,7 @@ A deep connection to Nature can help the individual come to the heart of things,
 
 ![Activities #11](/content-assets/activities/activities11_2000X800.jpg)
 
-I offer introductions where we learn about the spiritual significances of the flowers as told by The Mother- spiritual companion of Sri Aurobindo. 
+I offer introductions where we learn about the spiritual significances of the flowers as told by The Mother- spiritual companion of Sri Aurobindo.
 
 Through small games, cards, guided relaxation and being with the flowers we explore this beautiful psychic world of the flowers.
 
@@ -79,19 +79,19 @@ I cherish beauty in all aspects of life. Not just an external beauty but special
 
 I offer my time to explore with you.
 
-# World Game in the sand 
+# World Game in the sand
 
 The World Game, also known as Sandplay, is a wonderful way to know yourself without the use of words.
- 
+
 You are given a box of sand and free access to unusual and appealing objects. Music, flowering gardens, paintings, as well as the presence of the quiet observant facilitator contributes to creating a concentrated atmosphere in which you can tell a story in the sand or express your dream world using a symbolic language.
 
 ![Activities #14](/content-assets/activities/activities14_1280X900.jpg)
 
 ![Activities #15](/content-assets/activities/activities15_900X900.jpg)
 
-You are invited to be true to yourself in a natural environment. 
+You are invited to be true to yourself in a natural environment.
 
-# Vision Game 
+# Vision Game
 
 The vision game is a process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it.
 
@@ -105,8 +105,8 @@ Nature is our guide to come to clarity.
 
 Other fields of interest:
 
-- Exploring photography and making short films. –links-
-- Inter Species Communication.
+* Exploring photography and making short films. –links-
+* Inter Species Communication.
 
 Life is life, whether in a cat, or dog or man. There is no difference there between a cat or a man. The idea of difference is a human conception for man's own advantage.  — Sri Aurobindo
 
@@ -116,7 +116,7 @@ Life is life, whether in a cat, or dog or man. There is no difference there betw
 
 I deeply relate to animals and plants, and love to explore the beautiful intuitive and natural art of animal communication within my possibilities.
 
-- White Lions of South Africa
+* White Lions of South Africa
 
 The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the last remaining white Lions in Timbavati who deeply inspire me in my work. I had the privilege to participate in an intensive training of the 13 Laws of LionHearted Leadership and I’m now an accredited practitioner since December 2017. You can also read everything about this wonderful project and important initiative on the website...
 

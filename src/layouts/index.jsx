@@ -10,7 +10,12 @@ import _ from 'lodash';
 import Link from 'gatsby-link';
 import { Row, Col, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
 import { css, plugins } from 'glamor';
-import { CompositeHeader, Container } from '@bodhi-project/components';
+import {
+  CompositeHeader,
+  Container,
+  Image,
+  OutLink,
+} from '@bodhi-project/components';
 import { InitializeMeta, UpdateTitle } from '@bodhi-project/seo';
 import { Type, Elements, typeComposite } from '@bodhi-project/typography';
 import { Header as SemanticHeader } from '@bodhi-project/semantic-webflow';
@@ -23,6 +28,8 @@ import logo from './assets/logoWithText.png';
 import mobileLogo from './assets/mobileLogo.png';
 import mobileBurger from './assets/mobileBurger.png';
 import mobileCross from './assets/mobileCross.png';
+import facebook from './assets/facebook.png';
+import youtube from './assets/youtube.png';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
 const {
@@ -235,7 +242,7 @@ class TemplateWrapper extends React.Component {
 
           {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Header  className={mobileHeaderStyle.toString()}  className={mobileMenuStyle.toString()} */}
           <SemanticHeader>
-            <ResponsiveHeader path={this.props.location.pathname}>
+            <ResponsiveHeader path={this.props.location}>
               <MobileHeader style={{ backgroundColor: '#FFFFFF' }}>
                 <img
                   id="logo"
@@ -373,7 +380,7 @@ class TemplateWrapper extends React.Component {
               paddingRight: 19,
             }}
           >
-            <Container tiny block noFade style={{ padding: 0 }}>
+            <Container goldenMajor block noFade style={{ padding: 0 }}>
               <div
                 style={{
                   display: 'flex',
@@ -451,12 +458,60 @@ class TemplateWrapper extends React.Component {
                     display: 'inline',
                   }}
                   className="mask-p"
-                  to="/about-me#contact-me"
+                  to="/about-me#contact"
                 >
-                  Contact Me
+                  Contact
+                </Link>
+                <span
+                  style={{
+                    flex: '1 1 0%',
+                    textAlign: 'center',
+                    display: 'inline',
+                  }}
+                  className="mask-p"
+                >
+                  |
+                </span>
+                <Link
+                  style={{
+                    flex: '6 1 0%',
+                    textAlign: 'center',
+                    display: 'inline',
+                  }}
+                  className="mask-p"
+                  to="/about-me#donate"
+                >
+                  Donate
                 </Link>
               </div>
             </Container>
+            <div style={{ textAlign: 'center' }}>
+              <OutLink to="https://www.facebook.com/SpiritandNature.auroville">
+                <Image
+                  src={facebook}
+                  style={{
+                    display: 'inline-block',
+                    border: 'none',
+                    background: 'transparent',
+                    height: 60,
+                    width: 60,
+                  }}
+                />
+              </OutLink>
+              <OutLink to="https://www.youtube.com/channel/UC4duwUZsuD6W3OyKLILWV4A">
+                <Image
+                  src={youtube}
+                  style={{
+                    display: 'inline-block',
+                    border: 'none',
+                    background: 'transparent',
+                    height: 60,
+                    width: 60,
+                    marginLeft: 45,
+                  }}
+                />
+              </OutLink>
+            </div>
             <Paragraph style={{ textAlign: 'center' }}>
               <small>
                 © 2018, Spirit and Nature, Auroville Arts Service, India

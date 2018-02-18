@@ -5,7 +5,7 @@ category: Photos
 date: 2018-01-12
 abstract: Photos I've taken over the years.
 tags:
-  - say hi
+  - featured
 variant: gallery
 ---
 

@@ -3,10 +3,10 @@ title: Spirit and Nature
 cover: /content-assets/biography.jpg
 category: general
 date: 2017-03-02
-abstract: Lorem markdownum supplex. Care ferre nos praemia detestatur oderit vitatumque, tardius pello ostentare; dixit.
+abstract: Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.
 variant: page
 tags:
-  - say hi
+  - none
 ---
 
 ![Home #1](/content-assets/about/about12_600X900.jpg)

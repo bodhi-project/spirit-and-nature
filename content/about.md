@@ -7,7 +7,7 @@ abstract: Spirit and Nature is a learning centre situated in the middle of a for
 variant: none
 featured: true
 tags:
-  - say hi
+  - featured
 ---
 
 # Towards Life Beautiful

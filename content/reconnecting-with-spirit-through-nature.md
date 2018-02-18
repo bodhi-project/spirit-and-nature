@@ -6,38 +6,38 @@ date: 2018-01-09
 abstract: Adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville).
 variant: none
 tags:
-  - say hi
+  - featured
 ---
 
 # Reconnecting with Spirit through Nature
 
 _This page has been adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville)._
 
-Aikya has lived in Auroville for the past twenty three years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world. 
+Aikya has lived in Auroville for the past twenty three years. Here she describes how her quest to understand the meaning of life led her to a deeper understanding of the natural world.
 
 ## Beginnings
 
 As a child, while I felt like a stranger on this earth I did have a profound experience of the infinity of the Universe. I knew that I would have to wait until I was grown up to have this mystery unraveled.
 
-I had a very normal upbringing in the north of Belgium. We had a lot of animals at home and I could relate with great joy to the simplicity and purity of animals and the natural world. 
+I had a very normal upbringing in the north of Belgium. We had a lot of animals at home and I could relate with great joy to the simplicity and purity of animals and the natural world.
 
-When I grew up I thought psychology would give me some clues to the mystery of life but I soon discovered the answers didn’t go very far. Nevertheless, I studied it for five years.  Then I decided to travel to the far East for eight months. 
+When I grew up I thought psychology would give me some clues to the mystery of life but I soon discovered the answers didn’t go very far. Nevertheless, I studied it for five years. Then I decided to travel to the far East for eight months.
 
-Some years later, in 1990, I got introduced to Auroville where I lived close to nature in Revelation and Samriddhi Communities. Although touched by The Mother’s words, still I did not get the answers I needed because here nothing was structured: you had to find your own way.  Then I met a Tibetan Buddhist teacher and was invited to study in a newly-opened International Buddhist Institute in New Delhi, which I did for three years. 
+Some years later, in 1990, I got introduced to Auroville where I lived close to nature in Revelation and Samriddhi Communities. Although touched by The Mother’s words, still I did not get the answers I needed because here nothing was structured: you had to find your own way. Then I met a Tibetan Buddhist teacher and was invited to study in a newly-opened International Buddhist Institute in New Delhi, which I did for three years.
 
-This is where I started to get answers. But I began to wonder, ‘Where does life fit into all this?’ That’s when I got a ‘vision’ of Auroville in a rainbow of colours. 
+This is where I started to get answers. But I began to wonder, ‘Where does life fit into all this?’ That’s when I got a ‘vision’ of Auroville in a rainbow of colours.
 
 ## Return to Auroville
 
-By now I felt I understood a little better how to bring spirit and life together. Before coming here, I had worked as a psychologist in Belgium: I was the director of a centre for suicide prevention. We were dealing daily with existential issues. It was interesting work and I had a wonderful team. 
+By now I felt I understood a little better how to bring spirit and life together. Before coming here, I had worked as a psychologist in Belgium: I was the director of a centre for suicide prevention. We were dealing daily with existential issues. It was interesting work and I had a wonderful team.
 
-But when I came back to Auroville I did not think of taking up this kind of work. Instead what presented itself to me was the flowers – there were so many flowers here! It brought back my early love of the beauty of creation. And when I heard that Mother had given significances to the flowers and met Richard Pearson from the Ashram, it added another dimension. 
+But when I came back to Auroville I did not think of taking up this kind of work. Instead what presented itself to me was the flowers – there were so many flowers here! It brought back my early love of the beauty of creation. And when I heard that Mother had given significances to the flowers and met Richard Pearson from the Ashram, it added another dimension.
 
 ![Flower #1](/content-assets/biography/img1.jpg)
 
 ![Flower #2](/content-assets/biography/img2.jpg)
 
-At that time, if you wanted to work with flowers you went to work in the Matrimandir Nursery, which is what I did for some time.  In 2000, I met Barbara who introduced me to energy and consciousness work using the essences of Mother’s flowers. This was the start of diving deep into the mysteries of life.
+At that time, if you wanted to work with flowers you went to work in the Matrimandir Nursery, which is what I did for some time. In 2000, I met Barbara who introduced me to energy and consciousness work using the essences of Mother’s flowers. This was the start of diving deep into the mysteries of life.
 
 Then I was invited to do flower arranging in the Solar Kitchen. This opened up a whole new field for me because now I could create a particular atmosphere. I aspired to sensitise people to beauty through flowers and their silent vibrational influences.
 
@@ -45,21 +45,21 @@ Then I was invited to do flower arranging in the Solar Kitchen. This opened up a
 
 ![Arrangement #2](/content-assets/biography/biography102_1200X900.jpg)
 
-People were very happy with this initiative and some of them began to bring flowers for me to arrange.  In the early days there seemed to be many more flowers in Auroville and the children knew Mother’s names for them. Now that knowledge seems to be less present.
+People were very happy with this initiative and some of them began to bring flowers for me to arrange. In the early days there seemed to be many more flowers in Auroville and the children knew Mother’s names for them. Now that knowledge seems to be less present.
 
 [Read more on flowers and their messages](http://www.blossomlikeaflower.com/).
 
 ## Reawakening Wonder
 
-At that point, I felt I wanted more contact with people again, so I initiated nature projects at Deepanam School to support the sense of wonder in children.  I also started the World Game (or Sandplay). In this, the children are given small objects representing people, trees, animals, houses etc. and are invited to create their own world by arranging them in a tray with sand. The objects are, of course, symbolic, and in one way this drew upon my psychology background, but I did not want to go into analysing the children. I wanted to offer them a magical space where they could express their dreams and, if need be, their concerns.
+At that point, I felt I wanted more contact with people again, so I initiated nature projects at Deepanam School to support the sense of wonder in children. I also started the World Game (or Sandplay). In this, the children are given small objects representing people, trees, animals, houses etc. and are invited to create their own world by arranging them in a tray with sand. The objects are, of course, symbolic, and in one way this drew upon my psychology background, but I did not want to go into analysing the children. I wanted to offer them a magical space where they could express their dreams and, if need be, their concerns.
 
-When they are older they often remember the secret memories of childhood.  Mother said that the dreams of the children of today are the realities of tomorrow, and she encouraged the children to believe in their dreams.
+When they are older they often remember the secret memories of childhood. Mother said that the dreams of the children of today are the realities of tomorrow, and she encouraged the children to believe in their dreams.
 
 ![Working with children #1](/content-assets/biography/biography103_800X600.jpg)
 
 ![Working with children #2](/content-assets/biography/biography104_800X600.jpg)
 
-I was invited by SAIIER to research this topic and this resulted in a book called ‘Glimpses of Wonder’. I am still doing the World Game, now with the children of The Learning Community (TLC). For the past eight years, this has happened in my place in Anusuya, which is like a fairy house and forest garden full of secret connections made over time. I feel this fits perfectly to the vision of TLC of using Auroville as a place of learning. 
+I was invited by SAIIER to research this topic and this resulted in a book called ‘Glimpses of Wonder’. I am still doing the World Game, now with the children of The Learning Community (TLC). For the past eight years, this has happened in my place in Anusuya, which is like a fairy house and forest garden full of secret connections made over time. I feel this fits perfectly to the vision of TLC of using Auroville as a place of learning.
 
 ![Working with children #3](/content-assets/biography/biography114_1200X900.jpg)
 
@@ -103,9 +103,9 @@ In November 2016 I returned to South Africa for one month because I received a s
 
 It all began when I read a book called Mystery of the White Lions: Children of the Sun God, which is Linda Tucker's first-hand account of her journey into the mysteries of the most sacred animal on the African continent: the White Lion.
 
-It’s a true story which begins when she was saved from lions by a local woman who walked calmly among them. Linda went back to England and resumed her successful modelling career, but at a certain point she wanted to understand what had happened and returned to South Africa to look for this woman.  She discovered it was Maria Khosa, who was known as a ‘lion shaman’. In an initiatory process supervised by a high African shaman, Maria told Linda that she would be the next ‘Keeper of the White Lions’, that this was her mission and she had to be ready to die for them. Credo Mutwa, a high African shaman played a crucial role in this initiatory process.
+It’s a true story which begins when she was saved from lions by a local woman who walked calmly among them. Linda went back to England and resumed her successful modelling career, but at a certain point she wanted to understand what had happened and returned to South Africa to look for this woman. She discovered it was Maria Khosa, who was known as a ‘lion shaman’. In an initiatory process supervised by a high African shaman, Maria told Linda that she would be the next ‘Keeper of the White Lions’, that this was her mission and she had to be ready to die for them. Credo Mutwa, a high African shaman played a crucial role in this initiatory process.
 
-The white lions appear only in one region of South Africa called ‘Timbavati’,  literally ‘the place where the star lions come down’. African elders look upon the white lions as the ‘king of kings’ and there are many legends about them. According to local indigenous knowledge the white lions have returned now to give a message to humanity: that it is the end of a period, a critical moment, and people must go back to the source for wisdom.
+The white lions appear only in one region of South Africa called ‘Timbavati’, literally ‘the place where the star lions come down’. African elders look upon the white lions as the ‘king of kings’ and there are many legends about them. According to local indigenous knowledge the white lions have returned now to give a message to humanity: that it is the end of a period, a critical moment, and people must go back to the source for wisdom.
 
 When Linda met Maria, all the white lions were in captivity in zoos, circuses and ‘blood lion’ camps where they were raised to be trophy-hunted. But Maria had a vision that a white lion would be born to be released into the wild in the Timbavati region. Soon after, Linda heard that a white lion cub called Ma-Ra had been born on Christmas Day, 2000, just outside a small town in South Africa called Bethlehem.
 
@@ -137,13 +137,12 @@ Now my dream is to spread the message of 'Spirit and Nature' to children and adu
 
 ![My work now #1](/content-assets/biography/biography110_1200X900.jpg)
 
-'Spirit & Nature' is about reconnecting with spirit through nature and its multitude of expressions through sacred, protected spaces like the one in Anusuya forest where the activities are based. It is an invition to deep silence from where expression can flow. 
+'Spirit & Nature' is about reconnecting with spirit through nature and its multitude of expressions through sacred, protected spaces like the one in Anusuya forest where the activities are based. It is an invition to deep silence from where expression can flow.
 
-In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre. 
+In terms of the yoga, the next step we need to take is to access the intuitive consciousness and nature is a very good way to develop these faculties. Mother also showed us how nature can help us come into contact with our psychic heart centre.
 
 ![My work now #3](/content-assets/about/img101_600X337.jpg)
 
 ![My work now #4](/content-assets/biography/biography113_1200X900.jpg)
 
-Today, we tend to forget the sacred that is in everything.  I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.
-
+Today, we tend to forget the sacred that is in everything. I feel my mission is to bring glimpses of remembrance of the vibrant aliveness and wisdom of all that surrounds us to inspire us to build together, with a Lion Heart, the ‘New World’ for which Auroville aspires.

@@ -7,13 +7,13 @@ abstract: 9 children, 8 stories.
 variant: none
 featured: true
 tags:
-    - say hi
+  - featured
 ---
 
 # Stories from World Games
 
 > One dreams of miracles when one is young, one wants all wickedness to disappear, everything to be always luminous, beautiful, happy, one likes stories which end happily. This is what one should rely on.
->  
+>
 > — The Mother
 
 ## The Dragon and the Phoenix by Yam
@@ -98,26 +98,26 @@ Once upon a time there was a land of crystal and the crystal queen and 4 crystal
 
 ![Pia #2](/content-assets/stories-from-world-games/pia2_1000X625.jpeg)
 
-On the petals of the lotus there are 6 other baby crystals. All the crystals, fairies and shells are watching the baby being born. The queen is on a big piece of wood right above the baby and she has her magical crystal pyramid in front of her and she is helping the baby to be born. 
+On the petals of the lotus there are 6 other baby crystals. All the crystals, fairies and shells are watching the baby being born. The queen is on a big piece of wood right above the baby and she has her magical crystal pyramid in front of her and she is helping the baby to be born.
 
 ![Pia #4](/content-assets/stories-from-world-games/pia4_1000X625.jpeg)
 
 ![Pia #3](/content-assets/book/book2_200X300.jpg)
 
-Once the baby is born she will have to find a place the stay, she does not know where she should be staying, she is still thinking. A swan is coming to her to give her a magical shell.  She took the shell. The shell will help her to find her place. She is a very special baby. She chooses where she should go, she wants to live with the queen, so the queen took her to her magical palace and they all lived happily.
+Once the baby is born she will have to find a place the stay, she does not know where she should be staying, she is still thinking. A swan is coming to her to give her a magical shell. She took the shell. The shell will help her to find her place. She is a very special baby. She chooses where she should go, she wants to live with the queen, so the queen took her to her magical palace and they all lived happily.
 
 The End.
 
 ## Philosophy of Life by Yam
 
-The sandbox is the personality and it’s path of life.  There are different parts in this World Game:
+The sandbox is the personality and it’s path of life. There are different parts in this World Game:
 
-- Swans are the peaceful side.
-- Lizard and scorpion are energetic, they are not bad but a different part of the individuality.
-- In the center there is death, it is not bad here, it is like everything leads there.
-- Castle: sometime one is closed to the world ( fortress around the heart), because most of our feelings we keep inside. Also one feels big in the world, and sometimes one sees how huge the world is, the small farm house symbolizes being small and seeing the world big.
-- The guardian is leading the heart and keeps bad things from our heart, it is also intuition and courage.
-- The food represents that you can enjoy life.
+* Swans are the peaceful side.
+* Lizard and scorpion are energetic, they are not bad but a different part of the individuality.
+* In the center there is death, it is not bad here, it is like everything leads there.
+* Castle: sometime one is closed to the world ( fortress around the heart), because most of our feelings we keep inside. Also one feels big in the world, and sometimes one sees how huge the world is, the small farm house symbolizes being small and seeing the world big.
+* The guardian is leading the heart and keeps bad things from our heart, it is also intuition and courage.
+* The food represents that you can enjoy life.
 
 ![Yam #1](/content-assets/stories-from-world-games/yam1_1000X750.jpg)
 
@@ -129,7 +129,7 @@ The sandbox is the personality and it’s path of life.  There are different par
 
 ## The White Knight and the Dark Lord by Yam and Milo
 
-The white Knight in combat with the dark Lord.  The dark Lord is in the old kingdom’s ruins trying to get the treasure even though he has enough. Two statue dogs - that can turn into real dogs - are furious and fighting against the white lion and white tigers. 
+The white Knight in combat with the dark Lord. The dark Lord is in the old kingdom’s ruins trying to get the treasure even though he has enough. Two statue dogs - that can turn into real dogs - are furious and fighting against the white lion and white tigers.
 
 ![Yam and Milo #1](/content-assets/stories-from-world-games/yamMilo1_1000X809.jpg)
 
@@ -140,4 +140,3 @@ The white Knight in combat with the dark Lord.  The dark Lord is in the old king
 ![Yam and Milo #5](/content-assets/stories-from-world-games/yamMilo5_960X1280.jpg)
 
 The unicorn is guarding the white knight treasure. The black Lord’s snake is curled around a lava stone which got created after the Kingdom fell to ruins at the last combat 20,000 years ago, by the unicorn spitting fire on it .
-
