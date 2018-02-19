@@ -3,7 +3,7 @@ title: White Lions and Evolutionary Astrology
 cover: /content-assets/maurice/banner.jpg
 category: Articles
 date: 2018-02-15
-abstract: This year we enter the year of the dog in Chinese astrology, back to the earth element.
+abstract: Maurice is an inspired Evolutionary Astrology counsellor and teacher, currently based in the United States. He has a long relation with the White Lions and is part of the Faculty of the Academy of LionHearted Leadership. Maurice was with us in Auroville recently and it was a special occasion to know first hand about the White Lions and about this unique Conservation and Leadership project and enjoy a moment in the forest garden!
 variant: none
 featured: true
 tags:

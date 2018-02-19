@@ -166,7 +166,6 @@ class Index extends React.Component {
       }
     });
     const topLatest = _.slice(latest, 0, 3);
-    console.log(topLatest);
 
     return (
       <Fragment>
