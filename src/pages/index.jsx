@@ -116,9 +116,8 @@ const breadcrumbSchemaData = {
 const tetraGrid = css({
   '& .hex': {
     padding: '0px',
-    paddingBottom: '1vh',
-    paddingLeft: '1vh',
-    paddingRight: '1vh',
+    paddingBottom: '5vh',
+    paddingRight: '5vh',
   },
 });
 
@@ -193,13 +192,19 @@ class Index extends React.Component {
           <Row>
             <Col md={15}>
               {_.map(topLatest, ({ node }) => (
-                <div key={node.fields.route}>
+                <div key={node.fields.route} style={{ marginBottom: 50 }}>
                   <Link to={node.fields.route}>
                     <Image
                       src={node.frontmatter.cover}
                       rawWidth={1440}
                       rawHeight={900}
-                      style={{ border: 0, width: '100%', height: 'auto' }}
+                      style={{
+                        border: 0,
+                        width: 'auto',
+                        height: 275,
+                        background: 'transparent',
+                        justifyContent: 'left',
+                      }}
                     />
                     <H3 className="mask-p" style={{ marginTop: 0 }}>
                       {node.frontmatter.title},&nbsp;
