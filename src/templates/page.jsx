@@ -148,9 +148,9 @@ class PageWrapper extends React.Component {
         <BreadcrumbSchema data={breadcrumbSchemaData} />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        <Fragment>
+        <div style={{ marginTop: 40 }}>
           {treeParser(markdownAst, { localLink: Link, indent: -20 }, type)}
-        </Fragment>
+        </div>
         <Paragraph style={{ textAlign: 'center' }}>
           <small>~</small>
         </Paragraph>

@@ -1,6 +1,6 @@
 ---
 title: White Lions of Timbavati / One United Roar for Nature and Lions
-cover: /content-assets/white-lions/banner.jpg
+cover: /content-assets/white-lions/imagex001.jpg
 category: Videos
 date: 2018-01-17
 abstract: Videos connected to the White Lions of Timbavati and videos made for the International Talent Challenge for young people called One United Roar for Nature and Lions- organised by the Linda Tucker Foundation and the White Lion Protection trust in August 2016.

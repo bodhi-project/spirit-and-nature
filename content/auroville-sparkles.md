@@ -1,6 +1,6 @@
 ---
 title: Auroville Sparkles
-cover: /content-assets/nature-portraits/avBanner.jpg
+cover: /content-assets/nature-portraits/imagex001.jpg
 category: Photos
 date: 2018-01-15
 abstract: Photos I've taken over the years.

@@ -1,6 +1,6 @@
 ---
 title: White Lions and Evolutionary Astrology
-cover: /content-assets/maurice/banner_1400X900.jpg
+cover: /content-assets/maurice/imagex001.jpg
 category: Articles
 date: 2018-02-15
 abstract: Maurice is an inspired Evolutionary Astrology counsellor and teacher, currently based in the United States. He has a long relation with the White Lions and is part of the Faculty of the Academy of LionHearted Leadership. Maurice was with us in Auroville recently and it was a special occasion to know first hand about the White Lions and about this unique Conservation and Leadership project and enjoy a moment in the forest garden!
@@ -14,7 +14,7 @@ tags:
 
 Maurice Fernandez came on a visit in February and we had an informal sharing.
 
-![Home #1](/content-assets/maurice/banner_1400X900.jpg)
+![Home #1](/content-assets/maurice/imagex001_1400X900.jpg)
 
 Maurice is an inspired Evolutionary Astrology counsellor and teacher, currently based in the United States. He has a long relation with the White Lions and is part of the Faculty of the Academy of LionHearted Leadership. This is where I met Maurice last year.
 

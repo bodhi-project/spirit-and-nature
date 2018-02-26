@@ -1,6 +1,6 @@
 ---
 title: Reconnecting with Spirit through Nature
-cover: /content-assets/biography/banner.jpg
+cover: /content-assets/biography/imagex001.jpg
 category: Articles
 date: 2018-01-09
 abstract: Adapted from an article by Alan in the March 2017 edition of Auroville Today (a monthly in Auroville).

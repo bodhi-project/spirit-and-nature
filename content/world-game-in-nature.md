@@ -1,6 +1,6 @@
 ---
 title: World Game in Nature
-cover: /content-assets/world-game-in-nature-with-kids/banner.jpg
+cover: /content-assets/world-game-in-nature-with-kids/imagex001.jpg
 category: Videos
 date: 2018-01-18
 abstract: Children in the forest garden.

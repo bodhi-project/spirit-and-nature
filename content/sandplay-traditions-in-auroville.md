@@ -1,6 +1,6 @@
 ---
 title: Sandplay Traditions in Auroville
-cover: /content-assets/sandplay/banner.jpg
+cover: /content-assets/sandplay/imagex001.jpg
 category: Articles
 date: 2018-01-01
 abstract: An Overview by Heidi Watts — an extract from the book "Glimpses of Wonder" — the world game has been an unbroken tradition of sandbox activity for children in Auroville.
@@ -51,13 +51,13 @@ To distinguish her work from Lowenfeld’s she used the name ‘Sandplay’. The
 
 ## World Games and Auroville
 
-The World Game was brought to Auroville in the early days by an eccentric Jungian psychiatrist, Austin Delaney, who had been working with the sand boxes at Equals-One. He and his wife lived “in a keet castle at Aurobeach, near what is now Quiet”, according to Johnny. 
+The World Game was brought to Auroville in the early days by an eccentric Jungian psychiatrist, Austin Delaney, who had been working with the sand boxes at Equals-One. He and his wife lived “in a keet castle at Aurobeach, near what is now Quiet”, according to Johnny.
 
 The sandboxes at Aspiration (a school) were housed in keet sheds, where Austin also had stored thousands of little objects which could be used to create scenes and small dramas in the sandbox. After a child completed a sandbox, the teacher drew a picture of the scene and invited (but did not require) the child to talk about it. Making a sandbox in the first place was always voluntary. At one point every child made a sandbox every day.
 
 When the Aspiration School was closed for repairs after the cyclone in 1972, there were school activities for the children in the morning but in the afternoon they worked with the sandboxes, and then, “they really took home.” At a time when there was no common language, the sandbox was a form of self-expression and communication which, like drawing or pantomime, did not require words.
 
-In describing the sandbox activities, Shraddhavan said, 
+In describing the sandbox activities, Shraddhavan said,
 
 “One way to meet the individual needs of the students was through the sand boxes. We were all the time trying to look at the individual needs of each child. It is amazing what children said through their boxes. They were very helpful in difficult situations.
 

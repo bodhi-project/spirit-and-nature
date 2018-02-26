@@ -1,6 +1,6 @@
 ---
 title: Wisdom of the dog
-cover: /content-assets/dogs/banner.jpg
+cover: /content-assets/dogs/imagex001.jpg
 category: Articles
 date: 2018-02-15
 abstract: This year we enter the year of the dog in Chinese astrology, back to the earth element.

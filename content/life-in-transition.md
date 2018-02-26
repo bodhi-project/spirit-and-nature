@@ -1,6 +1,6 @@
 ---
 title: Life in Transition - South Africa
-cover: /content-assets/africa/banner.jpg
+cover: /content-assets/africa/imagex001.jpg
 category: Photos
 date: 2018-01-14
 abstract: Photos I've taken over the years.

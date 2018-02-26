@@ -1,6 +1,6 @@
 ---
 title: Island of the Gods - Bali
-cover: /content-assets/bali/banner.jpg
+cover: /content-assets/bali/imagex001.jpg
 category: Photos
 date: 2018-01-12
 abstract: Photos I've taken over the years.

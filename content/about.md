@@ -1,6 +1,6 @@
 ---
 title: Towards Life Beautiful
-cover: /content-assets/about/banner.jpg
+cover: /content-assets/about/imagex001.jpg
 category: Articles
 date: 2018-01-15
 abstract: Spirit and Nature is a learning centre situated in the middle of a forest in Auroville in India.

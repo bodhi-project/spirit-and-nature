@@ -1,6 +1,6 @@
 ---
 title: Illusion Free - South Africa
-cover: /content-assets/illusion-free/banner.jpg
+cover: /content-assets/illusion-free/imagex001.jpg
 category: Photos
 date: 2018-01-13
 abstract: Photos I've taken over the years.

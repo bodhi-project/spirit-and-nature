@@ -1,6 +1,6 @@
 ---
 title: Stories from World Games
-cover: /content-assets/stories-from-world-games/banner.jpg
+cover: /content-assets/stories-from-world-games/imagex001.jpg
 category: Articles
 date: 2018-01-08
 abstract: 9 children, 8 stories.

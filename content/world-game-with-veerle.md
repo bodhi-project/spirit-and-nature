@@ -1,6 +1,6 @@
 ---
 title: World Game with Veerle
-cover: /content-assets/veerle/banner.jpg
+cover: /content-assets/veerle/imagex001.jpg
 category: Articles
 date: 2018-02-17
 abstract: The mushroom is where I stand. There are 4 choices, 4 possible worlds — One is the pure white world, where one can always come back to rest…

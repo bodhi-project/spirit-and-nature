@@ -1,6 +1,6 @@
 ---
 title: Auroville Film Festival 2017
-cover: /content-assets/aiff/banner.jpg
+cover: /content-assets/aiff/imagex001.jpg
 category: Articles
 date: 2018-01-14
 abstract: The lions roared again.

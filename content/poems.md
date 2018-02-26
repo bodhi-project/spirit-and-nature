@@ -1,6 +1,6 @@
 ---
 title: Poems
-cover: /content-assets/poems/banner.jpg
+cover: /content-assets/poems/imagex001.jpg
 category: Articles
 date: 2018-01-05
 abstract: A few of my creations.
@@ -30,7 +30,7 @@ _flying through the galaxy, finding source and being all, Gaia,_
 _flying in my dreams and remembering belonging to all, to you Mother,_
 _flying to exhaustion and always flying again, wings growing stronger day by day,_
 _flying through the night waiting for the Sun to rise,_
- 
+
 _When, where, how...?_
 
 ## Born
@@ -50,7 +50,7 @@ _i explode, implode,_
 _reborn, reborn, reborn..._  
 _with bliss and spasm,_  
 _with myself, and others..._  
-_alive i am this i know_  
+_alive i am this i know_
 
 ## Sunmaned
 
@@ -62,26 +62,25 @@ _sunmaned,_
 _starring eyes,_  
 _playful heaven of love,_  
 _white light_  
-_blue peace_  
+_blue peace_
 
 _unperturbed you walk_  
 _King_  
 _with the scars of little life_  
 _on Your noble face_  
-_secure in the presence of Grace_  
+_secure in the presence of Grace_
 
 _high fences_  
 _electric guardians_  
-_against coward head hunters-lost_  
+_against coward head hunters-lost_
 
 _oh Gods and Goddesses to BE_  
 _now is the time to reverse and soar_  
 _and roar lion, roar lions_  
-_till the night surrenders into ever-lasting days_  
+_till the night surrenders into ever-lasting days_
 
 _enveloped in the blanket of my dreams_  
 _i watch the world through your eyes_  
 _my heart weeps_  
 _with a new strength_  
-_of rainbow colors_  
-
+_of rainbow colors_

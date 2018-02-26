@@ -1,6 +1,6 @@
 ---
 title: On World Game in Sand
-cover: /content-assets/on-world-game-in-sand/banner.jpg
+cover: /content-assets/on-world-game-in-sand/imagex001.jpg
 category: Articles
 date: 2018-01-02
 abstract: An extract from the book "Glimpses of Wonder".
@@ -11,13 +11,13 @@ tags:
 
 # On World Game in Sand
 
-The World Game encourages spontaneity, trust in oneself, and being in the  ow of the moment. There are no mistakes, and no experience is required. There is nothing to accomplish, no place to reach. Because it is playful, it can flow joyfully and become a celebration of life.
+The World Game encourages spontaneity, trust in oneself, and being in the ow of the moment. There are no mistakes, and no experience is required. There is nothing to accomplish, no place to reach. Because it is playful, it can flow joyfully and become a celebration of life.
 
 [embed](https://www.youtube.com/watch?v=mIMRu_NCkC0)
 
 > When one is very young... there is always, in the dreams of the child, a kind of aspiration, which for the child’s consciousness is a sort of ambition, for something which would be beauty without ugliness, justice without injustice, goodness without limits, and a conscious, constant success, a perpetual miracle. Children should be taught, ... this is what should guide your life, organise it, make you develop in the direction of the true reality which the ordinary world calls illusion. — The Mother
 
-The children go through their individuation process, and in the young children who come to me, we see this reflected in their creations. Our starting point for the World Game is that nothing is wrong with the children, the children are  ne as they are and that we aren’t trying to “fix” anything, but to let them unfold.
+The children go through their individuation process, and in the young children who come to me, we see this reflected in their creations. Our starting point for the World Game is that nothing is wrong with the children, the children are ne as they are and that we aren’t trying to “fix” anything, but to let them unfold.
 
 With the World Game in Auroville, we offer an opportunity to be creative, to be able to express our own individuality and our unique, living soul.
 

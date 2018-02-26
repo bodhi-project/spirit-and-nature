@@ -14,7 +14,7 @@ tags:
 
 [One United Roar](https://www.oneunitedroar.org/) is an international talent challenge for youth. 12 children from Auroville participated in August 2016, you can read more about Auroville's connection to it [here](/reconnecting-with-spirit-through-nature#one-united-roar). Asia and Yam were two of the international winners and in March 2017 they had the opportunity to visit the White Lions in South Africa for one week.
 
-![Img](/content-assets/adventure-for-a-better-world/banner_1440X900.jpg)
+![Img](/content-assets/adventure-for-a-better-world/img99_1440X900.jpg)
 
 ![Img](/content-assets/book/book2_200X300.jpg)
 

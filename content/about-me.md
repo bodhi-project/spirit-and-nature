@@ -1,6 +1,6 @@
 ---
 title: About
-cover: /content-assets/biography.jpg
+cover: /content-assets/biography/aikya1.jpg
 category: general
 date: 2017-03-02
 abstract: Aikya is a traind psychologist and is the founder of "Spirit and Nature" in Auroville.

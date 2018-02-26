@@ -1,6 +1,6 @@
 ---
 title: The Forest is a Mysterious Place
-cover: /content-assets/forest/forestBanner.jpg
+cover: /content-assets/forest/imagex001.jpg
 category: Articles
 date: 2018-01-11
 abstract: A wild horse in the rain.
