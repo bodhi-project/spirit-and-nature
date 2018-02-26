@@ -14,11 +14,15 @@ tags:
 
 This year we enter the year of the dog in Chinese astrology, back to the earth element. I’m so lucky to have dogs around, they are such a wonderful teachers.
 
+![Img](/content-assets/dogs/imagex001_720X450.jpg)
+
 ![Img](/content-assets/dogs/laufi_800X600.jpg)
+
+Here is what Mira Alfassa, called the Mother, says about dogs and faithfulness:
 
 ![Img](/content-assets/dogs/motherAndDog_441X600.jpg)
 
-Here is what Mira Alfassa, called the Mother, says about dogs and faithfulness:
+![Book #2](/content-assets/book/book2_200X300.jpg)
 
 > Question: Aren’t dogs more faithful than men?
 >
