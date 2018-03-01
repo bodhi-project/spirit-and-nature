@@ -614,35 +614,31 @@ class Index extends React.Component {
                 />
               )}
               <H2 style={{ marginBottom: 16 }}>{this.state.data.title}</H2>
+              <Paragraph style={{ marginTop: 0 }}>
+                {this.state.data.linkUrl &&
+                  this.state.data.link && (
+                    <Fragment>
+                      <Link to={this.state.data.linkUrl}>
+                        {this.state.data.link}
+                      </Link>
+                    </Fragment>
+                  )}
+                {this.state.data.outLinkUrl &&
+                  this.state.data.link && (
+                    <Fragment>
+                      <OutLink to={this.state.data.outLinkUrl}>
+                        {this.state.data.link}
+                      </OutLink>
+                    </Fragment>
+                  )}
+              </Paragraph>
               {this.state.data.quote && (
                 <Paragraph style={{ marginTop: 0 }}>
                   <i>{this.state.data.quote}</i>
                 </Paragraph>
               )}
               <Paragraph style={{ marginTop: 0 }}>
-                <Fragment>
-                  {this.state.data.description}
-                  {this.state.data.linkUrl &&
-                    this.state.data.link && (
-                      <Fragment>
-                        <br />
-                        <br />
-                        <Link to={this.state.data.linkUrl}>
-                          {this.state.data.link}
-                        </Link>
-                      </Fragment>
-                    )}
-                  {this.state.data.outLinkUrl &&
-                    this.state.data.link && (
-                      <Fragment>
-                        <br />
-                        <br />
-                        <OutLink to={this.state.data.outLinkUrl}>
-                          {this.state.data.link}
-                        </OutLink>
-                      </Fragment>
-                    )}
-                </Fragment>
+                {this.state.data.description}
               </Paragraph>
             </div>
           )}
