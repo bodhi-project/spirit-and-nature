@@ -72,7 +72,7 @@ const websiteUrl = 'https://www.spiritandnature.org/';
 const pageSlug = '';
 const pageKeywords =
   'auroville, spirit and nature, aikya, world game, sandplay, sand box, carl jung, sri aurobindo, the mother, india, pondicherry, tamil nadu';
-const ogX = `${websiteUrl}creating-sacred-spaces/banner.jpg`;
+const ogX = `${websiteUrl}content-assets/about/about2_675X450.jpg`;
 
 const generalMetaData = {
   description: abstract,
