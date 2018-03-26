@@ -2,29 +2,23 @@
 // ---------------------------------------------------------------------- Imports
 // ------------------------------------------------------------------------------
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _ from 'lodash';
-import { css } from 'glamor';
-import moment from 'moment';
+import React from "react"; // eslint-disable-line import/no-extraneous-dependencies
+import PropTypes from "prop-types";
+import _ from "lodash";
+import { css } from "glamor";
+import moment from "moment";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from 'gatsby-link';
-import { Row, Col } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+import Link from "gatsby-link";
+import { Row, Col } from "antd"; // eslint-disable-line import/no-extraneous-dependencies
 import {
   Image,
   Images,
   Container,
   TetraGrid as TetraGridX,
-} from '@bodhi-project/components';
-import { Elements, typeComposite } from '@bodhi-project/typography';
-import {
-  Page,
-  Section,
-  Article,
-  Header,
-  Footer,
-} from '@bodhi-project/semantic-webflow';
+  OutLink,
+} from "@bodhi-project/components";
+import { Elements } from "@bodhi-project/typography";
 
 import {
   // --------------- Basic
@@ -37,24 +31,24 @@ import {
   // --------------- Schema.org JSON-LD
   WebpageSchema,
   BreadcrumbSchema,
-} from '@bodhi-project/seo';
+} from "@bodhi-project/seo";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-import featureLion from './assets/feature-lion.jpg';
+import poster from "./assets/poster.jpg";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
 const { Fragment } = React;
-const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
+const { H2, H3, Paragraph } = Elements;
 // const { kit, modularScale } = type;
 const { TetraGrid, Hex } = TetraGridX;
 const photos = [
   {
-    src: '/content-assets/about/about12_600X900.jpg',
+    src: "/content-assets/about/about12_600X900.jpg",
     width: 600,
     height: 900,
   },
   {
-    src: '/content-assets/about/home.jpg',
+    src: "/content-assets/about/home.jpg",
     width: 900,
     height: 900,
   },
@@ -63,15 +57,15 @@ const photos = [
 // ------------------------------------------------------------------------------
 // -------------------------------------------------------------------------- SEO
 // ------------------------------------------------------------------------------
-const siteTitle = 'Spirit and Nature';
-const sitePublisher = 'Spirit and Nature';
-const pageTitle = 'Spirit and Nature';
+const siteTitle = "Spirit and Nature";
+const sitePublisher = "Spirit and Nature";
+const pageTitle = "Spirit and Nature";
 const abstract =
-  'Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.';
-const websiteUrl = 'https://www.spiritandnature.org/';
-const pageSlug = '';
+  "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.";
+const websiteUrl = "https://www.spiritandnature.org/";
+const pageSlug = "";
 const pageKeywords =
-  'auroville, spirit and nature, aikya, world game, sandplay, sand box, carl jung, sri aurobindo, the mother, india, pondicherry, tamil nadu';
+  "auroville, spirit and nature, aikya, world game, sandplay, sand box, carl jung, sri aurobindo, the mother, india, pondicherry, tamil nadu";
 const ogX = `${websiteUrl}content-assets/about/about2_675X450.jpg`;
 
 const generalMetaData = {
@@ -106,7 +100,7 @@ const webpageSchemaData = {
 };
 
 const breadcrumbSchemaData = {
-  breadcrumbs: [{ name: 'Home', url: `${websiteUrl}` }],
+  breadcrumbs: [{ name: "Home", url: `${websiteUrl}` }],
 };
 
 // ------------------------------------------------------------------------------
@@ -114,10 +108,10 @@ const breadcrumbSchemaData = {
 // ------------------------------------------------------------------------------
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page style
 const tetraGrid = css({
-  '& .hex': {
-    padding: '0px',
-    paddingBottom: '5vh',
-    paddingRight: '5vh',
+  "& .hex": {
+    padding: "0px",
+    paddingBottom: "5vh",
+    paddingRight: "5vh",
   },
 });
 
@@ -126,6 +120,7 @@ const tetraGridClass = tetraGrid.toString();
 // ------------------------------------------------------------------------------
 // -------------------------------------------------------------------- Component
 // ------------------------------------------------------------------------------
+/** Index page */
 class Index extends React.Component {
   /**
    * constructor - Just a standard constructor.
@@ -137,7 +132,7 @@ class Index extends React.Component {
      * state - Track the interface configuration and the height of the component.
      */
     this.state = {
-      filter: 'all',
+      filter: "all",
     };
 
     this.filter = this.filter.bind(this);
@@ -152,15 +147,16 @@ class Index extends React.Component {
     this.setState({ filter: category });
   }
 
+  /** default renderer */
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
     const featured = _.pickBy(
       postEdges,
-      ({ node }) => _.indexOf(node.frontmatter.tags, 'featured') >= 0,
+      ({ node }) => _.indexOf(node.frontmatter.tags, "featured") >= 0,
     );
     const latest = [];
     _.map(postEdges, ({ node }) => {
-      if (_.indexOf(node.frontmatter.tags, 'featured') < 0) {
+      if (_.indexOf(node.frontmatter.tags, "featured") < 0) {
         latest.push({ node });
       }
     });
@@ -188,9 +184,9 @@ class Index extends React.Component {
           </Paragraph>
           <br />
           <br />
-          <H2>Latest Updates</H2>
           <Row>
             <Col md={15}>
+              <H2>Latest Updates</H2>
               {_.map(topLatest, ({ node }) => (
                 <div key={node.fields.route} style={{ marginBottom: 50 }}>
                   <Link to={node.fields.route}>
@@ -200,10 +196,10 @@ class Index extends React.Component {
                       rawHeight={900}
                       style={{
                         border: 0,
-                        width: 'auto',
+                        width: "auto",
                         height: 275,
-                        background: 'transparent',
-                        justifyContent: 'left',
+                        background: "transparent",
+                        justifyContent: "left",
                       }}
                     />
                     <H3 className="mask-p" style={{ marginTop: 0 }}>
@@ -215,7 +211,26 @@ class Index extends React.Component {
                 </div>
               ))}
             </Col>
-            <Col md={9}>&nbsp;</Col>
+            <Col md={9}>
+              <H2>Upcoming Events</H2>
+              <OutLink to={poster}>
+                <Image
+                  src={poster}
+                  rawWidth={1239}
+                  rawHeight={1754}
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    height: "auto",
+                    background: "transparent",
+                    cursor: "pointer",
+                  }}
+                />
+              </OutLink>
+              <Paragraph>
+                <small>Click the poster for more details...</small>
+              </Paragraph>
+            </Col>
           </Row>
 
           <br />
@@ -229,7 +244,7 @@ class Index extends React.Component {
                     src={node.frontmatter.cover}
                     rawWidth={1440}
                     rawHeight={900}
-                    style={{ border: 0, width: '100%', height: 'auto' }}
+                    style={{ border: 0, width: "100%", height: "auto" }}
                   />
                   <H3 className="mask-p" style={{ marginTop: 0 }}>
                     {node.frontmatter.title}
