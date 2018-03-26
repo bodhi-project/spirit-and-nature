@@ -1,15 +1,16 @@
 const config = require("./data/SiteConfig");
 
 const siteTitle = "Launch Kit";
-const siteDescription = "Launch Kit is a GatsbyJS starter and can be used to create Static, Progressive, Single-Page Web Applications which run on Netlify.";
+const siteDescription =
+  "Launch Kit is a GatsbyJS starter and can be used to create Static, Progressive, Single-Page Web Applications which run on Netlify.";
 const siteUrl = "https://launch-kit.bodhiproject.org";
 const pathPrefix = "/";
-const themeColor = '#FFD801';
-const backgroundColor = '#FFD801';
+const themeColor = "#FFD801";
+const backgroundColor = "#FFD801";
 const siteRss = "/rss.xml";
 const userName = "Bodhi Project";
 const copyright = "Copyright © 2017. Bodhi Project";
-const googleAnalyticsTrackingID = "UA-109854711-1";
+const googleAnalyticsTrackingID = "UA-109854711-3";
 
 module.exports = {
   pathPrefix,
@@ -26,10 +27,10 @@ module.exports = {
     },
   },
   plugins: [
-    'gatsby-plugin-lodash',
-    'gatsby-plugin-react-helmet',
-    'gatsby-plugin-antd',
-    'gatsby-plugin-less',
+    "gatsby-plugin-lodash",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-antd",
+    "gatsby-plugin-less",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -44,17 +45,17 @@ module.exports = {
           {
             resolve: "gatsby-remark-images",
             options: {
-              maxWidth: 690
-            }
+              maxWidth: 690,
+            },
           },
           {
-            resolve: "gatsby-remark-responsive-iframe"
+            resolve: "gatsby-remark-responsive-iframe",
           },
           "gatsby-remark-prismjs",
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers"
-        ]
-      }
+          "gatsby-remark-autolink-headers",
+        ],
+      },
     },
     {
       resolve: "gatsby-plugin-google-analytics",
@@ -65,8 +66,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
-        color: config.themeColor
-      }
+        color: config.themeColor,
+      },
     },
     "gatsby-plugin-sharp",
     "gatsby-plugin-catch-links",
@@ -134,7 +135,7 @@ module.exports = {
                 author: rssMetadata.author,
                 url: rssMetadata.site_url + edge.node.fields.route,
                 guid: rssMetadata.site_url + edge.node.fields.route,
-                custom_elements: [{ "content:encoded": edge.node.html }]
+                custom_elements: [{ "content:encoded": edge.node.html }],
               }));
             },
             query: `
@@ -161,10 +162,10 @@ module.exports = {
               }
             }
           `,
-            output: config.siteRss
-          }
-        ]
-      }
-    }
-  ]
+            output: config.siteRss,
+          },
+        ],
+      },
+    },
+  ],
 };
