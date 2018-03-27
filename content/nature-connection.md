@@ -3,7 +3,7 @@ title: Nature Connection
 cover: /content-assets/nature-connections/imgX4_900X675.jpg
 category: Articles
 date: 2018-03-26
-abstract: Celebrating Connection with Nature, an introduction into interspecies Communication, in Auroville at Spirit & Nature.
+abstract: Celebrating Connection with Nature, an introduction into interspecies communication, in Auroville at Spirit & Nature.
 tags:
   - say hi
 variant: none
