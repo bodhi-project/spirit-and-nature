@@ -228,20 +228,6 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
-              <OutLink to={poster}>
-                <Image
-                  src={poster}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
               <Paragraph>
                 <small>Click the posters for more details...</small>
               </Paragraph>

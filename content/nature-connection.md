@@ -11,7 +11,7 @@ variant: none
 
 # Nature Connection
 
-_Celebrating Connection with Nature, an introduction into interspecies Communication, in Auroville at Spirit & Nature._
+_Celebrating Connection with Nature, an introduction into interspecies communication, in Auroville at Spirit & Nature._
 
 A few of us came spontaneously together on a weekly basis for 2 months and explored the subject through documentaries, study material, hands on games and practices, and talks.
 
