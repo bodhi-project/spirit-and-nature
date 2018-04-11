@@ -37,6 +37,8 @@ import {
 import poster from "./assets/poster.jpg";
 import poster2 from "./assets/event-posters/poster2.jpg";
 import poster3 from "./assets/event-posters/poster3.jpg";
+import poster4 from "./assets/event-posters/poster4.jpg";
+import poster5 from "./assets/event-posters/poster5.jpg";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
 const { Fragment } = React;
@@ -215,9 +217,23 @@ class Index extends React.Component {
             </Col>
             <Col md={9}>
               <H2>Upcoming Events</H2>
-              <OutLink to={poster2}>
+              <OutLink to={poster5}>
                 <Image
-                  src={poster2}
+                  src={poster3}
+                  rawWidth={1239}
+                  rawHeight={1754}
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    height: "auto",
+                    background: "transparent",
+                    cursor: "pointer",
+                  }}
+                />
+              </OutLink>
+              <OutLink to={poster4}>
+                <Image
+                  src={poster3}
                   rawWidth={1239}
                   rawHeight={1754}
                   style={{
@@ -232,6 +248,20 @@ class Index extends React.Component {
               <OutLink to={poster3}>
                 <Image
                   src={poster3}
+                  rawWidth={1239}
+                  rawHeight={1754}
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    height: "auto",
+                    background: "transparent",
+                    cursor: "pointer",
+                  }}
+                />
+              </OutLink>
+              <OutLink to={poster2}>
+                <Image
+                  src={poster2}
                   rawWidth={1239}
                   rawHeight={1754}
                   style={{
