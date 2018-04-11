@@ -219,7 +219,7 @@ class Index extends React.Component {
               <H2>Upcoming Events</H2>
               <OutLink to={poster5}>
                 <Image
-                  src={poster3}
+                  src={poster5}
                   rawWidth={1239}
                   rawHeight={1754}
                   style={{
@@ -233,7 +233,7 @@ class Index extends React.Component {
               </OutLink>
               <OutLink to={poster4}>
                 <Image
-                  src={poster3}
+                  src={poster4}
                   rawWidth={1239}
                   rawHeight={1754}
                   style={{
