@@ -15,7 +15,7 @@ tags:
 
 ![image](/content-assets/getting-to-spirit-and-nature/2img_1024X768.jpg)
 
-##### 2. From the T-Section after the library turn right towards Aarati and then turn left towards Sanjana
+##### 2. From the T-Section after the library turn right towards Araati and then turn left towards Madhuca
 
 ![image](/content-assets/getting-to-spirit-and-nature/3img_1024X768.jpg)
 
@@ -63,7 +63,7 @@ PS: If you're on a motorbike, please leave the motorbike by the signboard and wa
 
 ![image](/content-assets/getting-to-spirit-and-nature/18img_1024X768.jpg)
 
-You will find two small intersections. Keep to the path that is on the left.
+You will find two small intersections. Keep to the path that is on the right.
 
 ##### 9. Spirit and Nature should be on the right
 
