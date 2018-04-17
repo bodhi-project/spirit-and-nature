@@ -232,6 +232,7 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
+              <br />
               <OutLink to={poster5}>
                 <Image
                   src={poster5}
@@ -246,6 +247,7 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
+              <br />
               <OutLink to={poster4}>
                 <Image
                   src={poster4}
@@ -260,6 +262,7 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
+              <br />
               <OutLink to={poster3}>
                 <Image
                   src={poster3}
@@ -274,6 +277,7 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
+              <br />
               <OutLink to={poster2}>
                 <Image
                   src={poster2}
@@ -288,6 +292,7 @@ class Index extends React.Component {
                   }}
                 />
               </OutLink>
+              <br />
               <Paragraph>
                 <small>Click the posters for more details...</small>
               </Paragraph>
