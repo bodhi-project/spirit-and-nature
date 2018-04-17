@@ -34,11 +34,12 @@ import {
 } from "@bodhi-project/seo";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-import poster from "./assets/poster.jpg";
+// import poster from "./assets/poster.jpg";
 import poster2 from "./assets/event-posters/poster2.jpg";
 import poster3 from "./assets/event-posters/poster3.jpg";
 import poster4 from "./assets/event-posters/poster4.jpg";
 import poster5 from "./assets/event-posters/poster5.jpg";
+import patriciaPoster from "./assets/event-posters/patriciaPoster.jpg";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
 const { Fragment } = React;
@@ -217,6 +218,20 @@ class Index extends React.Component {
             </Col>
             <Col md={9}>
               <H2>Upcoming Events</H2>
+              <OutLink to={patriciaPoster}>
+                <Image
+                  src={patriciaPoster}
+                  rawWidth={1239}
+                  rawHeight={1754}
+                  style={{
+                    border: 0,
+                    width: "100%",
+                    height: "auto",
+                    background: "transparent",
+                    cursor: "pointer",
+                  }}
+                />
+              </OutLink>
               <OutLink to={poster5}>
                 <Image
                   src={poster5}
