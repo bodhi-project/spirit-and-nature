@@ -10,6 +10,7 @@ import moment from "moment";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
 import Link from "gatsby-link";
+import FacebookProvider, { Page as FBPage } from "react-facebook";
 import { Row, Col } from "antd"; // eslint-disable-line import/no-extraneous-dependencies
 import {
   Image,
@@ -189,7 +190,7 @@ class Index extends React.Component {
           </Paragraph>
           <br />
           <br />
-          <Row>
+          <Row gutter={6}>
             <Col md={15}>
               <H2>Latest Updates</H2>
               {_.map(topLatest, ({ node }) => (
@@ -217,7 +218,18 @@ class Index extends React.Component {
               ))}
             </Col>
             <Col md={9}>
-              <H2>Upcoming Events</H2>
+              {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+              <hr />
+              <h3 className="mask-p">Find us on Facebook</h3>
+              <FacebookProvider appId="218604115574634">
+                <FBPage
+                  href="https://www.facebook.com/SpiritandNature.auroville"
+                  tabs="timeline,events,messages"
+                />
+              </FacebookProvider>
+
+              {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
+              <h3 className="mask-p">Events</h3>
               <OutLink to={patriciaPoster}>
                 <Image
                   src={patriciaPoster}

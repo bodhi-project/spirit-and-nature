@@ -64,6 +64,7 @@
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-facebook": "^5.0.3",
     "react-player": "^1.1.1",
     "remark-parse": "^5.0.0",
     "unified": "^6.1.6"
