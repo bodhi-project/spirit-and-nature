@@ -4,22 +4,20 @@
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
 import React from "react"; // eslint-disable-line import/no-extraneous-dependencies
 import PropTypes from "prop-types";
-import _ from "lodash";
 import { css } from "glamor";
-import moment from "moment";
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Lodash
+import map from "lodash/map";
+import join from "lodash/join";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from "gatsby-link";
+import Link, { withPrefix } from "gatsby-link";
+import withSizes from "react-sizes";
 import FacebookProvider, { Page as FBPage } from "react-facebook";
-import { Row, Col } from "antd"; // eslint-disable-line import/no-extraneous-dependencies
-import {
-  Image,
-  Images,
-  Container,
-  TetraGrid as TetraGridX,
-  OutLink,
-} from "@bodhi-project/components";
-import { Elements } from "@bodhi-project/typography";
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ @bodhi-project/components
+import Images from "@bodhi-project/components/lib/Images";
+import Container from "@bodhi-project/components/lib/Container";
 
 import {
   // --------------- Basic
@@ -34,19 +32,30 @@ import {
   BreadcrumbSchema,
 } from "@bodhi-project/seo";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-// import poster from "./assets/poster.jpg";
-import poster2 from "./assets/event-posters/poster2.jpg";
-import poster3 from "./assets/event-posters/poster3.jpg";
-import poster4 from "./assets/event-posters/poster4.jpg";
-import poster5 from "./assets/event-posters/poster5.jpg";
-import patriciaPoster from "./assets/event-posters/patriciaPoster.jpg";
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AntD Components
+import Row from "antd/lib/row";
+import "antd/lib/row/style/css";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
+import Col from "antd/lib/col";
+import "antd/lib/col/style/css";
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ @bodhi-project/blocks
+import SectionPhoebe from "@bodhi-project/blocks/lib/SectionPhoebe";
+import SectionHalleyAlt from "@bodhi-project/blocks/lib/SectionHalleyAlt";
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
+import inArray from "../helpers/inArray";
+import seoHelper from "../helpers/seoHelper";
+
+import snc from "../assets/snc.png";
+import wg from "../assets/wg.png";
+
+import start from "../assets/start.png";
+import middle from "../assets/middle.png";
+import end from "../assets/end.png";
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstractions
 const { Fragment } = React;
-const { H2, H3, Paragraph } = Elements;
-// const { kit, modularScale } = type;
-const { TetraGrid, Hex } = TetraGridX;
 const photos = [
   {
     src: "/content-assets/about/about12_600X900.jpg",
@@ -60,68 +69,37 @@ const photos = [
   },
 ];
 
-// ------------------------------------------------------------------------------
-// -------------------------------------------------------------------------- SEO
-// ------------------------------------------------------------------------------
-const siteTitle = "Spirit and Nature";
-const sitePublisher = "Spirit and Nature";
-const pageTitle = "Spirit and Nature";
-const abstract =
-  "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.";
-const websiteUrl = "https://www.spiritandnature.org/";
-const pageSlug = "";
-const pageKeywords =
-  "auroville, spirit and nature, aikya, world game, sandplay, sand box, carl jung, sri aurobindo, the mother, india, pondicherry, tamil nadu";
-const ogX = `${websiteUrl}content-assets/about/about2_675X450.jpg`;
-
-const generalMetaData = {
-  description: abstract,
-  keywords: pageKeywords,
-  image: ogX,
+// ----------------------------------------------------------------------------
+// ------------------------------------------------------------------------ SEO
+// ----------------------------------------------------------------------------
+const pageData = {
+  pageTitle: "Spirit and Nature",
+  nakedPageSlug: "",
+  pageAbstract:
+    "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.",
 };
 
-const twitterSummaryCardData = {
-  site: siteTitle,
-  creator: sitePublisher,
-  title: pageTitle,
-  description: abstract,
-  image: ogX,
-};
+const seoData = seoHelper(pageData);
 
-const openGraphSummaryData = {
-  siteName: siteTitle,
-  url: `${websiteUrl}${pageSlug}`,
-  title: pageTitle,
-  description: abstract,
-  image: ogX,
-};
-
-const webpageSchemaData = {
-  url: `${websiteUrl}${pageSlug}`,
-  name: pageTitle,
-  description: abstract,
-  author: sitePublisher,
-  publisher: sitePublisher,
-  image: ogX,
-};
-
-const breadcrumbSchemaData = {
-  breadcrumbs: [{ name: "Home", url: `${websiteUrl}` }],
-};
+const {
+  pageTitle,
+  generalMetaData,
+  twitterSummaryCardData,
+  openGraphSummaryData,
+  webpageSchemaData,
+  breadcrumbSchemaData,
+} = seoData;
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page style
-const tetraGrid = css({
-  "& .hex": {
-    padding: "0px",
-    paddingBottom: "5vh",
-    paddingRight: "5vh",
+const wrapperStyle = css({
+  "& section": {
+    padding: 0,
   },
 });
-
-const tetraGridClass = tetraGrid.toString();
+const wrapperStyleClass = wrapperStyle.toString();
 
 // ------------------------------------------------------------------------------
 // -------------------------------------------------------------------- Component
@@ -133,205 +111,120 @@ class Index extends React.Component {
    */
   constructor(props) {
     super(props);
-
-    /**
-     * state - Track the interface configuration and the height of the component.
-     */
-    this.state = {
-      filter: "all",
-    };
-
-    this.filter = this.filter.bind(this);
-  }
-
-  /**
-   * openLightbox - Standard renderer.
-   */
-  filter(e, category) {
-    e.preventDefault();
-    e.stopPropagation();
-    this.setState({ filter: category });
   }
 
   /** default renderer */
   render() {
+    const { isMobile } = this.props;
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    const featured = _.pickBy(
-      postEdges,
-      ({ node }) => _.indexOf(node.frontmatter.tags, "featured") >= 0,
-    );
-    const latest = [];
-    _.map(postEdges, ({ node }) => {
-      if (_.indexOf(node.frontmatter.tags, "featured") < 0) {
-        latest.push({ node });
+    const events = [];
+
+    map(postEdges, ({ node }) => {
+      // Make banner
+      let eventBanner = null;
+      if (node.frontmatter.cover === "fallback") {
+        const coverHint = join(node.frontmatter.tags, "-");
+        eventBanner = withPrefix(
+          `/content-assets/event-fallbacks/${coverHint}.jpg`,
+        );
+      } else {
+        eventBanner = withPrefix(node.frontmatter.cover);
       }
+
+      events.push({
+        route: node.fields.route,
+        humanDate: node.fields.humanDate,
+        elapsed: node.fields.elapsed,
+        beginDateInt: node.fields.beginDateInt,
+        diff: node.fields.diff,
+        abstract: inArray(node.frontmatter.tags, "practice-group")
+          ? null
+          : node.frontmatter.abstract,
+        title: node.frontmatter.title,
+        subTitle: node.frontmatter.subTitle,
+        cover: eventBanner,
+        date: node.frontmatter.date,
+        startDate: node.frontmatter.startDate,
+        finishDate: node.frontmatter.finishDate,
+        fromTime: node.frontmatter.fromTime,
+        toTime: node.frontmatter.toTime,
+        category: node.frontmatter.category,
+        tags: node.frontmatter.tags,
+        type: node.frontmatter.type,
+      });
     });
-    const topLatest = _.slice(latest, 0, 3);
+
+    const phoebeData = {
+      events,
+      components: {
+        localLink: Link,
+      },
+      conf: {
+        multiDay: {
+          start,
+          middle,
+          end,
+        },
+      },
+      tagMap: {
+        snc,
+        wg,
+      },
+    };
+
+    const altHalleyData = {
+      cards: events,
+      components: {
+        localLink: Link,
+      },
+      show: 4,
+    };
 
     return (
       <Fragment>
-        <UpdateTitle title="Spirit and Nature" />
+        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
+        <UpdateTitle title={pageTitle} />
         <GeneralMeta data={generalMetaData} />
         <TwitterSummaryCard data={twitterSummaryCardData} />
         <OpenGraphSummary data={openGraphSummaryData} />
         <WebpageSchema data={webpageSchemaData} />
         <BreadcrumbSchema data={breadcrumbSchemaData} />
 
-        <Container
-          block
-          noFade
-          bleed
-          style={{ paddingTop: 50, paddingBottom: 50 }}
-        >
+        <Container block noFade bleed className={wrapperStyleClass}>
           <Images photos={photos} loader="gradient" />
           <br />
-          <Paragraph>
+          <p>
             <Link to="/about">Read on…</Link>
-          </Paragraph>
+          </p>
           <br />
           <br />
           <Row gutter={6}>
             <Col md={15}>
-              <H2>Latest Updates</H2>
-              {_.map(topLatest, ({ node }) => (
-                <div key={node.fields.route} style={{ marginBottom: 50 }}>
-                  <Link to={node.fields.route}>
-                    <Image
-                      src={node.frontmatter.cover}
-                      rawWidth={1440}
-                      rawHeight={900}
-                      style={{
-                        border: 0,
-                        width: "auto",
-                        height: 275,
-                        background: "transparent",
-                        justifyContent: "left",
-                      }}
-                    />
-                    <H3 className="mask-p" style={{ marginTop: 0 }}>
-                      {node.frontmatter.title},&nbsp;
-                      {moment(node.frontmatter.date).fromNow()}
-                    </H3>
-                    <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                  </Link>
+              <h3>Our Schedule</h3>
+              {!isMobile ? (
+                <div className="mask-p">
+                  <SectionPhoebe data={phoebeData} />
                 </div>
-              ))}
+              ) : (
+                <div className="mask-p">
+                  <SectionHalleyAlt
+                    data={altHalleyData}
+                    style={{ padding: 0 }}
+                  />
+                </div>
+              )}
             </Col>
             <Col md={9}>
               {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
-              <hr />
-              <h3 className="mask-p">Find us on Facebook</h3>
+              <h3>Find us on Facebook</h3>
               <FacebookProvider appId="218604115574634">
                 <FBPage
                   href="https://www.facebook.com/SpiritandNature.auroville"
                   tabs="timeline,events,messages"
                 />
               </FacebookProvider>
-
-              {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
-              <h3 className="mask-p">Events</h3>
-              <OutLink to={patriciaPoster}>
-                <Image
-                  src={patriciaPoster}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
-              <br />
-              <OutLink to={poster5}>
-                <Image
-                  src={poster5}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
-              <br />
-              <OutLink to={poster4}>
-                <Image
-                  src={poster4}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
-              <br />
-              <OutLink to={poster3}>
-                <Image
-                  src={poster3}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
-              <br />
-              <OutLink to={poster2}>
-                <Image
-                  src={poster2}
-                  rawWidth={1239}
-                  rawHeight={1754}
-                  style={{
-                    border: 0,
-                    width: "100%",
-                    height: "auto",
-                    background: "transparent",
-                    cursor: "pointer",
-                  }}
-                />
-              </OutLink>
-              <br />
-              <Paragraph>
-                <small>Click the posters for more details...</small>
-              </Paragraph>
             </Col>
           </Row>
-
-          <br />
-          <br />
-          <H2>Featured Posts</H2>
-          <TetraGrid className={tetraGridClass}>
-            {_.map(featured, ({ node }) => (
-              <Hex className="hex" key={node.fields.route}>
-                <Link to={node.fields.route}>
-                  <Image
-                    src={node.frontmatter.cover}
-                    rawWidth={1440}
-                    rawHeight={900}
-                    style={{ border: 0, width: "100%", height: "auto" }}
-                  />
-                  <H3 className="mask-p" style={{ marginTop: 0 }}>
-                    {node.frontmatter.title}
-                  </H3>
-                  <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                </Link>
-              </Hex>
-            ))}
-          </TetraGrid>
         </Container>
       </Fragment>
     );
@@ -342,34 +235,45 @@ Index.propTypes = {
   classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
-// ----------------------------------------------------------------------- GraphQL Query
+// ----------------------------------------------------------------------------
+// ---------------------------------------------------------------------- Query
+// ----------------------------------------------------------------------------
 /* eslint-disable no-undef */
 export const pageQuery = graphql`
-  query IndexQueryX {
+  query FeaturedEventsQuery {
     allMarkdownRemark(
-      limit: 1000
-      sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { ne: "general" } } }
+      limit: 365
+      sort: { fields: [frontmatter___date], order: ASC }
+      filter: { frontmatter: { type: { eq: "event" } } }
     ) {
       edges {
         node {
           fields {
             route
+            humanDate
+            elapsed
+            beginDateInt
+            diff
           }
           frontmatter {
             abstract
             title
+            subTitle
             cover
             date
+            startDate
+            finishDate
+            fromTime
+            toTime
             category
             tags
+            type
           }
         }
       }
     }
   }
 `;
-
 /* eslint-enable no-undef */
 
 // ----------------------------------------------------------------------- Compose Component
@@ -380,5 +284,12 @@ export const pageQuery = graphql`
 
 // ])(Index);
 
-// ----------------------------------------------------------------------- Export
-export default Index;
+/** mapSizesToProps */
+const mapSizesToProps = ({ width }) => ({
+  isMobile: width <= 768,
+});
+
+// ----------------------------------------------------------------------------
+// -------------------------------------------------------------------- Exports
+// ----------------------------------------------------------------------------
+export default withSizes(mapSizesToProps)(Index);

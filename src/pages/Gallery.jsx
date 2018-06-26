@@ -1,13 +1,12 @@
 // ----------------------------------------------------------------------- Imports
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import { flow as compose } from 'lodash';
+import React from "react"; // eslint-disable-line import/no-extraneous-dependencies
+import PropTypes from "prop-types";
+import { flow as compose } from "lodash";
 
 // ----------------------------------- Components
 // import Link from 'gatsby-link';
-// import { Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import { Container, Images } from '@bodhi-project/components';
-import { injectSheet } from '@bodhi-project/utilities';
+import { Container, Images } from "@bodhi-project/components";
+import { injectSheet } from "@bodhi-project/utilities";
 import {
   // --------------- Basic
   UpdateTitle,
@@ -21,85 +20,83 @@ import {
   WebpageSchema,
   BreadcrumbSchema,
   OrganisationSchema,
-} from '@bodhi-project/seo';
+} from "@bodhi-project/seo";
 
-// import { Elements } from '@bodhi-project/typography';
+import indexImage from "./assets/index.jpg";
 
-import indexImage from './assets/index.jpg';
-
-import img1 from './assets/gallery/img1.jpg';
+import img1 from "./assets/gallery/img1.jpg";
 // import img2 from './assets/gallery/img2.jpg';
 // import img3 from './assets/gallery/img3.jpg';
-import img4 from './assets/gallery/img4.jpeg';
-import img5 from './assets/gallery/img5.jpeg';
-import img6 from './assets/gallery/img6.jpeg';
-import img7 from './assets/gallery/img7.jpg';
-import img8 from './assets/gallery/img8.jpeg';
-import img9 from './assets/gallery/img9.jpg';
-import img10 from './assets/gallery/img10.jpeg';
-import img11 from './assets/gallery/img11.jpg';
-import img12 from './assets/gallery/img12.jpg';
-import img13 from './assets/gallery/img13.jpg';
+import img4 from "./assets/gallery/img4.jpeg";
+import img5 from "./assets/gallery/img5.jpeg";
+import img6 from "./assets/gallery/img6.jpeg";
+import img7 from "./assets/gallery/img7.jpg";
+import img8 from "./assets/gallery/img8.jpeg";
+import img9 from "./assets/gallery/img9.jpg";
+import img10 from "./assets/gallery/img10.jpeg";
+import img11 from "./assets/gallery/img11.jpg";
+import img12 from "./assets/gallery/img12.jpg";
+import img13 from "./assets/gallery/img13.jpg";
 // import img14 from './assets/gallery/img140.jpg';
-import img15 from './assets/gallery/img15.jpeg';
-import img16 from './assets/gallery/img16.jpeg';
+import img15 from "./assets/gallery/img15.jpeg";
+import img16 from "./assets/gallery/img16.jpeg";
 // import img17 from './assets/gallery/img17.jpg';
-import img18 from './assets/gallery/img18.jpg';
-import img19 from './assets/gallery/img19.jpg';
-import img20 from './assets/gallery/img20.jpg';
-import img21 from './assets/gallery/img21.jpg';
-import img22 from './assets/gallery/img22.jpg';
-import img23 from './assets/gallery/img23.jpeg';
-import img24 from './assets/gallery/img24.jpg';
-import img25 from './assets/gallery/img25.jpg';
-import img26 from './assets/gallery/img26.jpg';
-import img27 from './assets/gallery/img27.jpg';
-import img28 from './assets/gallery/img28.jpg';
-import img29 from './assets/gallery/img29.jpg';
-import img30 from './assets/gallery/img30.jpg';
+import img18 from "./assets/gallery/img18.jpg";
+import img19 from "./assets/gallery/img19.jpg";
+import img20 from "./assets/gallery/img20.jpg";
+import img21 from "./assets/gallery/img21.jpg";
+import img22 from "./assets/gallery/img22.jpg";
+import img23 from "./assets/gallery/img23.jpeg";
+import img24 from "./assets/gallery/img24.jpg";
+import img25 from "./assets/gallery/img25.jpg";
+import img26 from "./assets/gallery/img26.jpg";
+import img27 from "./assets/gallery/img27.jpg";
+import img28 from "./assets/gallery/img28.jpg";
+import img29 from "./assets/gallery/img29.jpg";
+import img30 from "./assets/gallery/img30.jpg";
 // import img31 from './assets/gallery/img31.jpeg';
-import img32 from './assets/gallery/img32.jpeg';
+import img32 from "./assets/gallery/img32.jpeg";
 // import img33 from './assets/gallery/img33.jpeg';
-import img34 from './assets/gallery/img34.jpeg';
-import img35 from './assets/gallery/img35.jpg';
-import img36 from './assets/gallery/img36.jpg';
+import img34 from "./assets/gallery/img34.jpeg";
+import img35 from "./assets/gallery/img35.jpg";
+import img36 from "./assets/gallery/img36.jpg";
 // import img37 from './assets/gallery/img37.jpg';
-import img38 from './assets/gallery/img38.jpg';
-import img39 from './assets/gallery/img39.jpeg';
-import img40 from './assets/gallery/img40.jpg';
-import img41 from './assets/gallery/img41.jpeg';
-import img42 from './assets/gallery/img42.jpg';
-import img43 from './assets/gallery/img43.jpg';
+import img38 from "./assets/gallery/img38.jpg";
+import img39 from "./assets/gallery/img39.jpeg";
+import img40 from "./assets/gallery/img40.jpg";
+import img41 from "./assets/gallery/img41.jpeg";
+import img42 from "./assets/gallery/img42.jpg";
+import img43 from "./assets/gallery/img43.jpg";
 // import img44 from './assets/gallery/img44.jpeg';
-import img45 from './assets/gallery/img45.jpg';
-import img46 from './assets/gallery/img46.jpg';
-import img47 from './assets/gallery/img47.jpeg';
-import img48 from './assets/gallery/img48.jpg';
-import owl from './assets/gallery/owl.jpg';
-import N1 from './assets/gallery/N1_600X450.jpg';
-import N2 from './assets/gallery/N2_600X478.jpg';
-import N3 from './assets/gallery/N3_600X450.jpg';
-import N4 from './assets/gallery/N4_600X450.jpg';
-import N5 from './assets/gallery/N5_600X450.jpg';
-import N6 from './assets/gallery/N6_600X450.jpg';
-import N7 from './assets/gallery/N7_600X800.jpg';
-import N8 from './assets/gallery/N8_600X419.jpg';
-import N9 from './assets/gallery/N9_600X409.jpg';
-import N10 from './assets/gallery/N10_600X413.jpg';
-import N11 from './assets/gallery/N11_600X600.jpg';
-import N12 from './assets/gallery/N12_600X450.jpg';
-import N13 from './assets/gallery/N13_600X450.jpg';
-import N14 from './assets/gallery/N14_600X450.jpg';
-import N15 from './assets/gallery/N15_600X502.jpg';
+import img45 from "./assets/gallery/img45.jpg";
+import img46 from "./assets/gallery/img46.jpg";
+import img47 from "./assets/gallery/img47.jpeg";
+import img48 from "./assets/gallery/img48.jpg";
+import owl from "./assets/gallery/owl.jpg";
+import N1 from "./assets/gallery/N1_600X450.jpg";
+import N2 from "./assets/gallery/N2_600X478.jpg";
+import N3 from "./assets/gallery/N3_600X450.jpg";
+import N4 from "./assets/gallery/N4_600X450.jpg";
+import N5 from "./assets/gallery/N5_600X450.jpg";
+import N6 from "./assets/gallery/N6_600X450.jpg";
+import N7 from "./assets/gallery/N7_600X800.jpg";
+import N8 from "./assets/gallery/N8_600X419.jpg";
+import N9 from "./assets/gallery/N9_600X409.jpg";
+import N10 from "./assets/gallery/N10_600X413.jpg";
+import N11 from "./assets/gallery/N11_600X600.jpg";
+import N12 from "./assets/gallery/N12_600X450.jpg";
+import N13 from "./assets/gallery/N13_600X450.jpg";
+import N14 from "./assets/gallery/N14_600X450.jpg";
+import N15 from "./assets/gallery/N15_600X502.jpg";
 
 // const { H2 } = Elements;
 
-import r17 from './assets/gallery/r17_600X450.jpg';
-import r37 from './assets/gallery/r40_600X338.jpg';
-import r44 from './assets/gallery/r47_600X517.jpg';
-import r1 from './assets/gallery/r1_600X402.jpg';
-import r2 from './assets/gallery/r2_600X335.jpg';
-import r14 from './assets/gallery/r14_600X419.jpg';
+import r17 from "./assets/gallery/r17_600X450.jpg";
+import r37 from "./assets/gallery/r40_600X338.jpg";
+import r44 from "./assets/gallery/r47_600X517.jpg";
+import r1 from "./assets/gallery/r1_600X402.jpg";
+import r2 from "./assets/gallery/r2_600X335.jpg";
+import r14 from "./assets/gallery/r14_600X419.jpg";
 
 const galleryPhotos = [
   { src: r1, width: 600, height: 402 },
@@ -167,70 +164,68 @@ const galleryPhotos = [
 // ----------------------------------------------------------------------- SEO
 const generalMetaData = {
   description: "blah blah blah.",
-  keywords: 'blah blah blah.',
+  keywords: "blah blah blah.",
   image: indexImage,
 };
 
 const twitterSummaryCardData = {
-  title: 'blah blah blah',
+  title: "blah blah blah",
   description: "blah blah blah.",
   image: indexImage,
 };
 
 const openGraphSummaryData = {
-  siteName: 'blah blah blah',
-  url: 'https://www.walkofhopeauroville.org',
-  title: 'Launch Kit',
+  siteName: "blah blah blah",
+  url: "https://www.walkofhopeauroville.org",
+  title: "Launch Kit",
   description: "blah blah blah.",
   image: indexImage,
 };
 
 const websiteSchemaData = {
-  url: 'https://www.walkofhopeauroville.org',
-  name: 'blah blah blah',
+  url: "https://www.walkofhopeauroville.org",
+  name: "blah blah blah",
   description: "blah blah blah.",
-  author: 'Bodhi Project',
-  publisher: 'Bodhi Project',
+  author: "Bodhi Project",
+  publisher: "Bodhi Project",
   image: indexImage,
 };
 
 const webpageSchemaData = {
-  url: 'https://www.walkofhopeauroville.org',
-  name: 'Launch Kit',
+  url: "https://www.walkofhopeauroville.org",
+  name: "Launch Kit",
   description: "blah blah blah.",
-  author: 'Bodhi Project',
-  publisher: 'Bodhi Project',
+  author: "Bodhi Project",
+  publisher: "Bodhi Project",
   image: indexImage,
 };
 
 const breadcrumbSchemaData = {
-  breadcrumbs: [
-    { name: 'Home', url: 'https://www.walkofhopeauroville.org' },
-  ],
+  breadcrumbs: [{ name: "Home", url: "https://www.walkofhopeauroville.org" }],
 };
 
 const organisationSchemaData = {
-  name: 'Bodhi Project',
-  legalName: 'Bodhi Project',
-  url: 'https://www.bodhiproject.org/',
-  logo: '',
-  foundingDate: '2017',
-  founders: ['Pranav Kumar', 'Mangal Varshney', 'Dr. Brijesh Kumar'],
-  streetAddress: 'City Center',
-  addressLocality: 'Kotagiri',
-  addressRegion: 'Tamil Nadu',
-  postalCode: '123456',
-  addressCountry: 'India',
-  telephone: ['na'],
-  email: 'hello@bodhiproject.org',
-  sameAs: ['http://instagram.com/bodhisystems'],
+  name: "Bodhi Project",
+  legalName: "Bodhi Project",
+  url: "https://www.bodhiproject.org/",
+  logo: "",
+  foundingDate: "2017",
+  founders: ["Pranav Kumar", "Mangal Varshney", "Dr. Brijesh Kumar"],
+  streetAddress: "City Center",
+  addressLocality: "Kotagiri",
+  addressRegion: "Tamil Nadu",
+  postalCode: "123456",
+  addressCountry: "India",
+  telephone: ["na"],
+  email: "hello@bodhiproject.org",
+  sameAs: ["http://instagram.com/bodhisystems"],
   image: indexImage,
 };
 
 // ----------------------------------------------------------------------- Style
 const styles = {
   index: {
-    '& .mission': {
+    "& .mission": {
       // height: '50vh',
       // width: 'auto',
     },
@@ -239,13 +234,18 @@ const styles = {
 
 // ----------------------------------------------------------------------- Component
 /**
-  * IndexPage
-  */
+ * IndexPage
+ */
 class IndexPage extends React.Component {
   render() {
-
     return (
-      <Container block noFade bleed style={{ paddingTop: 50 }} className={this.props.classes.index}>
+      <Container
+        block
+        noFade
+        bleed
+        style={{ paddingTop: 50 }}
+        className={this.props.classes.index}
+      >
         {/* SEO */}
         <UpdateTitle title="Gallery" />
         <GeneralMeta data={generalMetaData} />
@@ -267,8 +267,8 @@ IndexPage.propTypes = {
 
 // ----------------------------------------------------------------------- Compose Component
 /**
-  * ComposedComponent - Compose component ala FP style.
-  */
+ * ComposedComponent - Compose component ala FP style.
+ */
 const ComposedComponent = compose([
   injectSheet(styles), // Add style
 ])(IndexPage);

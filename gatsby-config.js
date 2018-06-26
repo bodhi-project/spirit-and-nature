@@ -1,35 +1,40 @@
-const config = require("./data/SiteConfig");
+// ----------------------------------------------------------------------------
+// -------------------------------------------------------------------- Imports
+// ----------------------------------------------------------------------------
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Locals
+const packageJson = require("./package.json");
 
-const siteTitle = "Launch Kit";
-const siteDescription =
-  "Launch Kit is a GatsbyJS starter and can be used to create Static, Progressive, Single-Page Web Applications which run on Netlify.";
-const siteUrl = "https://launch-kit.bodhiproject.org";
-const pathPrefix = "/";
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstractions
+const { data } = packageJson;
 const themeColor = "#FFD801";
 const backgroundColor = "#FFD801";
-const siteRss = "/rss.xml";
-const userName = "Bodhi Project";
-const copyright = "Copyright © 2017. Bodhi Project";
-const googleAnalyticsTrackingID = "UA-109854711-3";
 
+// ----------------------------------------------------------------------------
+// ------------------------------------------------------------------ Component
+// ----------------------------------------------------------------------------
 module.exports = {
-  pathPrefix,
+  pathPrefix: data.pathPrefix,
   siteMetadata: {
-    siteUrl: siteUrl + pathPrefix,
+    siteUrl: data.websiteUrl,
     rssMetadata: {
-      site_url: siteUrl + pathPrefix,
-      feed_url: siteUrl + pathPrefix + siteRss,
-      title: siteTitle,
-      description: siteDescription,
-      image_url: `${siteUrl + pathPrefix}/android-chrome-512x512.png`,
-      author: userName,
-      copyright,
+      site_url: data.websiteUrl,
+      feed_url: `${data.nakedWebsiteUrl}${data.rssUrl}`,
+      title: data.websiteName,
+      description: data.websiteDescription,
+      image_url: `${data.nakedWebsiteUrl}/android-chrome-384x384.png`,
+      author: data.org.name,
+      copyright: data.copyright,
     },
   },
   plugins: [
-    "gatsby-plugin-lodash",
+    // {
+    //   resolve: "gatsby-plugin-webpack-bundle-analyzer",
+    //   options: {
+    //     analyzerPort: 3000,
+    //     production: true,
+    //   },
+    // },
     "gatsby-plugin-react-helmet",
-    "gatsby-plugin-antd",
     "gatsby-plugin-less",
     {
       resolve: "gatsby-source-filesystem",
@@ -38,35 +43,17 @@ module.exports = {
         path: `${__dirname}/content/`,
       },
     },
-    {
-      resolve: "gatsby-transformer-remark",
-      options: {
-        plugins: [
-          {
-            resolve: "gatsby-remark-images",
-            options: {
-              maxWidth: 690,
-            },
-          },
-          {
-            resolve: "gatsby-remark-responsive-iframe",
-          },
-          "gatsby-remark-prismjs",
-          "gatsby-remark-copy-linked-files",
-          "gatsby-remark-autolink-headers",
-        ],
-      },
-    },
+    "gatsby-transformer-remark",
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: googleAnalyticsTrackingID,
+        trackingId: data.googleAnalyticsID,
       },
     },
     {
       resolve: "gatsby-plugin-nprogress",
       options: {
-        color: config.themeColor,
+        color: "#b43808",
       },
     },
     "gatsby-plugin-sharp",
@@ -75,10 +62,10 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: siteTitle,
-        short_name: siteTitle,
-        description: siteDescription,
-        start_url: pathPrefix,
+        name: data.websiteName,
+        short_name: data.websiteName,
+        description: data.websiteDescription,
+        start_url: data.pathPrefix,
         background_color: backgroundColor,
         theme_color: themeColor,
         display: "standalone",
@@ -126,7 +113,7 @@ module.exports = {
         feeds: [
           {
             serialize(ctx) {
-              const rssMetadata = ctx.query.site.siteMetadata.rssMetadata;
+              const { rssMetadata } = ctx.query.site.siteMetadata;
               return ctx.query.allMarkdownRemark.edges.map(edge => ({
                 categories: edge.node.frontmatter.tags,
                 date: edge.node.frontmatter.date,
@@ -162,7 +149,7 @@ module.exports = {
               }
             }
           `,
-            output: config.siteRss,
+            output: data.rssUrl,
           },
         ],
       },

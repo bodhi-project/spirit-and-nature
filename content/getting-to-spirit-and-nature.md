@@ -4,7 +4,7 @@ cover: /content-assets/biography/aikya1.jpg
 category: general
 date: 2017-03-02
 abstract: na
-variant: page
+type: page
 tags:
   - say hi
 ---

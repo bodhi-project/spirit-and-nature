@@ -2,24 +2,22 @@
 // ---------------------------------------------------------------------- Imports
 // ------------------------------------------------------------------------------
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _ from 'lodash';
-import { css } from 'glamor';
-import moment from 'moment';
+import React from "react"; // eslint-disable-line import/no-extraneous-dependencies
+import PropTypes from "prop-types";
+import _ from "lodash";
+import { css } from "glamor";
+import moment from "moment";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from 'gatsby-link';
-import { Row, Col, Carousel } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
-import { Image, Container } from '@bodhi-project/components';
-import { Elements, typeComposite } from '@bodhi-project/typography';
+import Link from "gatsby-link";
+import { Image, Container } from "@bodhi-project/components";
 import {
   Page,
   Section,
   Article,
   Header,
   Footer,
-} from '@bodhi-project/semantic-webflow';
+} from "@bodhi-project/semantic-webflow";
 
 import {
   // --------------- Basic
@@ -34,50 +32,52 @@ import {
   // WebpageSchema,
   // BreadcrumbSchema,
   // OrganisationSchema,
-} from '@bodhi-project/seo';
+} from "@bodhi-project/seo";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-import featureLion from './assets/feature-lion.jpg';
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
 const { Fragment } = React;
-const { H1, H2, H3, H4, H5, H6, Paragraph, Ul, Ol } = Elements;
-const { getType } = typeComposite;
-const type = getType('eih3wnu');
-const { kit, modularScale } = type;
 
 // ------------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Styles
 // ------------------------------------------------------------------------------
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Article Wrapper Style
 const articleWrapperStyle = css({
-  '& article:last-child': {
-    border: '0 !important',
+  "& h2": {
+    marginTop: 64,
+  },
+  "& article": {
+    marginBottom: 20,
   },
 
-  '& .display': {
-    display: 'flex',
-    flexFlow: 'row wrap',
-    alignItems: 'flex-start',
+  "& article:last-child": {
+    border: "0 !important",
+  },
 
-    '& .banner': {
-      flex: '12 1 0%',
+  "& .display": {
+    display: "flex",
+    flexFlow: "row wrap",
+    alignItems: "flex-start",
+
+    "& .banner": {
+      flex: "12 1 0%",
     },
 
-    '& .abstract': {
-      flex: '15 1 0%',
-      padding: '0px 0px 0px 50px',
+    "& .abstract": {
+      flex: "15 1 0%",
+      padding: "0px 0px 0px 50px",
     },
   },
-  '@media(max-width: 768px)': {
-    '& .display': {
-      display: 'block',
-      '& .banner': {
-        display: 'block',
+  "@media(max-width: 768px)": {
+    "& .display": {
+      display: "block",
+      "& .banner": {
+        display: "block",
       },
-      '& .abstract': {
-        display: 'block',
-        padding: '0px',
+      "& .abstract": {
+        display: "block",
+        padding: "0px",
       },
     },
   },
@@ -86,6 +86,7 @@ const articleWrapperStyle = css({
 // ------------------------------------------------------------------------------
 // -------------------------------------------------------------------- Component
 // ------------------------------------------------------------------------------
+/** Index */
 class Index extends React.Component {
   /**
    * constructor - Just a standard constructor.
@@ -97,7 +98,7 @@ class Index extends React.Component {
      * state - Track the interface configuration and the height of the component.
      */
     this.state = {
-      filter: 'all',
+      filter: "all",
     };
 
     this.filter = this.filter.bind(this);
@@ -112,48 +113,35 @@ class Index extends React.Component {
     this.setState({ filter: category });
   }
 
+  /** render */
   render() {
     const postEdges = this.props.data.allMarkdownRemark.edges;
-    const categories = _.uniq(
-      _.map(postEdges, 'node.frontmatter.category'),
-    ).sort((a, b) => {
-      const A = a.toLowerCase();
-      const B = b.toLowerCase();
-      // sort string ascending
-      if (A < B) return -1;
-      if (A > B) return 1;
-      // default return value (no sorting)
-      return 0;
-    });
-
-    // console.log(this.state);
+    const categories = _
+      .uniq(_.map(postEdges, "node.frontmatter.category"))
+      .sort((a, b) => {
+        const A = a.toLowerCase();
+        const B = b.toLowerCase();
+        // sort string ascending
+        if (A < B) return -1;
+        if (A > B) return 1;
+        // default return value (no sorting)
+        return 0;
+      });
 
     return (
-      <Container block noFade bleed style={{ paddingTop: 50 }}>
+      <Container block noFade bleed>
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
         <UpdateTitle title="Writings" />
 
         {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
         {_.map(categories, category => (
-          <div
-            style={{
-              marginTop: modularScale.base.em,
-              marginBottom: modularScale.base.em,
-            }}
-            className={articleWrapperStyle.toString()}
-          >
-            <H2 id={_.kebabCase(_.toLower(_.trim(category)))}>{category}</H2>
+          <div className={articleWrapperStyle.toString()}>
+            <h2 id={_.kebabCase(_.toLower(_.trim(category)))}>{category}</h2>
             {_.map(postEdges, ({ node }) => (
               <Fragment>
                 {node.frontmatter.category === category && (
-                  <Article
-                    key={node.fields.route}
-                    style={{
-                      paddingBottom: `${modularScale.basePlus2.em}`,
-                      paddingTop: `${modularScale.basePlus2.em}`,
-                    }}
-                  >
-                    {' '}
+                  <Article key={node.fields.route}>
+                    {" "}
                     {/*  */}
                     <div className="display">
                       <div className="banner">
@@ -168,23 +156,23 @@ class Index extends React.Component {
                       <div className="abstract">
                         <Header>
                           <Link to={node.fields.route}>
-                            <H3 style={{ marginTop: 0, color: '#9d639d' }}>
+                            <h3 style={{ marginTop: 0, color: "#9d639d" }}>
                               {node.frontmatter.title}
-                            </H3>
-                          </Link>{' '}
+                            </h3>
+                          </Link>{" "}
                           {/*  */}
-                          <Paragraph>{node.frontmatter.abstract}</Paragraph>
-                          <Paragraph style={{ textIndent: 0 }}>
+                          <p>{node.frontmatter.abstract}</p>
+                          <p style={{ textIndent: 0 }}>
                             <small>
                               <i>
-                                Published on{' '}
+                                Published on{" "}
                                 {moment(node.frontmatter.date).format(
-                                  'dddd, MMMM Do YYYY',
-                                )}{' '}
+                                  "dddd, MMMM Do YYYY",
+                                )}{" "}
                                 ({moment(node.frontmatter.date).fromNow()})
                               </i>
                             </small>
-                          </Paragraph>
+                          </p>
                         </Header>
                       </div>
                     </div>
@@ -194,7 +182,7 @@ class Index extends React.Component {
             ))}
           </div>
         ))}
-        <Paragraph style={{ textAlign: 'center' }}>~ fin ~</Paragraph>
+        <p style={{ textAlign: "center" }}>~ fin ~</p>
       </Container>
     );
   }
@@ -204,19 +192,23 @@ Index.propTypes = {
   classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
-// ----------------------------------------------------------------------- GraphQL Query
+// ----------------------------------------------------------------------------
+// ---------------------------------------------------------------------- Query
+// ----------------------------------------------------------------------------
 /* eslint-disable no-undef */
 export const pageQuery = graphql`
-  query WritingsQueryX {
+  query WritingsQuery {
     allMarkdownRemark(
       limit: 2000
       sort: { fields: [frontmatter___date], order: DESC }
-      filter: { frontmatter: { category: { ne: "general" } } }
+      filter: { frontmatter: { type: { eq: "post" } } }
     ) {
       edges {
         node {
           fields {
             route
+            humanDate
+            elapsed
           }
           frontmatter {
             abstract

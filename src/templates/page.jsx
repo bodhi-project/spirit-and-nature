@@ -1,22 +1,25 @@
-// ------------------------------------------------------------------------------
-// ---------------------------------------------------------------------- Imports
-// ------------------------------------------------------------------------------
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
-import React from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
-import _ from 'lodash';
-import { css } from 'glamor';
-// import moment from 'moment';
+// ----------------------------------------------------------------------------
+// -------------------------------------------------------------------- Imports
+// ----------------------------------------------------------------------------
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Libraries
+import React from "react";
+import PropTypes from "prop-types";
+import { css } from "glamor";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
-import Link from 'gatsby-link';
-// import { Row, Col, Layout, Tree, Icon, Popover } from 'antd'; // eslint-disable-line import/no-extraneous-dependencies
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Lodash
+import startsWith from "lodash/startsWith";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Locals
-import { Container } from '@bodhi-project/components';
-import { Elements, typeComposite } from '@bodhi-project/typography';
-// import { Page, Section, Article, Header, Footer } from '@bodhi-project/semantic-webflow';
-import { treeParser } from '@bodhi-project/markdown-to-react';
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
+import Link from "gatsby-link";
+import {
+  Page,
+  // Section,
+  Article,
+  Header,
+  Footer,
+} from "@bodhi-project/semantic-webflow";
+import { Elements, applyRhythm } from "@bodhi-project/typography";
+import { treeCodeParser } from "@bodhi-project/markdown-to-react";
 import {
   // --------------- Basic
   UpdateTitle,
@@ -28,118 +31,70 @@ import {
   // --------------- Schema.org JSON-LD
   WebpageSchema,
   BreadcrumbSchema,
-} from '@bodhi-project/seo';
+} from "@bodhi-project/seo";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Images
-// import featureLion from './feature-lion.jpg';
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Locals
+import seoHelper from "../helpers/seoHelper";
+import packageJson from "../../package.json";
+import markdownStylesClass from "../styles/markdownStyles";
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstract stuff
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstractions
 const { Fragment } = React;
-const { Paragraph } = Elements;
-const { getType } = typeComposite;
-const type = getType('eih3wnu');
-// const { kit, modularScale } = type;
-// console.log(type);
+const { data } = packageJson;
+const { H1, Paragraph } = Elements;
 
-// ------------------------------------------------------------------------------
-// ----------------------------------------------------------------------- Styles
-// ------------------------------------------------------------------------------
-const markdownStyles = css({
-  '& blockquote': {
-    border: '2px solid #daa520',
-    background: '#fcf2f1',
-    padding: '1em',
-    '& p': {
-      fontStyle: 'italic',
-    },
+// ----------------------------------------------------------------------------
+// --------------------------------------------------------------------- Styles
+// ----------------------------------------------------------------------------
+const pageStyle = css({
+  position: "relative",
+  ...applyRhythm({ maxWidth: "27X" }),
+  "& div + p": {
+    ...applyRhythm({ marginTop: "2X" }),
   },
 });
-const markdownStylesClass = markdownStyles.toString();
+const pageStyleClass = pageStyle.toString();
 
-const clearHeadings = css({
-  '& h2': {
-    display: 'none',
-  },
-});
-const clearHeadingsClass = clearHeadings.toString();
-
-// ----------------------------------------------------------------------- Component
-/**
- * PageWrapper
- */
-class PageWrapper extends React.Component {
+// ----------------------------------------------------------------------------
+// ------------------------------------------------------------------ Component
+// ----------------------------------------------------------------------------
+/** PageTemplate */
+class PageTemplate extends React.Component {
+  /** standard constructor */
   constructor(props) {
     super(props);
   }
 
+  /** standard renderer */
   render() {
-    const { frontmatter } = this.props.data.markdownRemark;
-    const { toc } = this.props.pathContext;
-    const { markdownAst } = this.props.pathContext;
-    const { headings } = this.props.data.markdownRemark;
-    const { route } = this.props.pathContext;
+    const { pathContext } = this.props;
+    const { frontmatter } = pathContext;
+    const { markdownAst } = pathContext;
+    const { route, humanDate, elapsed } = pathContext;
+    const checkedRoute = startsWith(route, "/") ? route : `/${route}`;
+    const nakedRoute = checkedRoute.substr(1);
 
-    const siteTitle = 'Spirit and Nature';
-    const sitePublisher = 'Spirit and Nature';
-    const pageTitle = frontmatter.title;
-    const { abstract } = frontmatter;
-    const websiteUrl = 'https://www.spiritandnature.org';
-    const pageSlug = route;
-    const ogX = `${websiteUrl}${frontmatter.cover}`;
-    const pageKeywords =
-      'auroville, spirit and nature, aikya, world game, sandplay, sand box, carl jung, sri aurobindo, the mother, india, pondicherry, tamil nadu';
-
-    const generalMetaData = {
-      description: abstract,
-      keywords: pageKeywords,
-      image: ogX,
+    // -------------------------------------------------------------------- SEO
+    const pageData = {
+      pageTitle: frontmatter.title,
+      nakedPageSlug: nakedRoute,
+      pageAbstract: frontmatter.abstract,
     };
 
-    const twitterSummaryCardData = {
-      site: siteTitle,
-      creator: sitePublisher,
-      title: pageTitle,
-      description: abstract,
-      image: ogX,
-    };
+    const seoData = seoHelper(pageData);
 
-    const openGraphSummaryData = {
-      siteName: siteTitle,
-      url: `${websiteUrl}${pageSlug}`,
-      title: pageTitle,
-      description: abstract,
-      image: ogX,
-    };
-
-    const webpageSchemaData = {
-      url: `${websiteUrl}${pageSlug}`,
-      name: pageTitle,
-      description: abstract,
-      author: sitePublisher,
-      publisher: sitePublisher,
-      image: ogX,
-    };
-
-    const breadcrumbSchemaData = {
-      breadcrumbs: [
-        { name: 'Home', url: `${websiteUrl}` },
-        { name: pageTitle, url: `${websiteUrl}${pageSlug}` },
-      ],
-    };
+    const {
+      pageTitle,
+      generalMetaData,
+      twitterSummaryCardData,
+      openGraphSummaryData,
+      webpageSchemaData,
+      breadcrumbSchemaData,
+    } = seoData;
 
     return (
-      <Container
-        block
-        noFade
-        bleed
-        style={{ paddingTop: 50 }}
-        className={`${markdownStylesClass} ${
-          _.includes(['/home', '/gallery'], this.props.location.pathname)
-            ? clearHeadingsClass
-            : ''
-        }`}
-      >
-        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
+      <Fragment>
+        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ SEO */}
         <UpdateTitle title={pageTitle} />
         <GeneralMeta data={generalMetaData} />
         <TwitterSummaryCard data={twitterSummaryCardData} />
@@ -147,46 +102,44 @@ class PageWrapper extends React.Component {
         <WebpageSchema data={webpageSchemaData} />
         <BreadcrumbSchema data={breadcrumbSchemaData} />
 
-        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
-        <div style={{ marginTop: 40 }}>
-          {treeParser(markdownAst, { localLink: Link, indent: -20 }, type)}
-        </div>
-        <Paragraph style={{ textAlign: 'center' }}>
-          <small>~</small>
-        </Paragraph>
-      </Container>
+        {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Content */}
+        <Page className={`${markdownStylesClass} ${pageStyleClass}`}>
+          <Header className="stash">
+            <H1>{frontmatter.title}</H1>
+            <Paragraph>{humanDate}</Paragraph>
+            <Paragraph>{frontmatter.abstract}</Paragraph>
+          </Header>
+          <Article>
+            {treeCodeParser(
+              markdownAst,
+              {
+                localLink: Link,
+                linkHeaders: false,
+                trackHeaders: false,
+                nestHeaders: false,
+              },
+              {},
+            )}
+          </Article>
+          <Footer className="stash">
+            <Paragraph>
+              Copyright&nbsp;{data.websiteCreator}&nbsp;2018.
+              <br />
+              <br />
+              Published on {humanDate} ({elapsed}).
+            </Paragraph>
+          </Footer>
+        </Page>
+      </Fragment>
     );
   }
 }
 
-PageWrapper.propTypes = {
-  children: PropTypes.func,
-  classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types, react/no-unused-prop-types
-  type: PropTypes.object, // eslint-disable-line react/forbid-prop-types, react/no-unused-prop-types
+PageTemplate.propTypes = {
+  pathContext: PropTypes.object,
 };
 
-// ----------------------------------------------------------------------- GraphQL Query
-/* eslint-disable no-undef */
-export const pageQuery = graphql`
-  query BlogPostBySlug($route: String!) {
-    markdownRemark(fields: { route: { eq: $route } }) {
-      headings {
-        depth
-        value
-      }
-      frontmatter {
-        title
-        cover
-        date
-        category
-        tags
-        abstract
-        variant
-      }
-    }
-  }
-`;
-/* eslint-enable no-undef */
-
-// ----------------------------------------------------------------------- Export
-export default PageWrapper;
+// ----------------------------------------------------------------------------
+// --------------------------------------------------------------------- Export
+// ----------------------------------------------------------------------------
+export default PageTemplate;

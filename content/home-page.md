@@ -4,7 +4,7 @@ cover: /content-assets/biography.jpg
 category: general
 date: 2017-03-02
 abstract: Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.
-variant: page
+type: page
 tags:
   - none
 ---
