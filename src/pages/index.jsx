@@ -194,7 +194,7 @@ class Index extends React.Component {
           <Images photos={photos} loader="gradient" />
           <br />
           <p>
-            <Link to="/about">Read on…</Link>
+            <Link to="/about-me">Read on…</Link>
           </p>
           <br />
           <br />
