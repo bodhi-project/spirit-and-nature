@@ -214,7 +214,7 @@ class Index extends React.Component {
           description:
             "Auroville is a laboratory for the materialization of a new consciousness. Every one is welcome who has good will and believes Human Unity is possible and aspires for it.",
           link: "Read on...",
-          linkUrl: "/on-auroville",
+          linkUrl: "/writings/on-auroville",
           image: theMother,
         },
       });
@@ -229,7 +229,7 @@ class Index extends React.Component {
             "Nature all around is full of messages, nature speaks, and one can learn the language. Going out on walks, listening to the messages of the birds, of the wind, whichever Elements may call us: flowers, trees, a dog, a spider, a frog, a crystal, a rock. Connecting from heart to heart. A wonderful journey into deep and magical communication with all things; everything alive ingesting love and respect for the environment, for the earth and its creatures.",
           link: "Read on...",
           linkUrl:
-            "/reconnecting-with-spirit-through-nature#reawakening-wonder",
+            "/writings/reconnecting-with-spirit-through-nature#reawakening-wonder",
           image: flowerGroup,
         },
       });
@@ -244,7 +244,7 @@ class Index extends React.Component {
             "Mira Alfassa, or The Mother, was in conscious contact with the spirit of the plants. She has given more than 900 spiritual significances to flowers, which means that each flower carries it's own message.",
           link: "Read on...",
           linkUrl:
-            "/reconnecting-with-spirit-through-nature#return-to-auroville",
+            "/writings/reconnecting-with-spirit-through-nature#return-to-auroville",
           image: worldGameInNature,
         },
       });
@@ -272,7 +272,7 @@ class Index extends React.Component {
           description:
             "This activity has been an educational tool in Auroville since it's beginning, although now in Auroville it is mainly played with children, yet it was also intended for adults. The World Game encourages spontaneity, trust in oneself and being in the flow of the moment.",
           link: "Read on...",
-          linkUrl: "/on-world-game-in-sand",
+          linkUrl: "/writings/on-world-game-in-sand",
           video: "https://www.youtube.com/watch?v=58V5_UWZLbw",
           image: theMother,
         },
@@ -315,7 +315,7 @@ class Index extends React.Component {
             "I deeply relate to animals and plants, and love to explore the intuitive and natural art of inter-species communication within my possibilities.",
           link: "Read on...",
           linkUrl:
-            "/reconnecting-with-spirit-through-nature#animal-communication",
+            "/writings/reconnecting-with-spirit-through-nature#animal-communication",
           image: interSpecies,
         },
       });
@@ -329,7 +329,8 @@ class Index extends React.Component {
           description:
             "The rare and endangered White Lions are revered by native Africans as the most sacred of all animals. I had the privilege to meet the White Lions of Timbavati who deeply inspire me in my work. I also had the privilege to participate in the Academy of LionHearted Leadership.",
           link: "Read on...",
-          linkUrl: "/reconnecting-with-spirit-through-nature#the-white-lions",
+          linkUrl:
+            "/writings/reconnecting-with-spirit-through-nature#the-white-lions",
           image: lions,
         },
       });
