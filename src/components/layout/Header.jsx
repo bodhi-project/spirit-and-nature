@@ -42,6 +42,10 @@ const menu = [
       link: "/offerings",
     },
     {
+      title: "Calendar",
+      link: "/calendar",
+    },
+    {
       title: "Journal",
       link: "/writings",
       menu: [
@@ -72,6 +76,10 @@ const menu = [
     {
       title: "About Me",
       link: "/about-me",
+    },
+    {
+      title: "Team",
+      link: "/team",
     },
   ],
 ];

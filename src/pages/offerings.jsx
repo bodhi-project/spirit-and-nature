@@ -287,6 +287,7 @@ class Index extends React.Component {
           description:
             "The vision game is a process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it. By playing our dream out, we find ourselves in a space which allows the heart to open up. Nature is our guide to come to clarity.",
           image: visionGame,
+          linkUrl: "/writings/vision-game",
         },
       });
     }

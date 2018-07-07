@@ -58,7 +58,7 @@ const desktopNavStyle = css({
 
   "& ul li": {
     display: "inline-flex",
-    padding: "17px 27px",
+    padding: "9px 12px",
     marginBottom: "10px !important",
 
     "& a": {

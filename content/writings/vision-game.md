@@ -3,7 +3,7 @@ title: Vision Game
 cover: /content-assets/vision-game/cover.jpg
 category: Articles
 date: 2018-06-03
-abstract: Adapted from an article in the 2016 edition of Magzav (a cultural magazine in Auroville).
+abstract: Look far in front…Your life is your canvas, what do you paint on it? Sink into the deep landscape of your heart and let it lead you…
 type: post
 tags:
   - say hi
@@ -26,7 +26,7 @@ _ Sink into the deep landscape of your heart and let it lead you…_
 - It is about coming in touch or having glimpses of that part in ourselves which knows what to do.
 - It is about following our deeper dreams and building a life of wonder.
 
-March 2016
+March 2018
  
 We recently came together with a few people, each made their world. Find here what some say about it:
 

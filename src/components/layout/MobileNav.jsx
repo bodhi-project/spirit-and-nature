@@ -11,6 +11,7 @@ import map from "lodash/map";
 import isUndefined from "lodash/isUndefined";
 import startsWith from "lodash/startsWith";
 import split from "lodash/split";
+import concat from "lodash/concat";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Components
 import Link from "gatsby-link";
@@ -73,96 +74,113 @@ class MobileNav extends React.Component {
   /** standard renderer */
   render() {
     const { pathname } = this.props.location;
+    // const menuX = merge(this.props.menu[0], this.props.menu[1]);
+    const menu0 = this.props.menu[0];
+    const menu1 = this.props.menu[1];
+    const menu01 = concat(menu0, menu1);
 
     return (
       <div className={mobileNavStylesClass}>
         <nav style={{ marginTop: 20, height: "100%" }}>
           <Ul>
-            {map(this.props.menu, topLevel => {
-              const { title, menu } = topLevel;
+            {map(menu01, menuItem => {
+              const { title, link, menu: subMenu } = menuItem;
               return (
-                <Fragment>
-                  <li className="header" key={title}>
-                    <span>{title}</span>
-                  </li>
-                  {map(menu, subMenu => {
-                    const subTitle = subMenu.title;
-                    const popMenu = subMenu.menu;
-                    const { link } = subMenu;
-                    const isOutLink = startsWith(link, "http");
+                <li key={link}>
+                  {isUndefined(subMenu) && (
+                    <Link
+                      to={link}
+                      className={
+                        pathname === split(link, "?", 1)[0] ? "active" : ""
+                      }
+                    >
+                      {title}
+                    </Link>
+                  )}
+                  {!isUndefined(subMenu) && (
+                    <Fragment>
+                      {map(subMenu, subMenu => {
+                        const subTitle = subMenu.title;
+                        const popMenu = subMenu.menu;
+                        const { link } = subMenu;
+                        const isOutLink = startsWith(link, "http");
 
-                    return (
-                      <Fragment>
-                        {isUndefined(popMenu) && (
-                          <li key={link}>
-                            {isOutLink === true && (
-                              <OutLink to={link}>
-                                <span>{subTitle}</span>
-                              </OutLink>
+                        return (
+                          <Fragment>
+                            {isUndefined(popMenu) && (
+                              <li key={link}>
+                                {isOutLink === true && (
+                                  <OutLink to={link}>
+                                    <span>{subTitle}</span>
+                                  </OutLink>
+                                )}
+                                {isOutLink === false && (
+                                  <Link
+                                    to={link}
+                                    className={
+                                      pathname === split(link, "?", 1)[0]
+                                        ? "active"
+                                        : ""
+                                    }
+                                  >
+                                    <span>{subTitle}</span>
+                                  </Link>
+                                )}
+                              </li>
                             )}
-                            {isOutLink === false && (
-                              <Link
-                                to={link}
-                                className={
-                                  pathname === split(link, "?", 1)[0]
-                                    ? "active"
-                                    : ""
-                                }
-                              >
-                                <span>{subTitle}</span>
-                              </Link>
+                            {!isUndefined(popMenu) && (
+                              <li key={subTitle}>
+                                {isOutLink === true && (
+                                  <OutLink to={link}>{subTitle}</OutLink>
+                                )}
+                                {isOutLink === false && (
+                                  <Fragment>
+                                    <span>{subTitle}</span>
+                                    <span style={{ fontSize: "88%" }}>
+                                      &nbsp;»
+                                    </span>
+                                    <ul>
+                                      {map(popMenu, popMenuItem => {
+                                        const itemTitle = popMenuItem.title;
+                                        const itemLink = popMenuItem.link;
+                                        const isItemLinkOutLink = startsWith(
+                                          itemLink,
+                                          "http",
+                                        );
+                                        return (
+                                          <li key={itemLink}>
+                                            {isItemLinkOutLink === true && (
+                                              <OutLink to={itemLink}>
+                                                <span>{itemTitle}</span>
+                                              </OutLink>
+                                            )}
+                                            {isItemLinkOutLink === false && (
+                                              <Link
+                                                to={itemLink}
+                                                className={
+                                                  pathname ===
+                                                  split(itemLink, "?", 1)[0]
+                                                    ? "active"
+                                                    : ""
+                                                }
+                                              >
+                                                <span>{itemTitle}</span>
+                                              </Link>
+                                            )}
+                                          </li>
+                                        );
+                                      })}
+                                    </ul>
+                                  </Fragment>
+                                )}
+                              </li>
                             )}
-                          </li>
-                        )}
-                        {!isUndefined(popMenu) && (
-                          <li key={subTitle}>
-                            {isOutLink === true && (
-                              <OutLink to={link}>{subTitle}</OutLink>
-                            )}
-                            {isOutLink === false && (
-                              <Fragment>
-                                <span>{subTitle}</span>
-                                <span style={{ fontSize: "88%" }}>&nbsp;»</span>
-                                <ul>
-                                  {map(popMenu, popMenuItem => {
-                                    const itemTitle = popMenuItem.title;
-                                    const itemLink = popMenuItem.link;
-                                    const isItemLinkOutLink = startsWith(
-                                      itemLink,
-                                      "http",
-                                    );
-                                    return (
-                                      <li key={itemLink}>
-                                        {isItemLinkOutLink === true && (
-                                          <OutLink to={itemLink}>
-                                            <span>{itemTitle}</span>
-                                          </OutLink>
-                                        )}
-                                        {isItemLinkOutLink === false && (
-                                          <Link
-                                            to={itemLink}
-                                            className={
-                                              pathname ===
-                                              split(itemLink, "?", 1)[0]
-                                                ? "active"
-                                                : ""
-                                            }
-                                          >
-                                            <span>{itemTitle}</span>
-                                          </Link>
-                                        )}
-                                      </li>
-                                    );
-                                  })}
-                                </ul>
-                              </Fragment>
-                            )}
-                          </li>
-                        )}
-                      </Fragment>
-                    );
-                  })}
-                </Fragment>
+                          </Fragment>
+                        );
+                      })}
+                    </Fragment>
+                  )}
+                </li>
               );
             })}
           </Ul>

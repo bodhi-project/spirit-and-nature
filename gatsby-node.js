@@ -65,10 +65,11 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 
     const begins = moment(!_.isUndefined(startDate) ? startDate : date);
     const beginDateInt = parseInt(begins.format("YYYYMMDD"), 10);
-    const bg = begins;
-    const fd = finishDate;
 
-    const ends = moment(!_.isUndefined(fd) ? fd : bg.clone().add(1, "hour"));
+    const ends = moment(
+      !_.isUndefined(finishDate) ? finishDate : begins.clone().add(1, "hour"),
+    );
+    const endDateInt = parseInt(begins.format("YYYYMMDD"), 10);
 
     const diff = !_.isNull(finishDate)
       ? moment.duration(ends.diff(begins)).asDays()
@@ -79,17 +80,8 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
 
     let humanDate = begins.format("ddd, MMMM D, YYYY");
     if (sameDay === false) {
-      const range = begins.twix(ends, { allDay: true });
-      const rangeX = range.format({
-        showDayOfWeek: true,
-        hideTime: true,
-        spaceBeforeMeridiem: false,
-        yearFormat: "YYYY",
-        monthFormat: "MMMM",
-        dayFormat: "D",
-        weekdayFormat: "ddd",
-        meridiemFormat: "A",
-      });
+      const range = begins.twix(ends, { allDay: false });
+      const rangeX = range.simpleFormat("ddd, MMMM D");
       const beginsYear = begins.format("YYYY");
       const endsYear = ends.format("YYYY");
       if (beginsYear === endsYear) {
@@ -116,6 +108,8 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({ node, name: "rawContent", value: node.internal.content });
     createNodeField({ node, name: "beginDateInt", value: beginDateInt });
     createNodeField({ node, name: "diff", value: diff });
+    createNodeField({ node, name: "startDate", value: beginDateInt });
+    createNodeField({ node, name: "finishDate", value: endDateInt });
     // console.log(node.internal.content);
   }
 };
@@ -143,8 +137,6 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     subTitle
                     cover
                     date
-                    startDate
-                    finishDate
                     fromTime
                     toTime
                     category
@@ -168,6 +160,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                     endIsoDate
                     beginDateInt
                     diff
+                    startDate
+                    finishDate
                   }
                 }
               }
