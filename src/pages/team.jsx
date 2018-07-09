@@ -255,6 +255,7 @@ class Index extends React.Component {
             from Sri Aurobindo and The Mother, about the topic of Spirit&Nature
           </p>
           <h3>Tamille, Auroville bio-region</h3>
+          <p>Takes care of cleanliness, order and much more.</p>
           <Image
             src="/content-assets/collaborators/tamille.jpg"
             rawWidth={1280}
