@@ -170,9 +170,7 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>Activity</p>
-          <p>Silent forest walks</p>
-          <p>Gentle caring presence at the Center</p>
+          <p>Activity: Silent forest walks</p>
           <h3>Allyson, Auroville</h3>
           <p>
             Allison Lu is an educator and artist involved in dolphin
@@ -211,10 +209,6 @@ class Index extends React.Component {
           />
           <p>Activity: Dolphin Way Workshops, presentations.</p>
           <h3>Pranav, Long term Volunteer</h3>
-          <p>
-            A gentle and generous soul who came exactly at the right moment to
-            help out.
-          </p>
           <p>
             Pranav graduated from Bangalore University and did his Masters from
             the University of Copenhagen, Denmark. He created Bodhi Project in
@@ -275,10 +269,6 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>
-            Activity: A gentle presence who takes care of the cleanliness, order
-            and much more.
-          </p>
           <h3>Ymani Simmons, US</h3>
           <p>
             Ymani Simmons is a Peacemaker, Practitioner for the 13 Laws of
@@ -313,29 +303,6 @@ class Index extends React.Component {
           </p>
           <p>Next journey planned for April-May 2019</p>
           <h2>Supporters of the project</h2>
-          <h3>Barbara, Ritam - Auroville</h3>
-          <Image
-            src="/content-assets/collaborators/barbara.jpg"
-            rawWidth={1049}
-            rawHeight={1280}
-            style={{
-              border: 0,
-              width: "50%",
-              height: "auto",
-              background: "transparent",
-              marginLeft: "0",
-              justifyContent: "left",
-            }}
-            className="mask-p"
-          />
-          <p>
-            Barbara is the founder of Ritam a wonderful place of nature shaped
-            by herself and the community in the aim to regenerate the land and
-            create a space for consciousness. Her practice is based on the
-            integral yoga of Sri Aurobindo. She accompanies many people with her
-            energy and consciousness work. She also works with the flower
-            essences.
-          </p>
           <h3>Auroville Arts Service, Auroville</h3>
           <p>Coming soon...</p>
           <h2>Linked project</h2>
