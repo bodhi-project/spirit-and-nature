@@ -9,7 +9,7 @@ const _ = require("lodash");
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Data
 // ----------------------------------------------------------------------------
-const dirName = "world-game-adults";
+const dirName = "world-game-in-sand-for-all";
 const years = ["2018"];
 const every = ["Friday"];
 
@@ -57,21 +57,21 @@ fs.writeFileIfNotExist = (fname, contents, options, callback) => {
 
 const template = `
 ---
-title: World Games for Adults or Guests
+title: World Game in Sand
 subTitle: na
 cover: fallback
 category: 1.World Games
-abstract: Page abstract.
+abstract: World Game in Sand for all.
 date: %date%
 fromTime: 3.00pm
 toTime: 4.30pm
 type: event
 cost: Free
 tags:
-  - wg
+  - wgAdults
 ---
 
-World Game session for adults or guests. Please contact me to register for a session.
+World Game session for children, adults or guests. Please contact me to register for a session.
 
 `;
 

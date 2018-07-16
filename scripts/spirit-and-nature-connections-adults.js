@@ -9,9 +9,9 @@ const _ = require("lodash");
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Data
 // ----------------------------------------------------------------------------
-const dirName = "spirit-and-nature-connections-adults";
+const dirName = "spirit-and-nature-connections-for-all";
 const years = ["2018"];
-const every = ["Monday", "Sunday"];
+const every = ["Sunday"];
 
 /** make a dir */
 const makeDir = dir => {
@@ -63,12 +63,12 @@ cover: fallback
 category: 1.Spirit & Nature Connection
 abstract: Page abstract.
 date: %date%
-fromTime: 3.00pm
-toTime: 5.00pm
+fromTime: 10.00am
+toTime: 12.00pm
 type: event
 cost: Free
 tags:
-  - snc
+  - sncAdults
 ---
 
 Spirit & Nature connection session for adults. Please contact me to register for a session.

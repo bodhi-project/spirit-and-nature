@@ -9,9 +9,9 @@ const _ = require("lodash");
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Data
 // ----------------------------------------------------------------------------
-const dirName = "spirit-and-nature-connections-children";
+const dirName = "spirit-and-nature-connections-for-children";
 const years = ["2018"];
-const every = ["Tuesday"];
+const every = ["Thursday"];
 
 /** make a dir */
 const makeDir = dir => {
@@ -57,7 +57,7 @@ fs.writeFileIfNotExist = (fname, contents, options, callback) => {
 
 const template = `
 ---
-title: Spirit & Nature Connection for Children
+title: Spirit & Nature Connection for TLC Students
 subTitle: na
 cover: fallback
 category: 1.Spirit & Nature Connection
@@ -68,10 +68,10 @@ toTime: 4.15pm
 type: event
 cost: Free
 tags:
-  - snc
+  - sncChildren
 ---
 
-Spirit & Nature connection session for children. Please contact me to register for a session.
+Spirit & Nature connection session for only TLC students.
 
 `;
 

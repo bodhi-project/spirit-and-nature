@@ -9,9 +9,9 @@ const _ = require("lodash");
 // ----------------------------------------------------------------------------
 // ----------------------------------------------------------------------- Data
 // ----------------------------------------------------------------------------
-const dirName = "world-game-children";
+const dirName = "world-game-in-sand-for-children";
 const years = ["2018"];
-const every = ["Wednesday"];
+const every = ["Tuesday", "Wednesday"];
 
 /** make a dir */
 const makeDir = dir => {
@@ -57,7 +57,7 @@ fs.writeFileIfNotExist = (fname, contents, options, callback) => {
 
 const template = `
 ---
-title: World Games for Children
+title: World Game in Sand for TLC Students
 subTitle: na
 cover: fallback
 category: 1.World Games
@@ -68,10 +68,10 @@ toTime: 12.00am
 type: event
 cost: Free
 tags:
-  - wg
+  - wgChildren
 ---
 
-World Game session for children. Please contact me to register for a session.
+World Game session for TLC Students only.
 
 `;
 

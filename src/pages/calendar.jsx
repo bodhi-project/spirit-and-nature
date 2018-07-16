@@ -38,8 +38,10 @@ import SectionHalleyAlt from "@bodhi-project/blocks/lib/SectionHalleyAlt";
 import inArray from "../helpers/inArray";
 import seoHelper from "../helpers/seoHelper";
 
-import snc from "../assets/snc.png";
-import wg from "../assets/wg.png";
+import sncAdults from "../assets/sncAdults.png";
+import sncChildren from "../assets/sncChildren.png";
+import wgAdults from "../assets/wgAdults.png";
+import wgChildren from "../assets/wgChildren.png";
 
 import start from "../assets/start.png";
 import middle from "../assets/middle.png";
@@ -52,8 +54,8 @@ const { Fragment } = React;
 // ------------------------------------------------------------------------ SEO
 // ----------------------------------------------------------------------------
 const pageData = {
-  pageTitle: "Spirit and Nature",
-  nakedPageSlug: "",
+  pageTitle: "Calendar",
+  nakedPageSlug: "calendar",
   pageAbstract:
     "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.",
 };
@@ -146,8 +148,10 @@ class Index extends React.Component {
         },
       },
       tagMap: {
-        snc,
-        wg,
+        sncAdults,
+        sncChildren,
+        wgAdults,
+        wgChildren,
       },
     };
 
@@ -170,16 +174,66 @@ class Index extends React.Component {
         <BreadcrumbSchema data={breadcrumbSchemaData} />
 
         <Container block noFade bleed className={wrapperStyleClass}>
-          <h3>Our Schedule</h3>
-          {!isMobile ? (
-            <div className="mask-p">
-              <SectionPhoebe data={phoebeData} />
+          <div style={{ display: "flex" }}>
+            <div style={{ flexGrow: "62", flexBasis: 0 }}>
+              <h3>Our Schedule</h3>
+              {!isMobile ? (
+                <div className="mask-p">
+                  <SectionPhoebe data={phoebeData} />
+                </div>
+              ) : (
+                <div className="mask-p">
+                  <SectionHalleyAlt
+                    data={altHalleyData}
+                    style={{ padding: 0 }}
+                  />
+                </div>
+              )}
             </div>
-          ) : (
-            <div className="mask-p">
-              <SectionHalleyAlt data={altHalleyData} style={{ padding: 0 }} />
+            <div style={{ flexGrow: "38", flexBasis: 0, paddingLeft: 40 }}>
+              <h3>Regular Activities</h3>
+              <p>
+                Spirit and Nature offers regular activities for children, adults
+                and guests…
+              </p>
+              <ul className="mask-p" style={{ paddingLeft: 0 }}>
+                <li>
+                  World Game in Sand for only TLC students every Tuesday and
+                  Wednesday from 9:00 AM to 12:00 PM.
+                </li>
+                <li>
+                  Spirit and Nature Connections for only TLC students every
+                  Thursday from 1:15 PM to 4:15 PM.
+                </li>
+                <li>
+                  World Game in Sand for all every Friday from 3:00 PM to 4:30
+                  PM.
+                </li>
+                <li>
+                  Spirit and Nature Connections for all every Sunday from 10:00
+                  AM to 12:00 PM.
+                </li>
+              </ul>
+              <h3>Intensives</h3>
+              <p>
+                Spirit and Nature also offers intensives. The intensives are
+                meant for small groups of 3-12 people. To find out more about an
+                intensive click in the list below…
+              </p>
+              <ul className="mask-p" style={{ paddingLeft: 0 }}>
+                <li>Celebrating Connection With Nature</li>
+                <li>Follow your Pawprint</li>
+                <li>Vision Game</li>
+                <li>Flowers & Their Messages</li>
+                <li>Introduction Into The Spiritual Dimension of Auroville</li>
+                <li>Speaking With Nature</li>
+              </ul>
+              <p>
+                These intensives are announced and also available on request. To
+                request an intensive please contact me.
+              </p>
             </div>
-          )}
+          </div>
         </Container>
       </Fragment>
     );

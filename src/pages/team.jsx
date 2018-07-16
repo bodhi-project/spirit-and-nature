@@ -36,8 +36,8 @@ const { Fragment } = React;
 // ------------------------------------------------------------------------ SEO
 // ----------------------------------------------------------------------------
 const pageData = {
-  pageTitle: "Spirit and Nature",
-  nakedPageSlug: "",
+  pageTitle: "Team",
+  nakedPageSlug: "team",
   pageAbstract:
     "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.",
 };
@@ -152,10 +152,17 @@ class Index extends React.Component {
             open heart-space, a doorway to Unity-consciousness, where the inner
             and outer worlds meet and merge.
           </p>
-          <h3>Kusum Dhar Prabhu, Future Collaborator</h3>
-          <p>Coming soon...</p>
           <h3>Kaliananda, Auroville</h3>
-          <p>Coming soon...</p>
+          <p>
+            Kaliananda's involvement with Spirit & Nature started as an
+            out-flowering of common interest in animal communication and love
+            for the forest. Her presence in Anusuya Forest living at Spirit &
+            Nature inspired her to lead, "Silent walk in the Forest" - an
+            invitation to other Aurovilians to enjoy the simple gifts of
+            engaging our vibrant forest . She collaborates with this mission of
+            Spirit & Nature to function as a connector, a point of contact for
+            to the forest."
+          </p>
           <Image
             src="/content-assets/collaborators/kali-ananda.jpg"
             rawWidth={1280}
@@ -235,7 +242,13 @@ class Index extends React.Component {
             on a voluntary basis
           </p>
           <h3>Patricia Henry, Auroville</h3>
-          <p>Coming soon...</p>
+          <p>
+            Journeying toward connection to Self, she hopes someday to “know”,
+            “see” and “feel” Spirit in all creation. Patricia sometimes
+            facilitates sharings of material related to the new consciousness
+            of the earth's significance and the potential of humans in this play
+            of Spirit and Nature.
+          </p>
           <Image
             src="/content-assets/collaborators/patricia-henry.jpg"
             rawWidth={1280}
@@ -250,10 +263,6 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>
-            Activity: playful exploration of the World Game and other writings
-            from Sri Aurobindo and The Mother, about the topic of Spirit&Nature
-          </p>
           <h3>Tamille, Auroville bio-region</h3>
           <p>Takes care of cleanliness, order and much more.</p>
           <Image
@@ -270,6 +279,8 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
+          <h3>Kusum Dhar Prabhu, Bangalore</h3>
+          <p>Coming soon...</p>
           <h3>Ymani Simmons, US</h3>
           <p>
             Ymani Simmons is a Peacemaker, Practitioner for the 13 Laws of
@@ -305,7 +316,7 @@ class Index extends React.Component {
           <p>Next journey planned for April-May 2019</p>
           <h2>Supporters of the project</h2>
           <h3>Auroville Arts Service, Auroville</h3>
-          <p>Coming soon...</p>
+          <p>http://artservice.auroville.org/</p>
           <h2>Linked project</h2>
           <h3>
             Academy of LionHearted Leadership / The Linda Tucker Foundation,
