@@ -11,6 +11,7 @@ import withSizes from "react-sizes";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ @bodhi-project/components
 import Image from "@bodhi-project/components/lib/Image";
+import OutLink from "@bodhi-project/components/lib/OutLink";
 import Container from "@bodhi-project/components/lib/Container";
 
 import {
@@ -107,7 +108,9 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>https://tlc-av.weebly.com/</p>
+          <p>
+            <OutLink to="https://tlc-av.weebly.com/">Visit Website…</OutLink>
+          </p>
           <p>
              Vision: To create a community of children and adults who grow more
             conscious  by living and learning together.  We implement ways to
@@ -118,11 +121,9 @@ class Index extends React.Component {
           </p>
           <h3>Samrat, Auroville</h3>
           <p>
-            He grew up in the Integral Yoga Ashram of Sri Aurobindo and the
-            Mother in Pondichery and lives in Auroville since 18 years.
-          </p>
-          <p>
-            Samrat loves the silence and solitude of the forest while being very
+            Samrat grew up in the Integral Yoga Ashram of Sri Aurobindo and the
+            Mother in Pondichery and lives in Auroville since 18 years. Samrat
+            loves the silence and solitude of the forest while being very
             involved.
           </p>
           <Image
@@ -142,16 +143,18 @@ class Index extends React.Component {
           <p>
             <strong>Activities:</strong>
           </p>
-          <p>-co- caretaker of Spirit & Nature Learning Center.</p>
-          <p>
-            -facilitates Open Heart Space Meditation, a simple practice of
-            becoming aware of the reality as it is without judgement,
-            interpretation or reaction, and settling into its vast luminous
-            expanse. Learning to embrace and let go each experience as it arises
-            and subsides. Eventually the mind falls silent and sinks into the
-            open heart-space, a doorway to Unity-consciousness, where the inner
-            and outer worlds meet and merge.
-          </p>
+          <ul className="mask-p">
+            <li>Co-caretaker of Spirit & Nature Learning Center</li>
+            <li>
+              Facilitates Open Heart Space Meditation, a simple practice of
+              becoming aware of the reality as it is without judgement,
+              interpretation or reaction, and settling into its vast luminous
+              expanse. Learning to embrace and let go each experience as it
+              arises and subsides. Eventually the mind falls silent and sinks
+              into the open heart-space, a doorway to Unity-consciousness, where
+              the inner and outer worlds meet and merge
+            </li>
+          </ul>
           <h3>Kaliananda, Auroville</h3>
           <p>
             Kaliananda's involvement with Spirit & Nature started as an
@@ -177,7 +180,12 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>Activity: Silent forest walks</p>
+          <p>
+            <strong>Activities:</strong>
+          </p>
+          <ul className="mask-p">
+            <li>Silent forest walks</li>
+          </ul>
           <h3>Allyson, Auroville</h3>
           <p>
             Allison Lu is an educator and artist involved in dolphin
@@ -214,7 +222,12 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <p>Activity: Dolphin Way Workshops, presentations.</p>
+          <p>
+            <strong>Activities:</strong>
+          </p>
+          <ul className="mask-p">
+            <li>Dolphin Way workshops and talks</li>
+          </ul>
           <h3>Pranav, Long term Volunteer</h3>
           <p>
             Pranav graduated from Bangalore University and did his Masters from
@@ -238,13 +251,16 @@ class Index extends React.Component {
             className="mask-p"
           />
           <p>
-            Activities: Volunteer in 2017-2018, Website design and maintenance
-            on a voluntary basis
+            <strong>Activities:</strong>
           </p>
+          <ul className="mask-p">
+            <li>Volunteer, 2017-2018</li>
+            <li>Website design and maintenance</li>
+          </ul>
           <h3>Patricia Henry, Auroville</h3>
           <p>
-            Journeying toward connection to Self, she hopes someday to “know”,
-            “see” and “feel” Spirit in all creation. Patricia sometimes
+            Journeying toward connection to Self, Patricia hopes someday to
+            “know”, “see” and “feel” Spirit in all creation. Patricia sometimes
             facilitates sharings of material related to the new consciousness
             of the earth's significance and the potential of humans in this play
             of Spirit and Nature.
@@ -264,7 +280,7 @@ class Index extends React.Component {
             className="mask-p"
           />
           <h3>Tamille, Auroville bio-region</h3>
-          <p>Takes care of cleanliness, order and much more.</p>
+          <p>Tamille takes care of cleanliness, order and much more.</p>
           <Image
             src="/content-assets/collaborators/tamille.jpg"
             rawWidth={1280}
@@ -283,8 +299,8 @@ class Index extends React.Component {
           <p>Coming soon...</p>
           <h3>Ymani Simmons, US</h3>
           <p>
-            Ymani Simmons is a Peacemaker, Practitioner for the 13 Laws of
-            LionHearted Leadership™, Spiritual Mentor, Writer, Conservationist,
+            Ymani is a Peacemaker, Practitioner for the 13 Laws of LionHearted
+            Leadership™, Spiritual Mentor, Writer, Conservationist,
             International Facilitator of Workshops and Retreats for spiritual
             healing, and trip Guide for Wisdom of the Heart, journeys to the
             White Lions, at the Global White Lion Protection Trust in the
@@ -310,20 +326,30 @@ class Index extends React.Component {
             className="mask-p"
           />
           <p>
-            Activity: co facilitating White Lion Journeys to South Africa, with
-            Aikya
+            <strong>Activities:</strong>
           </p>
-          <p>Next journey planned for April-May 2019</p>
+          <ul className="mask-p">
+            <li>
+              Co-facilitating White Lion Journeys to South Africa, with Aikya
+              (Next journey planned for April-May 2019)
+            </li>
+          </ul>
           <h2>Supporters of the project</h2>
           <h3>Auroville Arts Service, Auroville</h3>
-          <p>http://artservice.auroville.org/</p>
+          <p>
+            <OutLink to="http://artservice.auroville.org/">
+              Visit Website…
+            </OutLink>
+          </p>
           <h2>Linked project</h2>
           <h3>
             Academy of LionHearted Leadership / The Linda Tucker Foundation,
             South Africa
           </h3>
           <p>
-            https://www.lindatuckerfoundation.org/lionhearted-leadership-initiative/academy-for-lionhearted-leadership/
+            <OutLink to="https://www.lindatuckerfoundation.org/lionhearted-leadership-initiative/academy-for-lionhearted-leadership/">
+              Visit Website…
+            </OutLink>
           </p>
         </Container>
       </Fragment>

@@ -287,6 +287,7 @@ class Index extends React.Component {
           description:
             "The vision game is a process of making a visual representation of your dream, ideal in life, and to engage in a more conscious way with it. By playing our dream out, we find ourselves in a space which allows the heart to open up. Nature is our guide to come to clarity.",
           image: visionGame,
+          link: "Read on...",
           linkUrl: "/writings/vision-game",
         },
       });
@@ -444,7 +445,7 @@ class Index extends React.Component {
           </Hex>
         </HexaGrid>
 
-        <p>Other Interests</p>
+        <h2 style={{ marginTop: 40, marginBottom: 20 }}>Other Interests</h2>
         <HexaGrid>
           <Hex className={hexStyleClass}>
             <a href="#" onClick={e => this.showModal(e, "lifePhotography")}>

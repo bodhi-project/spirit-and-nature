@@ -16,6 +16,7 @@ import withSizes from "react-sizes";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ @bodhi-project/components
 import Container from "@bodhi-project/components/lib/Container";
+import Images from "@bodhi-project/components/lib/Images";
 
 import {
   // --------------- Basic
@@ -47,8 +48,22 @@ import start from "../assets/start.png";
 import middle from "../assets/middle.png";
 import end from "../assets/end.png";
 
+import poster1 from "../assets/event-posters/poster1.jpg";
+import poster2 from "../assets/event-posters/poster2.jpg";
+import poster3 from "../assets/event-posters/poster3.jpg";
+import poster4 from "../assets/event-posters/poster4.jpg";
+import poster5 from "../assets/event-posters/poster5.jpg";
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Abstractions
 const { Fragment } = React;
+
+const galleryPhotos = [
+  { src: poster2, width: 1239, height: 1754 },
+  { src: poster3, width: 1239, height: 1754 },
+  { src: poster4, width: 1239, height: 1754 },
+  { src: poster5, width: 1239, height: 1754 },
+  { src: poster1, width: 1239, height: 1754 },
+];
 
 // ----------------------------------------------------------------------------
 // ------------------------------------------------------------------------ SEO
@@ -194,7 +209,7 @@ class Index extends React.Component {
               <h3>Regular Activities</h3>
               <p>
                 Spirit and Nature offers regular activities for children, adults
-                and guests…
+                and guests:
               </p>
               <ul className="mask-p" style={{ paddingLeft: 0 }}>
                 <li>
@@ -211,28 +226,47 @@ class Index extends React.Component {
                 </li>
                 <li>
                   Spirit and Nature Connections for all every Sunday from 10:00
-                  AM to 12:00 PM.
+                  AM to 12:00 PM. Please note that this event is for closed
+                  groups and a new group is formed by request only.
                 </li>
               </ul>
               <h3>Intensives</h3>
               <p>
                 Spirit and Nature also offers intensives. The intensives are
                 meant for small groups of 3-12 people. To find out more about an
-                intensive click in the list below…
+                intensive click in the list below:
               </p>
               <ul className="mask-p" style={{ paddingLeft: 0 }}>
-                <li>Celebrating Connection With Nature</li>
-                <li>Follow your Pawprint</li>
-                <li>Vision Game</li>
-                <li>Flowers & Their Messages</li>
-                <li>Introduction Into The Spiritual Dimension of Auroville</li>
-                <li>Speaking With Nature</li>
+                <li>
+                  <Link to="/introduction-into-the-spiritual-dimension-of-auroville">
+                    Introduction Into The Spiritual Dimension of Auroville
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/flowers-and-their-messages">
+                    Flowers and their Messages
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/lionhearted-leadership">
+                    LionHearted Leadership
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/celebrating-connection-with-nature">
+                    Celebrating Connection With Nature
+                  </Link>
+                </li>
               </ul>
               <p>
                 These intensives are announced and also available on request. To
                 request an intensive please contact me.
               </p>
             </div>
+          </div>
+          <div>
+            <h3>Some Past Events</h3>
+            <Images photos={galleryPhotos} columns={2} />
           </div>
         </Container>
       </Fragment>
