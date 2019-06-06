@@ -34,7 +34,7 @@ import {
   OpenGraphSummary,
   // --------------- Schema.org JSON-LD
   WebpageSchema,
-  BreadcrumbSchema,
+  BreadcrumbSchema
 } from "@bodhi-project/seo";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AntD Components
@@ -55,13 +55,13 @@ const photos = [
   {
     src: "/content-assets/about/about12_600X900.jpg",
     width: 600,
-    height: 900,
+    height: 900
   },
   {
     src: "/content-assets/about/home.jpg",
     width: 900,
-    height: 900,
-  },
+    height: 900
+  }
 ];
 
 // ----------------------------------------------------------------------------
@@ -71,7 +71,7 @@ const pageData = {
   pageTitle: "Spirit and Nature",
   nakedPageSlug: "",
   pageAbstract:
-    "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.",
+    "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit."
 };
 
 const seoData = seoHelper(pageData);
@@ -82,7 +82,7 @@ const {
   twitterSummaryCardData,
   openGraphSummaryData,
   webpageSchemaData,
-  breadcrumbSchemaData,
+  breadcrumbSchemaData
 } = seoData;
 
 // ------------------------------------------------------------------------------
@@ -91,8 +91,8 @@ const {
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page style
 const wrapperStyle = css({
   "& section": {
-    padding: 0,
-  },
+    padding: 0
+  }
 });
 const wrapperStyleClass = wrapperStyle.toString();
 
@@ -100,8 +100,8 @@ const tetraGrid = css({
   "& .hex": {
     padding: "0px",
     paddingBottom: "5vh",
-    paddingRight: "5vh",
-  },
+    paddingRight: "5vh"
+  }
 });
 
 const tetraGridClass = tetraGrid.toString();
@@ -127,7 +127,7 @@ class Index extends React.Component {
       postEdges,
       ({ node }) =>
         indexOf(node.frontmatter.tags, "featured") >= 0 &&
-        node.frontmatter.type === "post",
+        node.frontmatter.type === "post"
     );
 
     const latest = [];
@@ -155,7 +155,9 @@ class Index extends React.Component {
           <Images photos={photos} loader="gradient" />
           <br />
           <p>
-            <Link to="/writings/about">Read more about our initiative…</Link>
+            <span style={{ fontSize: "125%" }}>
+              <Link to="/writings/about">Read more about our initiative…</Link>
+            </span>
           </p>
           <br />
           <br />
@@ -174,7 +176,7 @@ class Index extends React.Component {
                         width: "auto",
                         height: 275,
                         background: "transparent",
-                        justifyContent: "left",
+                        justifyContent: "left"
                       }}
                     />
                     <h3 className="mask-p" style={{ marginTop: 0 }}>
@@ -225,7 +227,7 @@ class Index extends React.Component {
 }
 
 Index.propTypes = {
-  classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types
+  classes: PropTypes.object // eslint-disable-line react/forbid-prop-types
 };
 
 // ----------------------------------------------------------------------------
@@ -271,7 +273,7 @@ export const pageQuery = graphql`
 
 /** mapSizesToProps */
 const mapSizesToProps = ({ width }) => ({
-  isMobile: width <= 768,
+  isMobile: width <= 768
 });
 
 // ----------------------------------------------------------------------------

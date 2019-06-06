@@ -1,4 +1,5 @@
 ---
+
 title: Towards Life Beautiful
 cover: /content-assets/about/imagex001.jpg
 category: Articles
@@ -7,14 +8,16 @@ abstract: Spirit and Nature is a learning centre situated in the middle of a for
 type: page
 featured: true
 tags:
-  - featured
+
+- featured
+
 ---
 
 # Towards Life Beautiful
 
 > **Unity is the substance of the heart** _— Sri Aurobindo_
 
-![About #2](/content-assets/about/about2_675X450.jpg)
+![About #2](/content-assets/N13_600X450.jpg)
 
 Spirit and Nature is a learning centre situated in the middle of a forest in [Auroville](/on-auroville) in India.
 
