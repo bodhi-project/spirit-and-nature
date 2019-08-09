@@ -2,7 +2,7 @@
 title: Nature - Wing open, wing closed and in between breath.
 cover: /content-assets/today-the-trees-spoke-to-me/cover.jpg
 category: Articles
-date: 2018-01-14
+date: 2019-07-14
 abstract: The old eucalyptus tree calls me out, he invites me to sit down and rest.
 type: post
 featured: true
