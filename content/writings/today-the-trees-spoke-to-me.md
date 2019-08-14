@@ -22,9 +22,9 @@ The old eucalyptus tree calls me out, he invites me to sit down and rest.
 
 This is his wound and his true face…
 
-![Img](/content-assets/today-the-trees-spoke-to-me/img7_600X800.jpg)
-
 ![Img](/content-assets/today-the-trees-spoke-to-me/img6_600X800.jpg)
+
+![Img](/content-assets/today-the-trees-spoke-to-me/img7_600X800.jpg)
 
 He introduces me to his sister guardian tree watching everyone who enters the park.
 
@@ -36,9 +36,9 @@ Isn’t she beautiful ?
 
 While he offers rest to my back, the cicadas enter my head with their incessant songs.
 
-Finally- trancelike- I feel the silence within and merge with my new friends of the moment...
+Finally - trancelike - I feel the silence within and merge with my new friends of the moment...
 
-(Insert Video with cicadas.?)
+[embed](https://www.youtube.com/watch?v=LwslnU5yiQw)
 
 I touch the soft needles of the eucalyptus, adorning the base of the stem like a carpet.
 
@@ -86,7 +86,9 @@ She hops around nervously trying to spread this wing hanging down. I leave the s
 
 Next day I come back in the afternoon, it is a rainy day and no one is around on the beach… she is not alone, there seem to be a friend seagull encouraging her. She accepts my offering picking the sardine up every time I throw one…
 
-(Insert 2 videos of the seagull.?)
+[embed](https://www.youtube.com/watch?v=zb6RD5N6P7Y)
+
+[embed](https://www.youtube.com/watch?v=icjVC-rLy4Q)
 
 I go to the sacred cave, make an offering to mother Corfu Nature, in balance…
 
@@ -102,7 +104,7 @@ Wing open, wing closed and in between breath.
 
 ![Img](/content-assets/today-the-trees-spoke-to-me/img12_1122X608.jpg)
 
-- The sanctuary of Hera at Mon Repos is considered a major temple, and one of the earliest examples of archaic Greek architecture.
-- _Hera_ is the goddess of women, marriage, family, and childbirth in ancient Greek religion.
-- _The relation between the Greek society and the olive tree was very intense. The demonstrationss of how special this tree was for the Greek society were abundant. It symbolised strength, victory, fertility, resistence and it was a sacred element when offered to Gods._
-- _This is the myth of the cicada-man Tithonus who, as a handsome young man, became the lover of the goddess of the Dawn. She, in gratitude for his love, granted him the gift of immortality. As in all such stories this divine gift was not an unqualified blessing as his immortality was accompanied by the inexorable advance of old age. Poor Tithonus kept getting older and older, smaller and smaller, until there was nothing left of him but his shrill voice, or until he turned into a cicada_
+> - _The sanctuary of Hera at Mon Repos is considered a major temple, and one of the earliest examples of archaic Greek architecture._
+> - _Hera_ is the goddess of women, marriage, family, and childbirth in ancient Greek religion.
+> - _The relation between the Greek society and the olive tree was very intense. The demonstrationss of how special this tree was for the Greek society were abundant. It symbolised strength, victory, fertility, resistence and it was a sacred element when offered to Gods._
+> - _This is the myth of the cicada-man Tithonus who, as a handsome young man, became the lover of the goddess of the Dawn. She, in gratitude for his love, granted him the gift of immortality. As in all such stories this divine gift was not an unqualified blessing as his immortality was accompanied by the inexorable advance of old age. Poor Tithonus kept getting older and older, smaller and smaller, until there was nothing left of him but his shrill voice, or until he turned into a cicada_

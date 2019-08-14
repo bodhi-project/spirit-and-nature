@@ -59,9 +59,18 @@ _These little LionHearts gave their own time and resources to raise awareness an
 
 The Linda Tucker Foundation also delivered 3 certificates to encourage the young LionHearts.
 
+![Img](/content-assets/fundraising-for-the-white-lions-in-south-africa/cert1_1440X900.jpg)
+
+![Img](/content-assets/fundraising-for-the-white-lions-in-south-africa/cert2_1440X900.jpg)
+
+![Img](/content-assets/fundraising-for-the-white-lions-in-south-africa/cert3_1440X900.jpg)
+
+![Img](/content-assets/dummy_1440X900.jpg)
+
 Well done, thank you to everybody who helped, donated or offered their place for the stand.
 
-To read more about this please go here:
-If you would like to know more and have an introduction in your school write to us.
+To read more about the collaboration between Spirit & Nature and the foundation [go here](https://www.spiritandnature.org/writings/reconnecting-with-spirit-through-nature#the-white-lions).
+
+If you would like to know more and have an introduction in your school contact us.
 
 Spirit & Nature with The Learning Community, Auroville, 2018-2019

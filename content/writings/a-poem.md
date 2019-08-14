@@ -1,6 +1,6 @@
 ---
 title: A poem - Krishna’s whispers
-cover: /content-assets/a-poem/cover.jpg
+cover: /content-assets/a-poem/img1_1440X900.jpeg
 category: Articles
 date: 2019-05-02
 abstract: A poem.
@@ -12,7 +12,7 @@ tags:
 
 # Krishna’s whispers
 
-![Img](/content-assets/a-poem/img1_1440X900.jpg)
+![Img](/content-assets/a-poem/img1_1440X900.jpeg)
 
 _Birthing_
 _Dismembered - reconstructed_

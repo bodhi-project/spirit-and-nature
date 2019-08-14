@@ -24,21 +24,21 @@ I bow to you dearest companion.
 
 You were that kind of love one reads of in the books….
 
-_"But where is this gathering? -_
+> _"But where is this gathering? -_
 
-_"I don’t know, my little angel"_
+> _"I don’t know, my little angel"_
 
-_But do the others know? -_
+> _But do the others know? -_
 
-_"No, they don’t know either"_
+> _"No, they don’t know either"_
 
-_How can you go to a gathering without _
+> _How can you go to a gathering without _
 
-_knowing where it is? -_
+> _knowing where it is? -_
 
-_"It suffices to walk, just walk. _
+> _"It suffices to walk, just walk. _
 
-_Those who are invited will find the way" _
+> _Those who are invited will find the way" _
 
 – SUFI STORY
 
