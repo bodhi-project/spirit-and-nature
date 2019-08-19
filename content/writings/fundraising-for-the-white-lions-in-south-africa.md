@@ -40,7 +40,7 @@ Third Law: Communication - Share the Roar
 
 Fourth Law: Nurturance - Encourage Fresh Growth
 
-![Img](/content-assets/fundraising-for-the-white-lions-in-south-africa/img1_600X450.jpg)
+![Img](/content-assets/fundraising-for-the-white-lions-in-south-africa/img99_600X758.jpg)
 
 ![Img](/content-assets/dummy_900X900.jpg)
 

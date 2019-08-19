@@ -28,11 +28,13 @@ This is his wound and his true face…
 
 He introduces me to his sister guardian tree watching everyone who enters the park.
 
-![Img](/content-assets/today-the-trees-spoke-to-me/img4_600X800.jpg)
+![Img](/content-assets/today-the-trees-spoke-to-me/img13_554X734.png)
 
 ![Img](/content-assets/dummy_900X900.jpg)
 
 Isn’t she beautiful ?
+
+img13_554X734.png
 
 While he offers rest to my back, the cicadas enter my head with their incessant songs.
 
@@ -104,7 +106,10 @@ Wing open, wing closed and in between breath.
 
 ![Img](/content-assets/today-the-trees-spoke-to-me/img12_1122X608.jpg)
 
-> - _The sanctuary of Hera at Mon Repos is considered a major temple, and one of the earliest examples of archaic Greek architecture._
-> - _Hera_ is the goddess of women, marriage, family, and childbirth in ancient Greek religion.
-> - _The relation between the Greek society and the olive tree was very intense. The demonstrationss of how special this tree was for the Greek society were abundant. It symbolised strength, victory, fertility, resistence and it was a sacred element when offered to Gods._
-> - _This is the myth of the cicada-man Tithonus who, as a handsome young man, became the lover of the goddess of the Dawn. She, in gratitude for his love, granted him the gift of immortality. As in all such stories this divine gift was not an unqualified blessing as his immortality was accompanied by the inexorable advance of old age. Poor Tithonus kept getting older and older, smaller and smaller, until there was nothing left of him but his shrill voice, or until he turned into a cicada_
+> The sanctuary of Hera at Mon Repos is considered a major temple, and one of the earliest examples of archaic Greek architecture.
+>
+> Hera\_ is the goddess of women, marriage, family, and childbirth in ancient Greek religion.
+>
+> The relation between the Greek society and the olive tree was very intense. The demonstrationss of how special this tree was for the Greek society were abundant. It symbolised strength, victory, fertility, resistence and it was a sacred element when offered to Gods.
+>
+> This is the myth of the cicada-man Tithonus who, as a handsome young man, became the lover of the goddess of the Dawn. She, in gratitude for his love, granted him the gift of immortality. As in all such stories this divine gift was not an unqualified blessing as his immortality was accompanied by the inexorable advance of old age. Poor Tithonus kept getting older and older, smaller and smaller, until there was nothing left of him but his shrill voice, or until he turned into a cicada
