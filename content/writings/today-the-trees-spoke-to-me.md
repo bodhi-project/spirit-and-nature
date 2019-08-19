@@ -34,8 +34,6 @@ He introduces me to his sister guardian tree watching everyone who enters the pa
 
 Isn’t she beautiful ?
 
-img13_554X734.png
-
 While he offers rest to my back, the cicadas enter my head with their incessant songs.
 
 Finally - trancelike - I feel the silence within and merge with my new friends of the moment...
@@ -84,7 +82,7 @@ I hear: ‘Nothing is lost, the faint breath of love exchanged in the subtle air
 
 A few days later, I wake up with the picture of this beautiful seagull with a hurt right wing whom I met on the beach 2 days earlier. Finding a way of action, at 10pm in the night, with the moon almost full, and the eclipse lurking, I find her and offer her sardines.
 
-She hops around nervously trying to spread this wing hanging down. I leave the sardines close to her… I call out loud to the goddess, invoking her help. I scream, swear… My love for nature is painful by moments, my feeling of being powerless in font of what is happening all around…My right arm, shoulder, wrists hurts…
+She hops around nervously trying to spread this wing hanging down. I leave the sardines close to her… I call out loud to the goddess, invoking her help. I scream, swear… My love for nature is painful by moments, my feeling of being powerless in font of what is happening all around… My right arm, shoulder, wrist hurts…
 
 Next day I come back in the afternoon, it is a rainy day and no one is around on the beach… she is not alone, there seem to be a friend seagull encouraging her. She accepts my offering picking the sardine up every time I throw one…
 
