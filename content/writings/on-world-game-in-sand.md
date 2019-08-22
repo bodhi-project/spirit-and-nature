@@ -31,6 +31,6 @@ Eden, a ten-year old boy, arrives at my house on his little cycle. He greets the
 
 Children are invited to be true to themselves, to get in touch with and express their deeper dreams. Indeed, it may be a way to change the world if we believe that the dreams of children today are the realities of tomorrow.
 
-This is an excerpt from the book [Glimpses of Wonder](/writings/book-glimpses-of-wonder).
+This is an excerpt from the book [Glimpses of Wonder](/book-glimpses-of-wonder).
 
-You can also read about [sandplay traditions in Auroville](/writings/sandplay-traditions-in-auroville) and also [some stories from world games](/stories-from-world-games).
+You can also read about [sandplay traditions in Auroville](/writings/sandplay-traditions-in-auroville) and also [some stories from world games](/writings/stories-from-world-games).
