@@ -55,17 +55,16 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "develop": "rm -rf public && gatsby develop",
-    "dev": "npm run develop",
+    "start": "npm run develop",
+    "startc": "npm run develop-clean",
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "build-clean": "rm -rf public && rm -rf .cache && GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true gatsby build --log-pages",
+    "deploy": "netlify deploy --prod",
+    "develop": "gatsby develop",
+    "develop-clean": "rm -rf public && rm -rf .cache && gatsby develop",
     "serve": "gatsby serve",
-    "build": "gatsby build",
-    "build:pp": "gatsby build --prefix-paths",
-    "build:gh": "npm run clean && npm run build:pp && gh-pages -d public",
-    "clean": "rm -rf public",
-    "lint:js": "eslint --ext .js,.jsx --ignore-pattern public,static .",
-    "lint:md": "remark content/posts/",
-    "write-good": "write-good $(glob 'content/posts/**/*.md')",
-    "format:js": "prettier '**/*.{js,jsx}' --write"
+    "format": "prettier --write '**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@bodhi-project/blocks": "0.0.64",
