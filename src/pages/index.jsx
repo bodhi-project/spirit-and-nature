@@ -23,6 +23,7 @@ import Image from "@bodhi-project/components/lib/Image";
 import Images from "@bodhi-project/components/lib/Images";
 import Container from "@bodhi-project/components/lib/Container";
 import TetraGridX from "@bodhi-project/components/lib/TetraGrid";
+import OutLink from "@bodhi-project/components/lib/OutLink";
 
 import {
   // --------------- Basic
@@ -197,9 +198,9 @@ class Index extends React.Component {
                 />
               </FacebookProvider>
               <h3>Find us on Instagram</h3>
-              <Link to="https://www.instagram.com/spiritandnatureauroville/">
+              <OutLink to="https://www.instagram.com/spiritandnatureauroville/">
                 Aikya Spirit and Nature
-              </Link>
+              </OutLink>
             </Col>
           </Row>
           <br />
