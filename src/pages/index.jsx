@@ -34,7 +34,7 @@ import {
   OpenGraphSummary,
   // --------------- Schema.org JSON-LD
   WebpageSchema,
-  BreadcrumbSchema
+  BreadcrumbSchema,
 } from "@bodhi-project/seo";
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ AntD Components
@@ -55,13 +55,13 @@ const photos = [
   {
     src: "/content-assets/about/about12_600X900.jpg",
     width: 600,
-    height: 900
+    height: 900,
   },
   {
     src: "/content-assets/about/home.jpg",
     width: 900,
-    height: 900
-  }
+    height: 900,
+  },
 ];
 
 // ----------------------------------------------------------------------------
@@ -71,7 +71,7 @@ const pageData = {
   pageTitle: "Spirit and Nature",
   nakedPageSlug: "",
   pageAbstract:
-    "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit."
+    "Spirit and Nature is dedicated to Spirit and Nature — Nature as a teacher of the multiplicity of creative expressions of Spirit.",
 };
 
 const seoData = seoHelper(pageData);
@@ -82,7 +82,7 @@ const {
   twitterSummaryCardData,
   openGraphSummaryData,
   webpageSchemaData,
-  breadcrumbSchemaData
+  breadcrumbSchemaData,
 } = seoData;
 
 // ------------------------------------------------------------------------------
@@ -91,8 +91,8 @@ const {
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Page style
 const wrapperStyle = css({
   "& section": {
-    padding: 0
-  }
+    padding: 0,
+  },
 });
 const wrapperStyleClass = wrapperStyle.toString();
 
@@ -100,8 +100,8 @@ const tetraGrid = css({
   "& .hex": {
     padding: "0px",
     paddingBottom: "5vh",
-    paddingRight: "5vh"
-  }
+    paddingRight: "5vh",
+  },
 });
 
 const tetraGridClass = tetraGrid.toString();
@@ -176,7 +176,7 @@ class Index extends React.Component {
                         width: "auto",
                         height: 275,
                         background: "transparent",
-                        justifyContent: "left"
+                        justifyContent: "left",
                       }}
                     />
                     <h3 className="mask-p" style={{ marginTop: 0 }}>
@@ -189,7 +189,6 @@ class Index extends React.Component {
               ))}
             </Col>
             <Col md={9}>
-              {/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */}
               <h3>Find us on Facebook</h3>
               <FacebookProvider appId="218604115574634">
                 <FBPage
@@ -197,6 +196,10 @@ class Index extends React.Component {
                   tabs="timeline,events,messages"
                 />
               </FacebookProvider>
+              <h3>Find us on Instagram</h3>
+              <Link to="https://www.instagram.com/spiritandnatureauroville/">
+                Aikya Spirit and Nature
+              </Link>
             </Col>
           </Row>
           <br />
@@ -227,7 +230,7 @@ class Index extends React.Component {
 }
 
 Index.propTypes = {
-  classes: PropTypes.object // eslint-disable-line react/forbid-prop-types
+  classes: PropTypes.object, // eslint-disable-line react/forbid-prop-types
 };
 
 // ----------------------------------------------------------------------------
@@ -273,7 +276,7 @@ export const pageQuery = graphql`
 
 /** mapSizesToProps */
 const mapSizesToProps = ({ width }) => ({
-  isMobile: width <= 768
+  isMobile: width <= 768,
 });
 
 // ----------------------------------------------------------------------------

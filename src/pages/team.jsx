@@ -144,7 +144,6 @@ class Index extends React.Component {
             <strong>Activities:</strong>
           </p>
           <ul className="mask-p">
-            <li>Co-caretaker of Spirit & Nature Learning Center</li>
             <li>
               Facilitates Open Heart Space Meditation, a simple practice of
               becoming aware of the reality as it is without judgement,
@@ -154,108 +153,6 @@ class Index extends React.Component {
               into the open heart-space, a doorway to Unity-consciousness, where
               the inner and outer worlds meet and merge
             </li>
-          </ul>
-          <h3>Kaliananda, Auroville</h3>
-          <p>
-            Kaliananda's involvement with Spirit & Nature started as an
-            out-flowering of common interest in animal communication and love
-            for the forest. Her presence in Anusuya Forest living at Spirit &
-            Nature inspired her to lead, "Silent walk in the Forest" - an
-            invitation to other Aurovilians to enjoy the simple gifts of
-            engaging our vibrant forest . She collaborates with this mission of
-            Spirit & Nature to function as a connector, a point of contact for
-            to the forest."
-          </p>
-          <Image
-            src="/content-assets/collaborators/kali-ananda.jpg"
-            rawWidth={1280}
-            rawHeight={960}
-            style={{
-              border: 0,
-              width: "62%",
-              height: "auto",
-              background: "transparent",
-              marginLeft: "0",
-              justifyContent: "left",
-            }}
-            className="mask-p"
-          />
-          <p>
-            <strong>Activities:</strong>
-          </p>
-          <ul className="mask-p">
-            <li>Silent forest walks</li>
-          </ul>
-          <h3>Allyson, Auroville</h3>
-          <p>
-            Allison Lu is an educator and artist involved in dolphin
-            consciousness. She grew up in an island in the Pacific and had deep
-            connection with dolphins since young. Later in her life, she was
-            called by the dolphins and had pre-natal contacts with wild spinners
-            in Hawaii and birthed her child with the blessings of dolphin
-            energies - in love, joy, bliss and freedom.
-          </p>
-          <p>
-            She shares her birthing experience in her book ‘Dolphin-Empowered
-            Birth’. Today, she spends her time engaged in exploring the science
-            of dolphin-human interspecies communication, dolphin-healing and
-            spirituality in relation to humans. She is based in Auroville, India
-            and travels around the world giving workshops, talks, art
-            exhibitions and retreats.
-          </p>
-          <p>
-            She is the founder of ‘The Dolphin’s Way’, in which she dedicates
-            her time to illuminate and draw attention to dolphins in human’s
-            spiritual life.
-          </p>
-          <Image
-            src="/content-assets/collaborators/ally.jpeg"
-            rawWidth={177}
-            rawHeight={196}
-            style={{
-              border: 0,
-              width: "50%",
-              height: "auto",
-              background: "transparent",
-              marginLeft: "0",
-              justifyContent: "left",
-            }}
-            className="mask-p"
-          />
-          <p>
-            <strong>Activities:</strong>
-          </p>
-          <ul className="mask-p">
-            <li>Dolphin Way workshops and talks</li>
-          </ul>
-          <h3>Pranav, Long term Volunteer</h3>
-          <p>
-            Pranav graduated from Bangalore University and did his Masters from
-            the University of Copenhagen, Denmark. He created Bodhi Project in
-            2017 to realise a vision of business that is alive to things around
-            it. These projects are deeply influenced by his time in the
-            Himalayas and with the Walk of Hope.
-          </p>
-          <Image
-            src="/content-assets/collaborators/pranav.jpg"
-            rawWidth={1280}
-            rawHeight={960}
-            style={{
-              border: 0,
-              width: "62%",
-              height: "auto",
-              background: "transparent",
-              marginLeft: "0",
-              justifyContent: "left",
-            }}
-            className="mask-p"
-          />
-          <p>
-            <strong>Activities:</strong>
-          </p>
-          <ul className="mask-p">
-            <li>Volunteer, 2017-2018</li>
-            <li>Website design and maintenance</li>
           </ul>
           <h3>Patricia Henry, Auroville</h3>
           <p>
@@ -295,8 +192,6 @@ class Index extends React.Component {
             }}
             className="mask-p"
           />
-          <h3>Kusum Dhar Prabhu, Bangalore</h3>
-          <p>Coming soon...</p>
           <h3>Ymani Simmons, US</h3>
           <p>
             Ymani is a Peacemaker, Practitioner for the 13 Laws of LionHearted
@@ -331,7 +226,8 @@ class Index extends React.Component {
           <ul className="mask-p">
             <li>
               Co-facilitating White Lion Journeys to South Africa, with Aikya
-              (Next journey planned for April-May 2019)
+              (Next journey planned when it will be appropriate to travel
+              abroad)
             </li>
           </ul>
           <h2>Supporters of the project</h2>
